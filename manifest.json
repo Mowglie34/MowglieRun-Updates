@@ -2,14 +2,14 @@
  "schema": 1,
  "auteur": "Mowglie34",
  "app": {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "fichier": "MowglieRun.exe",
-  "sha256": "2836adee9f5779a8a4e832fe116dc3bc40a9ac642d4921d8359ac517732afaab",
-  "taille": 9328128,
-  "notes": "Première version de MowglieRun : guide perso Rob Run (troc, banque, clés, base et raids, production, collections, catalogue, carte de Looty Bay, régions et zones, casier et journal, minuteurs)."
+  "sha256": "e8330ec4067758ec99336f107649b1b0304290cea49e47aa44f025f503d8fed2",
+  "taille": 9704960,
+  "notes": "Nouveau : page Mon clan (membres, objectifs, partage du butin), le casier lit tout seul les captures de jugement, capture en jeu Ctrl+Maj+J, carte de Looty Bay, minuteurs épinglables avec préréglages et raccourcis en jeu (Ctrl+Maj+1 à 9), rappels avant le wipe, état des serveurs, mode jeu léger, taille de l'interface réglable."
  },
  "donnees": {
-  "version": "2026.11.20",
+  "version": "2026.11.20-2",
   "fichiers": {
    "banque.json": {
     "sha256": "9b6151d4109dbba3e2eec0864b6d3c67c9efdca7d1cec5e59db2fd9b538f07b8",
@@ -28,8 +28,8 @@
     "taille": 3950
    },
    "carte/reperes.json": {
-    "sha256": "ebd872a918475a44eca7dfe9723ab8b2aef4e8877a5370bb427d49b744790b7c",
-    "taille": 12918
+    "sha256": "3c00579f7250f566a57f353cd69c9394be0b303abbb122ee2510744a9df0e467",
+    "taille": 14357
    },
    "catalogue.json": {
     "sha256": "2b89c248d7bdabe081784e024fede979b56bb05e04fe52361f1241645059b0d2",
@@ -824,8 +824,8 @@
     "taille": 4818
    },
    "meta.json": {
-    "sha256": "c80e22c566c4e7839967364bdfd775df86f98d9f9b84b48707e6f39dc7346854",
-    "taille": 933
+    "sha256": "46634a910db7c76a148637c31130d69a302d1fbd9f94306a7f3001c9829a6c06",
+    "taille": 935
    },
    "patchs.json": {
     "sha256": "09bc6699cdd5f8511e6f6102f2d836c57b28d140fa137d2811b9c11c68536fb4",
