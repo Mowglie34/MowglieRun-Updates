@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<defs><linearGradient id="sea" x1="0" x2="1"><stop offset="0" stop-color="#0d2a33"/><stop offset="1" stop-color="#151513"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".03"/></pattern></defs>
+<rect width="1600" height="1000" fill="#151513"/><rect width="1600" height="1000" fill="url(#grid)"/>
+<path d="M0 0 H62 C 50 180 78 360 56 520 C 40 680 74 840 60 1000 H0 Z" fill="url(#sea)"/>
+<g stroke="#5ec8e0" stroke-opacity=".22" stroke-width="2" fill="none"><path d="M10 220 q10 -8 20 0 t20 0"/><path d="M14 560 q10 -8 20 0 t20 0"/><path d="M8 820 q10 -8 20 0 t20 0"/></g>
+<g stroke="#2c2c27" stroke-width="22" stroke-linecap="round" fill="none"><path d="M80 350 H1575"/><path d="M840 350 V985"/><path d="M560 40 V340"/><path d="M1160 40 V340"/></g>
+<g stroke="#46463f" stroke-width="2" stroke-dasharray="16 14" fill="none"><path d="M80 350 H1575"/><path d="M840 350 V985"/><path d="M560 40 V340"/><path d="M1160 40 V340"/></g>
+<rect x="90" y="50" width="450" height="280" rx="26" fill="#b98cff" fill-opacity=".06" stroke="#b98cff" stroke-opacity=".5" stroke-width="2.5" stroke-dasharray="12 9"/>
+<text x="114" y="96" font-family="Anton, Impact, sans-serif" font-size="34" fill="#b98cff" letter-spacing="2">PARKSIDE</text>
+<text x="114.0" y="128" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" fill="#a3a198" letter-spacing="1.5">LIEUX</text>
+<rect x="580" y="50" width="560" height="280" rx="26" fill="#ffc548" fill-opacity=".06" stroke="#ffc548" stroke-opacity=".5" stroke-width="2.5" stroke-dasharray="12 9"/>
+<text x="604" y="96" font-family="Anton, Impact, sans-serif" font-size="34" fill="#ffc548" letter-spacing="2">LORAINE HILLS</text>
+<text x="604.0" y="128" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" fill="#a3a198" letter-spacing="1.5">BRAQUAGES · LIEUX</text>
+<text x="860.0" y="128" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" fill="#a3a198" letter-spacing="1.5">COFFRES · CLÉ VERTE</text>
+<rect x="1180" y="50" width="380" height="280" rx="26" fill="#c9f23a" fill-opacity=".06" stroke="#c9f23a" stroke-opacity=".5" stroke-width="2.5" stroke-dasharray="12 9"/>
+<text x="1204" y="96" font-family="Anton, Impact, sans-serif" font-size="34" fill="#c9f23a" letter-spacing="2">MOTEL DE LENNY</text>
+<rect x="90" y="370" width="730" height="590" rx="26" fill="#5ec8e0" fill-opacity=".06" stroke="#5ec8e0" stroke-opacity=".5" stroke-width="2.5" stroke-dasharray="12 9"/>
+<text x="114" y="416" font-family="Anton, Impact, sans-serif" font-size="34" fill="#5ec8e0" letter-spacing="2">SUNNY BEACH</text>
+<text x="114.0" y="448" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" fill="#a3a198" letter-spacing="1.5">BRAQUAGES · LIEUX</text>
+<text x="455.0" y="448" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" fill="#a3a198" letter-spacing="1.5">COFFRES · CLÉ VERTE</text>
+<rect x="860" y="370" width="700" height="590" rx="26" fill="#d7e85a" fill-opacity=".06" stroke="#d7e85a" stroke-opacity=".5" stroke-width="2.5" stroke-dasharray="12 9"/>
+<text x="884" y="416" font-family="Anton, Impact, sans-serif" font-size="34" fill="#d7e85a" letter-spacing="2">DOWNTOWN</text>
+<text x="884.0" y="448" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" fill="#a3a198" letter-spacing="1.5">BRAQUAGES · LIEUX</text>
+<text x="1210.0" y="448" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" fill="#a3a198" letter-spacing="1.5">COFFRES · CLÉ VERTE</text>
+<text x="1576" y="986" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="14" fill="#77756d">Looty Bay · plan schématique par quartier (pas à l'échelle) · MowglieRun · © 2026 Mowglie34</text>
+</svg>

@@ -1,0 +1,195 @@
+{
+ "_aide": "entrees = [[identifiant, quantité]], argent en $. retire = true si l'échange n'est plus disponible.",
+ "echanges": [
+  {
+   "entrees": [
+    [
+     "police_evidence_1",
+     20
+    ]
+   ],
+   "argent": 0,
+   "sortie": "vip_key_4",
+   "titre": "Carte d'identité",
+   "desc": "Ouvre l'<b>armurerie du commissariat</b> (Palmside)",
+   "retire": false
+  },
+  {
+   "entrees": [
+    [
+     "deposit_box_1_full",
+     1
+    ]
+   ],
+   "argent": 0,
+   "sortie": "vip_key_5",
+   "titre": "Carte d'identité",
+   "desc": "Ouvre la <b>chambre forte à or</b> de la banque",
+   "retire": false
+  },
+  {
+   "entrees": [
+    [
+     "action_camera_2_full",
+     1
+    ],
+    [
+     "usb_1_full",
+     2
+    ]
+   ],
+   "argent": 50000,
+   "sortie": "drill_1",
+   "titre": "Foret",
+   "desc": "Seul moyen d'ouvrir la <b>porte de la chambre forte</b> de la banque",
+   "retire": false
+  },
+  {
+   "entrees": [
+    [
+     "tablet_1_full",
+     3
+    ]
+   ],
+   "argent": 0,
+   "sortie": "glass_cutter_1",
+   "titre": "Coupe-verre",
+   "desc": "Ouvre la vitrine du <b>BIG EGG n° 53</b> (galerie d'art)",
+   "retire": false
+  },
+  {
+   "entrees": [
+    [
+     "decoder_1",
+     3
+    ]
+   ],
+   "argent": 10000,
+   "sortie": "decoder_2",
+   "titre": "Décodeur épique",
+   "desc": "Retire <b>3 points</b> de défense d'une base",
+   "retire": false
+  },
+  {
+   "entrees": [
+    [
+     "action_camera_2_full",
+     1
+    ]
+   ],
+   "argent": 0,
+   "sortie": "decoder_2",
+   "titre": "Décodeur épique",
+   "desc": "Même décodeur, autre recette",
+   "retire": false
+  },
+  {
+   "entrees": [
+    [
+     "defense_module_2",
+     1
+    ]
+   ],
+   "argent": 250000,
+   "sortie": "defense_module_3",
+   "titre": "Fusible légendaire",
+   "desc": "<b>+5 points</b> de défense pour ta base",
+   "retire": false
+  },
+  {
+   "entrees": [
+    [
+     "police_badge_1",
+     15
+    ]
+   ],
+   "argent": 0,
+   "sortie": "police_badge_2",
+   "titre": "Insigne de lieutenant",
+   "desc": "Équipement de lieutenant, une fois, en service de police",
+   "retire": false
+  },
+  {
+   "entrees": [
+    [
+     "decoder_2",
+     50
+    ]
+   ],
+   "argent": 0,
+   "sortie": "evict_plot_1",
+   "titre": "Droit d'expulsion",
+   "desc": "Vole le terrain et les biens d'un joueur",
+   "retire": true
+  }
+ ],
+ "jauges": [
+  {
+   "pleine": "action_camera_2_full",
+   "vide": "action_camera_2_cumulative",
+   "nom": "Caméra d'action (épique)",
+   "remplir": "Commets des actions criminelles (au niveau de notoriété requis)",
+   "points": 70,
+   "recherche": 35000,
+   "prix": 30000,
+   "niveau": "II",
+   "revente": 100000,
+   "note": "C'est <b>l'épique</b> qu'il faut pour le Foret et le Décodeur. Il existe aussi une peu commune (40 pts) et une légendaire (100 pts)."
+  },
+  {
+   "pleine": "tablet_1_full",
+   "vide": "tablet_1_cumulative",
+   "nom": "Tablette de codes",
+   "remplir": "Ouvre des coffres à Looty Bay",
+   "points": 4,
+   "recherche": 25000,
+   "prix": 20000,
+   "niveau": "II",
+   "revente": 75000,
+   "note": "Il en faut 3 pour le Coupe-verre."
+  },
+  {
+   "pleine": "usb_1_full",
+   "vide": "usb_1_cumulative",
+   "nom": "Outil de piratage USB",
+   "remplir": "Pirate des ordinateurs dans des pièces fermées",
+   "points": 5,
+   "recherche": 50000,
+   "prix": 50000,
+   "niveau": "II",
+   "revente": 200000,
+   "note": "Il en faut 2 pour le Foret."
+  },
+  {
+   "pleine": "deposit_box_1_full",
+   "vide": "deposit_box_1_cumulative",
+   "nom": "Clés de coffres bancaires",
+   "remplir": "Pirate les coffres de dépôt de la banque",
+   "points": 60,
+   "recherche": 100000,
+   "prix": 100000,
+   "niveau": "III",
+   "revente": 20000,
+   "note": "Donne la Carte d'identité de la chambre forte à or."
+  }
+ ],
+ "a_trouver": [
+  {
+   "id": "police_evidence_1",
+   "texte": "En fouillant (coffres, armoires…). Pile de 10."
+  },
+  {
+   "id": "decoder_1",
+   "texte": "En fouillant. Pile de 10."
+  },
+  {
+   "id": "decoder_3",
+   "texte": "Le légendaire (−5) se trouve seulement en fouillant."
+  },
+  {
+   "id": "police_badge_1",
+   "texte": "Arbre de Lenny › TITRES : recherche 30 000 $."
+  }
+ ],
+ "astuce": "La <b>Caméra d'action épique</b> sert au Foret ET au Décodeur : garde-la pour le Foret si tu vises la banque. Une caméra (100K à la revente) contre un décodeur (5K), seulement si tu as besoin du décodeur."
+}

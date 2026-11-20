@@ -1,0 +1,350 @@
+{
+ "types": [
+  {
+   "id": "room_key_3",
+   "nom": "Clé de pièce",
+   "desc": "Ouvre <b>une porte</b> verrouillée (13 clés).",
+   "obtenir": "Fouille"
+  },
+  {
+   "id": "vip_key_1",
+   "nom": "Carte d'accès",
+   "desc": "Ouvre une <b>pièce VIP</b> (4 cartes, légendaires).",
+   "obtenir": "Fouille"
+  },
+  {
+   "id": "vip_key_5",
+   "nom": "Carte d'identité",
+   "desc": "Commissariat (armurerie) ou chambre forte à or.",
+   "obtenir": "Troc"
+  },
+  {
+   "id": "safe_key_1",
+   "nom": "Clé de coffre",
+   "desc": "Ouvre <b>un petit coffre</b> sans mini-foret (14 clés).",
+   "obtenir": "Fouille"
+  },
+  {
+   "id": "mini_drill_1",
+   "nom": "Mini-foret",
+   "desc": "<b>1 par coffre-fort</b>. 60 s en boutique, ~2 min à la banque.",
+   "obtenir": "100K rech. · 18K · niv. II"
+  },
+  {
+   "id": "lockpick_1",
+   "nom": "Crochet",
+   "desc": "Portes et conteneurs <b>sans alarme</b>, coffres de voiture.",
+   "obtenir": "5K rech. · 99 $"
+  },
+  {
+   "id": "storage_lockpick_1",
+   "nom": "Passe-partout",
+   "desc": "Entrepôts et étagères <b>des autres joueurs</b>.",
+   "obtenir": "50K rech. · niv. II"
+  }
+ ],
+ "lieux": [
+  {
+   "quartier": "Centre-ville",
+   "lieu": "Banque de Looty Bay",
+   "besoin": [
+    {
+     "id": "drill_1",
+     "texte": "Foret (chambre forte)"
+    },
+    {
+     "id": "vip_key_5",
+     "texte": "Carte d'identité (or)"
+    }
+   ],
+   "miniforets": 3,
+   "butin": "Lingots, sacs de banque, cash, 12 coffres de dépôt"
+  },
+  {
+   "quartier": "Centre-ville",
+   "lieu": "Station-service, pièce de gauche",
+   "besoin": [
+    {
+     "id": "room_key_5",
+     "texte": "Clé de pièce · gauche"
+    }
+   ],
+   "miniforets": 1,
+   "butin": "Briques"
+  },
+  {
+   "quartier": "Centre-ville",
+   "lieu": "Station-service, pièce de droite",
+   "besoin": [
+    {
+     "id": "room_key_6",
+     "texte": "Clé de pièce · droite (légendaire)"
+    }
+   ],
+   "miniforets": 2,
+   "butin": "Pièces auto, cash"
+  },
+  {
+   "quartier": "Centre-ville",
+   "lieu": "Supérette (nord)",
+   "besoin": [
+    {
+     "id": "room_key_10",
+     "texte": "Clé de pièce · supérette"
+    }
+   ],
+   "miniforets": 1,
+   "butin": ""
+  },
+  {
+   "quartier": "Centre-ville",
+   "lieu": "Pharmacie",
+   "besoin": [
+    {
+     "id": "room_key_8",
+     "texte": "Clé de pièce · pharmacie"
+    }
+   ],
+   "miniforets": 1,
+   "butin": "Médicaments"
+  },
+  {
+   "quartier": "Centre-ville",
+   "lieu": "Magasin d'équipement (est)",
+   "besoin": [
+    {
+     "id": "room_key_4",
+     "texte": "Clé de pièce · équipement"
+    }
+   ],
+   "miniforets": 2,
+   "butin": ""
+  },
+  {
+   "quartier": "Centre-ville",
+   "lieu": "Armurerie (est)",
+   "besoin": [
+    {
+     "id": "room_key_3",
+     "texte": "Clé de pièce · armurerie"
+    }
+   ],
+   "miniforets": 2,
+   "butin": ""
+  },
+  {
+   "quartier": "Sunny Beach",
+   "lieu": "Grand Hôtel, entrepôt secret",
+   "besoin": [
+    {
+     "id": "vip_key_1",
+     "texte": "Carte d'accès"
+    }
+   ],
+   "miniforets": 2,
+   "butin": "Poudre, alcool, cash"
+  },
+  {
+   "quartier": "Sunny Beach",
+   "lieu": "Club de strip-tease, salle VIP",
+   "besoin": [
+    {
+     "id": "room_key_13",
+     "texte": "Clé de pièce · VIP (légendaire)"
+    }
+   ],
+   "miniforets": 2,
+   "butin": "Poudre, DP-9 Mk2, cash"
+  },
+  {
+   "quartier": "Sunny Beach",
+   "lieu": "Hôtel Reef",
+   "besoin": [
+    {
+     "id": "room_key_12",
+     "texte": "Clé de pièce · « un des hôtels »"
+    }
+   ],
+   "miniforets": 2,
+   "butin": ""
+  },
+  {
+   "quartier": "Sunny Beach",
+   "lieu": "Supérette",
+   "besoin": [
+    {
+     "id": "room_key_11",
+     "texte": "Clé de pièce · supérette"
+    }
+   ],
+   "miniforets": 1,
+   "butin": ""
+  },
+  {
+   "quartier": "Sunny Beach",
+   "lieu": "Pharmacie",
+   "besoin": [
+    {
+     "id": "room_key_9",
+     "texte": "Clé de pièce · pharmacie"
+    }
+   ],
+   "miniforets": 1,
+   "butin": "Médicaments"
+  },
+  {
+   "quartier": "Sunny Beach",
+   "lieu": "Magasin d'équipement (ouest)",
+   "besoin": [
+    {
+     "id": "room_key_2",
+     "texte": "Clé de pièce · équipement"
+    }
+   ],
+   "miniforets": 2,
+   "butin": ""
+  },
+  {
+   "quartier": "Sunny Beach",
+   "lieu": "Armurerie (ouest)",
+   "besoin": [
+    {
+     "id": "room_key_1",
+     "texte": "Clé de pièce · armurerie"
+    }
+   ],
+   "miniforets": 2,
+   "butin": ""
+  },
+  {
+   "quartier": "Palmside",
+   "lieu": "Galerie d'art, chambre forte",
+   "besoin": [
+    {
+     "id": "vip_key_6",
+     "texte": "Carte d'accès"
+    },
+    {
+     "id": "glass_cutter_1",
+     "texte": "Coupe-verre (vitrine)"
+    }
+   ],
+   "miniforets": 2,
+   "butin": "Briques, figurines, antiquités, BIG EGG"
+  },
+  {
+   "quartier": "Palmside",
+   "lieu": "Commissariat",
+   "besoin": [
+    {
+     "id": "vip_key_4",
+     "texte": "Carte d'identité (armurerie)"
+    },
+    {
+     "id": "vip_key_2",
+     "texte": "Carte d'accès (pièce)"
+    }
+   ],
+   "miniforets": 3,
+   "butin": "Pièces d'armes, LM 249 Mk2, grenade lacrymo"
+  },
+  {
+   "quartier": "Loraine Hills",
+   "lieu": "Cottage n° 3",
+   "besoin": [
+    {
+     "id": "vip_key_3",
+     "texte": "Carte d'accès"
+    }
+   ],
+   "miniforets": 2,
+   "butin": "Poudre, briques, cash"
+  },
+  {
+   "quartier": "Loraine Hills",
+   "lieu": "Cottage n° 5",
+   "besoin": [
+    {
+     "id": "room_key_7",
+     "texte": "Clé de pièce · « un des cottages »"
+    }
+   ],
+   "miniforets": 1,
+   "butin": "Poudre"
+  }
+ ],
+ "cles_coffre": [
+  {
+   "id": "safe_key_11",
+   "lieu": "Café",
+   "quartier": "Centre-ville"
+  },
+  {
+   "id": "safe_key_12",
+   "lieu": "Station-service",
+   "quartier": "Centre-ville"
+  },
+  {
+   "id": "safe_key_8",
+   "lieu": "Supérette (centre)",
+   "quartier": "Centre-ville"
+  },
+  {
+   "id": "safe_key_4",
+   "lieu": "Supérette (nord)",
+   "quartier": "Centre-ville"
+  },
+  {
+   "id": "safe_key_10",
+   "lieu": "Pharmacie",
+   "quartier": "Centre-ville"
+  },
+  {
+   "id": "safe_key_1",
+   "lieu": "Hôtel Seasons",
+   "quartier": "Sunny Beach"
+  },
+  {
+   "id": "safe_key_2",
+   "lieu": "Hôtel Reef",
+   "quartier": "Sunny Beach"
+  },
+  {
+   "id": "safe_key_3",
+   "lieu": "Club de strip-tease",
+   "quartier": "Sunny Beach"
+  },
+  {
+   "id": "safe_key_6",
+   "lieu": "Café de la jetée",
+   "quartier": "Sunny Beach"
+  },
+  {
+   "id": "safe_key_9",
+   "lieu": "Supérette",
+   "quartier": "Sunny Beach"
+  },
+  {
+   "id": "safe_key_5",
+   "lieu": "Pharmacie",
+   "quartier": "Sunny Beach"
+  },
+  {
+   "id": "safe_key_13",
+   "lieu": "Magasin d'électronique",
+   "quartier": "Sunny Beach"
+  },
+  {
+   "id": "safe_key_7",
+   "lieu": "Manoir",
+   "quartier": "Loraine Hills"
+  },
+  {
+   "id": "safe_key_14",
+   "lieu": "Un des cottages",
+   "quartier": "Loraine Hills"
+  }
+ ],
+ "prix_miniforet": 18000,
+ "note": "Seuls les <b>criminels</b> (masque mis) utilisent clés et outils. La carte du jeu montre où va chaque clé."
+}

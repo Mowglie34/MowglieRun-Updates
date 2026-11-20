@@ -1,0 +1,128 @@
+{
+ "materiel": [
+  {
+   "id": "lockpick_1",
+   "qte": 1,
+   "nom": "Crochet"
+  },
+  {
+   "id": "mini_drill_1",
+   "qte": 3,
+   "nom": "Mini-forets"
+  },
+  {
+   "id": "drill_1",
+   "qte": 1,
+   "nom": "Foret"
+  },
+  {
+   "id": "vip_key_5",
+   "qte": 1,
+   "nom": "Carte d'identité"
+  },
+  {
+   "id": "deposit_box_1_cumulative",
+   "qte": 1,
+   "nom": "Clés de coffres (vide)"
+  }
+ ],
+ "etapes": [
+  {
+   "titre": "Prépare-toi",
+   "texte": "Masque mis (seuls les criminels utilisent clés et outils). Prends la version <b>vide</b> des Clés de coffres bancaires : les coffres de dépôt la remplissent."
+  },
+  {
+   "titre": "Entre au crochet",
+   "texte": "Le crochet ouvre portes et conteneurs <b>sans déclencher l'alarme</b>."
+  },
+  {
+   "titre": "Pose le Foret",
+   "texte": "Sur la porte de la chambre forte. <span class='warn'>Toute la ville est prévenue</span>, et un foret posé peut être confisqué : quelqu'un le garde."
+  },
+  {
+   "titre": "Mini-forets",
+   "texte": "Un par coffre de banque (<b>3</b>). Environ 2 min chacun, tu peux t'éloigner pendant que ça tourne."
+  },
+  {
+   "titre": "Chambre forte à or",
+   "texte": "La Carte d'identité l'ouvre : les <b>lingots d'or</b> sont là."
+  },
+  {
+   "titre": "Sors de Looty Bay",
+   "texte": "Le butin n'est à toi qu'une fois sorti. Lingots au <b>receleur</b>, sacs au <b>contrebandier</b>."
+  }
+ ],
+ "butin": [
+  {
+   "id": "gold_bar_1",
+   "max": 8,
+   "nom": "Lingots d'or",
+   "prix": 52000,
+   "chez": "receleur"
+  },
+  {
+   "id": "bank_cash_bag",
+   "max": 5,
+   "nom": "Sacs de banque",
+   "prix": 60000,
+   "chez": "contrebandier"
+  },
+  {
+   "id": "cash_1",
+   "max": 6,
+   "nom": "Argent liquide",
+   "prix": 0,
+   "chez": ""
+  }
+ ],
+ "cout_foret": {
+  "revente": [
+   [
+    "action_camera_2_full",
+    1
+   ],
+   [
+    "usb_1_full",
+    2
+   ]
+  ],
+  "argent": 50000
+ },
+ "notes": [
+  "Dès que le Foret est posé, <b>toute la ville est prévenue</b>. Un foret posé peut être confisqué : quelqu'un le garde.",
+  "Les <b>sacs de banque</b> ont une cartouche d'encre : remets-les au contrebandier ou ouvre-les sur un établi de cargaison.",
+  "Dans la banque : jusqu'à 8 lingots, 5 sacs, 6 argent liquide, 3 coffres de banque (mini-foret) et 12 coffres de dépôt."
+ ],
+ "coups": [
+  {
+   "titre": "BIG EGG n° 53",
+   "lieu": "Galerie d'art, Palmside",
+   "chaine": [
+    [
+     "tablet_1_full",
+     3
+    ],
+    [
+     "glass_cutter_1",
+     1
+    ],
+    [
+     "egg_faberge_1",
+     1
+    ]
+   ],
+   "texte": "3 tablettes de codes pleines → Coupe-verre → la vitrine. Sors l'œuf de la ville et vends-le au receleur : 550 000 $ (825 000 $ au niv. 5). Les 3 tablettes valent 225 000 $ à la revente."
+  },
+  {
+   "titre": "Buletti Soltempra",
+   "lieu": "Grand Hôtel, Sunny Beach",
+   "chaine": [
+    [
+     "auto_flipper_1",
+     1
+    ]
+   ],
+   "texte": "Il faut un Brouilleur (très rare en fouille, plus fréquent à la notoriété max). Pose-le, attends l'accès, pars avec : la voiture reste à toi jusqu'à la fin du wipe, son skin pour toujours."
+  }
+ ]
+}

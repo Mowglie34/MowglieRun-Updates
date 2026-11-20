@@ -1,0 +1,554 @@
+{
+ "_aide": "Repères de la carte de Looty Bay. x et y = position en % de la carte (data/carte/looty-bay.svg, 1440 × 1105). approx: true = position approximative (pas d'icône sur la carte du jeu) : à corriger avec « Modifier ». type : braquage, coffre, special, info, vente, service.",
+ "carte": {
+  "image": "looty-bay.svg",
+  "largeur": 1440,
+  "hauteur": 1105,
+  "source": "Redessinée d'après la carte du jeu (capture de Mowglie34, 20 nov. 2026)"
+ },
+ "reperes": [
+  {
+   "id": "lieu0",
+   "nom": "Banque de Looty Bay",
+   "quartier": "Centre-ville",
+   "type": "braquage",
+   "note": "Il faut : Foret (chambre forte), Carte d'identité (or). 3 mini-forets. Butin : Lingots, sacs de banque, cash, 12 coffres de dépôt.",
+   "ref": {
+    "lieu": 0
+   },
+   "x": 76.53,
+   "y": 31.67
+  },
+  {
+   "id": "lieu1",
+   "nom": "Station-service, pièce de gauche",
+   "quartier": "Centre-ville",
+   "type": "braquage",
+   "note": "Il faut : Clé de pièce · gauche. 1 mini-foret. Butin : Briques.",
+   "ref": {
+    "lieu": 1
+   },
+   "x": 68.61,
+   "y": 80.09,
+   "approx": true
+  },
+  {
+   "id": "lieu2",
+   "nom": "Station-service, pièce de droite",
+   "quartier": "Centre-ville",
+   "type": "braquage",
+   "note": "Il faut : Clé de pièce · droite (légendaire). 2 mini-forets. Butin : Pièces auto, cash.",
+   "ref": {
+    "lieu": 2
+   },
+   "x": 71.39,
+   "y": 80.09,
+   "approx": true
+  },
+  {
+   "id": "lieu3",
+   "nom": "Supérette (nord)",
+   "quartier": "Centre-ville",
+   "type": "braquage",
+   "note": "Il faut : Clé de pièce · supérette. 1 mini-foret.",
+   "ref": {
+    "lieu": 3
+   },
+   "x": 70.28,
+   "y": 31.22,
+   "approx": true
+  },
+  {
+   "id": "lieu4",
+   "nom": "Pharmacie",
+   "quartier": "Centre-ville",
+   "type": "braquage",
+   "note": "Il faut : Clé de pièce · pharmacie. 1 mini-foret. Butin : Médicaments.",
+   "ref": {
+    "lieu": 4
+   },
+   "x": 76.39,
+   "y": 67.15,
+   "approx": true
+  },
+  {
+   "id": "lieu5",
+   "nom": "Magasin d'équipement (est)",
+   "quartier": "Centre-ville",
+   "type": "braquage",
+   "note": "Il faut : Clé de pièce · équipement. 2 mini-forets.",
+   "ref": {
+    "lieu": 5
+   },
+   "x": 84.17,
+   "y": 68.96,
+   "approx": true
+  },
+  {
+   "id": "lieu6",
+   "nom": "Armurerie (est)",
+   "quartier": "Centre-ville",
+   "type": "braquage",
+   "note": "Il faut : Clé de pièce · armurerie. 2 mini-forets.",
+   "ref": {
+    "lieu": 6
+   },
+   "x": 88.33,
+   "y": 79.64,
+   "approx": true
+  },
+  {
+   "id": "lieu7",
+   "nom": "Grand Hôtel, entrepôt secret",
+   "quartier": "Sunny Beach",
+   "type": "braquage",
+   "note": "Il faut : Carte d'accès. 2 mini-forets. Butin : Poudre, alcool, cash.",
+   "ref": {
+    "lieu": 7
+   },
+   "x": 25.42,
+   "y": 48.6
+  },
+  {
+   "id": "lieu8",
+   "nom": "Club de strip-tease, salle VIP",
+   "quartier": "Sunny Beach",
+   "type": "braquage",
+   "note": "Il faut : Clé de pièce · VIP (légendaire). 2 mini-forets. Butin : Poudre, DP-9 Mk2, cash.",
+   "ref": {
+    "lieu": 8
+   },
+   "x": 17.36,
+   "y": 59.73,
+   "approx": true
+  },
+  {
+   "id": "lieu9",
+   "nom": "Hôtel Reef",
+   "quartier": "Sunny Beach",
+   "type": "braquage",
+   "note": "Il faut : Clé de pièce · « un des hôtels ». 2 mini-forets.",
+   "ref": {
+    "lieu": 9
+   },
+   "x": 30.56,
+   "y": 62.44,
+   "approx": true
+  },
+  {
+   "id": "lieu10",
+   "nom": "Supérette",
+   "quartier": "Sunny Beach",
+   "type": "braquage",
+   "note": "Il faut : Clé de pièce · supérette. 1 mini-foret.",
+   "ref": {
+    "lieu": 10
+   },
+   "x": 16.67,
+   "y": 69.86,
+   "approx": true
+  },
+  {
+   "id": "lieu11",
+   "nom": "Pharmacie",
+   "quartier": "Sunny Beach",
+   "type": "braquage",
+   "note": "Il faut : Clé de pièce · pharmacie. 1 mini-foret. Butin : Médicaments.",
+   "ref": {
+    "lieu": 11
+   },
+   "x": 23.06,
+   "y": 70.59,
+   "approx": true
+  },
+  {
+   "id": "lieu12",
+   "nom": "Magasin d'équipement (ouest)",
+   "quartier": "Sunny Beach",
+   "type": "braquage",
+   "note": "Il faut : Clé de pièce · équipement. 2 mini-forets.",
+   "ref": {
+    "lieu": 12
+   },
+   "x": 29.17,
+   "y": 70.77,
+   "approx": true
+  },
+  {
+   "id": "lieu13",
+   "nom": "Armurerie (ouest)",
+   "quartier": "Sunny Beach",
+   "type": "braquage",
+   "note": "Il faut : Clé de pièce · armurerie. 2 mini-forets.",
+   "ref": {
+    "lieu": 13
+   },
+   "x": 32.08,
+   "y": 57.92,
+   "approx": true
+  },
+  {
+   "id": "lieu14",
+   "nom": "Galerie d'art, chambre forte",
+   "quartier": "Palmside",
+   "type": "braquage",
+   "note": "Il faut : Carte d'accès, Coupe-verre (vitrine). 2 mini-forets. Butin : Briques, figurines, antiquités, BIG EGG.",
+   "ref": {
+    "lieu": 14
+   },
+   "x": 50.07,
+   "y": 81.54
+  },
+  {
+   "id": "lieu15",
+   "nom": "Commissariat",
+   "quartier": "Palmside",
+   "type": "braquage",
+   "note": "Il faut : Carte d'identité (armurerie), Carte d'accès (pièce). 3 mini-forets. Butin : Pièces d'armes, LM 249 Mk2, grenade lacrymo.",
+   "ref": {
+    "lieu": 15
+   },
+   "x": 45.97,
+   "y": 68.96
+  },
+  {
+   "id": "lieu16",
+   "nom": "Cottage n° 3",
+   "quartier": "Loraine Hills",
+   "type": "braquage",
+   "note": "Il faut : Carte d'accès. 2 mini-forets. Butin : Poudre, briques, cash.",
+   "ref": {
+    "lieu": 16
+   },
+   "x": 22.92,
+   "y": 18.1,
+   "approx": true
+  },
+  {
+   "id": "lieu17",
+   "nom": "Cottage n° 5",
+   "quartier": "Loraine Hills",
+   "type": "braquage",
+   "note": "Il faut : Clé de pièce · « un des cottages ». 1 mini-foret. Butin : Poudre.",
+   "ref": {
+    "lieu": 17
+   },
+   "x": 31.25,
+   "y": 21.72,
+   "approx": true
+  },
+  {
+   "id": "coffre_safe_key_11",
+   "nom": "Coffre · Café",
+   "quartier": "Centre-ville",
+   "type": "coffre",
+   "note": "S'ouvre avec sa clé de coffre (verte), sans mini-foret.",
+   "ref": {
+    "item": "safe_key_11"
+   },
+   "x": 68.19,
+   "y": 54.3,
+   "approx": true
+  },
+  {
+   "id": "coffre_safe_key_12",
+   "nom": "Coffre · Station-service",
+   "quartier": "Centre-ville",
+   "type": "coffre",
+   "note": "S'ouvre avec sa clé de coffre (verte), sans mini-foret.",
+   "ref": {
+    "item": "safe_key_12"
+   },
+   "x": 70.0,
+   "y": 82.81,
+   "approx": true
+  },
+  {
+   "id": "coffre_safe_key_8",
+   "nom": "Coffre · Supérette (centre)",
+   "quartier": "Centre-ville",
+   "type": "coffre",
+   "note": "S'ouvre avec sa clé de coffre (verte), sans mini-foret.",
+   "ref": {
+    "item": "safe_key_8"
+   },
+   "x": 76.39,
+   "y": 56.29,
+   "approx": true
+  },
+  {
+   "id": "coffre_safe_key_4",
+   "nom": "Coffre · Supérette (nord)",
+   "quartier": "Centre-ville",
+   "type": "coffre",
+   "note": "S'ouvre avec sa clé de coffre (verte), sans mini-foret.",
+   "ref": {
+    "item": "safe_key_4"
+   },
+   "x": 71.94,
+   "y": 33.67,
+   "approx": true
+  },
+  {
+   "id": "coffre_safe_key_10",
+   "nom": "Coffre · Pharmacie",
+   "quartier": "Centre-ville",
+   "type": "coffre",
+   "note": "S'ouvre avec sa clé de coffre (verte), sans mini-foret.",
+   "ref": {
+    "item": "safe_key_10"
+   },
+   "x": 77.92,
+   "y": 69.14,
+   "approx": true
+  },
+  {
+   "id": "coffre_safe_key_1",
+   "nom": "Coffre · Hôtel Seasons",
+   "quartier": "Sunny Beach",
+   "type": "coffre",
+   "note": "S'ouvre avec sa clé de coffre (verte), sans mini-foret.",
+   "ref": {
+    "item": "safe_key_1"
+   },
+   "x": 16.11,
+   "y": 50.68,
+   "approx": true
+  },
+  {
+   "id": "coffre_safe_key_2",
+   "nom": "Coffre · Hôtel Reef",
+   "quartier": "Sunny Beach",
+   "type": "coffre",
+   "note": "S'ouvre avec sa clé de coffre (verte), sans mini-foret.",
+   "ref": {
+    "item": "safe_key_2"
+   },
+   "x": 32.08,
+   "y": 64.07,
+   "approx": true
+  },
+  {
+   "id": "coffre_safe_key_3",
+   "nom": "Coffre · Club de strip-tease",
+   "quartier": "Sunny Beach",
+   "type": "coffre",
+   "note": "S'ouvre avec sa clé de coffre (verte), sans mini-foret.",
+   "ref": {
+    "item": "safe_key_3"
+   },
+   "x": 18.89,
+   "y": 61.72,
+   "approx": true
+  },
+  {
+   "id": "coffre_safe_key_6",
+   "nom": "Coffre · Café de la jetée",
+   "quartier": "Sunny Beach",
+   "type": "coffre",
+   "note": "S'ouvre avec sa clé de coffre (verte), sans mini-foret.",
+   "ref": {
+    "item": "safe_key_6"
+   },
+   "x": 27.22,
+   "y": 92.49,
+   "approx": true
+  },
+  {
+   "id": "coffre_safe_key_9",
+   "nom": "Coffre · Supérette",
+   "quartier": "Sunny Beach",
+   "type": "coffre",
+   "note": "S'ouvre avec sa clé de coffre (verte), sans mini-foret.",
+   "ref": {
+    "item": "safe_key_9"
+   },
+   "x": 18.19,
+   "y": 71.67,
+   "approx": true
+  },
+  {
+   "id": "coffre_safe_key_5",
+   "nom": "Coffre · Pharmacie",
+   "quartier": "Sunny Beach",
+   "type": "coffre",
+   "note": "S'ouvre avec sa clé de coffre (verte), sans mini-foret.",
+   "ref": {
+    "item": "safe_key_5"
+   },
+   "x": 24.58,
+   "y": 72.13,
+   "approx": true
+  },
+  {
+   "id": "coffre_safe_key_13",
+   "nom": "Coffre · Magasin d'électronique",
+   "quartier": "Sunny Beach",
+   "type": "coffre",
+   "note": "S'ouvre avec sa clé de coffre (verte), sans mini-foret.",
+   "ref": {
+    "item": "safe_key_13"
+   },
+   "x": 20.83,
+   "y": 79.82,
+   "approx": true
+  },
+  {
+   "id": "coffre_safe_key_7",
+   "nom": "Coffre · Manoir",
+   "quartier": "Loraine Hills",
+   "type": "coffre",
+   "note": "S'ouvre avec sa clé de coffre (verte), sans mini-foret.",
+   "ref": {
+    "item": "safe_key_7"
+   },
+   "x": 35.21,
+   "y": 40.45,
+   "approx": true
+  },
+  {
+   "id": "coffre_safe_key_14",
+   "nom": "Coffre · Un des cottages",
+   "quartier": "Loraine Hills",
+   "type": "coffre",
+   "note": "S'ouvre avec sa clé de coffre (verte), sans mini-foret.",
+   "ref": {
+    "item": "safe_key_14"
+   },
+   "x": 27.22,
+   "y": 16.11,
+   "approx": true
+  },
+  {
+   "id": "bijouterie_e",
+   "nom": "Bijouterie (est)",
+   "quartier": "Centre-ville",
+   "type": "info",
+   "note": "Bijoux fantaisie (collections), objets de valeur.",
+   "ref": null,
+   "x": 83.06,
+   "y": 79.82,
+   "approx": true
+  },
+  {
+   "id": "bijouterie_o",
+   "nom": "Bijouterie (ouest)",
+   "quartier": "Sunny Beach",
+   "type": "info",
+   "note": "Bijoux fantaisie (collections), objets de valeur.",
+   "ref": null,
+   "x": 13.89,
+   "y": 63.53,
+   "approx": true
+  },
+  {
+   "id": "electro_dt",
+   "nom": "Magasin d'électronique",
+   "quartier": "Centre-ville",
+   "type": "info",
+   "note": "Électronique ×10 (collections), PD STATION possible.",
+   "ref": null,
+   "x": 69.31,
+   "y": 62.44,
+   "approx": true
+  },
+  {
+   "id": "buletti",
+   "nom": "Buletti Soltempra (expo)",
+   "quartier": "Sunny Beach",
+   "type": "special",
+   "note": "Voiture d'exposition du Grand Hôtel : il faut un Brouilleur.",
+   "ref": null,
+   "x": 27.64,
+   "y": 52.04,
+   "approx": true
+  },
+  {
+   "id": "egg",
+   "nom": "BIG EGG n° 53",
+   "quartier": "Palmside",
+   "type": "special",
+   "note": "Vitrine de la galerie d'art : il faut un Coupe-verre (3 tablettes de codes).",
+   "ref": null,
+   "x": 52.92,
+   "y": 57.92,
+   "approx": true
+  },
+  {
+   "id": "manoir",
+   "nom": "Manoir",
+   "quartier": "Loraine Hills",
+   "type": "info",
+   "note": "Pièces auto ×10, magazines OPALINE / BD (collections).",
+   "ref": null,
+   "x": 33.68,
+   "y": 38.46,
+   "approx": true
+  },
+  {
+   "id": "lenny",
+   "nom": "Motel de Lenny (hors de la ville)",
+   "quartier": "Hors de la ville",
+   "type": "service",
+   "note": "Le hub (Lenny, troc, arbre de Lenny) n'est pas dans Looty Bay : on y va par la carte du monde, en sortant par un des ponts.",
+   "ref": null,
+   "x": 3.61,
+   "y": 68.78
+  },
+  {
+   "id": "receleur1",
+   "nom": "Receleur ($)",
+   "quartier": "Loraine Hills",
+   "type": "vente",
+   "note": "Achète les objets volés (icône $ verte sur la carte du jeu). Ta notoriété augmente ses prix.",
+   "x": 43.12,
+   "y": 23.17
+  },
+  {
+   "id": "receleur2",
+   "nom": "Receleur ($)",
+   "quartier": "Centre-ville",
+   "type": "vente",
+   "note": "Achète les objets volés (icône $ verte sur la carte du jeu). Ta notoriété augmente ses prix.",
+   "x": 80.14,
+   "y": 46.15
+  },
+  {
+   "id": "receleur3",
+   "nom": "Receleur ($)",
+   "quartier": "Centre-ville",
+   "type": "vente",
+   "note": "Achète les objets volés (icône $ verte sur la carte du jeu). Ta notoriété augmente ses prix.",
+   "x": 75.69,
+   "y": 71.95
+  },
+  {
+   "id": "receleur4",
+   "nom": "Receleur ($)",
+   "quartier": "Sunny Beach",
+   "type": "vente",
+   "note": "Achète les objets volés (icône $ verte sur la carte du jeu). Ta notoriété augmente ses prix.",
+   "x": 29.24,
+   "y": 87.33
+  },
+  {
+   "id": "contrebandier1",
+   "nom": "Contrebandier",
+   "quartier": "Sunny Beach",
+   "type": "vente",
+   "note": "Icône caisse verte sur la carte du jeu : cargaisons et caisses de collection.",
+   "x": 22.29,
+   "y": 63.98
+  },
+  {
+   "id": "contrebandier2",
+   "nom": "Contrebandier",
+   "quartier": "Centre-ville",
+   "type": "vente",
+   "note": "Icône caisse verte sur la carte du jeu : cargaisons et caisses de collection.",
+   "x": 83.82,
+   "y": 52.94
+  }
+ ],
+ "version": 3
+}

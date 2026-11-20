@@ -1,0 +1,114 @@
+{
+ "notoriete": [
+  {
+   "niveau": 1,
+   "receleur": 0,
+   "contrebandier": 0
+  },
+  {
+   "niveau": 2,
+   "receleur": 10,
+   "contrebandier": 5
+  },
+  {
+   "niveau": 3,
+   "receleur": 20,
+   "contrebandier": 10
+  },
+  {
+   "niveau": 4,
+   "receleur": 35,
+   "contrebandier": 15
+  },
+  {
+   "niveau": 5,
+   "receleur": 50,
+   "contrebandier": 25
+  }
+ ],
+ "sections": [
+  {
+   "id": "roles",
+   "titre": "Citoyen, criminel, policier",
+   "points": [
+    "Tu choisis ton rôle à chaque entrée dans Looty Bay. Dans un groupe, tout le monde a le même rôle.",
+    "<b>Citoyen</b> : se balade en sécurité, se soigne gratuitement, ne perd rien en mourant, pas d'armes.",
+    "<b>Criminel</b> : met un masque et braque. Le butin doit sortir de la ville.",
+    "<b>Policier</b> : équipement et voiture gratuits, ne peut tuer que des criminels. 4 flics maximum en ville."
+   ]
+  },
+  {
+   "id": "pertes",
+   "titre": "Ce que tu perds",
+   "points": [
+    "Mort avec le masque : équipement + sac.",
+    "Arrêté ou rendu (touche Q) : seulement le sac. Tu peux proposer un pot-de-vin depuis ton compte (jusqu'à 200 000 $).",
+    "Mort en citoyen : rien.",
+    "Mort dans une colonie (pas de police) : équipement + sac.",
+    "Une voiture achetée ne disparaît pas à la mort, ses améliorations non plus."
+   ]
+  },
+  {
+   "id": "argent",
+   "titre": "Argent et blanchiment",
+   "points": [
+    "<b>Argent liquide</b> (sale) : braquages, ventes. Il peut être perdu ou volé.",
+    "<b>Argent propre</b> : sur ton compte bancaire, personne ne peut le voler. Il faut un compte à Looty Bay et un bureau de blanchiment chez toi.",
+    "Le blanchiment continue hors ligne. Lenny blanchit aussi, mais prend une commission.",
+    "Blanchiment sur le personnage : 1 propre pour 2 sales, jusqu'à 100 000 $ sale.",
+    "Dette de Lenny : 1 000 000 $, payés avec l'argent en banque."
+   ]
+  },
+  {
+   "id": "vendre",
+   "titre": "À qui vendre",
+   "points": [
+    "<b>Receleur</b> : objets volés (lingots, œuf, montres…). Bonus de notoriété jusqu'à +50 %.",
+    "<b>Contrebandier</b> : cargaisons et caisses de collection. Bonus jusqu'à +25 %. Vendre en gros rapporte plus, mais c'est plus risqué.",
+    "Centre de vente d'un district : seulement si tu loues une parcelle dans ce district."
+   ]
+  },
+  {
+   "id": "wipe",
+   "titre": "Serveur et wipe",
+   "points": [
+    "Wipe <b>tous les 7 jours</b>, serveur par serveur (7 jours après sa création).",
+    "Tu gardes : tatouages, autorité, skins, B-coins, premium. Tout le reste est perdu.",
+    "Au wipe, tes biens sont convertis en peine de prison et en autorité.",
+    "Peine maximale par État : 40 ans, 40 ans par 24 h, 1 200 ans au total."
+   ]
+  },
+  {
+   "id": "parcelle",
+   "titre": "Parcelle, district et niveau du marchand",
+   "points": [
+    "Il y a <b>10 districts</b> autour de Looty Bay, sur <b>3 niveaux</b>. Plus le niveau est haut, meilleurs sont les livraisons et le marché noir, mais la concurrence est plus rude.",
+    "Ton <b>niveau de marchand</b> vient de ta parcelle : pas de parcelle = <b>I</b>, district 2 = <b>II</b>, district 3 = <b>III</b>. Ta maison n'y change rien.",
+    "Une parcelle se loue dans une colonie qui a un propriétaire. La première se paie en liquide et donne une <b>caravane gratuite</b>.",
+    "Pour entrer dans un district plus haut, il faut le <b>titre de parcelle</b> de ce niveau. Celui du district 3 se débloque dans l'arbre de Lenny (il demande le niveau II).",
+    "Le propriétaire d'une colonie y vit gratuitement, loue des parcelles et touche une taxe sur le blanchiment de ses locataires (5 colonies maximum par joueur).",
+    "Tu ne peux vendre au centre de vente d'un district que si tu y loues une parcelle. Déménager emporte toute ta base (impossible pendant un verrou de raid).",
+    "Pas de police dans les colonies : y mourir coûte l'équipement et le sac. Une armoire à pharmacie soigne et sert de point de réapparition."
+   ]
+  },
+  {
+   "id": "police",
+   "titre": "Police",
+   "points": [
+    "Le niveau de recherche monte en tuant des civils (max 3 : « ennemi public », toute la ville voit ta position).",
+    "Tenir un vendeur en joue l'empêche de déclencher l'alarme.",
+    "Les flics peuvent fermer les ponts pour bloquer la sortie de Looty Bay.",
+    "Insignes : sergent → lieutenant au troc (×15). Le capitaine s'achète seulement."
+   ]
+  },
+  {
+   "id": "notoriete",
+   "titre": "Monter en notoriété",
+   "points": [
+    "Voler, pirater, ouvrir des conteneurs, fouiller, casser des caméras, poser un foret, forcer un coffre de voiture, vendre du butin…",
+    "À deux, tu commences niveau 2 ; en solo, niveau 4.",
+    "Plus elle est haute, plus tu trouves d'objets de valeur. Certains objets à jauge ne se remplissent qu'à partir d'un niveau."
+   ]
+  }
+ ]
+}

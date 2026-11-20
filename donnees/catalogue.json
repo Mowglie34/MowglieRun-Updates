@@ -1,0 +1,1664 @@
+{
+ "_aide": "Un objet par identifiant. rarete : c, pc, e, l, x. revente = prix au receleur niveau 1, contrebandier = prix au contrebandier niveau 1. ou = où le trouver (séparer par ' · '). L'icône est data/icons/<identifiant>.webp ; sans icône, mettre \"emoji\": \"🌿\" (ou \"sansIcone\": true pour l'initiale).",
+ "objets": {
+  "vip_key_4": {
+   "nom": "Carte d'identité · armurerie du commissariat",
+   "rarete": "x",
+   "categorie": "cles",
+   "revente": 7200,
+   "sert": "Ouvre l'armurerie du commissariat (Palmside)."
+  },
+  "vip_key_5": {
+   "nom": "Carte d'identité · chambre forte à or",
+   "rarete": "x",
+   "categorie": "cles",
+   "revente": 8200,
+   "sert": "Ouvre la chambre forte à or de la banque."
+  },
+  "police_evidence_1": {
+   "nom": "Preuves",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 4000,
+   "sert": "×20 → Carte d'identité de l'armurerie du commissariat."
+  },
+  "deposit_box_1_full": {
+   "nom": "Clés de coffres bancaires",
+   "rarete": "l",
+   "categorie": "cles",
+   "revente": 20000,
+   "sert": "→ Carte d'identité de la chambre forte à or."
+  },
+  "deposit_box_1_cumulative": {
+   "nom": "Clés de coffres bancaires (vide)",
+   "rarete": "l",
+   "categorie": "cles",
+   "sert": "Se remplit (60 pts) en piratant les coffres de dépôt de la banque."
+  },
+  "drill_1": {
+   "nom": "Foret",
+   "rarete": "l",
+   "categorie": "cles",
+   "revente": 32800,
+   "sert": "Seul moyen d'ouvrir la porte de la chambre forte de la banque."
+  },
+  "action_camera_1_full": {
+   "nom": "Caméra d'action",
+   "rarete": "pc",
+   "categorie": "cles",
+   "revente": 50000
+  },
+  "action_camera_2_full": {
+   "nom": "Caméra d'action",
+   "rarete": "e",
+   "categorie": "cles",
+   "revente": 100000,
+   "sert": "Troc : Foret ou Décodeur épique."
+  },
+  "action_camera_2_cumulative": {
+   "nom": "Caméra d'action (vide)",
+   "rarete": "e",
+   "categorie": "cles",
+   "sert": "Se remplit (70 pts) en commettant des actions criminelles."
+  },
+  "action_camera_3_full": {
+   "nom": "Caméra d'action",
+   "rarete": "l",
+   "categorie": "cles",
+   "revente": 200000
+  },
+  "usb_1_full": {
+   "nom": "Outil de piratage USB",
+   "rarete": "l",
+   "categorie": "cles",
+   "revente": 200000,
+   "sert": "×2 pour le Foret. Se revend très cher."
+  },
+  "usb_1_cumulative": {
+   "nom": "Outil de piratage USB (vide)",
+   "rarete": "l",
+   "categorie": "cles",
+   "sert": "Se remplit (5 pts) en piratant des ordinateurs dans des pièces fermées."
+  },
+  "cash_1": {
+   "nom": "Argent liquide",
+   "rarete": "pc",
+   "categorie": "valeur"
+  },
+  "glass_cutter_1": {
+   "nom": "Coupe-verre",
+   "rarete": "l",
+   "categorie": "cles",
+   "revente": 20000,
+   "sert": "Ouvre la vitrine du BIG EGG n° 53 (galerie d'art)."
+  },
+  "tablet_1_full": {
+   "nom": "Tablette de codes",
+   "rarete": "e",
+   "categorie": "cles",
+   "revente": 75000,
+   "sert": "×3 → Coupe-verre."
+  },
+  "tablet_1_cumulative": {
+   "nom": "Tablette de codes (vide)",
+   "rarete": "e",
+   "categorie": "cles",
+   "sert": "Se remplit (4 pts) en ouvrant des coffres à Looty Bay."
+  },
+  "defense_module_1": {
+   "nom": "Fusible électronique +1",
+   "rarete": "pc",
+   "categorie": "base",
+   "revente": 8000,
+   "sert": "+1 défense dans un emplacement du système de sécurité."
+  },
+  "defense_module_2": {
+   "nom": "Fusible électronique +3",
+   "rarete": "e",
+   "categorie": "base",
+   "revente": 40000,
+   "sert": "+3 défense. Troc : + 250 000 $ → fusible +5."
+  },
+  "defense_module_3": {
+   "nom": "Fusible électronique +5",
+   "rarete": "l",
+   "categorie": "base",
+   "revente": 100000,
+   "sert": "+5 défense."
+  },
+  "decoder_1": {
+   "nom": "Décodeur −1",
+   "rarete": "pc",
+   "categorie": "base",
+   "revente": 1000,
+   "sert": "−1 défense sur la base d'un autre. ×3 + 10 000 $ → décodeur −3."
+  },
+  "decoder_2": {
+   "nom": "Décodeur −3",
+   "rarete": "e",
+   "categorie": "base",
+   "revente": 5000,
+   "sert": "−3 défense."
+  },
+  "decoder_3": {
+   "nom": "Décodeur −5",
+   "rarete": "l",
+   "categorie": "base",
+   "revente": 40000,
+   "sert": "−5 défense."
+  },
+  "evict_plot_1": {
+   "nom": "Droit d'expulsion",
+   "rarete": "x",
+   "categorie": "base",
+   "revente": 4000,
+   "sert": "Vole le terrain d'un joueur (troc retiré le 17 nov.)."
+  },
+  "police_badge_1": {
+   "nom": "Insigne de sergent",
+   "rarete": "pc",
+   "categorie": "cles",
+   "revente": 800,
+   "sert": "×15 → Insigne de lieutenant. Équipement de sergent en service."
+  },
+  "police_badge_2": {
+   "nom": "Insigne de lieutenant",
+   "rarete": "e",
+   "categorie": "cles",
+   "revente": 4000,
+   "sert": "Équipement de lieutenant, une fois, en service de police."
+  },
+  "police_badge_3": {
+   "nom": "Insigne de capitaine",
+   "rarete": "l",
+   "categorie": "cles",
+   "revente": 10000,
+   "sert": "Équipement de capitaine. S'achète seulement (plus de troc depuis le 5 nov.)."
+  },
+  "mini_drill_1": {
+   "nom": "Mini-foret",
+   "rarete": "e",
+   "categorie": "cles",
+   "revente": 7200,
+   "sert": "1 par coffre-fort (60 s en boutique, ~2 min à la banque)."
+  },
+  "lockpick_1": {
+   "nom": "Crochet",
+   "rarete": "pc",
+   "categorie": "cles",
+   "revente": 40,
+   "sert": "Portes et conteneurs sans alarme, coffres de voiture."
+  },
+  "gold_bar_1": {
+   "nom": "Lingot d'or",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 52000,
+   "sert": "Banque (chambre forte à or). Au receleur."
+  },
+  "egg_faberge_1": {
+   "nom": "BIG EGG n° 53",
+   "rarete": "x",
+   "categorie": "valeur",
+   "revente": 550000,
+   "sert": "Galerie d'art, vitrine (Coupe-verre). Au receleur."
+  },
+  "room_key_1": {
+   "nom": "Clé de pièce · armurerie",
+   "rarete": "e",
+   "categorie": "cles",
+   "sert": "Ouvre : Armurerie (ouest) (Sunny Beach)."
+  },
+  "room_key_2": {
+   "nom": "Clé de pièce · équipement",
+   "rarete": "e",
+   "categorie": "cles",
+   "sert": "Ouvre : Magasin d'équipement (ouest) (Sunny Beach)."
+  },
+  "room_key_3": {
+   "nom": "Clé de pièce · armurerie",
+   "rarete": "e",
+   "categorie": "cles",
+   "sert": "Ouvre : Armurerie (est) (Centre-ville)."
+  },
+  "room_key_4": {
+   "nom": "Clé de pièce · équipement",
+   "rarete": "e",
+   "categorie": "cles",
+   "sert": "Ouvre : Magasin d'équipement (est) (Centre-ville)."
+  },
+  "room_key_5": {
+   "nom": "Clé de pièce · gauche",
+   "rarete": "e",
+   "categorie": "cles",
+   "sert": "Ouvre : Station-service, pièce de gauche (Centre-ville)."
+  },
+  "room_key_6": {
+   "nom": "Clé de pièce · droite",
+   "rarete": "l",
+   "categorie": "cles",
+   "sert": "Ouvre : Station-service, pièce de droite (Centre-ville)."
+  },
+  "room_key_7": {
+   "nom": "Clé de pièce · « un des cottages »",
+   "rarete": "e",
+   "categorie": "cles",
+   "sert": "Ouvre : Cottage n° 5 (Loraine Hills)."
+  },
+  "room_key_8": {
+   "nom": "Clé de pièce · pharmacie",
+   "rarete": "e",
+   "categorie": "cles",
+   "sert": "Ouvre : Pharmacie (Centre-ville)."
+  },
+  "room_key_9": {
+   "nom": "Clé de pièce · pharmacie",
+   "rarete": "e",
+   "categorie": "cles",
+   "sert": "Ouvre : Pharmacie (Sunny Beach)."
+  },
+  "room_key_10": {
+   "nom": "Clé de pièce · supérette",
+   "rarete": "e",
+   "categorie": "cles",
+   "sert": "Ouvre : Supérette (nord) (Centre-ville)."
+  },
+  "room_key_11": {
+   "nom": "Clé de pièce · supérette",
+   "rarete": "e",
+   "categorie": "cles",
+   "sert": "Ouvre : Supérette (Sunny Beach)."
+  },
+  "room_key_12": {
+   "nom": "Clé de pièce · « un des hôtels »",
+   "rarete": "e",
+   "categorie": "cles",
+   "sert": "Ouvre : Hôtel Reef (Sunny Beach)."
+  },
+  "room_key_13": {
+   "nom": "Clé de pièce · VIP",
+   "rarete": "l",
+   "categorie": "cles",
+   "sert": "Ouvre : Club de strip-tease, salle VIP (Sunny Beach)."
+  },
+  "safe_key_1": {
+   "nom": "Clé de coffre · Hôtel Seasons",
+   "rarete": "pc",
+   "categorie": "cles",
+   "sert": "Ouvre le coffre : Hôtel Seasons (Sunny Beach)."
+  },
+  "safe_key_2": {
+   "nom": "Clé de coffre · Hôtel Reef",
+   "rarete": "pc",
+   "categorie": "cles",
+   "sert": "Ouvre le coffre : Hôtel Reef (Sunny Beach)."
+  },
+  "safe_key_3": {
+   "nom": "Clé de coffre · Club de strip-tease",
+   "rarete": "pc",
+   "categorie": "cles",
+   "sert": "Ouvre le coffre : Club de strip-tease (Sunny Beach)."
+  },
+  "safe_key_4": {
+   "nom": "Clé de coffre · Supérette (nord)",
+   "rarete": "pc",
+   "categorie": "cles",
+   "sert": "Ouvre le coffre : Supérette (nord) (Centre-ville)."
+  },
+  "safe_key_5": {
+   "nom": "Clé de coffre · Pharmacie",
+   "rarete": "pc",
+   "categorie": "cles",
+   "sert": "Ouvre le coffre : Pharmacie (Sunny Beach)."
+  },
+  "safe_key_6": {
+   "nom": "Clé de coffre · Café de la jetée",
+   "rarete": "pc",
+   "categorie": "cles",
+   "sert": "Ouvre le coffre : Café de la jetée (Sunny Beach)."
+  },
+  "safe_key_7": {
+   "nom": "Clé de coffre · Manoir",
+   "rarete": "pc",
+   "categorie": "cles",
+   "sert": "Ouvre le coffre : Manoir (Loraine Hills)."
+  },
+  "safe_key_8": {
+   "nom": "Clé de coffre · Supérette (centre)",
+   "rarete": "pc",
+   "categorie": "cles",
+   "sert": "Ouvre le coffre : Supérette (centre) (Centre-ville)."
+  },
+  "safe_key_9": {
+   "nom": "Clé de coffre · Supérette",
+   "rarete": "pc",
+   "categorie": "cles",
+   "sert": "Ouvre le coffre : Supérette (Sunny Beach)."
+  },
+  "safe_key_10": {
+   "nom": "Clé de coffre · Pharmacie",
+   "rarete": "pc",
+   "categorie": "cles",
+   "sert": "Ouvre le coffre : Pharmacie (Centre-ville)."
+  },
+  "safe_key_11": {
+   "nom": "Clé de coffre · Café",
+   "rarete": "pc",
+   "categorie": "cles",
+   "sert": "Ouvre le coffre : Café (Centre-ville)."
+  },
+  "safe_key_12": {
+   "nom": "Clé de coffre · Station-service",
+   "rarete": "pc",
+   "categorie": "cles",
+   "sert": "Ouvre le coffre : Station-service (Centre-ville)."
+  },
+  "safe_key_13": {
+   "nom": "Clé de coffre · Magasin d'électronique",
+   "rarete": "pc",
+   "categorie": "cles",
+   "sert": "Ouvre le coffre : Magasin d'électronique (Sunny Beach)."
+  },
+  "safe_key_14": {
+   "nom": "Clé de coffre · Un des cottages",
+   "rarete": "pc",
+   "categorie": "cles",
+   "sert": "Ouvre le coffre : Un des cottages (Loraine Hills)."
+  },
+  "vip_key_1": {
+   "nom": "Carte d'accès · Grand Hôtel",
+   "rarete": "l",
+   "categorie": "cles",
+   "sert": "Ouvre : Grand Hôtel, entrepôt secret (Sunny Beach)."
+  },
+  "vip_key_2": {
+   "nom": "Carte d'accès · commissariat",
+   "rarete": "l",
+   "categorie": "cles",
+   "sert": "Ouvre : Commissariat (Palmside)."
+  },
+  "vip_key_3": {
+   "nom": "Carte d'accès · cottage n° 3",
+   "rarete": "l",
+   "categorie": "cles",
+   "sert": "Ouvre : Cottage n° 3 (Loraine Hills)."
+  },
+  "vip_key_6": {
+   "nom": "Carte d'accès · galerie d'art",
+   "rarete": "l",
+   "categorie": "cles",
+   "sert": "Ouvre : Galerie d'art, chambre forte (Palmside)."
+  },
+  "storage_lockpick_1": {
+   "nom": "Passe-partout",
+   "rarete": "e",
+   "categorie": "cles",
+   "revente": 22000,
+   "sert": "Entrepôts, étagères, coffres et armoires d'autres joueurs."
+  },
+  "cargo_exchange_workbench_1": {
+   "nom": "Établi de contrebande",
+   "rarete": "pc",
+   "categorie": "base",
+   "sert": "Remballe la contrebande en cargaison premium."
+  },
+  "cargo_exchange_workbench_speedup_upgrade_1": {
+   "nom": "Imprimante d'étiquettes",
+   "rarete": "pc",
+   "categorie": "base"
+  },
+  "cargo_exchange_workbench_speedup_upgrade_2": {
+   "nom": "Imprimante d'étiquettes",
+   "rarete": "l",
+   "categorie": "base"
+  },
+  "cargo_exchange_workbench_additional_slot_upgrade": {
+   "nom": "Caisse à outils",
+   "rarete": "e",
+   "categorie": "base"
+  },
+  "cargo_manifest_1_full": {
+   "nom": "Fiche de cargaison",
+   "rarete": "pc",
+   "categorie": "cles",
+   "sert": "Se remplit en remettant des cargaisons au contrebandier."
+  },
+  "police_radio_1": {
+   "nom": "Radio de police",
+   "rarete": "e",
+   "categorie": "cles",
+   "sert": "Montre les patrouilles proches sur la carte."
+  },
+  "money_workbench_speedup_1": {
+   "nom": "Compteuse de billets",
+   "rarete": "pc",
+   "categorie": "base",
+   "sert": "Améliore le bureau de blanchiment (≈ 630 $ par tick au lieu de 450, mesuré). Recherche 10 000 $, achat 30 000 $ (niv. I)."
+  },
+  "collection_table": {
+   "nom": "Table de collections",
+   "rarete": "pc",
+   "categorie": "base",
+   "sert": "Réunit les objets en caisses de collection."
+  },
+  "collection_upgrade_1": {
+   "nom": "Collection supplémentaire",
+   "rarete": "pc",
+   "categorie": "base"
+  },
+  "collection_upgrade_2": {
+   "nom": "Collection spéciale",
+   "rarete": "e",
+   "categorie": "base"
+  },
+  "collection_upgrade_3": {
+   "nom": "Collection unique",
+   "rarete": "l",
+   "categorie": "base"
+  },
+  "auto_flipper_1": {
+   "nom": "Brouilleur",
+   "rarete": "x",
+   "categorie": "cles",
+   "revente": 64000,
+   "sert": "Permet de voler la Buletti Soltempra du Grand Hôtel."
+  },
+  "home_1": {
+   "nom": "Caravane",
+   "rarete": "pc",
+   "categorie": "base"
+  },
+  "home_2": {
+   "nom": "Petite maison",
+   "rarete": "e",
+   "categorie": "base"
+  },
+  "alcohol_1": {
+   "nom": "Bouteille Black Pirate",
+   "rarete": "pc",
+   "revente": 306,
+   "categorie": "valeur",
+   "ou": "Supérettes, cafés, station-service · marchand d'alcool"
+  },
+  "alcohol_8": {
+   "nom": "Bouteille Severka",
+   "rarete": "pc",
+   "revente": 344,
+   "categorie": "valeur",
+   "ou": "Marchand d'alcool"
+  },
+  "alcohol_4": {
+   "nom": "Bouteille Happy Forester",
+   "rarete": "pc",
+   "revente": 290,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "alcohol_box_1": {
+   "nom": "Alcool",
+   "rarete": "c",
+   "revente": 50,
+   "categorie": "valeur",
+   "ou": "Supérettes, cafés, station-service, Grand Hôtel"
+  },
+  "car_parts_6": {
+   "nom": "Bougies d'allumage",
+   "rarete": "pc",
+   "revente": 280,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "car_parts_2": {
+   "nom": "Phare de voiture",
+   "rarete": "pc",
+   "revente": 330,
+   "categorie": "valeur",
+   "ou": "Marchand de pièces auto"
+  },
+  "car_parts_4": {
+   "nom": "DW-04",
+   "rarete": "pc",
+   "revente": 246,
+   "categorie": "valeur",
+   "ou": "Marchand de pièces auto"
+  },
+  "car_spare_parts_1": {
+   "nom": "Pièces automobiles",
+   "rarete": "c",
+   "revente": 50,
+   "categorie": "valeur",
+   "ou": "Station-service, cottages, manoir"
+  },
+  "equipment_4": {
+   "nom": "Ration de campagne",
+   "rarete": "pc",
+   "revente": 716,
+   "categorie": "valeur",
+   "ou": "Marchand d'armures"
+  },
+  "equipment_1": {
+   "nom": "Télémètre laser",
+   "rarete": "pc",
+   "revente": 430,
+   "categorie": "valeur",
+   "ou": "Marchand d'armures"
+  },
+  "equipment_2": {
+   "nom": "Jumelles",
+   "rarete": "pc",
+   "revente": 470,
+   "categorie": "valeur",
+   "ou": "Magasins d'équipement · marchand d'armures"
+  },
+  "equip_carbine_1": {
+   "nom": "Set de mousquetons",
+   "rarete": "c",
+   "revente": 50,
+   "categorie": "valeur",
+   "ou": "Magasins d'équipement"
+  },
+  "weapon_cleaning_1": {
+   "nom": "Kit de nettoyage d'arme",
+   "rarete": "pc",
+   "revente": 370,
+   "categorie": "valeur",
+   "ou": "Marchand d'armes"
+  },
+  "gun_grease_1": {
+   "nom": "Graisse pour armes",
+   "rarete": "pc",
+   "revente": 370,
+   "categorie": "valeur",
+   "ou": "Marchand d'armes"
+  },
+  "gunpowder_1": {
+   "nom": "Kit de poudre noire basique",
+   "rarete": "pc",
+   "revente": 330,
+   "categorie": "valeur",
+   "ou": "Marchand d'armes"
+  },
+  "weaponparts_box_1": {
+   "nom": "Pièces d'arme",
+   "rarete": "c",
+   "revente": 50,
+   "categorie": "valeur",
+   "ou": "Armureries, commissariat"
+  },
+  "earrings_3": {
+   "nom": "Boucles d'oreilles SUGI",
+   "rarete": "pc",
+   "revente": 390,
+   "categorie": "valeur",
+   "ou": "Bijoutier"
+  },
+  "watch_1": {
+   "nom": "Montre PEGIUET",
+   "rarete": "pc",
+   "revente": 352,
+   "categorie": "valeur",
+   "ou": "Bijoutier"
+  },
+  "necklace_5": {
+   "nom": "Collier CHIPARDI",
+   "rarete": "pc",
+   "revente": 306,
+   "categorie": "valeur",
+   "ou": "Bijoutier"
+  },
+  "jewelry_pouch_1": {
+   "nom": "Bijoux fantaisie",
+   "rarete": "c",
+   "revente": 150,
+   "categorie": "valeur",
+   "ou": "Grand Hôtel, bijouteries"
+  },
+  "vial_1": {
+   "nom": "Flacon contenant des compléments alimentaires",
+   "rarete": "pc",
+   "revente": 250,
+   "categorie": "valeur",
+   "ou": "Marchand de médicaments"
+  },
+  "vial_3": {
+   "nom": "Flacon contenant un vaccin",
+   "rarete": "pc",
+   "revente": 170,
+   "categorie": "valeur",
+   "ou": "Marchand de médicaments"
+  },
+  "pharma_tools_6": {
+   "nom": "Ophtalmoscope",
+   "rarete": "pc",
+   "revente": 206,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "pharma_pack_1": {
+   "nom": "Médicaments",
+   "rarete": "c",
+   "revente": 50,
+   "categorie": "valeur",
+   "ou": "Pharmacies"
+  },
+  "laptop_1": {
+   "nom": "Ordinateur portable AIR-P",
+   "rarete": "pc",
+   "revente": 380,
+   "categorie": "valeur",
+   "ou": "Marchand d'électronique"
+  },
+  "phone_1": {
+   "nom": "Smartphone G-FLOW",
+   "rarete": "pc",
+   "revente": 156,
+   "categorie": "valeur",
+   "ou": "Marchand d'électronique"
+  },
+  "headphones_1": {
+   "nom": "Casque AIRHEADS",
+   "rarete": "pc",
+   "revente": 230,
+   "categorie": "valeur",
+   "ou": "Magasins d'électronique · marchand d'électronique"
+  },
+  "electronics_box_1": {
+   "nom": "Électronique",
+   "rarete": "c",
+   "revente": 50,
+   "categorie": "valeur",
+   "ou": "Magasins d'électronique"
+  },
+  "alcohol_7": {
+   "nom": "Bouteille Fine Wine",
+   "rarete": "pc",
+   "revente": 312,
+   "categorie": "valeur",
+   "ou": "Marchand d'alcool"
+  },
+  "alcohol_3": {
+   "nom": "Bouteille Diamond Breeze",
+   "rarete": "pc",
+   "revente": 330,
+   "categorie": "valeur",
+   "ou": "Supérettes, cafés"
+  },
+  "alcohol_9": {
+   "nom": "Bouteille Omega",
+   "rarete": "pc",
+   "revente": 316,
+   "categorie": "valeur",
+   "ou": "Marchand d'alcool"
+  },
+  "car_device_2": {
+   "nom": "Autoradio bon marché",
+   "rarete": "pc",
+   "revente": 440,
+   "categorie": "valeur",
+   "ou": "Station-service"
+  },
+  "car_device_1": {
+   "nom": "Caméra embarquée abordable",
+   "rarete": "pc",
+   "revente": 280,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "car_trinket_1": {
+   "nom": "Dés suspendus",
+   "rarete": "pc",
+   "revente": 160,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "burner_1": {
+   "nom": "Réchaud de camping",
+   "rarete": "pc",
+   "revente": 348,
+   "categorie": "valeur",
+   "ou": "Marchand d'armures"
+  },
+  "lighter_1": {
+   "nom": "Briquet Snap-Snap",
+   "rarete": "pc",
+   "revente": 236,
+   "categorie": "valeur",
+   "ou": "Marchand d'armures"
+  },
+  "equip_carbine_2": {
+   "nom": "Mousqueton en acier",
+   "rarete": "pc",
+   "revente": 410,
+   "categorie": "valeur",
+   "ou": "Marchand d'armures"
+  },
+  "weapon_trinket_1": {
+   "nom": "Gyroscope",
+   "rarete": "pc",
+   "revente": 426,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "weapon_trinket_4": {
+   "nom": "Boussole moderne",
+   "rarete": "pc",
+   "revente": 410,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "blade_1": {
+   "nom": "Couteau de collection Imperial",
+   "rarete": "pc",
+   "revente": 504,
+   "categorie": "valeur",
+   "ou": "Marchand d'armes"
+  },
+  "earrings_4": {
+   "nom": "Boucles d'oreilles MAFFI",
+   "rarete": "pc",
+   "revente": 398,
+   "categorie": "valeur",
+   "ou": "Bijoutier"
+  },
+  "ring_1": {
+   "nom": "Bague ALON GIA",
+   "rarete": "pc",
+   "revente": 258,
+   "categorie": "valeur",
+   "ou": "Bijoutier"
+  },
+  "necklace_1": {
+   "nom": "Collier ALON GIA",
+   "rarete": "pc",
+   "revente": 422,
+   "categorie": "valeur",
+   "ou": "Bijoutier"
+  },
+  "pharma_tools_1": {
+   "nom": "Thermomètre",
+   "rarete": "pc",
+   "revente": 246,
+   "categorie": "valeur",
+   "ou": "Marchand de médicaments"
+  },
+  "vial_7": {
+   "nom": "Flacon contenant une drogue illégale",
+   "rarete": "pc",
+   "revente": 254,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "condoms_1": {
+   "nom": "Préservatifs Burex",
+   "rarete": "pc",
+   "revente": 230,
+   "categorie": "valeur",
+   "ou": "Marchand de médicaments"
+  },
+  "console_1": {
+   "nom": "Console Key-Ten-Do",
+   "rarete": "pc",
+   "revente": 470,
+   "categorie": "valeur",
+   "ou": "Marchand d'électronique"
+  },
+  "headphones_2": {
+   "nom": "Casque MS MIC",
+   "rarete": "pc",
+   "revente": 346,
+   "categorie": "valeur",
+   "ou": "Marchand d'électronique"
+  },
+  "phone_2": {
+   "nom": "Smartphone D-MAX",
+   "rarete": "pc",
+   "revente": 190,
+   "categorie": "valeur",
+   "ou": "Marchand d'électronique"
+  },
+  "toy_3": {
+   "nom": "Figurine CollectiToy n° 3",
+   "rarete": "e",
+   "revente": 4986,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "cigar_2": {
+   "nom": "Cigares Old Huba",
+   "rarete": "e",
+   "revente": 5670,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "poker_cards_2": {
+   "nom": "Jeu de cartes Chroniques des cartes mystiques",
+   "rarete": "e",
+   "revente": 2670,
+   "categorie": "valeur",
+   "ou": "Club de strip-tease"
+  },
+  "alcohol_6": {
+   "nom": "Bouteille Eclipse",
+   "rarete": "e",
+   "revente": 5116,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "watch_6": {
+   "nom": "Montre PENARAI",
+   "rarete": "e",
+   "revente": 5232,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "necklace_4": {
+   "nom": "Collier REFIER",
+   "rarete": "e",
+   "revente": 5180,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "blade_4": {
+   "nom": "Couteau de collection Cyber",
+   "rarete": "e",
+   "revente": 5248,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "gunpowder_2": {
+   "nom": "Kit de poudre noire standard",
+   "rarete": "e",
+   "revente": 3600,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "equip_carbine_3": {
+   "nom": "Mousqueton renforcé",
+   "rarete": "e",
+   "revente": 4380,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "car_parts_5": {
+   "nom": "Volant",
+   "rarete": "e",
+   "revente": 5360,
+   "categorie": "valeur",
+   "ou": "Station-service"
+  },
+  "car_device_3": {
+   "nom": "Caméra embarquée",
+   "rarete": "e",
+   "revente": 3520,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "laptop_3": {
+   "nom": "Ordinateur portable HUBRID",
+   "rarete": "e",
+   "revente": 6436,
+   "categorie": "valeur",
+   "ou": "Marchand d'électronique"
+  },
+  "antique_1": {
+   "nom": "Statue de divinité",
+   "rarete": "e",
+   "revente": 4300,
+   "categorie": "valeur",
+   "ou": "Galerie d'art"
+  },
+  "vial_2": {
+   "nom": "Flacon contenant un liquide",
+   "rarete": "e",
+   "revente": 3290,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "pharma_tools_3": {
+   "nom": "Glucomètre",
+   "rarete": "e",
+   "revente": 3816,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "console_3": {
+   "nom": "Console ZTX",
+   "rarete": "e",
+   "revente": 5980,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "headphones_3": {
+   "nom": "Casque DS MAX",
+   "rarete": "e",
+   "revente": 6916,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "ring_5": {
+   "nom": "Bague MAFFI",
+   "rarete": "e",
+   "revente": 5078,
+   "categorie": "valeur",
+   "ou": "Bijouteries"
+  },
+  "comics_3": {
+   "nom": "Bande dessinée DIGITAL SOUL",
+   "rarete": "e",
+   "revente": 5106,
+   "categorie": "valeur",
+   "ou": "Cottages, manoir"
+  },
+  "perfume_4": {
+   "nom": "Parfum LACROCAS",
+   "rarete": "e",
+   "revente": 3316,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "condoms_3": {
+   "nom": "Préservatifs Zipit",
+   "rarete": "e",
+   "revente": 2860,
+   "categorie": "valeur",
+   "ou": "Pharmacies"
+  },
+  "car_trinket_3": {
+   "nom": "Parfum pour voiture",
+   "rarete": "e",
+   "revente": 2560,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "car_trinket_4": {
+   "nom": "Porte-clés de pilote",
+   "rarete": "e",
+   "revente": 2200,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "alcohol_10": {
+   "nom": "Bouteille Old Pocket",
+   "rarete": "e",
+   "revente": 4760,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "equipment_10": {
+   "nom": "Outil multifonction haut de gamme",
+   "rarete": "e",
+   "revente": 2640,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "lighter_3": {
+   "nom": "Briquet RedOlive",
+   "rarete": "e",
+   "revente": 2976,
+   "categorie": "valeur",
+   "ou": "Hôtels Seasons et Reef"
+  },
+  "weapon_cleaning_2": {
+   "nom": "Kit professionnel de nettoyage d'armes",
+   "rarete": "e",
+   "revente": 2950,
+   "categorie": "valeur",
+   "ou": "Armureries"
+  },
+  "gun_grease_2": {
+   "nom": "Graisse professionnelle pour armes",
+   "rarete": "e",
+   "revente": 3588,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "weapon_trinket_2": {
+   "nom": "Chronographe balistique",
+   "rarete": "e",
+   "revente": 3566,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "blade_5": {
+   "nom": "Couteau de collection Nightfall",
+   "rarete": "l",
+   "revente": 27784,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "lighter_5": {
+   "nom": "Briquet SkyDragon",
+   "rarete": "l",
+   "revente": 20820,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "perfume_5": {
+   "nom": "Parfum DUCHEE",
+   "rarete": "l",
+   "revente": 20226,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "laptop_4": {
+   "nom": "Ordinateur portable PD STATION",
+   "rarete": "l",
+   "revente": 29556,
+   "categorie": "valeur",
+   "ou": "Magasins d'électronique"
+  },
+  "car_trinket_5": {
+   "nom": "Figurine à tête branlante Pitbull",
+   "rarete": "l",
+   "revente": 20160,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "ring_6": {
+   "nom": "Bague FIERTÉ",
+   "rarete": "l",
+   "revente": 34876,
+   "categorie": "valeur",
+   "ou": "Grand Hôtel"
+  },
+  "burner_3": {
+   "nom": "Réchaud de haute précision",
+   "rarete": "l",
+   "revente": 32904,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "poker_cards_5": {
+   "nom": "Jeu de cartes Le choix du Joker",
+   "rarete": "l",
+   "revente": 22556,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "gunpowder_3": {
+   "nom": "Kit de poudre noire raffiné",
+   "rarete": "l",
+   "revente": 20000,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "car_parts_8": {
+   "nom": "Compresseur automobile haut de gamme",
+   "rarete": "l",
+   "revente": 29760,
+   "categorie": "valeur",
+   "ou": "Station-service"
+  },
+  "phone_5": {
+   "nom": "Téléphone Tuver",
+   "rarete": "l",
+   "revente": 21390,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "equipment_7": {
+   "nom": "Jumelles tactiques modernes",
+   "rarete": "l",
+   "revente": 26510,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "alcohol_12": {
+   "nom": "Bouteille Krystal Authority",
+   "rarete": "l",
+   "revente": 23960,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "watch_5": {
+   "nom": "Montre POLEX",
+   "rarete": "l",
+   "revente": 32842,
+   "categorie": "valeur",
+   "ou": "Grand Hôtel"
+  },
+  "condoms_5": {
+   "nom": "Préservatifs Playgirl",
+   "rarete": "l",
+   "revente": 22960,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "headphones_5": {
+   "nom": "Casque Beat Head",
+   "rarete": "l",
+   "revente": 34716,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "equip_carbine_4": {
+   "nom": "Mousqueton tactique",
+   "rarete": "l",
+   "revente": 23200,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "weapon_trinket_3": {
+   "nom": "Télécommande de drone",
+   "rarete": "l",
+   "revente": 24890,
+   "categorie": "valeur",
+   "ou": "Armureries"
+  },
+  "comics_5": {
+   "nom": "Bande dessinée MASK",
+   "rarete": "l",
+   "revente": 30180,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "necklace_6": {
+   "nom": "Collier PENARAI",
+   "rarete": "l",
+   "revente": 30134,
+   "categorie": "valeur",
+   "ou": "Grand Hôtel"
+  },
+  "car_parts_1": {
+   "nom": "Emblème de Royal Motors",
+   "rarete": "l",
+   "revente": 17076,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "journal_5": {
+   "nom": "Magazine OPALINE",
+   "rarete": "l",
+   "revente": 32226,
+   "categorie": "valeur",
+   "ou": "Cottages, manoir"
+  },
+  "earrings_2": {
+   "nom": "Boucles d'oreilles AMINA",
+   "rarete": "l",
+   "revente": 33840,
+   "categorie": "valeur",
+   "ou": "Grand Hôtel, bijouteries"
+  },
+  "vial_5": {
+   "nom": "Ampoule cosmétique",
+   "rarete": "l",
+   "revente": 25216,
+   "categorie": "valeur",
+   "ou": "Pharmacies"
+  },
+  "pharma_tools_5": {
+   "nom": "Loupes dentaires",
+   "rarete": "l",
+   "revente": 30620,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "gun_grease_3": {
+   "nom": "Graisse synthétique pour armes",
+   "rarete": "l",
+   "revente": 26444,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "equipment_11": {
+   "nom": "Outil multifonction de collection",
+   "rarete": "l",
+   "revente": 30400,
+   "categorie": "valeur",
+   "ou": "Magasins d'équipement"
+  },
+  "toy_5": {
+   "nom": "CollectiToy x TA",
+   "rarete": "l",
+   "revente": 33896,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "car_device_5": {
+   "nom": "Caméra embarquée haut de gamme",
+   "rarete": "l",
+   "revente": 21280,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "baseball_card_1": {
+   "nom": "Carte avec Eason McKinley",
+   "rarete": "l",
+   "revente": 22556,
+   "categorie": "valeur",
+   "ou": "Au hasard en fouillant"
+  },
+  "cargo_alcohol_grade_1": {
+   "nom": "Cargaison de contrebande",
+   "rarete": "pc",
+   "categorie": "contrebande",
+   "contrebandier": 10000,
+   "sert": "≈ 10 000 $. À remballer sur l'établi de contrebande."
+  },
+  "cargo_alcohol_grade_2": {
+   "nom": "Cargaison premium",
+   "rarete": "e",
+   "categorie": "contrebande",
+   "contrebandier": 35000,
+   "sert": "Sort de l'établi de contrebande : 35 000 $ au contrebandier."
+  },
+  "cargo_alcohol_grade_3": {
+   "nom": "Cargaison rare",
+   "rarete": "l",
+   "categorie": "contrebande",
+   "contrebandier": 40000,
+   "sert": "Sort parfois de l'établi de contrebande : 40 000 $."
+  },
+  "bank_cash_bag": {
+   "nom": "Sac de banque rempli d'argent",
+   "rarete": "l",
+   "categorie": "contrebande",
+   "contrebandier": 60000,
+   "sert": "Banque. Au contrebandier (60 000 $) ou à ouvrir sur un établi de cargaison."
+  },
+  "cash_bag": {
+   "nom": "Sac d'argent fermé",
+   "rarete": "pc",
+   "categorie": "contrebande",
+   "contrebandier": 25000,
+   "sert": "À remettre au contrebandier ou à ouvrir sur un établi."
+  },
+  "collection_reward_cargo_0": {
+   "nom": "Caisse de collection",
+   "rarete": "pc",
+   "categorie": "contrebande",
+   "contrebandier": 50000
+  },
+  "collection_reward_cargo_10": {
+   "nom": "Caisse de collection",
+   "rarete": "pc",
+   "categorie": "contrebande",
+   "contrebandier": 50000
+  },
+  "collection_reward_cargo_14": {
+   "nom": "Caisse de collection rare",
+   "rarete": "e",
+   "categorie": "contrebande",
+   "contrebandier": 150000
+  },
+  "collection_reward_cargo_24": {
+   "nom": "Caisse de collection unique",
+   "rarete": "l",
+   "categorie": "contrebande",
+   "contrebandier": 500000
+  },
+  "narco_farm_1": {
+   "nom": "Salle de culture",
+   "rarete": "e",
+   "categorie": "base",
+   "emoji": "🌿",
+   "sert": "Bâtiment de la plantation : 6 tables de culture. Recherche 150 000 $, achat 100 000 $ (niv. I).",
+   "sansIcone": true
+  },
+  "cargo_charge_workbench_garden_bed": {
+   "nom": "Table de culture",
+   "rarete": "pc",
+   "categorie": "base",
+   "emoji": "🪴",
+   "sert": "6 plants par table. Recherche 30 000 $, achat 40 000 $ (niv. I).",
+   "sansIcone": true
+  },
+  "bush_growing_1": {
+   "nom": "Plant en croissance",
+   "rarete": "pc",
+   "categorie": "contrebande",
+   "emoji": "🌱",
+   "contrebandier": 20000,
+   "ou": "Sur place, porté à la main comme une cargaison",
+   "sert": "À poser sur une table de culture.",
+   "sansIcone": true
+  },
+  "bush_mature_1": {
+   "nom": "Plant mûr",
+   "rarete": "pc",
+   "categorie": "contrebande",
+   "emoji": "🌿",
+   "contrebandier": 30000,
+   "sert": "Récolte : 2 à 4 colis, puis le plant repousse.",
+   "sansIcone": true
+  },
+  "bush_drugs_1": {
+   "nom": "Colis de récolte",
+   "rarete": "pc",
+   "categorie": "contrebande",
+   "emoji": "🛍️",
+   "revente": 4000,
+   "sert": "Récolte de la table de culture. S'empile par 10.",
+   "sansIcone": true
+  },
+  "bush_growing_2": {
+   "nom": "Plant en croissance",
+   "rarete": "e",
+   "categorie": "contrebande",
+   "emoji": "🌱",
+   "contrebandier": 30000,
+   "ou": "Sur place, porté à la main comme une cargaison",
+   "sert": "À poser sur une table de culture.",
+   "sansIcone": true
+  },
+  "bush_mature_2": {
+   "nom": "Plant mûr",
+   "rarete": "e",
+   "categorie": "contrebande",
+   "emoji": "🌿",
+   "contrebandier": 45000,
+   "sert": "Récolte : 2 à 4 colis, puis le plant repousse.",
+   "sansIcone": true
+  },
+  "bush_drugs_2": {
+   "nom": "Colis de récolte",
+   "rarete": "e",
+   "categorie": "contrebande",
+   "emoji": "🛍️",
+   "revente": 6000,
+   "sert": "Récolte de la table de culture. S'empile par 10.",
+   "sansIcone": true
+  },
+  "bush_growing_3": {
+   "nom": "Plant en croissance",
+   "rarete": "l",
+   "categorie": "contrebande",
+   "emoji": "🌱",
+   "contrebandier": 40000,
+   "ou": "Sur place, porté à la main comme une cargaison",
+   "sert": "À poser sur une table de culture.",
+   "sansIcone": true
+  },
+  "bush_mature_3": {
+   "nom": "Plant mûr",
+   "rarete": "l",
+   "categorie": "contrebande",
+   "emoji": "🌿",
+   "contrebandier": 60000,
+   "sert": "Récolte : 2 à 4 colis, puis le plant repousse.",
+   "sansIcone": true
+  },
+  "bush_drugs_3": {
+   "nom": "Colis de récolte",
+   "rarete": "l",
+   "categorie": "contrebande",
+   "emoji": "🛍️",
+   "revente": 8000,
+   "sert": "Récolte de la table de culture. S'empile par 10.",
+   "sansIcone": true
+  },
+  "fan_1": {
+   "nom": "Ventilateur",
+   "rarete": "pc",
+   "categorie": "base",
+   "emoji": "🌀",
+   "revente": 10000,
+   "sert": "Table de culture : +12 % de vitesse. Recherche 100 000 $, achat 25 000 $ (niv. I).",
+   "sansIcone": true
+  },
+  "water_pump_2": {
+   "nom": "Pompe à eau",
+   "rarete": "e",
+   "categorie": "base",
+   "emoji": "🚰",
+   "revente": 28000,
+   "sert": "Table de culture : +14 % de vitesse. Recherche 200 000 $, achat 70 000 $ (niv. II).",
+   "sansIcone": true
+  },
+  "uv_lamp_3": {
+   "nom": "Lampe UV",
+   "rarete": "l",
+   "categorie": "base",
+   "emoji": "💡",
+   "revente": 100000,
+   "sert": "Table de culture : +24 % de vitesse. Recherche 500 000 $, achat 250 000 $ (niv. III).",
+   "sansIcone": true
+  },
+  "meth_lab_1": {
+   "nom": "Laboratoire de chimie",
+   "rarete": "e",
+   "categorie": "base",
+   "emoji": "🏭",
+   "revente": 44000,
+   "sert": "Bâtiment du labo (réacteur, congélateur, table). Recherche 160 000 $, achat 110 000 $ (niv. I).",
+   "sansIcone": true
+  },
+  "cargo_production_workbench_1": {
+   "nom": "Réacteur chimique I",
+   "rarete": "pc",
+   "categorie": "base",
+   "emoji": "⚗️",
+   "revente": 16000,
+   "sert": "Réactifs → concentré cristallin. 4 cycles de 15 min 00 s. Recherche 20 000 $  achat 40 000 $ (niv. I).",
+   "sansIcone": true
+  },
+  "cargo_production_workbench_2": {
+   "nom": "Réacteur chimique II",
+   "rarete": "e",
+   "categorie": "base",
+   "emoji": "⚗️",
+   "revente": 120000,
+   "sert": "Réactifs → concentré cristallin. 6 cycles de 8 min 50 s. Recherche 150 000 $  achat 300 000 $ (niv. II).",
+   "sansIcone": true
+  },
+  "cargo_production_workbench_3": {
+   "nom": "Réacteur chimique III",
+   "rarete": "l",
+   "categorie": "base",
+   "emoji": "⚗️",
+   "revente": 280000,
+   "sert": "Réactifs → concentré cristallin. 8 cycles de 5 min 37 s. Recherche 350 000 $  achat 700 000 $ (niv. III).",
+   "sansIcone": true
+  },
+  "cargo_charge_workbench_lab_freezer_1": {
+   "nom": "Congélateur industriel I",
+   "rarete": "pc",
+   "categorie": "base",
+   "emoji": "❄️",
+   "revente": 8000,
+   "sert": "Concentré → cristaux durs. 4 places. Recherche 15 000 $  achat 20 000 $ (niv. I).",
+   "sansIcone": true
+  },
+  "cargo_charge_workbench_lab_freezer_2": {
+   "nom": "Congélateur industriel II",
+   "rarete": "e",
+   "categorie": "base",
+   "emoji": "❄️",
+   "revente": 36000,
+   "sert": "Concentré → cristaux durs. 6 places. Recherche 30 000 $  achat 90 000 $ (niv. II).",
+   "sansIcone": true
+  },
+  "cargo_charge_workbench_lab_freezer_3": {
+   "nom": "Congélateur industriel III",
+   "rarete": "l",
+   "categorie": "base",
+   "emoji": "❄️",
+   "revente": 100000,
+   "sert": "Concentré → cristaux durs. 8 places. Recherche 100 000 $  achat 250 000 $ (niv. III).",
+   "sansIcone": true
+  },
+  "cargo_workbench_lab_table_1": {
+   "nom": "Table de laboratoire",
+   "rarete": "pc",
+   "categorie": "base",
+   "emoji": "🔬",
+   "revente": 6000,
+   "sert": "Cristaux durs → poudre cristalline. 2 places. Recherche 10 000 $, achat 15 000 $ (niv. I).",
+   "sansIcone": true
+  },
+  "cargo_open_workbench_upgrade_additional_slot_2": {
+   "nom": "Balances de laboratoire",
+   "rarete": "e",
+   "categorie": "base",
+   "emoji": "⚖️",
+   "sert": "Table de laboratoire : +1 emplacement. Recherche 15 000 $, achat 15 000 $ (niv. II).",
+   "sansIcone": true
+  },
+  "cargo_production_workbench_upgrade_engine_1": {
+   "nom": "Moteur industriel",
+   "rarete": "pc",
+   "categorie": "base",
+   "emoji": "⚙️",
+   "sert": "Réacteur : un peu plus de chance de meilleurs cristaux. Recherche 10 000 $, achat 20 000 $ (niv. I).",
+   "sansIcone": true
+  },
+  "cargo_production_workbench_upgrade_thermometer_1": {
+   "nom": "Thermomètre industriel",
+   "rarete": "e",
+   "categorie": "base",
+   "emoji": "🌡️",
+   "sert": "Réacteur : nettement plus de chance de meilleurs cristaux. Recherche 50 000 $, achat 120 000 $ (niv. II).",
+   "sansIcone": true
+  },
+  "cargo_production_workbench_upgrade_converter_1": {
+   "nom": "Convertisseur chimique",
+   "rarete": "l",
+   "categorie": "base",
+   "emoji": "🔄",
+   "sert": "Réacteur : beaucoup plus de chance de meilleurs cristaux. Recherche 150 000 $, achat 300 000 $ (niv. III).",
+   "sansIcone": true
+  },
+  "cargo_charge_workbench_upgrade_evaporator_1": {
+   "nom": "Évaporateur amélioré",
+   "rarete": "e",
+   "categorie": "base",
+   "emoji": "🌬️",
+   "sert": "Congélateur : +11,7 % de vitesse. Recherche 40 000 $, achat 100 000 $ (niv. II).",
+   "sansIcone": true
+  },
+  "cargo_charge_workbench_upgrade_refrigerant_1": {
+   "nom": "Réfrigérant de qualité",
+   "rarete": "l",
+   "categorie": "base",
+   "emoji": "🧊",
+   "sert": "Congélateur : +13 % de vitesse. Recherche 100 000 $, achat 250 000 $ (niv. III).",
+   "sansIcone": true
+  },
+  "reagents_1": {
+   "nom": "Bidons de réactifs",
+   "rarete": "pc",
+   "categorie": "contrebande",
+   "emoji": "🛢️",
+   "contrebandier": 20000,
+   "ou": "Sur place, porté à la main comme une cargaison",
+   "sert": "À mettre dans le réacteur du labo.",
+   "sansIcone": true
+  },
+  "reagents_2": {
+   "nom": "Réactifs de qualité",
+   "rarete": "e",
+   "categorie": "contrebande",
+   "emoji": "🛢️",
+   "contrebandier": 30000,
+   "ou": "Sur place, porté à la main comme une cargaison",
+   "sert": "Donnent de meilleurs cristaux.",
+   "sansIcone": true
+  },
+  "soft_crystal_1": {
+   "nom": "Concentré cristallin",
+   "rarete": "pc",
+   "categorie": "contrebande",
+   "emoji": "💧",
+   "contrebandier": 10000,
+   "sert": "Sort du réacteur. À congeler pour faire des cristaux durs.",
+   "sansIcone": true
+  },
+  "hard_crystal_1": {
+   "nom": "Cristaux durs",
+   "rarete": "pc",
+   "categorie": "contrebande",
+   "emoji": "💎",
+   "contrebandier": 30000,
+   "sert": "Sort du congélateur. Se vend mieux entier qu'en poudre.",
+   "sansIcone": true
+  },
+  "lab_crystal_1": {
+   "nom": "Poudre cristalline",
+   "rarete": "pc",
+   "categorie": "contrebande",
+   "emoji": "🧂",
+   "revente": 1000,
+   "sert": "Sort de la table de labo. Prix par unité.",
+   "sansIcone": true
+  },
+  "soft_crystal_2": {
+   "nom": "Concentré cristallin",
+   "rarete": "e",
+   "categorie": "contrebande",
+   "emoji": "💧",
+   "contrebandier": 15000,
+   "sert": "Sort du réacteur. À congeler pour faire des cristaux durs.",
+   "sansIcone": true
+  },
+  "hard_crystal_2": {
+   "nom": "Cristaux durs",
+   "rarete": "e",
+   "categorie": "contrebande",
+   "emoji": "💎",
+   "contrebandier": 45000,
+   "sert": "Sort du congélateur. Se vend mieux entier qu'en poudre.",
+   "sansIcone": true
+  },
+  "lab_crystal_2": {
+   "nom": "Poudre cristalline",
+   "rarete": "e",
+   "categorie": "contrebande",
+   "emoji": "🧂",
+   "revente": 2000,
+   "sert": "Sort de la table de labo. Prix par unité.",
+   "sansIcone": true
+  },
+  "soft_crystal_3": {
+   "nom": "Concentré cristallin",
+   "rarete": "l",
+   "categorie": "contrebande",
+   "emoji": "💧",
+   "contrebandier": 25000,
+   "sert": "Sort du réacteur. À congeler pour faire des cristaux durs.",
+   "sansIcone": true
+  },
+  "hard_crystal_3": {
+   "nom": "Cristaux durs",
+   "rarete": "l",
+   "categorie": "contrebande",
+   "emoji": "💎",
+   "contrebandier": 75000,
+   "sert": "Sort du congélateur. Se vend mieux entier qu'en poudre.",
+   "sansIcone": true
+  },
+  "lab_crystal_3": {
+   "nom": "Poudre cristalline",
+   "rarete": "l",
+   "categorie": "contrebande",
+   "emoji": "🧂",
+   "revente": 4000,
+   "sert": "Sort de la table de labo. Prix par unité.",
+   "sansIcone": true
+  },
+  "money_workbench_speedup_2": {
+   "nom": "Compteuse de billets",
+   "rarete": "e",
+   "categorie": "base",
+   "emoji": "💵",
+   "sert": "Améliore le bureau de blanchiment. Recherche 50 000 $, achat 65 000 $ (niv. II).",
+   "sansIcone": true
+  },
+  "money_workbench_speedup_3": {
+   "nom": "Compteuse de billets",
+   "rarete": "l",
+   "categorie": "base",
+   "emoji": "💵",
+   "sert": "Améliore le bureau de blanchiment. Recherche 150 000 $, achat 150 000 $ (niv. III).",
+   "sansIcone": true
+  },
+  "cargo_workbench_1": {
+   "nom": "Établi de cargaison",
+   "rarete": "pc",
+   "categorie": "base",
+   "emoji": "🧰",
+   "sansIcone": true,
+   "sert": "Ouvre les cargaisons. Outils de serrurerie, scie à cargaison et découpeur plasma vont plus vite ; l'étau ajoute des places."
+  }
+ }
+}

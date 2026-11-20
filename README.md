@@ -1,2 +1,36 @@
-# MowglieRun-Updates
-MowglieRun – versions publiées et mises à jour (guid perso Rob Run, pas de code source)
+# MowglieRun — Mises à jour
+
+## 🧠 Description
+
+**MowglieRun** est un guide perso pour le jeu **Rob Run**, pensé pour être ouvert à côté du jeu.
+Tout est en français, hors ligne et léger (un seul fichier, pas d'installation).
+
+- **Braquer** : porte suspecte (troc), banque et gros coups, clés et lieux, base et raids (calculateur de fusibles et de décodeurs)
+- **Gagner** : contrebande, production (plantations, labo, blanchiment) avec comptes à rebours, collections
+- **Savoir** : catalogue des objets avec prix, mécaniques du jeu, mises à jour du jeu
+- **Outils** : carte, minuteurs, notes, fenêtres épinglées toujours devant le jeu (Ctrl+Maj+R pour afficher / cacher)
+
+## 📥 Télécharger
+
+👉 **[Télécharger MowglieRun.exe](https://github.com/Mowglie34/MowglieRun-Updates/raw/main/MowglieRun.exe)**
+
+1. Mets `MowglieRun.exe` dans le dossier de ton choix et lance-le.
+2. Au premier lancement, Windows peut afficher « Windows a protégé votre ordinateur » (l'exe n'est pas signé par un éditeur) : clique sur **Informations complémentaires** puis **Exécuter quand même**.
+3. Il faut **Microsoft Edge WebView2** (déjà présent sur Windows 10 et 11 à jour).
+
+## 🔄 Mises à jour automatiques
+
+- MowglieRun vérifie au lancement s'il y a du nouveau sur ce dépôt et te propose de l'installer.
+- Chaque mise à jour est **signée** : MowglieRun refuse tout fichier modifié par quelqu'un d'autre.
+- Nouvelle version de l'appli : bouton **Installer et redémarrer**.
+
+## 🔒 Confidentialité
+
+- Aucune donnée personnelle n'est collectée. Ta progression reste sur ton PC (`%APPDATA%\MowglieRun`).
+- MowglieRun se connecte seulement à ce dépôt GitHub (mises à jour) et à Steam (nombre de joueurs en ligne).
+
+## ℹ️ À savoir
+
+Guide perso **non officiel** : Rob Run appartient à ses éditeurs. Ce dépôt ne contient que les versions publiées (pas de code source).
+
+© 2026 Mowglie34 — Tous droits réservés

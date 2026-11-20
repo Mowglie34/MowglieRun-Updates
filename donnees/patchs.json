@@ -1,0 +1,54 @@
+{
+ "patchs": [
+  {
+   "date": "2026-11-17",
+   "titre": "Patch du 17 novembre",
+   "points": [
+    "Droit d'expulsion retiré du troc (temporaire).",
+    "Limites de peine de prison : par jour et au total.",
+    "Shipments ajouté au menu de Lenny.",
+    "Progression et pass conservés si tu changes de région.",
+    "Option pour inverser l'axe Y de la souris."
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "titre": "Questions des joueurs (devs)",
+   "points": [
+    "En solo, tu commences niveau 4 de notoriété.",
+    "Pas de réparation d'armes pour l'instant (prévue plus tard).",
+    "Groupes limités à 3 joueurs."
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "titre": "Patch du 11 novembre",
+   "points": [
+    "Grenades fumigènes retirées de la vente (encore trouvables, plus rares).",
+    "Chat général réservé aux locataires d'une parcelle.",
+    "Changement de nom chez le tatoueur en prison."
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "titre": "Police et économie",
+   "points": [
+    "4 policiers maximum en ville.",
+    "Insignes légendaires retirés du troc (achat seulement).",
+    "Ouvrir une cargaison sur l'établi rapporte plus que la vendre.",
+    "Coffres en or plus rares mais mieux remplis.",
+    "Titres, maisons et voitures plus chers (cycle de 7 jours)."
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "titre": "Sortie et premiers changements",
+   "points": [
+    "La Buletti ne transporte plus de cargaisons.",
+    "Plus de tablettes demandées pour le Coupe-verre.",
+    "Pile max augmentée pour décodeurs, lingots…",
+    "Bureau de blanchiment : bien plus de capacité."
+   ]
+  }
+ ]
+}

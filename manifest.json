@@ -1,0 +1,848 @@
+{
+ "schema": 1,
+ "auteur": "Mowglie34",
+ "app": {
+  "version": "1.0.0",
+  "fichier": "MowglieRun.exe",
+  "sha256": "2836adee9f5779a8a4e832fe116dc3bc40a9ac642d4921d8359ac517732afaab",
+  "taille": 9328128,
+  "notes": "Première version de MowglieRun : guide perso Rob Run (troc, banque, clés, base et raids, production, collections, catalogue, carte de Looty Bay, régions et zones, casier et journal, minuteurs)."
+ },
+ "donnees": {
+  "version": "2026.11.20",
+  "fichiers": {
+   "banque.json": {
+    "sha256": "9b6151d4109dbba3e2eec0864b6d3c67c9efdca7d1cec5e59db2fd9b538f07b8",
+    "taille": 3060
+   },
+   "base.json": {
+    "sha256": "f323696c45dd951f8950f0d75262f265982543e87e9121d89ebf6813eef9d46e",
+    "taille": 3673
+   },
+   "carte/looty-bay.svg": {
+    "sha256": "7c58fc1bd31bbb97b4dde5d85e59e4350acc95b160573cba9b127dee271621e6",
+    "taille": 55286
+   },
+   "carte/plan.svg": {
+    "sha256": "0d4a47bb4e54a2a4c9cc18a3519e357919ad800255c01606df83d858aaf61b81",
+    "taille": 3950
+   },
+   "carte/reperes.json": {
+    "sha256": "ebd872a918475a44eca7dfe9723ab8b2aef4e8877a5370bb427d49b744790b7c",
+    "taille": 12918
+   },
+   "catalogue.json": {
+    "sha256": "2b89c248d7bdabe081784e024fede979b56bb05e04fe52361f1241645059b0d2",
+    "taille": 42620
+   },
+   "cles.json": {
+    "sha256": "5428edfa58cbc840758a4f2e4e461423804db054355deb32dc0978615704c642",
+    "taille": 6865
+   },
+   "collections.json": {
+    "sha256": "7058d1b564ed246c5843e6236c58f156fe8eb23d80524cc9bfafc3d94c4e6045",
+    "taille": 7999
+   },
+   "contrebande.json": {
+    "sha256": "8b0c1ac2c2a5ffa3528a8f3da6e9298e6ba24e038c30ac45ba756275ee774ccd",
+    "taille": 1727
+   },
+   "icons/action_camera_1_full.webp": {
+    "sha256": "34a12fa7105db1ea74de85b61ae5b3c5db9546b06f0ab7e4af26e6607a4c31f8",
+    "taille": 4576
+   },
+   "icons/action_camera_2_cumulative.webp": {
+    "sha256": "fb12a09af507eb8e7dbe897864ef3fb996aa81b276a1190951e740d7909f5434",
+    "taille": 4360
+   },
+   "icons/action_camera_2_full.webp": {
+    "sha256": "91afd188c2cc9e2ee8d1c8994dbbd9068633e47bd9b09016555e6bc6b79b9b89",
+    "taille": 4368
+   },
+   "icons/action_camera_3_full.webp": {
+    "sha256": "2f5cee19375c222732e33e99c19cd83671c32e072f18ceb37ca8d2fdeb701e22",
+    "taille": 4452
+   },
+   "icons/alcohol_1.webp": {
+    "sha256": "7e01fbeada74cbea9d0f00f70b5e254778716cf073c1d927aa8bb546029de021",
+    "taille": 3910
+   },
+   "icons/alcohol_10.webp": {
+    "sha256": "f63b2acdc8db3a41c5c5758dd46afb2fd3469cfaf5c1d8bb860aa9c87617b228",
+    "taille": 4040
+   },
+   "icons/alcohol_12.webp": {
+    "sha256": "a9e34fe4ebbcb5fe6100a8d4ee9737b6a7840b946d475468bb5f488fc9bf569d",
+    "taille": 3528
+   },
+   "icons/alcohol_3.webp": {
+    "sha256": "09fa373a8fa476ff6ec2cb26feb5099ad8ed16a54553fd6a9cdecd97d2586153",
+    "taille": 3792
+   },
+   "icons/alcohol_4.webp": {
+    "sha256": "782f868a806989c92b6d5a5f623dc7ef3dc13e0bee1d394194d74462e2e2c0ae",
+    "taille": 3098
+   },
+   "icons/alcohol_6.webp": {
+    "sha256": "7d4f590dfb58756f22e0dceab5b36408da438571f8d33433ed6b2ab39c78e22a",
+    "taille": 4568
+   },
+   "icons/alcohol_7.webp": {
+    "sha256": "0a3543dcc4a2f9db8de51c48ea9f6a7a9ec47656216c687e60b8e5ffe5e42f29",
+    "taille": 2534
+   },
+   "icons/alcohol_8.webp": {
+    "sha256": "14298435668966fa921566d0a14e327be818a040a6a3b03095fbd85e5c9296b8",
+    "taille": 3294
+   },
+   "icons/alcohol_9.webp": {
+    "sha256": "bc8e9681dcd35e0ff16fda53795b461df60d7fee2ba6163e86c354c0f30166b8",
+    "taille": 4710
+   },
+   "icons/alcohol_box_1.webp": {
+    "sha256": "2c486b461a60b16c9d42437b4509fd74f8a304a0accf270aabc7bb83f309ad7a",
+    "taille": 3084
+   },
+   "icons/antique_1.webp": {
+    "sha256": "640f4ca0455c74e33446ce42ce7f91b947c8b9d6e81435c5015959b7ec89ace1",
+    "taille": 5042
+   },
+   "icons/auto_flipper_1.webp": {
+    "sha256": "1327ac605a257f6faea8a1f18dc7100e3a5fae235e03e0b6e5f333ecb75adba7",
+    "taille": 4550
+   },
+   "icons/bank_cash_bag.webp": {
+    "sha256": "0a0245e7f9751a93fc232d44820d7c3048cd008ccc26f7a84b83e0a6a0241c3b",
+    "taille": 5738
+   },
+   "icons/baseball_card_1.webp": {
+    "sha256": "d86248e4dfa6d6847d0c307a5d864a6bdb8db7503547913b600c4e4a26fe31d8",
+    "taille": 5546
+   },
+   "icons/blade_1.webp": {
+    "sha256": "21c461b19825d32165b38ef4a727103f3cf3b1467174a64801748a32a8d93cb3",
+    "taille": 4198
+   },
+   "icons/blade_4.webp": {
+    "sha256": "37e74b90b95336c3ddfd2def5b02305beb3a8bde81180e636e60fe905a111e51",
+    "taille": 4552
+   },
+   "icons/blade_5.webp": {
+    "sha256": "2a07e127098421df14470a3bdbb9190dc94c95549a0452605a652db8ecb49388",
+    "taille": 3784
+   },
+   "icons/burner_1.webp": {
+    "sha256": "ed7e05887d06954254998b9f841faa26d3b04625d25b7e14dc2cefdc6734ed3b",
+    "taille": 6224
+   },
+   "icons/burner_3.webp": {
+    "sha256": "52c34d4196d7d3acb6995f85f0f92c31b21788a734e058e3bff09ce4df339b33",
+    "taille": 4798
+   },
+   "icons/car_device_1.webp": {
+    "sha256": "d970a013da33622fb745060394460581b16dee0f04070fc5324f083713160ee6",
+    "taille": 4490
+   },
+   "icons/car_device_2.webp": {
+    "sha256": "49d2c9576e403e039a79b529a4416aeff76cd9500a9e17b686acf47a066ece77",
+    "taille": 4262
+   },
+   "icons/car_device_3.webp": {
+    "sha256": "a352383b126bb46d636e6f81c0975dd28fc4c1f8605c65125711cc6cf54a66d1",
+    "taille": 5644
+   },
+   "icons/car_device_5.webp": {
+    "sha256": "72f2bf5223751afa73f304edd5734ae2a6b20eaea75a9c343fc2825bf2e02b30",
+    "taille": 5344
+   },
+   "icons/car_parts_1.webp": {
+    "sha256": "cd12ca32238bb7fa81ad27d494c70d8a41927e5f26cd3822de315ae8b9244a23",
+    "taille": 4958
+   },
+   "icons/car_parts_2.webp": {
+    "sha256": "08ab39fa623c82200d34fb71004f529e33ff92b53d9915a084733b0082829e7d",
+    "taille": 6158
+   },
+   "icons/car_parts_4.webp": {
+    "sha256": "bc803bca6d19c50620e803f04a0eedb0d139c7a565056da58dd3cebfcb6a1ab0",
+    "taille": 2696
+   },
+   "icons/car_parts_5.webp": {
+    "sha256": "68d4953abb9d88938a307ea093168a7fedb61969285ffd7922a5f793d1beae11",
+    "taille": 5382
+   },
+   "icons/car_parts_6.webp": {
+    "sha256": "811405fa8aa0ef4bfe63a2b1483386b6f1686703a4085f9aa37f472f3c767f96",
+    "taille": 5416
+   },
+   "icons/car_parts_8.webp": {
+    "sha256": "4f97aa840850336323efba7f28607b2d020ac2303689235ff7688c9e20869be7",
+    "taille": 5418
+   },
+   "icons/car_spare_parts_1.webp": {
+    "sha256": "4f3b80595da2491b5a3afc643d0216e98fc4dcc082dcc612ee42f59eb2e79da8",
+    "taille": 6222
+   },
+   "icons/car_trinket_1.webp": {
+    "sha256": "d069a6afd257764dcbe3582e63162e086da6eb51294c9150f79037bf2c68025b",
+    "taille": 6230
+   },
+   "icons/car_trinket_3.webp": {
+    "sha256": "fb0cacf6df2e2db0a357e8f12d51bb36d7e90d579fd96f77afff959c2fba6875",
+    "taille": 4428
+   },
+   "icons/car_trinket_4.webp": {
+    "sha256": "0997858687efce2398d8b6b74826eab33f65d835a5cee5b0a4f22ace339893b0",
+    "taille": 6832
+   },
+   "icons/car_trinket_5.webp": {
+    "sha256": "cb9e882fbb0bc0719bd83b1f815c9f095c6b2c88f09f90f9cea2f354487773e2",
+    "taille": 5892
+   },
+   "icons/cargo_alcohol_grade_1.webp": {
+    "sha256": "e1665361369ff480b3acdd2b2f6c803aff37288fadb6e021e1cdc508b84b4dc3",
+    "taille": 4776
+   },
+   "icons/cargo_alcohol_grade_2.webp": {
+    "sha256": "ee93102f24af7f099b21e6dc98a6f52b6343dbdc7f13e682efacc6923fdb6472",
+    "taille": 4648
+   },
+   "icons/cargo_alcohol_grade_3.webp": {
+    "sha256": "07b676c03958c14a1e5899e6762ec9391c99b638ad117f79f2f2a7532dcc0fde",
+    "taille": 5124
+   },
+   "icons/cargo_exchange_workbench_1.webp": {
+    "sha256": "d6358f035e3389e2e9e3b234f13e9bb2f8ae839e2c23d0a51b706e0b2ec97fd6",
+    "taille": 6356
+   },
+   "icons/cargo_exchange_workbench_additional_slot_upgrade.webp": {
+    "sha256": "1e1ef86be25ec3e6835ec3bacfe7627ecded2e4b46d82891e83be58de489b60a",
+    "taille": 6602
+   },
+   "icons/cargo_exchange_workbench_speedup_upgrade_1.webp": {
+    "sha256": "17439c9e83729a0c7a2fa5dc87fe349cd317d96c23c289b4f27c4bcee32e0c10",
+    "taille": 5128
+   },
+   "icons/cargo_exchange_workbench_speedup_upgrade_2.webp": {
+    "sha256": "19cc6cae0c9055649c91f83da30ae863e87cc4b1783fa8c4b390be01d8943bbd",
+    "taille": 5128
+   },
+   "icons/cargo_manifest_1_full.webp": {
+    "sha256": "9215edddbf55b13dfe77590fd4280a102c8b38305fce8474373d51ae0fbcb0a5",
+    "taille": 4730
+   },
+   "icons/cash_1.webp": {
+    "sha256": "bb0f2df09498eb05cd1c0b9d59a1171577fb98fa7fc8dbd59a102dc46d65a5b4",
+    "taille": 4572
+   },
+   "icons/cash_bag.webp": {
+    "sha256": "3b9aa8ee2cf786c5addd3568fb33a600286eb7c9f3241fe7d41a5989242d4ab1",
+    "taille": 5692
+   },
+   "icons/cigar_2.webp": {
+    "sha256": "c4688ca933610e1000c1cd9cfcb0cd00c66e25a5a44654f7065b18d1f6c81097",
+    "taille": 6246
+   },
+   "icons/collection_reward_cargo_0.webp": {
+    "sha256": "fd8dfe2647d13391e6d158984769f28ad5afacc62af49f30105558aea126866b",
+    "taille": 4682
+   },
+   "icons/collection_reward_cargo_10.webp": {
+    "sha256": "0a328adf8926dc298b08562defb6ee6486b6f1936b1048809d143880e2abcb31",
+    "taille": 5166
+   },
+   "icons/collection_reward_cargo_14.webp": {
+    "sha256": "7521f094b50ba6969b800646ef7b787226d56dcabb7aed98f201dbb57bcb03eb",
+    "taille": 4864
+   },
+   "icons/collection_reward_cargo_24.webp": {
+    "sha256": "88a0579247baa38aa80f6088f070f037f4f661419985ffb7c179dcc5327a1965",
+    "taille": 4912
+   },
+   "icons/collection_table.webp": {
+    "sha256": "a9b8df4f658a6ae7720810dd3ad58fa638926ff5ee0367819e9817a15e89819a",
+    "taille": 6960
+   },
+   "icons/collection_upgrade_1.webp": {
+    "sha256": "012c90e2769d2143beba37cc8c420b8b764afff3c1b996cf16465df55851a2ae",
+    "taille": 4532
+   },
+   "icons/collection_upgrade_2.webp": {
+    "sha256": "729882baeca2ee7b5e6c811d57b93cf0079d80f610b8d0dfad799cbd39deefaa",
+    "taille": 4464
+   },
+   "icons/collection_upgrade_3.webp": {
+    "sha256": "8493d623522905b1357ef749ef91044514436ff7602d38b0fc5ac8d7be225f44",
+    "taille": 4732
+   },
+   "icons/comics_3.webp": {
+    "sha256": "4453b34b5b0138abac5823e85012b97f46fdda5a4cdcaae59fd177aa5f09b766",
+    "taille": 5162
+   },
+   "icons/comics_5.webp": {
+    "sha256": "315a5a97605b38716ff85ce902a1548699c0f158bf8401aa48105dd619ee0c80",
+    "taille": 5094
+   },
+   "icons/condoms_1.webp": {
+    "sha256": "c542b5330a873cf34a2aae36eaa176a57da059f99c510d86f22d305f08087b0e",
+    "taille": 5944
+   },
+   "icons/condoms_3.webp": {
+    "sha256": "5831f46b5c96541a914cad89e571a0e1e4ada3e9d2b72b307698030da1c8713c",
+    "taille": 4704
+   },
+   "icons/condoms_5.webp": {
+    "sha256": "4cec4647fc75df1d5a780a6151eb45186cf26ac77f7b89193f58e2a03644a7c0",
+    "taille": 5610
+   },
+   "icons/console_1.webp": {
+    "sha256": "20368a73dbc3b7e539a862a4c80ed4584316ddf249ba27b9e5a09064fad83c41",
+    "taille": 4472
+   },
+   "icons/console_3.webp": {
+    "sha256": "63e6138ebd62faa6b684c88e40e583ba7f20e6af2e2dc0dd5433ed52b6c0b8dd",
+    "taille": 4334
+   },
+   "icons/decoder_1.webp": {
+    "sha256": "0aac6c30abfd3db083d78e3ea9df8efe7bc3bb702fd408938c3bacaf0a7f3a53",
+    "taille": 3704
+   },
+   "icons/decoder_2.webp": {
+    "sha256": "c4b80a3623f0c31b4f8078cf0919b2ee05590d8489cf051783f6004f19d04b60",
+    "taille": 5340
+   },
+   "icons/decoder_3.webp": {
+    "sha256": "37ca1bf94d29352d191dec43d52b4c617d75d326455073535c0904ee2994a828",
+    "taille": 5350
+   },
+   "icons/defense_module_1.webp": {
+    "sha256": "cece4c46321dd6a5679c96319ef2843ed419d6c7ff1a552a080835efdfeac814",
+    "taille": 3766
+   },
+   "icons/defense_module_2.webp": {
+    "sha256": "9c2aba5609d557fbe93ff9cdc787ab4128fe1e887b1aa19aea3b4e5f44f89721",
+    "taille": 3764
+   },
+   "icons/defense_module_3.webp": {
+    "sha256": "9c2aba5609d557fbe93ff9cdc787ab4128fe1e887b1aa19aea3b4e5f44f89721",
+    "taille": 3764
+   },
+   "icons/deposit_box_1_cumulative.webp": {
+    "sha256": "05cdaf585cb728b694ba34343e1dcc87dc6dfe36bf9ce9a506ae3324519032de",
+    "taille": 4586
+   },
+   "icons/deposit_box_1_full.webp": {
+    "sha256": "571c495ea5ab045dec32ddc1e934db653eec17fd0b3abc6a13e6008224685491",
+    "taille": 6794
+   },
+   "icons/drill_1.webp": {
+    "sha256": "89cdaab9e94074d25e32ad19ee87dde8f72528333d8c64220bebb79b36de1060",
+    "taille": 6378
+   },
+   "icons/earrings_2.webp": {
+    "sha256": "ac3b519e141ba11e0092cd60101040d50796ffbeb7cd8b869a186f9bc93ebd16",
+    "taille": 3502
+   },
+   "icons/earrings_3.webp": {
+    "sha256": "bb870b8223967a229aca6b3a9a0c5e8ef3db1f5fc6b84fa57955a2ccbba55966",
+    "taille": 4206
+   },
+   "icons/earrings_4.webp": {
+    "sha256": "fe8dda50d4df0dce1e9d9496230204d5900703804ba7cc277fcee66fc0cc8b32",
+    "taille": 4336
+   },
+   "icons/egg_faberge_1.webp": {
+    "sha256": "8b2e171c3b06f3baf9b81e3eec3436d913c1e69ffe6edcfe60a0ff9f73f518fd",
+    "taille": 4606
+   },
+   "icons/electronics_box_1.webp": {
+    "sha256": "44c64e3c2ca8fbf92d6bb8c2c30cafb650b36227f9bf9f74fbee52a2c5bca6d7",
+    "taille": 6356
+   },
+   "icons/equip_carbine_1.webp": {
+    "sha256": "da2f2f49649315c9250e8f5e34413edfffc14f0acb1db5a65f230cc8549ab4a6",
+    "taille": 6808
+   },
+   "icons/equip_carbine_2.webp": {
+    "sha256": "8e2d7d1c670b58101cbe40c7daac28e64e1199aa23313b0b61dcc07bddf63cf3",
+    "taille": 4302
+   },
+   "icons/equip_carbine_3.webp": {
+    "sha256": "d6b63b2caab2083db8d12f64a8b35dc8c279ff6fedfe13b37b432aee7c1b9715",
+    "taille": 6344
+   },
+   "icons/equip_carbine_4.webp": {
+    "sha256": "187a5f62680906e962599f6fb6d3cecd2349e6f47e86ce471ca8171455d1e4ef",
+    "taille": 5924
+   },
+   "icons/equipment_1.webp": {
+    "sha256": "919a858327334ed296fd5d8d1dd505df7bda2ad5921137b6944b66615ea1e7a4",
+    "taille": 4692
+   },
+   "icons/equipment_10.webp": {
+    "sha256": "2479cd54052d7b7dd3575da98a87c0ff2d6536b7b437c53e2410b088632c06d5",
+    "taille": 5916
+   },
+   "icons/equipment_11.webp": {
+    "sha256": "9db5e0ba53149debdf707f5ffd8a1632b894b285bdb579b810e416d9fb053883",
+    "taille": 7234
+   },
+   "icons/equipment_2.webp": {
+    "sha256": "e9bf87d17932c88e8cb594f84e1396684f5865dbef1a89739e679e6a10163a2a",
+    "taille": 3794
+   },
+   "icons/equipment_4.webp": {
+    "sha256": "a93ee8d55676b69cd8704d2e8f438b47959b470f252510afd416c27b03693867",
+    "taille": 4194
+   },
+   "icons/equipment_7.webp": {
+    "sha256": "bb3ead6b2ffef0acaf32879900cbc2f615c6ea38cc58270c8afd2d2b762c8932",
+    "taille": 5910
+   },
+   "icons/evict_plot_1.webp": {
+    "sha256": "f7bc4e573b65aa71f39d920985aa5168905a58da085ac875eaac8555b610b80d",
+    "taille": 6552
+   },
+   "icons/glass_cutter_1.webp": {
+    "sha256": "5e4b4f0356e57fb340fc2a7d4c11323e70393cc36b1d2ee33b1bf0757e93a6d8",
+    "taille": 4550
+   },
+   "icons/gold_bar_1.webp": {
+    "sha256": "e721a85dc035b361eba82a577f344371ab5ecc8d1b9a270038bc0d10cac46e9a",
+    "taille": 4870
+   },
+   "icons/gun_grease_1.webp": {
+    "sha256": "c75a0ff90e4d4e1610884562fb3c32f5c581db32b4e4b4e4ffb41d5128f192b6",
+    "taille": 2034
+   },
+   "icons/gun_grease_2.webp": {
+    "sha256": "d82a5beb8478f367316e65b2e189a70980f90eb0e4782417bece664320ada5d7",
+    "taille": 2948
+   },
+   "icons/gun_grease_3.webp": {
+    "sha256": "543568a6e5f869c16b8d9149eaf5aae7b39bda59f7883016d9594218c8956018",
+    "taille": 3304
+   },
+   "icons/gunpowder_1.webp": {
+    "sha256": "956d020e2ffeb6b214de9929b5376e685813e3ce5776001e57eed5b9fe78fa05",
+    "taille": 5100
+   },
+   "icons/gunpowder_2.webp": {
+    "sha256": "ff1a856d7ff1a5b760d617bf8207a9278b5bd7e6008eb20ad0acff401ab04e65",
+    "taille": 5188
+   },
+   "icons/gunpowder_3.webp": {
+    "sha256": "7691e7aac4d47e6562675fd048823cd2a402e0fd5a5a667e71561bdf54a115ee",
+    "taille": 5164
+   },
+   "icons/headphones_1.webp": {
+    "sha256": "fa71d97897be9f53f63d7b20f35cfea1ac5ba75eec2cc45dddff20e40c6d9497",
+    "taille": 4396
+   },
+   "icons/headphones_2.webp": {
+    "sha256": "6c24d7bccfed7adc9b624e3ee2ea9417953a84003ef87b5ee4d8ae84a1ac3e69",
+    "taille": 5362
+   },
+   "icons/headphones_3.webp": {
+    "sha256": "b411a0eaa4ce5f6ee2feeaf4e80a1eb7f040a366aa5f4a577a6c9afc4f06140e",
+    "taille": 5204
+   },
+   "icons/headphones_5.webp": {
+    "sha256": "b8db936815634bbe6304df20815d94c71b0b8b4093cce048fd305e2881e04828",
+    "taille": 4774
+   },
+   "icons/home_1.webp": {
+    "sha256": "c4de4b0b553ede33ef916a9c3045d2a67c382ad58d6c1207e234bcb07fe9f009",
+    "taille": 5998
+   },
+   "icons/home_2.webp": {
+    "sha256": "92f8c15ee4f73d8aff64f618b3c12b5e0644e616fdba0f56b22fe88cb3d8c0ec",
+    "taille": 6608
+   },
+   "icons/jewelry_pouch_1.webp": {
+    "sha256": "009bb64f6e2fb2c97184b10fc32e32a2792dce9b890c7c861cdfd3c80f0a92b9",
+    "taille": 6468
+   },
+   "icons/journal_5.webp": {
+    "sha256": "c9a098545d04b4d298603aa150f0be997d8bbc5049e4e808dbd4130e5166a170",
+    "taille": 4452
+   },
+   "icons/laptop_1.webp": {
+    "sha256": "ef3f7f09230cd83842524f65b9605c728e653b51b6a6f49783daa798948a95d3",
+    "taille": 3362
+   },
+   "icons/laptop_3.webp": {
+    "sha256": "0123dfe046cc034b778a5d5756426d0fa919c370559181a9ac87b33ac69ff594",
+    "taille": 4992
+   },
+   "icons/laptop_4.webp": {
+    "sha256": "7748b7b2bdddd13d7e89b93334a7f15fab712f44b686faaaf12813e06ce8d5f9",
+    "taille": 4026
+   },
+   "icons/lighter_1.webp": {
+    "sha256": "38db0766d60b760da1ba35c061ee83a8bad6ed74dc12df26a05739b7d7746865",
+    "taille": 3648
+   },
+   "icons/lighter_3.webp": {
+    "sha256": "99c38d7067b2e21c705eab7d90c41943c2dbc01e65eaebcf50fa4f76119f90f6",
+    "taille": 3562
+   },
+   "icons/lighter_5.webp": {
+    "sha256": "5e39244b40e827a8b44017dd57016621aec19eed64f6ceb0abe2db41bb5c640c",
+    "taille": 3236
+   },
+   "icons/lockpick_1.webp": {
+    "sha256": "427fe3782abe5f4fb8988577269fb27cd8c281ddd828ec6571a18537da0ce515",
+    "taille": 4612
+   },
+   "icons/mini_drill_1.webp": {
+    "sha256": "667ec13dd607aed99ebf7538afac66ee0e0d6ed618172bd2e2c0fd269bb7666b",
+    "taille": 5402
+   },
+   "icons/money_workbench_speedup_1.webp": {
+    "sha256": "28a805bc8b0ef14db331f63e52d892c71ff80dab865895c9ab5c58656004299d",
+    "taille": 6296
+   },
+   "icons/necklace_1.webp": {
+    "sha256": "d1b6be82e7bbd5df6eea47039cde64c2d0e5b403aeb3dc2699946ca1a653ab2e",
+    "taille": 7098
+   },
+   "icons/necklace_4.webp": {
+    "sha256": "6279e52c5999042716caf6c735c04740d1097ba0e3cca53885af38a581ff3d83",
+    "taille": 9028
+   },
+   "icons/necklace_5.webp": {
+    "sha256": "66821e7d35cfb3d6e4d3e7d8718ce134fb2eca9cf1a7747cef664750eb702c28",
+    "taille": 6392
+   },
+   "icons/necklace_6.webp": {
+    "sha256": "60a3d4b29f8abb9b7db967ec15fda71a4d4a194f4732e64e66e1a9cdd40ea997",
+    "taille": 7996
+   },
+   "icons/perfume_4.webp": {
+    "sha256": "fdf1a7a2bd381f9d5eb8a4fc42d71dc321202cf6f52864ef0c9ec9a83f83d514",
+    "taille": 3572
+   },
+   "icons/perfume_5.webp": {
+    "sha256": "8a2b14eb5b6ce21e58e6e331513390b4a3be29d580095ee4c48d1280654000de",
+    "taille": 4444
+   },
+   "icons/pharma_pack_1.webp": {
+    "sha256": "263ab14eecab72532366aac8cb5230ec6e03b20ed7155b34e08082c5de1de8cf",
+    "taille": 4474
+   },
+   "icons/pharma_tools_1.webp": {
+    "sha256": "13eb91a46053e781f47c759e32e2ff2a5f9f8ae2e802b509f22d0bdcfd841ebc",
+    "taille": 3132
+   },
+   "icons/pharma_tools_3.webp": {
+    "sha256": "98cdb6dd384df865f6156b88bb47053a91cef3dabd74938fb5817ebe5988f56d",
+    "taille": 4084
+   },
+   "icons/pharma_tools_5.webp": {
+    "sha256": "fd75a639509bfd1bc6fe02d2aff705f688bb35983a2d83d25cc27347a44374f9",
+    "taille": 7010
+   },
+   "icons/pharma_tools_6.webp": {
+    "sha256": "1238631988509a036858d2ff07ff12eeb88ee30b1ebe5f7932407735a8f307f4",
+    "taille": 2418
+   },
+   "icons/phone_1.webp": {
+    "sha256": "76daf7849729ebe61afe68ac90d9db7728cb2718411a559cb3e5dd6908261565",
+    "taille": 4566
+   },
+   "icons/phone_2.webp": {
+    "sha256": "941ad055d2e0e856eb47158aee8b153cd9f042c35c3c0451544154dace5ae291",
+    "taille": 4966
+   },
+   "icons/phone_5.webp": {
+    "sha256": "9b5a56a6874ca31172402b28b034e9269090a0312c86535276efefa32ce548ee",
+    "taille": 5200
+   },
+   "icons/poker_cards_2.webp": {
+    "sha256": "1300e917030181cb2d7191b949029b0fc53e91d38befdce03cffeecbb51fc848",
+    "taille": 4956
+   },
+   "icons/poker_cards_5.webp": {
+    "sha256": "b11cc136808f63791735623f77808c2cc1815fee265c0acfb8d38db6577864aa",
+    "taille": 4826
+   },
+   "icons/police_badge_1.webp": {
+    "sha256": "39416b7e024c1fdd5a0fdc2c181480ff2eb446c44cead34f6f5c9a00554264a4",
+    "taille": 5436
+   },
+   "icons/police_badge_2.webp": {
+    "sha256": "08c013b71aba955742455c05702df645e93a609991d55d744f52837a468d6a9a",
+    "taille": 5430
+   },
+   "icons/police_badge_3.webp": {
+    "sha256": "d4bf6c95b640bce25f266abd414050c5409e4826eb0a8c47ca334c8a06df75ae",
+    "taille": 5282
+   },
+   "icons/police_evidence_1.webp": {
+    "sha256": "3cc36d833040156be5642a245a167fbb06d2aa5abb212cfbba703d9a0c1f54d4",
+    "taille": 4696
+   },
+   "icons/police_radio_1.webp": {
+    "sha256": "a739ada212a9a58e3a7fe0485e05054321648666132d533aa26a433be012bed9",
+    "taille": 5210
+   },
+   "icons/ring_1.webp": {
+    "sha256": "94190a7aa43392428506bb4fd7da7541aaf5cc4daca7130ca9c36e63311b633d",
+    "taille": 3282
+   },
+   "icons/ring_5.webp": {
+    "sha256": "9571fb2611dfb6de02c9130be4eac3d8dba2620aa0a48315d8a7f988ebc7c798",
+    "taille": 2762
+   },
+   "icons/ring_6.webp": {
+    "sha256": "5e97c70d4ed6cd5a5bd0806d9d0df835fa200f0590737eeab5765c892de96eac",
+    "taille": 3328
+   },
+   "icons/room_key_1.webp": {
+    "sha256": "9dc6fb5729f517a3370f096d00a2b8db7533d6a7408941167fe30c53bd88a43b",
+    "taille": 3708
+   },
+   "icons/room_key_10.webp": {
+    "sha256": "828e3a8896fd4167ed3da8b395d2482ea2d944353270179a39575863c908d8c2",
+    "taille": 5318
+   },
+   "icons/room_key_11.webp": {
+    "sha256": "c3ebc7193747f70313c70067833a2c385afc2f9d929af275901f9d84f0d82a4b",
+    "taille": 5436
+   },
+   "icons/room_key_12.webp": {
+    "sha256": "3fa63d472ac23ea791c5e8b895e2fc8ae17fc2214db30da22615d0f6db665742",
+    "taille": 5608
+   },
+   "icons/room_key_13.webp": {
+    "sha256": "07a431a45d6ebcc9c2326032bea6265dc8a64dfc06a1214581bb6dcb1cb7c552",
+    "taille": 5108
+   },
+   "icons/room_key_2.webp": {
+    "sha256": "b8fd02490d6968eeabf9902a31ec2c5a7bb306043b0d482e4d39e053ddf72b1e",
+    "taille": 5062
+   },
+   "icons/room_key_3.webp": {
+    "sha256": "d7bb0d97d93a8318adb1ba59c0b944682444aa4df1c370a972c44311b48486c7",
+    "taille": 5388
+   },
+   "icons/room_key_4.webp": {
+    "sha256": "6e0b616199fcdedac163534473be9638d2169062cb543d7881b288a7eedb2309",
+    "taille": 4976
+   },
+   "icons/room_key_5.webp": {
+    "sha256": "edce03bc03f476e5d013057b2060b873cbe1099710b7a615d33cdeca30363a16",
+    "taille": 5532
+   },
+   "icons/room_key_6.webp": {
+    "sha256": "f18fb437d7b454cc95c62ca0a2e1db3cc53fabd3d2efab444254f2fd2b6dfe80",
+    "taille": 5330
+   },
+   "icons/room_key_7.webp": {
+    "sha256": "61bb9af178c698aaf748599c45bebe5ccbc88ccc96f6bcb6c056545adf42444d",
+    "taille": 5376
+   },
+   "icons/room_key_8.webp": {
+    "sha256": "82ad675d971008cf507c199ab3064b5419f880ca790e36ddd8feb1676a90ca99",
+    "taille": 5110
+   },
+   "icons/room_key_9.webp": {
+    "sha256": "6268dbda7245a81cfdb862414d729fda73f131ed23962e865ea634f2c3725185",
+    "taille": 5110
+   },
+   "icons/safe_key_1.webp": {
+    "sha256": "fe75b0ad29826d45c0ab17e8915f7460ee4bdef7640d8a0e211e5683e49d7ed6",
+    "taille": 3922
+   },
+   "icons/safe_key_10.webp": {
+    "sha256": "05deb0f3c95ae83a34b4dcf930c0be049aba26c5870ef430e200135171c31be4",
+    "taille": 3772
+   },
+   "icons/safe_key_11.webp": {
+    "sha256": "43bee23aeada283efb643e34be17a4d7df80e19da2eec45ee33449b2a9919ed5",
+    "taille": 3768
+   },
+   "icons/safe_key_12.webp": {
+    "sha256": "148e2b5bae6828d22592ff2d9d4b59780168af5094a2d8fd0e378311387052d6",
+    "taille": 3438
+   },
+   "icons/safe_key_13.webp": {
+    "sha256": "5e68d5b7cf33d4c945e440f7f7c7092fa4477c436b2e40f0b2df03f32ffce0d0",
+    "taille": 4336
+   },
+   "icons/safe_key_14.webp": {
+    "sha256": "e2507fddf8f17ce7a863b161d1761f0ccdbbdb84503c0c75468100494fbe0a67",
+    "taille": 3752
+   },
+   "icons/safe_key_2.webp": {
+    "sha256": "2a93c7aad49e9a2220436475f5ec101867cad660a0cf9634711216888e2cdb7c",
+    "taille": 3548
+   },
+   "icons/safe_key_3.webp": {
+    "sha256": "825e428e2607bc9596be8a215a8e1b7084b49b537aa487ba839cce9a3c109b41",
+    "taille": 3502
+   },
+   "icons/safe_key_4.webp": {
+    "sha256": "4855c077c5a8d39c4ad5f33f7bc76edffd51af151eb5386affed598dacba4f2c",
+    "taille": 3938
+   },
+   "icons/safe_key_5.webp": {
+    "sha256": "78f1952278ec399a99406de5c75a7a992294327daef4028def0c6021363e2ece",
+    "taille": 3684
+   },
+   "icons/safe_key_6.webp": {
+    "sha256": "ee0f5bbffb0a5282384b6a8d1edd6cbebe0c3a409e6fa4b0f9f0fb1cd1687655",
+    "taille": 4018
+   },
+   "icons/safe_key_7.webp": {
+    "sha256": "a90c9f9587d02e4f8a0e8bdb6c479dfe26dd5c43c688996b6c57792041468c1b",
+    "taille": 3974
+   },
+   "icons/safe_key_8.webp": {
+    "sha256": "ee702634bd1845af9d7c7fe33985176f74ef0633263609b4bec2820f21830585",
+    "taille": 3834
+   },
+   "icons/safe_key_9.webp": {
+    "sha256": "0473e74aa41623b5d3557271df720022fa9185b48a3f75e74b1acc4f65cec25b",
+    "taille": 3634
+   },
+   "icons/storage_lockpick_1.webp": {
+    "sha256": "b89893a72e89de762e7555410ef31f84535a6e29da289557a10aed6deb3abef7",
+    "taille": 4384
+   },
+   "icons/tablet_1_cumulative.webp": {
+    "sha256": "45c0ec55c8b062f8fba7a97b93423693e07e97ef5746404700f50678e270d7a4",
+    "taille": 4164
+   },
+   "icons/tablet_1_full.webp": {
+    "sha256": "40c282313f02ba0f33b60100d06d0c57412cd7ef94f0a73f47e30d64e43f2af5",
+    "taille": 4398
+   },
+   "icons/toy_3.webp": {
+    "sha256": "8c56fbc463657d770dde334d8dd1003718a01092d51f5b19d2d234d32f092a29",
+    "taille": 5012
+   },
+   "icons/toy_5.webp": {
+    "sha256": "a9233338a7499045d8d8eda1967ee96568541aa555048eb94942878e0242c9f3",
+    "taille": 4938
+   },
+   "icons/usb_1_cumulative.webp": {
+    "sha256": "424a8b2cd016529731325cd4ebffe56097d3cd5e49af3825335d0ccf9b75ff70",
+    "taille": 6370
+   },
+   "icons/usb_1_full.webp": {
+    "sha256": "aef49d8514dc7d8c81afd18e9bc649edc6de619262a653afa8f08d34253ded86",
+    "taille": 7498
+   },
+   "icons/vial_1.webp": {
+    "sha256": "0360ef17cae3bccc889915d364e6a0b4365387f165cf063a58102a0e191f3c62",
+    "taille": 5702
+   },
+   "icons/vial_2.webp": {
+    "sha256": "7638bc63d13e5d6cd7497de17b29a071bcf50516313cd286c20aaae2e21d1564",
+    "taille": 5112
+   },
+   "icons/vial_3.webp": {
+    "sha256": "1e0870a6220dd2b3bfb68708833e4b59bb8ced7be353f62518bfc15fdaadee17",
+    "taille": 5340
+   },
+   "icons/vial_5.webp": {
+    "sha256": "32874550125e70c4b368ae2ae34c1562644c2cbda1f61acede3de06113879b3c",
+    "taille": 4910
+   },
+   "icons/vial_7.webp": {
+    "sha256": "16d9adca54db3e3797537c3584004e917f0859db42ecc761ffb1745522c8362d",
+    "taille": 5258
+   },
+   "icons/vip_key_1.webp": {
+    "sha256": "e5ac7d52cbed549140e9efb1d144afc85fc2a76cd99e37bc2ab37f5ac08a5c36",
+    "taille": 5346
+   },
+   "icons/vip_key_2.webp": {
+    "sha256": "63a958bf1f02666c278a67ae53540606dc9d0b31e0ec4fafe2a4dbff6074ade3",
+    "taille": 5332
+   },
+   "icons/vip_key_3.webp": {
+    "sha256": "0ef95c8479a6eb2740ce0eadae0754562dbb9e511decfd946ff88bf55b3f4dc0",
+    "taille": 5434
+   },
+   "icons/vip_key_4.webp": {
+    "sha256": "6f69ec81c36a6f9c43bf473885d16ef0d566998da8f1421dccdf79a08c4905fb",
+    "taille": 5524
+   },
+   "icons/vip_key_5.webp": {
+    "sha256": "b853bc534fc5962ae5188d1cace14e39706dec17bafcd3f5506d8c79784a6fbb",
+    "taille": 5838
+   },
+   "icons/vip_key_6.webp": {
+    "sha256": "cf39b82a3f2de6be52c665740a9444dfe8c6412cc13d0c69303b90b01389d4e4",
+    "taille": 5346
+   },
+   "icons/watch_1.webp": {
+    "sha256": "3e03c3db07d192acdd94a0906799437911980d5841a52f6d278fc4f96ec1cb32",
+    "taille": 5526
+   },
+   "icons/watch_5.webp": {
+    "sha256": "7119896211a42b742914c41ad600262747993940170c253e4676950385109c21",
+    "taille": 6190
+   },
+   "icons/watch_6.webp": {
+    "sha256": "57ce98c7edb5bd67c425dec769cbb516108638a3195eebef6a83619e8e379d7d",
+    "taille": 4886
+   },
+   "icons/weapon_cleaning_1.webp": {
+    "sha256": "8d006db351ec89d901acead465e59275f72b02aab135c3f6bf7f6b6f6a05db0e",
+    "taille": 4956
+   },
+   "icons/weapon_cleaning_2.webp": {
+    "sha256": "f5c443dffc3cde17867c66240dbc10bbf916fcf97ac77af535a02c73a5e0d01b",
+    "taille": 5584
+   },
+   "icons/weapon_trinket_1.webp": {
+    "sha256": "53bab26f0018c405b7d82777ad3b28d73c131a2e153bb8189a80acaf975fdbb5",
+    "taille": 3014
+   },
+   "icons/weapon_trinket_2.webp": {
+    "sha256": "341039f7bb0b87d96a84df4c57f946abe39b07659046d6a78e1d4954a75d5059",
+    "taille": 4964
+   },
+   "icons/weapon_trinket_3.webp": {
+    "sha256": "26fa83a43e2414a62a70423f8e3ed4e2ddad93e76c9c8b8e2f42ab37cdd166de",
+    "taille": 6088
+   },
+   "icons/weapon_trinket_4.webp": {
+    "sha256": "fdadbf0e55ad84f998efad2a2535dbaebc008e98a309114c40943a63c5c65ee5",
+    "taille": 4698
+   },
+   "icons/weaponparts_box_1.webp": {
+    "sha256": "7560e32bfab2a4d398569ac06a54f453cad2c5671f16da86ddaf5c0962d7ffd7",
+    "taille": 6532
+   },
+   "mecaniques.json": {
+    "sha256": "f133a8bdd73e52ef91779ba340a5bb55649ff028031d1997408792f4435b9f30",
+    "taille": 4818
+   },
+   "meta.json": {
+    "sha256": "c80e22c566c4e7839967364bdfd775df86f98d9f9b84b48707e6f39dc7346854",
+    "taille": 933
+   },
+   "patchs.json": {
+    "sha256": "09bc6699cdd5f8511e6f6102f2d836c57b28d140fa137d2811b9c11c68536fb4",
+    "taille": 1621
+   },
+   "production.json": {
+    "sha256": "7373d1b9a8d5a4cf474d5dd8b877f29539a5329b43a19373439de1ad899cd416",
+    "taille": 10463
+   },
+   "regions.json": {
+    "sha256": "2b542f5c9a511035e807a6e39d506f619ca48122a281a8b038d377121d5d97be",
+    "taille": 2233
+   },
+   "troc.json": {
+    "sha256": "1b48d12de207feb04165e5af96361946ee107b955ba060c74e533d3131862b18",
+    "taille": 4326
+   }
+  }
+ }
+}

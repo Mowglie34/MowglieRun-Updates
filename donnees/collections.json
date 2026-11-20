@@ -1,0 +1,637 @@
+{
+ "_aide": "sets = liste de sets ; un set = [[identifiant, quantité], ...]. valeur = remise au contrebandier niveau 1.",
+ "series": [
+  {
+   "cle": "base",
+   "nom": "Basiques",
+   "caisse": "collection_reward_cargo_0",
+   "valeur": 50000,
+   "couleur": "#7fd36a",
+   "debloquer": "Avec la table",
+   "sets": [
+    [
+     [
+      "alcohol_1",
+      1
+     ],
+     [
+      "alcohol_8",
+      1
+     ],
+     [
+      "alcohol_4",
+      1
+     ],
+     [
+      "alcohol_box_1",
+      10
+     ]
+    ],
+    [
+     [
+      "car_parts_6",
+      1
+     ],
+     [
+      "car_parts_2",
+      1
+     ],
+     [
+      "car_parts_4",
+      1
+     ],
+     [
+      "car_spare_parts_1",
+      10
+     ]
+    ],
+    [
+     [
+      "equipment_4",
+      1
+     ],
+     [
+      "equipment_1",
+      1
+     ],
+     [
+      "equipment_2",
+      1
+     ],
+     [
+      "equip_carbine_1",
+      10
+     ]
+    ],
+    [
+     [
+      "weapon_cleaning_1",
+      1
+     ],
+     [
+      "gun_grease_1",
+      1
+     ],
+     [
+      "gunpowder_1",
+      1
+     ],
+     [
+      "weaponparts_box_1",
+      10
+     ]
+    ],
+    [
+     [
+      "earrings_3",
+      1
+     ],
+     [
+      "watch_1",
+      1
+     ],
+     [
+      "necklace_5",
+      1
+     ],
+     [
+      "jewelry_pouch_1",
+      10
+     ]
+    ],
+    [
+     [
+      "vial_1",
+      1
+     ],
+     [
+      "vial_3",
+      1
+     ],
+     [
+      "pharma_tools_6",
+      1
+     ],
+     [
+      "pharma_pack_1",
+      10
+     ]
+    ],
+    [
+     [
+      "laptop_1",
+      1
+     ],
+     [
+      "phone_1",
+      1
+     ],
+     [
+      "headphones_1",
+      1
+     ],
+     [
+      "electronics_box_1",
+      10
+     ]
+    ]
+   ]
+  },
+  {
+   "cle": "add",
+   "nom": "Supplémentaires",
+   "caisse": "collection_reward_cargo_10",
+   "valeur": 50000,
+   "couleur": "#5ec8e0",
+   "debloquer": "Doc. « Collection supplémentaire »",
+   "sets": [
+    [
+     [
+      "alcohol_7",
+      1
+     ],
+     [
+      "alcohol_3",
+      1
+     ],
+     [
+      "alcohol_9",
+      1
+     ],
+     [
+      "alcohol_box_1",
+      10
+     ]
+    ],
+    [
+     [
+      "car_device_2",
+      1
+     ],
+     [
+      "car_device_1",
+      1
+     ],
+     [
+      "car_trinket_1",
+      1
+     ],
+     [
+      "car_spare_parts_1",
+      10
+     ]
+    ],
+    [
+     [
+      "burner_1",
+      1
+     ],
+     [
+      "lighter_1",
+      1
+     ],
+     [
+      "equip_carbine_2",
+      1
+     ],
+     [
+      "equip_carbine_1",
+      10
+     ]
+    ],
+    [
+     [
+      "weapon_trinket_1",
+      1
+     ],
+     [
+      "weapon_trinket_4",
+      1
+     ],
+     [
+      "blade_1",
+      1
+     ],
+     [
+      "weaponparts_box_1",
+      10
+     ]
+    ],
+    [
+     [
+      "earrings_4",
+      1
+     ],
+     [
+      "ring_1",
+      1
+     ],
+     [
+      "necklace_1",
+      1
+     ],
+     [
+      "jewelry_pouch_1",
+      10
+     ]
+    ],
+    [
+     [
+      "pharma_tools_1",
+      1
+     ],
+     [
+      "vial_7",
+      1
+     ],
+     [
+      "condoms_1",
+      1
+     ],
+     [
+      "pharma_pack_1",
+      10
+     ]
+    ],
+    [
+     [
+      "console_1",
+      1
+     ],
+     [
+      "headphones_2",
+      1
+     ],
+     [
+      "phone_2",
+      1
+     ],
+     [
+      "electronics_box_1",
+      10
+     ]
+    ]
+   ]
+  },
+  {
+   "cle": "spe",
+   "nom": "Spéciales",
+   "caisse": "collection_reward_cargo_14",
+   "valeur": 150000,
+   "couleur": "#b98cff",
+   "debloquer": "Doc. « Collection spéciale »",
+   "sets": [
+    [
+     [
+      "toy_3",
+      1
+     ],
+     [
+      "cigar_2",
+      1
+     ],
+     [
+      "poker_cards_2",
+      1
+     ]
+    ],
+    [
+     [
+      "alcohol_6",
+      1
+     ],
+     [
+      "watch_6",
+      1
+     ],
+     [
+      "necklace_4",
+      1
+     ]
+    ],
+    [
+     [
+      "blade_4",
+      1
+     ],
+     [
+      "gunpowder_2",
+      1
+     ],
+     [
+      "equip_carbine_3",
+      1
+     ]
+    ],
+    [
+     [
+      "car_parts_5",
+      1
+     ],
+     [
+      "car_device_3",
+      1
+     ],
+     [
+      "laptop_3",
+      1
+     ]
+    ],
+    [
+     [
+      "antique_1",
+      1
+     ],
+     [
+      "vial_2",
+      1
+     ],
+     [
+      "pharma_tools_3",
+      1
+     ]
+    ],
+    [
+     [
+      "console_3",
+      1
+     ],
+     [
+      "headphones_3",
+      1
+     ],
+     [
+      "ring_5",
+      1
+     ]
+    ],
+    [
+     [
+      "comics_3",
+      1
+     ],
+     [
+      "perfume_4",
+      1
+     ],
+     [
+      "condoms_3",
+      1
+     ]
+    ],
+    [
+     [
+      "antique_1",
+      1
+     ],
+     [
+      "car_trinket_3",
+      1
+     ],
+     [
+      "car_trinket_4",
+      1
+     ]
+    ],
+    [
+     [
+      "alcohol_10",
+      4
+     ],
+     [
+      "equipment_10",
+      1
+     ],
+     [
+      "lighter_3",
+      2
+     ]
+    ],
+    [
+     [
+      "weapon_cleaning_2",
+      1
+     ],
+     [
+      "gun_grease_2",
+      1
+     ],
+     [
+      "weapon_trinket_2",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "cle": "uni",
+   "nom": "Uniques",
+   "caisse": "collection_reward_cargo_24",
+   "valeur": 500000,
+   "couleur": "#ffc548",
+   "debloquer": "Doc. « Collection unique »",
+   "sets": [
+    [
+     [
+      "blade_5",
+      1
+     ],
+     [
+      "lighter_5",
+      1
+     ],
+     [
+      "perfume_5",
+      1
+     ]
+    ],
+    [
+     [
+      "laptop_4",
+      1
+     ],
+     [
+      "car_trinket_5",
+      1
+     ],
+     [
+      "ring_6",
+      1
+     ]
+    ],
+    [
+     [
+      "burner_3",
+      1
+     ],
+     [
+      "poker_cards_5",
+      1
+     ],
+     [
+      "gunpowder_3",
+      1
+     ]
+    ],
+    [
+     [
+      "car_parts_8",
+      1
+     ],
+     [
+      "phone_5",
+      1
+     ],
+     [
+      "equipment_7",
+      1
+     ]
+    ],
+    [
+     [
+      "alcohol_12",
+      1
+     ],
+     [
+      "watch_5",
+      1
+     ],
+     [
+      "condoms_5",
+      1
+     ]
+    ],
+    [
+     [
+      "headphones_5",
+      1
+     ],
+     [
+      "equip_carbine_4",
+      1
+     ],
+     [
+      "weapon_trinket_3",
+      1
+     ]
+    ],
+    [
+     [
+      "comics_5",
+      1
+     ],
+     [
+      "necklace_6",
+      1
+     ],
+     [
+      "car_parts_1",
+      1
+     ]
+    ],
+    [
+     [
+      "journal_5",
+      1
+     ],
+     [
+      "earrings_2",
+      1
+     ],
+     [
+      "vial_5",
+      1
+     ]
+    ],
+    [
+     [
+      "pharma_tools_5",
+      1
+     ],
+     [
+      "gun_grease_3",
+      1
+     ],
+     [
+      "equipment_11",
+      1
+     ]
+    ],
+    [
+     [
+      "toy_5",
+      1
+     ],
+     [
+      "car_device_5",
+      1
+     ],
+     [
+      "baseball_card_1",
+      1
+     ]
+    ]
+   ]
+  }
+ ],
+ "ameliorations": [
+  {
+   "id": "collection_table",
+   "nom": "Table de collections",
+   "series": "7 basiques",
+   "recherche": 5000,
+   "prix": 15000,
+   "niveau": "I"
+  },
+  {
+   "id": "collection_upgrade_1",
+   "nom": "Collection supplémentaire",
+   "series": "+7",
+   "recherche": 25000,
+   "prix": 34000,
+   "niveau": "I"
+  },
+  {
+   "id": "collection_upgrade_2",
+   "nom": "Collection spéciale",
+   "series": "+10",
+   "recherche": 50000,
+   "prix": 100000,
+   "niveau": "II"
+  },
+  {
+   "id": "collection_upgrade_3",
+   "nom": "Collection unique",
+   "series": "+10",
+   "recherche": 100000,
+   "prix": 250000,
+   "niveau": "III"
+  }
+ ],
+ "caisses": [
+  {
+   "id": "collection_reward_cargo_0",
+   "nom": "Caisse de collection",
+   "valeur": 50000,
+   "saisie": 12500
+  },
+  {
+   "id": "collection_reward_cargo_14",
+   "nom": "Caisse de collection rare",
+   "valeur": 150000,
+   "saisie": 60000
+  },
+  {
+   "id": "collection_reward_cargo_24",
+   "nom": "Caisse de collection unique",
+   "valeur": 500000,
+   "saisie": 125000
+  }
+ ],
+ "astuces": [
+  "Les objets de ta collection en cours ont une <b>loupe</b> dans l'inventaire : ne les vends pas au receleur.",
+  "Presque tous les objets des séries basiques et supplémentaires s'achètent chez les marchands <b>en civil</b> (prix ×3).",
+  "Un flic qui t'attrape avec une caisse la saisit, et sortir une arme te la fait lâcher : trajet court, en voiture.",
+  "Bloqué sur un set ? La table peut rafraîchir la collection pour en tirer une autre, avec un temps d'attente."
+ ]
+}

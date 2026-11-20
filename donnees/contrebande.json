@@ -1,0 +1,55 @@
+{
+ "achat": 10000,
+ "vente": 35000,
+ "vente_rare": 40000,
+ "duree_min": 30,
+ "etapes": [
+  {
+   "id": "cargo_alcohol_grade_1",
+   "titre": "1 · Achète",
+   "texte": "Cargaison de contrebande ≈ 10 000 $ (5 à 10K si tu habites la colonie) : Looty Bay, motel de Lenny, centre de distribution."
+  },
+  {
+   "id": "cargo_exchange_workbench_1",
+   "titre": "2 · Remballe",
+   "texte": "Établi de contrebande sur ton terrain (recherche 20K, AMEUBLEMENT, niv. I). 30 min par caisse."
+  },
+  {
+   "id": "cargo_alcohol_grade_2",
+   "titre": "3 · Remets",
+   "texte": "Cargaison premium au <b>contrebandier</b> : 35 000 $ (43 750 $ au niv. 5). Parfois une cargaison rare : 40 000 $."
+  }
+ ],
+ "ameliorations": [
+  {
+   "id": "cargo_exchange_workbench_speedup_upgrade_1",
+   "nom": "Imprimante d'étiquettes",
+   "effet": "+15 % de vitesse",
+   "vitesse": 0.15,
+   "recherche": 15000,
+   "niveau": "I"
+  },
+  {
+   "id": "cargo_exchange_workbench_speedup_upgrade_2",
+   "nom": "Imprimante d'étiquettes",
+   "effet": "+25 % de vitesse",
+   "vitesse": 0.25,
+   "recherche": 75000,
+   "niveau": "III"
+  },
+  {
+   "id": "cargo_exchange_workbench_additional_slot_upgrade",
+   "nom": "Caisse à outils",
+   "effet": "+1 emplacement",
+   "emplacements": 1,
+   "recherche": 150000,
+   "niveau": "II"
+  }
+ ],
+ "notes": [
+  "<b>Pas besoin de déballer</b> : la contrebande va telle quelle dans l'établi de contrebande.",
+  "<b>Ne remets pas la contrebande brute</b> : le contrebandier en donne 10 000 $, tu ne gagnes rien.",
+  "L'établi de cargaison (ouverture) ne la prend pas.",
+  "Les autres cargaisons (caisses d'alcool, d'électronique…) : les ouvrir sur l'établi de cargaison rapporte plus que les vendre (patch du 5 nov.)."
+ ]
+}

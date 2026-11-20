@@ -1,0 +1,46 @@
+{
+ "appli": "MowglieRun",
+ "auteur": "Mowglie34",
+ "maj": "20 nov. 2026",
+ "rarete": {
+  "c": {
+   "bas": "#2e2e2b",
+   "couleur": "#a3a29a",
+   "haut": "#4a4a45",
+   "nom": "Commun"
+  },
+  "e": {
+   "bas": "#2c1c44",
+   "couleur": "#b98cff",
+   "haut": "#53347a",
+   "nom": "Épique"
+  },
+  "l": {
+   "bas": "#46320a",
+   "couleur": "#ffc548",
+   "haut": "#7d5a13",
+   "nom": "Légendaire"
+  },
+  "pc": {
+   "bas": "#1e3519",
+   "couleur": "#7fd36a",
+   "haut": "#35602c",
+   "nom": "Peu commun"
+  },
+  "x": {
+   "bas": "#451313",
+   "couleur": "#ff6f63",
+   "haut": "#7c2424",
+   "nom": "Exotique"
+  }
+ },
+ "sources": [
+  "robrun.info (fiches objets, troc, objets cumulatifs, guides, FAQ, mises à jour)",
+  "Patch notes et annonces des développeurs (Steam)",
+  "Guides de joueurs : metaforge, tposegaming, timesaver",
+  "Captures en jeu",
+  "xpjournal (vitesse du blanchiment)",
+  "vgtimes (labo)"
+ ],
+ "version": "2026.11.20"
+}

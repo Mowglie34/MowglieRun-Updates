@@ -1,0 +1,153 @@
+{
+ "_aide": "points = défense d'un fusible ; recherche et prix en $ ; niveau = niveau du marchand (I, II, III) qui le vend. niveaux : ce que ta parcelle donne comme niveau de marchand.",
+ "fusibles": [
+  {
+   "id": "defense_module_1",
+   "points": 1,
+   "recherche": 10000,
+   "prix": 20000,
+   "niveau": "I",
+   "note": ""
+  },
+  {
+   "id": "defense_module_2",
+   "points": 3,
+   "recherche": 150000,
+   "prix": 100000,
+   "niveau": "II",
+   "note": ""
+  },
+  {
+   "id": "defense_module_3",
+   "points": 5,
+   "recherche": 500000,
+   "prix": 250000,
+   "niveau": "III",
+   "note": "ou troc : épique + 250 000 $"
+  }
+ ],
+ "decodeurs": [
+  {
+   "id": "decoder_1",
+   "points": 1,
+   "source": "Fouille"
+  },
+  {
+   "id": "decoder_2",
+   "points": 3,
+   "source": "Troc : 3 × −1 + 10 000 $, ou 1 caméra épique"
+  },
+  {
+   "id": "decoder_3",
+   "points": 5,
+   "source": "Fouille uniquement"
+  }
+ ],
+ "constructions": [
+  {
+   "nom": "Caravane",
+   "base": 5,
+   "emplacements": 9
+  },
+  {
+   "nom": "Petite maison",
+   "base": 15,
+   "emplacements": 27
+  },
+  {
+   "nom": "Garage automobile",
+   "base": 4,
+   "emplacements": 6
+  },
+  {
+   "nom": "Grand garage automobile",
+   "base": 6,
+   "emplacements": 12
+  },
+  {
+   "nom": "Entrepôt",
+   "base": 10,
+   "emplacements": 15
+  },
+  {
+   "nom": "Atelier",
+   "base": 5,
+   "emplacements": 9
+  },
+  {
+   "nom": "Salle de culture",
+   "base": 5,
+   "emplacements": 9
+  },
+  {
+   "nom": "Laboratoire de chimie",
+   "base": 3,
+   "emplacements": 6
+  },
+  {
+   "nom": "Clôture grillagée",
+   "base": 2,
+   "emplacements": 3
+  },
+  {
+   "nom": "Clôture métallique",
+   "base": 5,
+   "emplacements": 6
+  },
+  {
+   "nom": "Clôture en béton",
+   "base": 10,
+   "emplacements": 9
+  }
+ ],
+ "niveaux": [
+  {
+   "niveau": "I",
+   "fusible": 1,
+   "parcelle": "Pas de parcelle (ou district 1)",
+   "texte": "Tu peux acheter les fusibles +1."
+  },
+  {
+   "niveau": "II",
+   "fusible": 3,
+   "parcelle": "Parcelle en district 2",
+   "texte": "Tu peux acheter les fusibles +1 et +3."
+  },
+  {
+   "niveau": "III",
+   "fusible": 5,
+   "parcelle": "Parcelle en district 3",
+   "texte": "Tu peux acheter les fusibles +1, +3 et +5. Le titre de parcelle du district 3 se débloque dans l'arbre de Lenny et demande le niveau II."
+  }
+ ],
+ "regles": [
+  "Un décodeur se pose en <b>12 s</b> et disparaît (usage unique).",
+  "Défense à zéro = accès limité au bâtiment + <b>verrou de raid</b> sur la base.",
+  "Après un piratage, <b>répare le panneau</b> : les fusibles ne sont pas détruits.",
+  "Le décodeur n'ouvre ni coffres ni armoires grillagées : il faut un <b>passe-partout</b>.",
+  "La clôture agricole n'a pas de défense et ne se pirate pas.",
+  "Pas de déménagement possible tant qu'un verrou de raid est actif."
+ ],
+ "comment": [
+  [
+   "🏕️",
+   "Ta parcelle donne ton niveau de marchand",
+   "Pas de parcelle (ou district 1) = <b>niveau I</b>, district 2 = <b>II</b>, district 3 = <b>III</b>. Ta maison (caravane, petite maison…) ne change <b>pas</b> ce niveau."
+  ],
+  [
+   "🛒",
+   "Ton niveau décide des fusibles que tu peux acheter",
+   "<b>+1</b> au niveau I (20 000 $), <b>+3</b> au niveau II (100 000 $), <b>+5</b> au niveau III (250 000 $, ou troc : un +3 + 250 000 $)."
+  ],
+  [
+   "🏠",
+   "Chaque construction a sa défense",
+   "Une défense de base + des emplacements de fusibles. <b>Défense = base + points de tous les fusibles posés.</b> Ex. petite maison : 15 + 27 emplacements."
+  ],
+  [
+   "🔓",
+   "Pour entrer : des décodeurs",
+   "Chaque décodeur enlève 1, 3 ou 5 points, se pose en 12 s et disparaît. Défense à 0 = accès au bâtiment + verrou de raid."
+  ]
+ ]
+}

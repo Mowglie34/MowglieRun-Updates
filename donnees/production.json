@@ -1,0 +1,119 @@
+{
+  "legende": {
+    "jeu": "donnée du jeu",
+    "estim": "estimation de joueurs, à vérifier",
+    "mesure": "mesurée par toi",
+    "saisie": "entrée par toi",
+    "inconnue": "pas encore de durée connue : mesure-la une fois"
+  },
+  "plantation": {
+    "intro": "Les <b>plants en croissance</b> se trouvent sur place et se portent à la main comme une cargaison. Pose-les sur une table de culture : une horloge = ça pousse, une coche = c'est mûr. La récolte prend 5 s, donne <b>2 à 4 colis</b>, et le plant repart tout seul (pas besoin de replanter).",
+    "batiment": { "id": "narco_farm_1", "nom": "Salle de culture", "recherche": 150000, "prix": 100000, "niveau": "I", "texte": "6 places pour des tables. Il faut ta propre maison." },
+    "table": { "id": "cargo_charge_workbench_garden_bed", "nom": "Table de culture", "recherche": 30000, "prix": 40000, "niveau": "I", "plants": 6 },
+    "duree": { "pc": 90, "e": null, "l": null, "source": "Joueurs : environ 1 à 2 h pour un plant peu commun (non officiel). Rien pour épique et légendaire." },
+    "sacs": [2, 4],
+    "plants": [
+      { "rarete": "pc", "pousse": "bush_growing_1", "mur": "bush_mature_1", "sac": "bush_drugs_1", "prix_sac": 4000, "prix_pousse": 20000, "prix_mur": 30000 },
+      { "rarete": "e", "pousse": "bush_growing_2", "mur": "bush_mature_2", "sac": "bush_drugs_2", "prix_sac": 6000, "prix_pousse": 30000, "prix_mur": 45000 },
+      { "rarete": "l", "pousse": "bush_growing_3", "mur": "bush_mature_3", "sac": "bush_drugs_3", "prix_sac": 8000, "prix_pousse": 40000, "prix_mur": 60000 }
+    ],
+    "ameliorations": [
+      { "id": "fan_1", "cle": "fan", "nom": "Ventilateur", "vitesse": 0.12, "recherche": 100000, "prix": 25000, "niveau": "I" },
+      { "id": "water_pump_2", "cle": "pompe", "nom": "Pompe à eau", "vitesse": 0.14, "recherche": 200000, "prix": 70000, "niveau": "II" },
+      { "id": "uv_lamp_3", "cle": "uv", "nom": "Lampe UV", "vitesse": 0.24, "recherche": 500000, "prix": 250000, "niveau": "III" }
+    ],
+    "conseils": [
+      "Les 3 améliorations se posent ensemble sur la même table : <b>+50 %</b> de vitesse au total.",
+      "Tu peux aussi remettre le plant au <b>contrebandier</b> comme cargaison (en croissance ou mûr) au lieu de le cultiver.",
+      "Certains bâtiments de colonie donnent une chance de <b>1 ou 2 colis</b> en plus à la récolte.",
+      "Si tu sors une arme en portant un plant, il tombe et la police peut le saisir.",
+      "Les colis s'empilent par 10."
+    ]
+  },
+  "labo": {
+    "intro": "Les <b>bidons de réactifs</b> se trouvent sur place (cargaison portée à la main). Réacteur → <b>concentré cristallin</b> (rareté au hasard), congélateur → <b>cristaux durs</b>, table de labo → <b>poudre cristalline</b>. De la fumée sort du bâtiment quand il tourne.",
+    "batiment": { "id": "meth_lab_1", "nom": "Laboratoire de chimie", "recherche": 160000, "prix": 110000, "niveau": "I", "texte": "Il faut ta propre maison. Le réacteur et la table se débloquent après le labo, le congélateur après le réacteur." },
+    "reacteurs": [
+      { "id": "cargo_production_workbench_1", "nom": "Réacteur chimique I", "cycle_s": 900, "cycles": 4, "recherche": 20000, "prix": 40000, "niveau": "I" },
+      { "id": "cargo_production_workbench_2", "nom": "Réacteur chimique II", "cycle_s": 530, "cycles": 6, "recherche": 150000, "prix": 300000, "niveau": "II" },
+      { "id": "cargo_production_workbench_3", "nom": "Réacteur chimique III", "cycle_s": 337, "cycles": 8, "recherche": 350000, "prix": 700000, "niveau": "III" }
+    ],
+    "ameliorations_reacteur": [
+      { "id": "cargo_production_workbench_upgrade_engine_1", "nom": "Moteur industriel", "effet": "un peu plus de chance de meilleurs cristaux", "recherche": 10000, "prix": 20000, "niveau": "I" },
+      { "id": "cargo_production_workbench_upgrade_thermometer_1", "nom": "Thermomètre industriel", "effet": "nettement plus de chance", "recherche": 50000, "prix": 120000, "niveau": "II" },
+      { "id": "cargo_production_workbench_upgrade_converter_1", "nom": "Convertisseur chimique", "effet": "beaucoup plus de chance", "recherche": 150000, "prix": 300000, "niveau": "III" }
+    ],
+    "congelateurs": [
+      { "id": "cargo_charge_workbench_lab_freezer_1", "nom": "Congélateur industriel I", "places": 4, "recherche": 15000, "prix": 20000, "niveau": "I" },
+      { "id": "cargo_charge_workbench_lab_freezer_2", "nom": "Congélateur industriel II", "places": 6, "recherche": 30000, "prix": 90000, "niveau": "II" },
+      { "id": "cargo_charge_workbench_lab_freezer_3", "nom": "Congélateur industriel III", "places": 8, "recherche": 100000, "prix": 250000, "niveau": "III" }
+    ],
+    "duree_congel": { "min": 6, "source": "Le jeu donne un « tick » de 360 s au congélateur : durée probable d'une congélation, à vérifier." },
+    "ameliorations_congel": [
+      { "id": "cargo_charge_workbench_upgrade_evaporator_1", "cle": "evap", "nom": "Évaporateur amélioré", "vitesse": 0.117, "recherche": 40000, "prix": 100000, "niveau": "II" },
+      { "id": "cargo_charge_workbench_upgrade_refrigerant_1", "cle": "refrig", "nom": "Réfrigérant de qualité", "vitesse": 0.13, "recherche": 100000, "prix": 250000, "niveau": "III" }
+    ],
+    "table": { "id": "cargo_workbench_lab_table_1", "nom": "Table de laboratoire", "places": 2, "recherche": 10000, "prix": 15000, "niveau": "I" },
+    "balances": { "id": "cargo_open_workbench_upgrade_additional_slot_2", "nom": "Balances de laboratoire", "effet": "+1 emplacement sur la table", "recherche": 15000, "prix": 15000, "niveau": "II" },
+    "reactifs": [
+      { "id": "reagents_1", "nom": "Bidons de réactifs", "prix": 20000 },
+      { "id": "reagents_2", "nom": "Réactifs de qualité", "prix": 30000, "texte": "donnent de meilleurs cristaux" }
+    ],
+    "produits": [
+      { "nom": "Concentré cristallin", "ids": ["soft_crystal_1", "soft_crystal_2", "soft_crystal_3"], "chez": "contrebandier", "prix": [10000, 15000, 25000] },
+      { "nom": "Cristaux durs", "ids": ["hard_crystal_1", "hard_crystal_2", "hard_crystal_3"], "chez": "contrebandier", "prix": [30000, 45000, 75000] },
+      { "nom": "Poudre cristalline", "ids": ["lab_crystal_1", "lab_crystal_2", "lab_crystal_3"], "chez": "receleur", "prix": [1000, 2000, 4000], "unite": true }
+    ],
+    "conseils": [
+      "Un concentré sort à <b>chaque fin de cycle</b> du réacteur : l'appli te prévient à chaque cycle.",
+      "<b>Ne coupe pas une cuisson</b> : les cargaisons tombent par terre et les réactifs dans le réacteur sont perdus.",
+      "Les 3 améliorations du réacteur se posent ensemble (chacune a son rôle).",
+      "Les <b>cristaux durs entiers</b> se vendent mieux que réduits en poudre (30 000 $ contre 1 000 $ l'unité de poudre, niveau 1).",
+      "Ne laisse pas traîner les bidons par terre pendant une longue fournée : les cargaisons abandonnées finissent par disparaître.",
+      "Si tu sors une arme en portant une cargaison, elle tombe et la police peut la saisir."
+    ]
+  },
+  "blanchiment": {
+    "intro": "Il faut un <b>compte à la banque de Looty Bay</b> (5 000 $, ouvert en citoyen, sans masque), ta maison et son <b>bureau de blanchiment</b>. Charge l'argent sale : il passe tout seul sur ton compte, <b>même quand tu n'es pas connecté</b>. Appuie sur « Transférer vers mon compte » pour l'argent propre qui attend sur le bureau.",
+    "vitesse": { "par_tick": 450, "tick_s": 10, "avec_compteuse": 630, "source": "Mesuré par des joueurs (bureau nu : 450 $ par tick d'environ 10 s ; 630 $ avec une compteuse de billets). Exemple : 500 000 $ en environ 2 h." },
+    "vip": 0.5,
+    "compteuses": [
+      { "id": "money_workbench_speedup_1", "nom": "Compteuse de billets (peu commune)", "recherche": 10000, "prix": 30000, "niveau": "I" },
+      { "id": "money_workbench_speedup_2", "nom": "Compteuse de billets (épique)", "recherche": 50000, "prix": 65000, "niveau": "II" },
+      { "id": "money_workbench_speedup_3", "nom": "Compteuse de billets (légendaire)", "recherche": 150000, "prix": 150000, "niveau": "III" }
+    ],
+    "maisons": [
+      { "nom": "Caravane", "max": 5000000, "compteuses": 1 },
+      { "nom": "Petite maison", "max": 50000000, "compteuses": 3 },
+      { "nom": "Manoir", "max": 100000000, "compteuses": 6, "texte": "pas encore en vente" }
+    ],
+    "perso": { "taux": 0.5, "max": 100000 },
+    "lenny": { "places": 6, "par_place": 25000 },
+    "commission_colonie": 0.05,
+    "prise_max": 20000,
+    "pertes": {
+      "colonnes": ["Mort", "Arrêté", "Raid sur la base", "Wipe"],
+      "lignes": [
+        ["Argent dans le sac", "perdu", "pris", "—", "perdu"],
+        ["Planque de Lenny", "gardé", "gardé", "gardé", "perdu"],
+        ["Sur le bureau de blanchiment", "gardé", "gardé", "pris", "perdu"],
+        ["Compte en banque", "gardé", "gardé", "gardé", "perdu"],
+        ["BCoin", "gardé", "gardé", "gardé", "gardé"]
+      ]
+    },
+    "conseils": [
+      "<b>Charge le bureau avant de te déconnecter</b> : il continue hors ligne.",
+      "Tu ne prends que <b>20 000 $</b> à la fois sur le bureau (et 10 000 $ sur un échangeur, une caisse de colonie…).",
+      "La vitesse dépend du niveau de la colonie, des compteuses, du quartier tenu par ton clan et du VIP (+50 %).",
+      "Chez toi : pas de commission. Dans la colonie d'un autre, le propriétaire prend sa part (5 % en colonie niveau 1).",
+      "Un câble de blanchiment abîmé divise la vitesse par 2.",
+      "Sans base : la planque de Lenny (6 × 25 000 $) ou le blanchiment sur le personnage (1 propre pour 2 sales, 100 000 $ sale maximum).",
+      "Seuls les BCoin passent le wipe (achetés avec de l'argent propre)."
+    ]
+  },
+  "etablis": [
+    { "cle": "contrebande", "nom": "Établi de contrebande", "id": "cargo_exchange_workbench_1", "texte": "Remballage : 30 min par caisse (imprimante d'étiquettes +15 % / +25 %).", "lien": "#contrebande" },
+    { "cle": "cargaison", "nom": "Établi de cargaison", "id": "cargo_workbench_1", "texte": "Ouverture des cargaisons. Durée pas publiée : mesure-la une fois. Outils de serrurerie, scie et découpeur plasma vont plus vite, l'étau ajoute des places." }
+  ],
+  "sources": "robrun.info (fiches objets, guides salle de culture et laboratoire, mécaniques argent et cargaisons), xpjournal (vitesse du bureau, capacités, pertes), timesaver (durée de pousse rapportée par des joueurs), vgtimes (cycles du réacteur)."
+}
