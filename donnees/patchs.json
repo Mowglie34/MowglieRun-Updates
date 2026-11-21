@@ -1,6 +1,16 @@
 {
  "patchs": [
   {
+   "date": "2026-11-20",
+   "titre": "Patch du 20 novembre",
+   "points": [
+    "Amis en ligne affichés dans la liste des serveurs : tu vois sur quel serveur ils jouent.",
+    "Avant d'ouvrir le choix de l'équipement de flic, le jeu vérifie qu'il reste une place de flic libre.",
+    "Personnalisation du personnage plus simple, et plus de tenues (dont des skins à l'unité).",
+    "Plus de moyens de détecter les tricheurs, et réseau optimisé."
+   ]
+  },
+  {
    "date": "2026-11-17",
    "titre": "Patch du 17 novembre",
    "points": [
@@ -8,7 +18,9 @@
     "Limites de peine de prison : par jour et au total.",
     "Shipments ajouté au menu de Lenny.",
     "Progression et pass conservés si tu changes de région.",
-    "Option pour inverser l'axe Y de la souris."
+    "Chat vocal en prison et au motel de Lenny : limité (il faut notamment louer une parcelle).",
+    "Option pour inverser l'axe Y de la souris.",
+    "Filtre sur les noms de personnage et bouton « Signaler » plus visible à la mort."
    ]
   },
   {

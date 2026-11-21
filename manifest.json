@@ -9,7 +9,7 @@
   "notes": "Nouveau : page Mon clan (membres, objectifs, partage du butin), le casier lit tout seul les captures de jugement, capture en jeu Ctrl+Maj+J, carte de Looty Bay, minuteurs épinglables avec préréglages et raccourcis en jeu (Ctrl+Maj+1 à 9), rappels avant le wipe, état des serveurs, mode jeu léger, taille de l'interface réglable."
  },
  "donnees": {
-  "version": "2026.11.20-2",
+  "version": "2026.11.21",
   "fichiers": {
    "banque.json": {
     "sha256": "9b6151d4109dbba3e2eec0864b6d3c67c9efdca7d1cec5e59db2fd9b538f07b8",
@@ -824,12 +824,12 @@
     "taille": 4818
    },
    "meta.json": {
-    "sha256": "46634a910db7c76a148637c31130d69a302d1fbd9f94306a7f3001c9829a6c06",
-    "taille": 935
+    "sha256": "3e05b321a43bf4370bd55cdb2312023f898e1e8a9c508f7115dd2e508d527aa7",
+    "taille": 933
    },
    "patchs.json": {
-    "sha256": "09bc6699cdd5f8511e6f6102f2d836c57b28d140fa137d2811b9c11c68536fb4",
-    "taille": 1621
+    "sha256": "b4faec698d3bd94008bf499a5d30755061a2c3abba6c450a9b582a2aec744f79",
+    "taille": 2278
    },
    "production.json": {
     "sha256": "7373d1b9a8d5a4cf474d5dd8b877f29539a5329b43a19373439de1ad899cd416",
