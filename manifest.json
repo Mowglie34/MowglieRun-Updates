@@ -2,11 +2,11 @@
  "schema": 1,
  "auteur": "Mowglie34",
  "app": {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "fichier": "MowglieRun.exe",
-  "sha256": "e8330ec4067758ec99336f107649b1b0304290cea49e47aa44f025f503d8fed2",
-  "taille": 9704960,
-  "notes": "Nouveau : page Mon clan (membres, objectifs, partage du butin), le casier lit tout seul les captures de jugement, capture en jeu Ctrl+Maj+J, carte de Looty Bay, minuteurs épinglables avec préréglages et raccourcis en jeu (Ctrl+Maj+1 à 9), rappels avant le wipe, état des serveurs, mode jeu léger, taille de l'interface réglable."
+  "sha256": "1e116789291caf417fbe153b7a33ce646effaa6fe30c684dfb2f0136bad48ae8",
+  "taille": 9713152,
+  "notes": "Fenêtre épinglée d'un minuteur : affiche aussi tes autres minuteurs si tu veux (bouton + autres), boutons discrets qui n'apparaissent qu'au survol. Calculateur de raid : bonus +3 Bunker (zone, structure), détail de la défense comme dans le jeu, score de ton sac et ce qu'il te restera après le raid."
  },
  "donnees": {
   "version": "2026.11.21",
