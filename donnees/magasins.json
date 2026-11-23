@@ -1,0 +1,946 @@
+{
+ "_aide": "Vendeurs des magasins de Looty Bay. p = prix payé en civil (sans masque), au patch du 17 nov. 2026, avant la réduction de colonie. t = type (mun = Munitions, arme = Armes, prot = Protection, sac = Sacs et pochettes, soin = Soins, outil = Outils, base = Ta base, auto = Voiture, val = Objets de valeur). id = objet du catalogue. icones = pictogrammes des repères de la carte où se trouve ce vendeur. Le prix au marché noir est p / 3 (types arme, prot, sac, outil, base, auto, s'il est débloqué).",
+ "version": "2026-11-23",
+ "types": {
+  "mun": "Munitions",
+  "arme": "Armes",
+  "prot": "Protection",
+  "sac": "Sacs et pochettes",
+  "soin": "Soins",
+  "outil": "Outils",
+  "base": "Ta base",
+  "auto": "Voiture",
+  "val": "Objets de valeur"
+ },
+ "noir": [
+  "arme",
+  "prot",
+  "sac",
+  "outil",
+  "base",
+  "auto"
+ ],
+ "regles": [
+  "Les vendeurs des magasins vendent aux <b>civils</b> (sans masque) à <b>3 fois le prix de base</b>.",
+  "Le marché noir (ordinateur de ta base ou Lenny) vend au prix de base, donc <b>3 fois moins cher</b>, mais il faut d'abord la recherche dans Livraisons et parfois une parcelle de niveau II ou III.",
+  "Une colonie peut donner une <b>réduction</b> sur les armes et sur l'équipement : règle-la plus bas si tu en as une.",
+  "Les objets de valeur se rachètent environ <b>7,5 fois</b> ce que le receleur t'en donne : à acheter seulement pour finir une collection."
+ ],
+ "conseils": [
+  "<b>En ville, prends les consommables</b> : munitions, plaques d'acier, soins, crochets, pochettes.",
+  "<b>Pour le gros matériel</b> (fusibles, alarmes, pièces auto, armes chères), fais la recherche : le marché noir le vend 3 fois moins cher.",
+  "<b>Pas encore la recherche ?</b> Le vendeur de la ville te dépanne (à vérifier : il ne semble pas la demander).",
+  "Pas de réactifs ni de plants chez ces vendeurs : ils se trouvent sur place.",
+  "Les fusibles +1 et +3 sont aussi <b>gratuits</b> dans le passe de combat « Pure Chemistry » (pages 1 et 2) jusqu'au 4 décembre."
+ ],
+ "source": "Listes et prix relevés par des joueurs au patch du 17 nov. 2026. Corrige un prix avec ✏️ quand tu le vois en jeu.",
+ "vendeurs": [
+  {
+   "id": "armes",
+   "ic": "weapon_cleaning_1",
+   "nom": "Marchand d'armes",
+   "icone": "armurerie",
+   "icones": [
+    "armurerie"
+   ],
+   "ou": "Armureries Coastal Eagle : est (centre-ville) et ouest (Sunny Beach)",
+   "texte": "Armes de base (Mk1), munitions et grenade flash. Les Mk2 et Mk3 passent par le marché noir.",
+   "stock": [
+    {
+     "n": "Munitions de pistolet",
+     "r": "c",
+     "p": 6,
+     "t": "mun"
+    },
+    {
+     "n": "Munitions de fusil à pompe",
+     "r": "c",
+     "p": 15,
+     "t": "mun"
+    },
+    {
+     "n": "Munitions de mitraillette",
+     "r": "c",
+     "p": 15,
+     "t": "mun"
+    },
+    {
+     "n": "Munitions de fusil d'assaut",
+     "r": "c",
+     "p": 18,
+     "t": "mun"
+    },
+    {
+     "n": "DP-9 Mk1",
+     "r": "pc",
+     "p": 900,
+     "t": "arme",
+     "s": "Pistolet."
+    },
+    {
+     "n": "Harris 500 Mk1",
+     "r": "pc",
+     "p": 10500,
+     "t": "arme",
+     "s": "Fusil à pompe."
+    },
+    {
+     "n": "MC-10 Mk1",
+     "r": "pc",
+     "p": 10500,
+     "t": "arme",
+     "s": "Mitraillette."
+    },
+    {
+     "n": "KL-545 Mk1",
+     "r": "pc",
+     "p": 18000,
+     "t": "arme",
+     "s": "Fusil d'assaut."
+    },
+    {
+     "n": "LBR-44 Mk1",
+     "r": "e",
+     "p": 60000,
+     "t": "arme",
+     "s": "Revolver à 6 coups."
+    },
+    {
+     "n": "ORDR-12 Mk1",
+     "r": "e",
+     "p": 84000,
+     "t": "arme",
+     "s": "Fusil à pompe à tir rapide."
+    },
+    {
+     "n": "JP-7 Mk1",
+     "r": "e",
+     "p": 87000,
+     "t": "arme",
+     "s": "Mitraillette."
+    },
+    {
+     "n": "RC 5.56 Mk1",
+     "r": "e",
+     "p": 96000,
+     "t": "arme",
+     "s": "Fusil d'assaut."
+    },
+    {
+     "n": "Vulture 50 Mk1",
+     "r": "l",
+     "p": 150000,
+     "t": "arme",
+     "s": "Pistolet."
+    },
+    {
+     "n": "TAG-12K Mk1",
+     "r": "l",
+     "p": 330000,
+     "t": "arme",
+     "s": "Fusil à pompe."
+    },
+    {
+     "n": "AP Scalar Mk1",
+     "r": "l",
+     "p": 345000,
+     "t": "arme",
+     "s": "Mitraillette."
+    },
+    {
+     "n": "SR Reaper Mk1",
+     "r": "l",
+     "p": 360000,
+     "t": "arme",
+     "s": "Fusil d'assaut."
+    },
+    {
+     "n": "Grenade flash",
+     "r": "e",
+     "p": 12000,
+     "t": "arme",
+     "s": "Aveugle les gens autour."
+    },
+    {
+     "n": "Kit de poudre noire basique",
+     "r": "pc",
+     "p": 2475,
+     "t": "val",
+     "id": "gunpowder_1"
+    },
+    {
+     "n": "Graisse pour armes",
+     "r": "pc",
+     "p": 2775,
+     "t": "val",
+     "id": "gun_grease_1"
+    },
+    {
+     "n": "Kit de nettoyage d'arme",
+     "r": "pc",
+     "p": 2775,
+     "t": "val",
+     "id": "weapon_cleaning_1"
+    },
+    {
+     "n": "Couteau de collection Imperial",
+     "r": "pc",
+     "p": 3780,
+     "t": "val",
+     "id": "blade_1"
+    }
+   ]
+  },
+  {
+   "id": "armures",
+   "ic": "equipment_2",
+   "nom": "Marchand d'armures",
+   "icone": "equipement",
+   "icones": [
+    "equipement"
+   ],
+   "ou": "Magasins d'équipement : est (centre-ville) et ouest (Sunny Beach)",
+   "texte": "Gilets, sacs, pochettes, plaques pour réparer le gilet et crochets. Le gilet Bastion (exotique) ne se vend pas : il se trouve seulement.",
+   "stock": [
+    {
+     "n": "Gilet pare-balles léger",
+     "r": "c",
+     "p": 12000,
+     "t": "prot",
+     "s": "1 segment de blindage."
+    },
+    {
+     "n": "Gilet pare-balles moyen",
+     "r": "pc",
+     "p": 45000,
+     "t": "prot",
+     "s": "2 segments de blindage."
+    },
+    {
+     "n": "Gilet pare-balles d'assaut",
+     "r": "e",
+     "p": 210000,
+     "t": "prot",
+     "s": "3 segments de blindage."
+    },
+    {
+     "n": "Gilet pare-balles lourd",
+     "r": "l",
+     "p": 420000,
+     "t": "prot",
+     "s": "4 segments de blindage."
+    },
+    {
+     "n": "Plaque d'acier",
+     "r": "pc",
+     "p": 3000,
+     "t": "prot",
+     "s": "Répare 1 segment du gilet (1,3 s, en marchant)."
+    },
+    {
+     "n": "Plaque d'acier",
+     "r": "l",
+     "p": 15000,
+     "t": "prot",
+     "s": "Répare 2 segments du gilet (1,6 s)."
+    },
+    {
+     "n": "Sac de sport",
+     "r": "pc",
+     "p": 15000,
+     "t": "sac",
+     "s": "+2 rangées d'inventaire."
+    },
+    {
+     "n": "Sac de sport",
+     "r": "e",
+     "p": 45000,
+     "t": "sac",
+     "s": "+4 rangées d'inventaire."
+    },
+    {
+     "n": "Sac de sport",
+     "r": "l",
+     "p": 120000,
+     "t": "sac",
+     "s": "+6 rangées d'inventaire."
+    },
+    {
+     "n": "Pochette polyvalente",
+     "r": "c",
+     "p": 750,
+     "t": "sac",
+     "s": "1 poche à accès rapide."
+    },
+    {
+     "n": "Pochette polyvalente",
+     "r": "pc",
+     "p": 3600,
+     "t": "sac",
+     "s": "2 poches à accès rapide."
+    },
+    {
+     "n": "Pochette polyvalente",
+     "r": "e",
+     "p": 8100,
+     "t": "sac",
+     "s": "3 poches à accès rapide."
+    },
+    {
+     "n": "Pochette polyvalente",
+     "r": "l",
+     "p": 36000,
+     "t": "sac",
+     "s": "4 poches à accès rapide."
+    },
+    {
+     "n": "Crochet",
+     "r": "pc",
+     "p": 297,
+     "t": "outil",
+     "id": "lockpick_1",
+     "s": "Portes et conteneurs sans alarme, coffres de voiture."
+    },
+    {
+     "n": "Briquet Lerrou",
+     "r": "pc",
+     "p": 1500,
+     "t": "val"
+    },
+    {
+     "n": "Briquet Snap-Snap",
+     "r": "pc",
+     "p": 1770,
+     "t": "val",
+     "id": "lighter_1"
+    },
+    {
+     "n": "Réchaud de camping",
+     "r": "pc",
+     "p": 2610,
+     "t": "val",
+     "id": "burner_1"
+    },
+    {
+     "n": "Mousqueton en acier",
+     "r": "pc",
+     "p": 3075,
+     "t": "val",
+     "id": "equip_carbine_2"
+    },
+    {
+     "n": "Télémètre laser",
+     "r": "pc",
+     "p": 3225,
+     "t": "val",
+     "id": "equipment_1"
+    },
+    {
+     "n": "Jumelles",
+     "r": "pc",
+     "p": 3525,
+     "t": "val",
+     "id": "equipment_2"
+    },
+    {
+     "n": "Ration de campagne",
+     "r": "pc",
+     "p": 5370,
+     "t": "val",
+     "id": "equipment_4"
+    }
+   ]
+  },
+  {
+   "id": "electronique",
+   "ic": "laptop_1",
+   "nom": "Marchand d'électronique",
+   "icone": "ecran",
+   "icones": [
+    "ecran"
+   ],
+   "ou": "Magasins d'électronique : centre-ville et Sunny Beach",
+   "texte": "Fusibles et alarmes pour ta base, outils de braquage et objets de valeur.",
+   "stock": [
+    {
+     "n": "Fusible électronique +1",
+     "r": "pc",
+     "p": 60000,
+     "t": "base",
+     "id": "defense_module_1"
+    },
+    {
+     "n": "Fusible électronique +3",
+     "r": "e",
+     "p": 300000,
+     "t": "base",
+     "id": "defense_module_2"
+    },
+    {
+     "n": "Fusible électronique +5",
+     "r": "l",
+     "p": 750000,
+     "t": "base",
+     "id": "defense_module_3"
+    },
+    {
+     "n": "Système d'alarme",
+     "r": "pc",
+     "p": 90000,
+     "t": "base",
+     "s": "Prévient tous les joueurs du lieu quand on pirate ton bâtiment."
+    },
+    {
+     "n": "Système d'alarme",
+     "r": "e",
+     "p": 180000,
+     "t": "base",
+     "s": "Te prévient, toi seul, quand on pirate ton bâtiment."
+    },
+    {
+     "n": "Système d'alarme",
+     "r": "l",
+     "p": 600000,
+     "t": "base",
+     "s": "Te prévient, toi et tout ton clan, quand on pirate ton bâtiment."
+    },
+    {
+     "n": "Tablette de codes",
+     "r": "e",
+     "p": 60000,
+     "t": "outil",
+     "id": "tablet_1_cumulative",
+     "s": "Vendue vide : se remplit en ouvrant 4 coffres, puis se revend ou se troque."
+    },
+    {
+     "n": "Outil de piratage USB",
+     "r": "l",
+     "p": 150000,
+     "t": "outil",
+     "id": "usb_1_cumulative",
+     "s": "Vendu vide : se remplit en piratant des ordinateurs."
+    },
+    {
+     "n": "Caméra d'action",
+     "r": "pc",
+     "p": 45000,
+     "t": "outil",
+     "s": "Vendue vide : se remplit en faisant des coups."
+    },
+    {
+     "n": "Caméra d'action",
+     "r": "e",
+     "p": 90000,
+     "t": "outil",
+     "id": "action_camera_2_cumulative",
+     "s": "Vendue vide : se remplit en faisant des coups (70 points pour le Foret)."
+    },
+    {
+     "n": "Appareil photo EOS 900",
+     "r": "pc",
+     "p": 1170,
+     "t": "val"
+    },
+    {
+     "n": "Smartphone G-FLOW",
+     "r": "pc",
+     "p": 1170,
+     "t": "val",
+     "id": "phone_1"
+    },
+    {
+     "n": "Smartphone D-MAX",
+     "r": "pc",
+     "p": 1425,
+     "t": "val",
+     "id": "phone_2"
+    },
+    {
+     "n": "Appareil photo ISE S770",
+     "r": "pc",
+     "p": 1575,
+     "t": "val"
+    },
+    {
+     "n": "Casque AIRHEADS",
+     "r": "pc",
+     "p": 1725,
+     "t": "val",
+     "id": "headphones_1"
+    },
+    {
+     "n": "Console X-STATION",
+     "r": "pc",
+     "p": 1950,
+     "t": "val"
+    },
+    {
+     "n": "Casque MS MIC",
+     "r": "pc",
+     "p": 2595,
+     "t": "val",
+     "id": "headphones_2"
+    },
+    {
+     "n": "Ordinateur portable AIR-P",
+     "r": "pc",
+     "p": 2850,
+     "t": "val",
+     "id": "laptop_1"
+    },
+    {
+     "n": "Ordinateur portable UTAB",
+     "r": "pc",
+     "p": 2850,
+     "t": "val"
+    },
+    {
+     "n": "Console Key-Ten-Do",
+     "r": "pc",
+     "p": 3525,
+     "t": "val",
+     "id": "console_1"
+    },
+    {
+     "n": "Carte graphique HD X900",
+     "r": "pc",
+     "p": 4425,
+     "t": "val"
+    },
+    {
+     "n": "Ordinateur portable HUBRID",
+     "r": "e",
+     "p": 48270,
+     "t": "val",
+     "id": "laptop_3"
+    }
+   ]
+  },
+  {
+   "id": "medicaments",
+   "ic": "vial_1",
+   "nom": "Marchand de médicaments",
+   "icone": "pharmacie",
+   "icones": [
+    "pharmacie"
+   ],
+   "ou": "Pharmacies : centre-ville et Sunny Beach",
+   "texte": "Soins et quelques objets de valeur.",
+   "stock": [
+    {
+     "n": "Antidouleurs",
+     "r": "pc",
+     "p": 1500,
+     "t": "soin",
+     "s": "+25 PV en 1,8 s, en marchant."
+    },
+    {
+     "n": "Antidouleurs",
+     "r": "e",
+     "p": 4800,
+     "t": "soin",
+     "s": "+40 PV en 1,8 s, en marchant."
+    },
+    {
+     "n": "Trousse de secours AFAK",
+     "r": "pc",
+     "p": 1500,
+     "t": "soin",
+     "s": "+100 PV en 9 s, sans bouger."
+    },
+    {
+     "n": "Injecteur",
+     "r": "e",
+     "p": 6000,
+     "t": "soin",
+     "s": "+40 PV sur 5 temps (8 par temps), se fait en 0,9 s."
+    },
+    {
+     "n": "Injecteur",
+     "r": "l",
+     "p": 18000,
+     "t": "soin",
+     "s": "+80 PV sur 5 temps (16 par temps), se fait en 0,9 s."
+    },
+    {
+     "n": "Flacon contenant un vaccin",
+     "r": "pc",
+     "p": 1275,
+     "t": "val",
+     "id": "vial_3"
+    },
+    {
+     "n": "Préservatifs Context",
+     "r": "pc",
+     "p": 1500,
+     "t": "val"
+    },
+    {
+     "n": "Préservatifs Burex",
+     "r": "pc",
+     "p": 1725,
+     "t": "val",
+     "id": "condoms_1"
+    },
+    {
+     "n": "Thermomètre",
+     "r": "pc",
+     "p": 1845,
+     "t": "val",
+     "id": "pharma_tools_1"
+    },
+    {
+     "n": "Flacon contenant des compléments alimentaires",
+     "r": "pc",
+     "p": 1875,
+     "t": "val",
+     "id": "vial_1"
+    },
+    {
+     "n": "Tensiomètre",
+     "r": "e",
+     "p": 38820,
+     "t": "val"
+    }
+   ]
+  },
+  {
+   "id": "auto",
+   "ic": "car_parts_2",
+   "nom": "Marchand de pièces auto",
+   "icone": "station",
+   "icones": [
+    "station"
+   ],
+   "ou": "Centre de service (pont élévateur), à côté de la station-service du centre-ville",
+   "texte": "Améliorations de voiture : elles restent sur la voiture quand tu meurs. Il faut une voiture à toi (et donc une maison) : la location gratuite n'en prend aucune. Pose-les capot ouvert.",
+   "stock": [
+    {
+     "n": "DW-04",
+     "r": "pc",
+     "p": 1845,
+     "t": "val",
+     "id": "car_parts_4"
+    },
+    {
+     "n": "Phare de voiture",
+     "r": "pc",
+     "p": 2475,
+     "t": "val",
+     "id": "car_parts_2"
+    },
+    {
+     "n": "Sacs de coffre",
+     "r": "pc",
+     "p": 3600,
+     "t": "auto",
+     "s": "+1 rangée dans le coffre."
+    },
+    {
+     "n": "ECU",
+     "r": "pc",
+     "p": 42000,
+     "t": "auto",
+     "s": "Vitesse maximale."
+    },
+    {
+     "n": "Crémaillère de direction",
+     "r": "e",
+     "p": 204000,
+     "t": "auto",
+     "s": "Maniabilité."
+    },
+    {
+     "n": "Grands sacs de coffre",
+     "r": "e",
+     "p": 211500,
+     "t": "auto",
+     "s": "+2 rangées dans le coffre."
+    },
+    {
+     "n": "Intercooler",
+     "r": "e",
+     "p": 216000,
+     "t": "auto",
+     "s": "Accélération."
+    },
+    {
+     "n": "ECU amélioré",
+     "r": "e",
+     "p": 225000,
+     "t": "auto",
+     "s": "Vitesse maximale."
+    },
+    {
+     "n": "Kit turbo",
+     "r": "e",
+     "p": 238500,
+     "t": "auto",
+     "s": "Accélération."
+    },
+    {
+     "n": "Galerie de toit",
+     "r": "e",
+     "p": 259500,
+     "t": "auto",
+     "s": "+1 place de cargaison."
+    },
+    {
+     "n": "Kit turbo amélioré",
+     "r": "l",
+     "p": 714000,
+     "t": "auto",
+     "s": "Accélération."
+    },
+    {
+     "n": "Crémaillère de direction renforcée",
+     "r": "l",
+     "p": 810000,
+     "t": "auto",
+     "s": "Maniabilité."
+    },
+    {
+     "n": "Intercooler amélioré",
+     "r": "l",
+     "p": 810000,
+     "t": "auto",
+     "s": "Accélération."
+    },
+    {
+     "n": "Galerie de toit renforcée",
+     "r": "l",
+     "p": 1050000,
+     "t": "auto",
+     "s": "+2 places de cargaison."
+    }
+   ]
+  },
+  {
+   "id": "bijoux",
+   "ic": "watch_1",
+   "nom": "Bijoutier",
+   "icone": "bijou",
+   "icones": [
+    "bijou"
+   ],
+   "ou": "Bijouteries : est (centre-ville) et ouest (Sunny Beach)",
+   "texte": "Que des objets de valeur : utile seulement pour finir une collection.",
+   "stock": [
+    {
+     "n": "Bague ALON GIA",
+     "r": "pc",
+     "p": 1935,
+     "t": "val",
+     "id": "ring_1"
+    },
+    {
+     "n": "Boucles d'oreilles GUDDI",
+     "r": "pc",
+     "p": 2070,
+     "t": "val"
+    },
+    {
+     "n": "Montre CONSTERAN",
+     "r": "pc",
+     "p": 2070,
+     "t": "val"
+    },
+    {
+     "n": "Collier CHIPARDI",
+     "r": "pc",
+     "p": 2295,
+     "t": "val",
+     "id": "necklace_5"
+    },
+    {
+     "n": "Collier GUDDI",
+     "r": "pc",
+     "p": 2565,
+     "t": "val"
+    },
+    {
+     "n": "Bague AMINA",
+     "r": "pc",
+     "p": 2580,
+     "t": "val"
+    },
+    {
+     "n": "Montre PEGIUET",
+     "r": "pc",
+     "p": 2640,
+     "t": "val",
+     "id": "watch_1"
+    },
+    {
+     "n": "Montre PARDIN",
+     "r": "pc",
+     "p": 2745,
+     "t": "val"
+    },
+    {
+     "n": "Boucles d'oreilles SUGI",
+     "r": "pc",
+     "p": 2925,
+     "t": "val",
+     "id": "earrings_3"
+    },
+    {
+     "n": "Boucles d'oreilles MAFFI",
+     "r": "pc",
+     "p": 2985,
+     "t": "val",
+     "id": "earrings_4"
+    },
+    {
+     "n": "Bague SUGI",
+     "r": "pc",
+     "p": 2985,
+     "t": "val"
+    },
+    {
+     "n": "Collier ALON GIA",
+     "r": "pc",
+     "p": 3165,
+     "t": "val",
+     "id": "necklace_1"
+    }
+   ]
+  },
+  {
+   "id": "alcool",
+   "ic": "alcohol_1",
+   "nom": "Marchand d'alcool",
+   "icone": "superette",
+   "icones": [
+    "superette"
+   ],
+   "ou": "Supérettes (magasins d'alcool) : centre-ville et Sunny Beach",
+   "texte": "Quatre bouteilles, utiles pour les collections.",
+   "stock": [
+    {
+     "n": "Bouteille Black Pirate",
+     "r": "pc",
+     "p": 2295,
+     "t": "val",
+     "id": "alcohol_1"
+    },
+    {
+     "n": "Bouteille Fine Wine",
+     "r": "pc",
+     "p": 2340,
+     "t": "val",
+     "id": "alcohol_7"
+    },
+    {
+     "n": "Bouteille Omega",
+     "r": "pc",
+     "p": 2370,
+     "t": "val",
+     "id": "alcohol_9"
+    },
+    {
+     "n": "Bouteille Severka",
+     "r": "pc",
+     "p": 2580,
+     "t": "val",
+     "id": "alcohol_8"
+    }
+   ]
+  },
+  {
+   "id": "bd",
+   "ic": "alcohol_9",
+   "nom": "Marchand de BD et d'alcool",
+   "icone": "cafe",
+   "icones": [],
+   "ou": "Lieu à trouver en jeu (dis-le-moi et je l'ajoute)",
+   "lieu_a_verifier": true,
+   "texte": "BD, cartes, magazines, cigarettes et alcool : utile pour les collections.",
+   "stock": [
+    {
+     "n": "Cigarettes Lucky Shot",
+     "r": "pc",
+     "p": 1425,
+     "t": "val"
+    },
+    {
+     "n": "Préservatifs Context",
+     "r": "pc",
+     "p": 1500,
+     "t": "val"
+    },
+    {
+     "n": "Carte Damon Strickland",
+     "r": "pc",
+     "p": 1575,
+     "t": "val"
+    },
+    {
+     "n": "Carte Maxwell Rivers",
+     "r": "pc",
+     "p": 1620,
+     "t": "val"
+    },
+    {
+     "n": "Préservatifs Burex",
+     "r": "pc",
+     "p": 1725,
+     "t": "val",
+     "id": "condoms_1"
+    },
+    {
+     "n": "Bouteille Black Pirate",
+     "r": "pc",
+     "p": 2295,
+     "t": "val",
+     "id": "alcohol_1"
+    },
+    {
+     "n": "Bouteille Fine Wine",
+     "r": "pc",
+     "p": 2340,
+     "t": "val",
+     "id": "alcohol_7"
+    },
+    {
+     "n": "Bouteille Omega",
+     "r": "pc",
+     "p": 2370,
+     "t": "val",
+     "id": "alcohol_9"
+    },
+    {
+     "n": "Bouteille Severka",
+     "r": "pc",
+     "p": 2580,
+     "t": "val",
+     "id": "alcohol_8"
+    },
+    {
+     "n": "Bande dessinée HELGRIM",
+     "r": "pc",
+     "p": 2625,
+     "t": "val"
+    },
+    {
+     "n": "Magazine AURORA MODE",
+     "r": "pc",
+     "p": 3075,
+     "t": "val"
+    },
+    {
+     "n": "Magazine VERSIA",
+     "r": "pc",
+     "p": 3270,
+     "t": "val"
+    },
+    {
+     "n": "Bande dessinée TADASHI",
+     "r": "pc",
+     "p": 3495,
+     "t": "val"
+    }
+   ]
+  }
+ ]
+}

@@ -2,22 +2,22 @@
  "schema": 1,
  "auteur": "Mowglie34",
  "app": {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "fichier": "MowglieRun.exe",
-  "sha256": "1e116789291caf417fbe153b7a33ce646effaa6fe30c684dfb2f0136bad48ae8",
-  "taille": 9713152,
-  "notes": "Fenêtre épinglée d'un minuteur : affiche aussi tes autres minuteurs si tu veux (bouton + autres), boutons discrets qui n'apparaissent qu'au survol. Calculateur de raid : bonus +3 Bunker (zone, structure), détail de la défense comme dans le jeu, score de ton sac et ce qu'il te restera après le raid."
+  "sha256": "d6e035c9359cd1e1e4972bea57f88b0b5db75b91bc542c940591a2009ee9ac62",
+  "taille": 9761280,
+  "notes": "Nouveau : page Magasins (qui vend quoi en ville, prix en civil et au marché noir, 🛒 sur la carte) et partie Cargaisons dans Contrebande (prix selon ta notoriété, vendre ou ouvrir, compteur de fiche de cargaison). Infos ajoutées : soins, gilets, sacs, alarmes, verrou de raid, patch du 20 novembre."
  },
  "donnees": {
-  "version": "2026.11.21",
+  "version": "2026.11.23",
   "fichiers": {
    "banque.json": {
     "sha256": "9b6151d4109dbba3e2eec0864b6d3c67c9efdca7d1cec5e59db2fd9b538f07b8",
     "taille": 3060
    },
    "base.json": {
-    "sha256": "f323696c45dd951f8950f0d75262f265982543e87e9121d89ebf6813eef9d46e",
-    "taille": 3673
+    "sha256": "b421997e71eca423b53aaebe6bca531a21a2a1d40179db993195ebaef73c4cff",
+    "taille": 4177
    },
    "carte/looty-bay.svg": {
     "sha256": "7c58fc1bd31bbb97b4dde5d85e59e4350acc95b160573cba9b127dee271621e6",
@@ -44,8 +44,8 @@
     "taille": 7999
    },
    "contrebande.json": {
-    "sha256": "8b0c1ac2c2a5ffa3528a8f3da6e9298e6ba24e038c30ac45ba756275ee774ccd",
-    "taille": 1727
+    "sha256": "f887ab3d2f573e2615ab110ad5fa2c3d995a780a89fa57dbeb9cd109dda7ec1e",
+    "taille": 8292
    },
    "icons/action_camera_1_full.webp": {
     "sha256": "34a12fa7105db1ea74de85b61ae5b3c5db9546b06f0ab7e4af26e6607a4c31f8",
@@ -819,21 +819,25 @@
     "sha256": "7560e32bfab2a4d398569ac06a54f453cad2c5671f16da86ddaf5c0962d7ffd7",
     "taille": 6532
    },
+   "magasins.json": {
+    "sha256": "b4da0285b04adc9252cd70e47408c2f2c29150016a3014120a1d261767b794fb",
+    "taille": 19251
+   },
    "mecaniques.json": {
     "sha256": "f133a8bdd73e52ef91779ba340a5bb55649ff028031d1997408792f4435b9f30",
     "taille": 4818
    },
    "meta.json": {
-    "sha256": "3e05b321a43bf4370bd55cdb2312023f898e1e8a9c508f7115dd2e508d527aa7",
+    "sha256": "0879e849fd2b336aecfb3b0a45d907d5681bc3ef3710d5dc5a92fad839523cee",
     "taille": 933
    },
    "patchs.json": {
-    "sha256": "b4faec698d3bd94008bf499a5d30755061a2c3abba6c450a9b582a2aec744f79",
-    "taille": 2278
+    "sha256": "d181edbc2678483e9cb5e24d1d2c599183ff2a571e82b3a9d0a4bab7dabf9e3a",
+    "taille": 2440
    },
    "production.json": {
-    "sha256": "7373d1b9a8d5a4cf474d5dd8b877f29539a5329b43a19373439de1ad899cd416",
-    "taille": 10463
+    "sha256": "c00c5626837c7d3d69030c7fc3ed37e765b5167a9f85ac818ba101cf3c2af94e",
+    "taille": 11543
    },
    "regions.json": {
     "sha256": "2b542f5c9a511035e807a6e39d506f619ca48122a281a8b038d377121d5d97be",

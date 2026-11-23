@@ -7,7 +7,7 @@
    "recherche": 10000,
    "prix": 20000,
    "niveau": "I",
-   "note": ""
+   "note": "Aussi gratuit dans le passe de combat « Pure Chemistry » (page 1) jusqu'au 4 déc."
   },
   {
    "id": "defense_module_2",
@@ -15,7 +15,7 @@
    "recherche": 150000,
    "prix": 100000,
    "niveau": "II",
-   "note": ""
+   "note": "Aussi gratuit dans le passe de combat « Pure Chemistry » (page 2) jusqu'au 4 déc."
   },
   {
    "id": "defense_module_3",
@@ -123,10 +123,12 @@
  "regles": [
   "Un décodeur se pose en <b>12 s</b> et disparaît (usage unique).",
   "Défense à zéro = accès limité au bâtiment + <b>verrou de raid</b> sur la base.",
-  "Après un piratage, <b>répare le panneau</b> : les fusibles ne sont pas détruits.",
+  "Le <b>verrou de raid</b> dure <b>7 min</b> ; un nouveau piratage ajoute 3 min, sans dépasser 7 min.",
+  "Après un piratage, <b>répare le panneau</b> (7 s) : les fusibles ne sont pas détruits et la protection revient.",
   "Le décodeur n'ouvre ni coffres ni armoires grillagées : il faut un <b>passe-partout</b>.",
   "La clôture agricole n'a pas de défense et ne se pirate pas.",
-  "Pas de déménagement possible tant qu'un verrou de raid est actif."
+  "Pas de déménagement possible tant qu'un verrou de raid est actif.",
+  "Un <b>système d'alarme</b> dans le panneau prévient quand le piratage commence : tout le lieu (peu commun), toi (épique) ou toi et ton clan (légendaire). En vente au magasin d'électronique."
  ],
  "comment": [
   [

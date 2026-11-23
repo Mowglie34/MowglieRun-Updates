@@ -51,5 +51,344 @@
   "<b>Ne remets pas la contrebande brute</b> : le contrebandier en donne 10 000 $, tu ne gagnes rien.",
   "L'établi de cargaison (ouverture) ne la prend pas.",
   "Les autres cargaisons (caisses d'alcool, d'électronique…) : les ouvrir sur l'établi de cargaison rapporte plus que les vendre (patch du 5 nov.)."
- ]
+ ],
+ "cargaisons": {
+  "_aide": "p = prix au contrebandier en notoriété 1 (peu commune → épique, ou une seule valeur), avant le bonus de notoriété. o = où l'ouvrir : etabli (établi de cargaison), contrebande (établi de contrebande), culture, reacteur, congelateur, labo, vendre (ne s'ouvre pas). g = groupe.",
+  "groupes": {
+   "caisse": "Caisses",
+   "sac": "Sacs et valises",
+   "coffre": "Coffres et gros lots",
+   "contrebande": "Contrebande",
+   "collection": "Collections",
+   "production": "Production"
+  },
+  "ouvre": {
+   "etabli": "Établi de cargaison",
+   "contrebande": "Établi de contrebande",
+   "culture": "Table de culture",
+   "reacteur": "Réacteur chimique",
+   "congelateur": "Congélateur industriel",
+   "labo": "Table de laboratoire",
+   "vendre": "Ne s'ouvre pas : à vendre"
+  },
+  "liste": [
+   {
+    "n": "Caisse d'alcool",
+    "p": [
+     25000,
+     40000
+    ],
+    "o": "etabli",
+    "g": "caisse"
+   },
+   {
+    "n": "Caisse d'électronique",
+    "p": [
+     25000,
+     40000
+    ],
+    "o": "etabli",
+    "g": "caisse"
+   },
+   {
+    "n": "Caisse d'équipement",
+    "p": [
+     25000,
+     40000
+    ],
+    "o": "etabli",
+    "g": "caisse"
+   },
+   {
+    "n": "Coffret à bijoux",
+    "p": [
+     25000,
+     40000
+    ],
+    "o": "etabli",
+    "g": "caisse"
+   },
+   {
+    "n": "Caisse de médicaments",
+    "p": [
+     25000,
+     40000
+    ],
+    "o": "etabli",
+    "g": "caisse"
+   },
+   {
+    "n": "Caisse de pièces détachées",
+    "p": [
+     25000,
+     40000
+    ],
+    "o": "etabli",
+    "g": "caisse"
+   },
+   {
+    "n": "Caisse de pièces d'arme",
+    "p": [
+     25000,
+     120000
+    ],
+    "o": "etabli",
+    "g": "caisse"
+   },
+   {
+    "n": "Sac d'argent fermé",
+    "p": [
+     25000
+    ],
+    "o": "etabli",
+    "g": "sac",
+    "id": "cash_bag"
+   },
+   {
+    "n": "Valise bleue",
+    "p": [
+     25000
+    ],
+    "o": "etabli",
+    "g": "sac"
+   },
+   {
+    "n": "Valise rouge",
+    "p": [
+     25000
+    ],
+    "o": "etabli",
+    "g": "sac"
+   },
+   {
+    "n": "Valise blanche",
+    "p": [
+     25000
+    ],
+    "o": "etabli",
+    "g": "sac"
+   },
+   {
+    "n": "Sac de poudre",
+    "p": [
+     25000
+    ],
+    "o": "etabli",
+    "g": "sac"
+   },
+   {
+    "n": "Sac de poudre pure",
+    "p": [
+     40000
+    ],
+    "o": "etabli",
+    "g": "sac"
+   },
+   {
+    "n": "Sac de poudre parfaite",
+    "p": [
+     60000
+    ],
+    "o": "etabli",
+    "g": "sac"
+   },
+   {
+    "n": "Sac de banque",
+    "p": [
+     60000
+    ],
+    "o": "etabli",
+    "g": "sac",
+    "id": "bank_cash_bag"
+   },
+   {
+    "n": "Coffre portable",
+    "p": [
+     100000
+    ],
+    "o": "etabli",
+    "g": "coffre"
+   },
+   {
+    "n": "Cargaison de valeur",
+    "p": [
+     150000
+    ],
+    "o": "etabli",
+    "g": "coffre"
+   },
+   {
+    "n": "Coffre de luxe",
+    "p": [
+     200000
+    ],
+    "o": "etabli",
+    "g": "coffre"
+   },
+   {
+    "n": "Statue en or",
+    "p": [
+     250000
+    ],
+    "o": "vendre",
+    "g": "coffre"
+   },
+   {
+    "n": "Cargaison de contrebande",
+    "p": [
+     10000
+    ],
+    "o": "contrebande",
+    "g": "contrebande",
+    "id": "cargo_alcohol_grade_1",
+    "s": "À remballer avant de la remettre."
+   },
+   {
+    "n": "Cargaison premium",
+    "p": [
+     35000
+    ],
+    "o": "vendre",
+    "g": "contrebande",
+    "id": "cargo_alcohol_grade_2"
+   },
+   {
+    "n": "Cargaison rare",
+    "p": [
+     40000
+    ],
+    "o": "vendre",
+    "g": "contrebande",
+    "id": "cargo_alcohol_grade_3"
+   },
+   {
+    "n": "Caisse de collection",
+    "p": [
+     50000
+    ],
+    "o": "vendre",
+    "g": "collection",
+    "id": "collection_reward_cargo_0"
+   },
+   {
+    "n": "Caisse de collection rare",
+    "p": [
+     150000
+    ],
+    "o": "vendre",
+    "g": "collection",
+    "id": "collection_reward_cargo_14"
+   },
+   {
+    "n": "Caisse de collection unique",
+    "p": [
+     500000
+    ],
+    "o": "vendre",
+    "g": "collection",
+    "id": "collection_reward_cargo_24"
+   },
+   {
+    "n": "Plant en croissance",
+    "p": [
+     20000,
+     40000
+    ],
+    "o": "culture",
+    "g": "production",
+    "id": "bush_growing_1"
+   },
+   {
+    "n": "Plant mûr",
+    "p": [
+     30000,
+     60000
+    ],
+    "o": "culture",
+    "g": "production",
+    "id": "bush_mature_1"
+   },
+   {
+    "n": "Bidons de réactifs",
+    "p": [
+     20000
+    ],
+    "o": "reacteur",
+    "g": "production",
+    "id": "reagents_1"
+   },
+   {
+    "n": "Réactifs de qualité",
+    "p": [
+     30000
+    ],
+    "o": "reacteur",
+    "g": "production",
+    "id": "reagents_2"
+   },
+   {
+    "n": "Concentré cristallin",
+    "p": [
+     10000,
+     25000
+    ],
+    "o": "congelateur",
+    "g": "production",
+    "id": "soft_crystal_1"
+   },
+   {
+    "n": "Cristaux durs",
+    "p": [
+     30000,
+     75000
+    ],
+    "o": "labo",
+    "g": "production",
+    "id": "hard_crystal_1"
+   }
+  ],
+  "fiche": {
+   "id": "cargo_manifest_1_full",
+   "paliers": [
+    [
+     5,
+     60000,
+     "pc"
+    ],
+    [
+     12,
+     80000,
+     "e"
+    ],
+    [
+     36,
+     300000,
+     "l"
+    ]
+   ],
+   "texte": "Achète une fiche au marché noir (après la recherche ; l'épique demande une colonie de niveau II) et <b>garde-la dans ton inventaire</b> : chaque livraison au contrebandier ajoute <b>1 point</b>. Pleine, elle se revend : 60 000 $ (peu commune, 5 points), 80 000 $ (épique, 12 points) ou 300 000 $ (légendaire, 36 points). Survole-la en jeu pour voir tes points."
+  },
+  "ouvrir_ou_vendre": [
+   [
+    "Vends au contrebandier",
+    "si tu n'as pas de base ni d'établi, si on te poursuit, ou si le wipe arrive dans moins d'un jour."
+   ],
+   [
+    "Ouvre à l'établi de cargaison",
+    "si tu as une parcelle et le temps : depuis le patch du 5 nov., ouvrir rapporte en général plus que vendre."
+   ],
+   [
+    "Statue en or et caisses de collection",
+    "ne s'ouvrent pas : vends-les directement."
+   ]
+  ],
+  "transport": [
+   "La <b>Buletti</b> ne peut pas porter de cargaison.",
+   "La <b>galerie de toit</b> ajoute 1 place de cargaison et reste sur la voiture quand tu meurs (marché noir après la recherche, ou chez le marchand de pièces auto, 3 fois plus cher).",
+   "<b>Sortir une arme</b> fait tomber la cargaison, et une cargaison laissée par terre finit par disparaître.",
+   "Un <b>flic</b> peut confisquer tes cargaisons.",
+   "Des joueurs <b>campent</b> près des contrebandiers : repère les lieux avant et change de point."
+  ],
+  "source": "Prix relevés par des joueurs (patch du 17 nov. 2026), avant le bonus de notoriété et de lieu. Corrige avec ✏️ ce que tu vois en jeu."
+ }
 }

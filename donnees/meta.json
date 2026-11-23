@@ -1,7 +1,7 @@
 {
  "appli": "MowglieRun",
  "auteur": "Mowglie34",
- "maj": "21 nov. 2026",
+ "maj": "23 nov. 2026",
  "rarete": {
   "c": {
    "bas": "#2e2e2b",
@@ -42,5 +42,5 @@
   "xpjournal (vitesse du blanchiment)",
   "vgtimes (labo)"
  ],
- "version": "2026.11.21"
+ "version": "2026.11.23"
 }
