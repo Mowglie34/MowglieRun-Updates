@@ -3,6 +3,16 @@
  "mot": "",
  "versions": [
   {
+   "version": "1.1.5",
+   "date": "2026-11-23",
+   "titre": "Mon butin",
+   "points": [
+    "Nouvelle page Mon butin : touche les images des objets que tu ramènes, l'appli fait le total au receleur et au contrebandier avec ta notoriété. ⭐ sur ce qu'il te manque pour tes collections (à garder).",
+    "Casier & journal : un gros coup, un raid ou une mort peut avoir son butin (en touchant les images, ou « Prendre mon sac »). Le montant suit le total.",
+    "Carte : « À fouiller ici » montre ce qu'on trouve dans chaque bâtiment (bijoux, alcool, tableaux, armes…) avec le nombre de points, d'après ROB RUN Wiki."
+   ]
+  },
+  {
    "version": "1.1.4",
    "date": "2026-11-23",
    "titre": "Les vraies images du jeu et 124 objets en plus",

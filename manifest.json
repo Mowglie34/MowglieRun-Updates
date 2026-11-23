@@ -2,14 +2,14 @@
  "schema": 1,
  "auteur": "Mowglie34",
  "app": {
-  "version": "1.1.4",
+  "version": "1.1.5",
   "fichier": "MowglieRun.exe",
-  "sha256": "98ebe3383f6d754a16c9790001cdbc6a6a0b43421ec43a63e87555fe7c81be3e",
-  "taille": 11601408,
-  "notes": "Les vraies images du jeu et 124 objets en plus : Armes : la vraie image de chaque arme (Mk1 à Mk3), des grenades et des munitions. · Voitures : l'image des 7 voitures et de toutes les pièces auto. · Magasins : les 118 objets en vente ont maintenant leur image. · Livraisons (Larry) : une image pour chacune des 171 recherches (meubles, constructions, titres de parcelle…). · Contrebande : l'image de chaque cargaison (caisses, valises, sacs de poudre, coffres, statue en or). · Catalogue : 124 objets en plus (bouteilles, gemmes, statues, cartes, jetons de roulette, billets de loterie, casse-tête, coupe-boulons, fiches de cargaison…), avec leur image, leur prix et où les trouver. Nouvelle catégorie Équipement. · Production, Minuteurs et Carte : l'image des machines, des préréglages de minuteur et de ce qu'on peut acheter dans chaque magasin. · Production : images des machines, des améliorations, des plants, cristaux et réactifs. · Le Romanov R8 est un hélicoptère (page Voitures). · Accueil : « Dernière news du jeu » montre le dernier patch ou la dernière annonce."
+  "sha256": "1c7c83f61f81cbde0680abbdac4f95872b8c938433c6a9dc52d7981dd4e815c7",
+  "taille": 11642880,
+  "notes": "Mon butin : Nouvelle page Mon butin : touche les images des objets que tu ramènes, l'appli fait le total au receleur et au contrebandier avec ta notoriété. ⭐ sur ce qu'il te manque pour tes collections (à garder). · Casier \u0026 journal : un gros coup, un raid ou une mort peut avoir son butin (en touchant les images, ou « Prendre mon sac »). Le montant suit le total. · Carte : « À fouiller ici » montre ce qu'on trouve dans chaque bâtiment (bijoux, alcool, tableaux, armes…) avec le nombre de points, d'après ROB RUN Wiki."
  },
  "donnees": {
-  "version": "2026.11.23-4",
+  "version": "2026.11.23-5",
   "fichiers": {
    "armes.json": {
     "sha256": "6d38a5804c82c71d898f5e5ff2f38b73296584569f5eca37580894ee95a9f5d4",
@@ -22,6 +22,10 @@
    "base.json": {
     "sha256": "b421997e71eca423b53aaebe6bca531a21a2a1d40179db993195ebaef73c4cff",
     "taille": 4177
+   },
+   "carte/fouille.json": {
+    "sha256": "324baa89cb48cfce57b23c15ad0bf85163426933a582742d97782775227ee437",
+    "taille": 26567
    },
    "carte/looty-bay.svg": {
     "sha256": "7c58fc1bd31bbb97b4dde5d85e59e4350acc95b160573cba9b127dee271621e6",
@@ -2176,12 +2180,12 @@
     "taille": 4818
    },
    "meta.json": {
-    "sha256": "16f941785bd6a2d83fae83b307a36667b1382064fa09f2e9bcc163aca4fd1181",
+    "sha256": "9efb17c0abfaf2e6c6699154d83401bc7eb060d2f61ed1d8daab620b79abee3c",
     "taille": 1128
    },
    "nouveautes.json": {
-    "sha256": "a21388fca6392e1a474e7558b7b7b496225eec66480dc13f300915847ffddc52",
-    "taille": 4097
+    "sha256": "da4259baa29259e20288bce22b684a3103c5a15a64f81a185b750a444855cc2f",
+    "taille": 4740
    },
    "patchs.json": {
     "sha256": "64a5ed72e45b5637df1c7b9948b5778f11801ed2877a5910e6add269f2a06b25",

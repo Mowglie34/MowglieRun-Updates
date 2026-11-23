@@ -1,0 +1,2143 @@
+{
+ "_aide": "Ce qu'on peut fouiller dans chaque bâtiment (repère de la carte) : f = butin [nom, nombre de points, image ou émoji], c = contenants et portes. Source : ROB RUN Wiki (https://robrunwiki.com/en/map/, données ouvertes map-points.csv, version du jeu 0.7.0), regroupé par bâtiment et traduit en français.",
+ "source": "https://robrunwiki.com/en/map/",
+ "reperes": {
+  "manoir": {
+   "wiki": "Noble's Mansion",
+   "f": [
+    [
+     "Tableaux",
+     5,
+     "picture_tube_1"
+    ],
+    [
+     "Pièces auto",
+     3,
+     "car_parts_2"
+    ],
+    [
+     "Argent",
+     3,
+     "cash_bag"
+    ],
+    [
+     "Liasses",
+     3,
+     "cash_1"
+    ],
+    [
+     "Alcool",
+     2,
+     "alcohol_1"
+    ],
+    [
+     "Grille-pain",
+     1,
+     "toaster_1"
+    ],
+    [
+     "Ordinateurs portables",
+     1,
+     "laptop_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     2,
+     "🗄️"
+    ],
+    [
+     "Commodes",
+     2,
+     "🗄️"
+    ],
+    [
+     "Frigos",
+     1,
+     "🧊"
+    ],
+    [
+     "Coffre encastré",
+     1,
+     "🔐"
+    ]
+   ]
+  },
+  "coffre_safe_key_7": {
+   "wiki": "Noble's Mansion",
+   "f": [
+    [
+     "Tableaux",
+     5,
+     "picture_tube_1"
+    ],
+    [
+     "Pièces auto",
+     3,
+     "car_parts_2"
+    ],
+    [
+     "Argent",
+     3,
+     "cash_bag"
+    ],
+    [
+     "Liasses",
+     3,
+     "cash_1"
+    ],
+    [
+     "Alcool",
+     2,
+     "alcohol_1"
+    ],
+    [
+     "Grille-pain",
+     1,
+     "toaster_1"
+    ],
+    [
+     "Ordinateurs portables",
+     1,
+     "laptop_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     2,
+     "🗄️"
+    ],
+    [
+     "Commodes",
+     2,
+     "🗄️"
+    ],
+    [
+     "Frigos",
+     1,
+     "🧊"
+    ],
+    [
+     "Coffre encastré",
+     1,
+     "🔐"
+    ]
+   ]
+  },
+  "lieu16": {
+   "wiki": "Cottage #3",
+   "f": [
+    [
+     "Briquettes",
+     6,
+     "drugs_bricket_1"
+    ],
+    [
+     "Pièces auto",
+     2,
+     "car_parts_2"
+    ],
+    [
+     "Poudre",
+     2,
+     "drugs_1"
+    ],
+    [
+     "Alcool",
+     2,
+     "alcohol_1"
+    ],
+    [
+     "Tableaux",
+     2,
+     "picture_tube_1"
+    ],
+    [
+     "Téléphones",
+     2,
+     "phone_1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Casques",
+     1,
+     "headphones_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ],
+    [
+     "Liasses",
+     1,
+     "cash_1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     7,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Bureaux",
+     1,
+     "🗄️"
+    ],
+    [
+     "Frigos",
+     1,
+     "🧊"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "lieu17": {
+   "wiki": "Cottage #5",
+   "f": [
+    [
+     "Liasses",
+     6,
+     "cash_1"
+    ],
+    [
+     "Tableaux",
+     4,
+     "picture_tube_1"
+    ],
+    [
+     "Antiquités bon marché",
+     3,
+     "antique_set_1"
+    ],
+    [
+     "Poudre",
+     2,
+     "drugs_1"
+    ],
+    [
+     "Grille-pain",
+     1,
+     "toaster_1"
+    ],
+    [
+     "Casques",
+     1,
+     "headphones_1"
+    ],
+    [
+     "Alcool (pièce fermée)",
+     1,
+     "alcohol_10"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     6,
+     "🗄️"
+    ],
+    [
+     "Commodes",
+     2,
+     "🗄️"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Coffres-forts",
+     1,
+     "🔐"
+    ],
+    [
+     "Frigos",
+     1,
+     "🧊"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "lieu7": {
+   "wiki": "Grand Hotel",
+   "f": [
+    [
+     "Bijoux",
+     27,
+     "necklace_1"
+    ],
+    [
+     "Tableaux",
+     6,
+     "picture_tube_1"
+    ],
+    [
+     "Alcool",
+     4,
+     "alcohol_1"
+    ],
+    [
+     "Argent liquide",
+     3,
+     "cash_1"
+    ],
+    [
+     "Poudre",
+     3,
+     "drugs_1"
+    ],
+    [
+     "Alcool (pièce dorée)",
+     3,
+     "alcohol_13"
+    ],
+    [
+     "Bijoux en vitrine",
+     2,
+     "earrings_3"
+    ],
+    [
+     "Buletti Soltempra (expo)",
+     1,
+     "buletti_soltempra"
+    ]
+   ],
+   "c": [
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Placards et caisses",
+     2,
+     "🗄️"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "lieu10": {
+   "wiki": "Convenience Store (Sunny Beach)",
+   "f": [
+    [
+     "Alcool",
+     9,
+     "alcohol_1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     6,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "coffre_safe_key_9": {
+   "wiki": "Convenience Store (Sunny Beach)",
+   "f": [
+    [
+     "Alcool",
+     9,
+     "alcohol_1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     6,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "bijouterie_o": {
+   "wiki": "Jewelry Store: West",
+   "f": [
+    [
+     "Bijoux",
+     14,
+     "necklace_1"
+    ],
+    [
+     "Bijoux en vitrine",
+     8,
+     "earrings_3"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Liasses",
+     1,
+     "cash_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     4,
+     "🗄️"
+    ]
+   ]
+  },
+  "lieu12": {
+   "wiki": "Equipment Store: West",
+   "f": [
+    [
+     "Mousquetons",
+     7,
+     "equip_carbine_1"
+    ],
+    [
+     "Gilets",
+     2,
+     "vest2_m1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     3,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Caisses d'équipement",
+     2,
+     "📦"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "lieu13": {
+   "wiki": "Gun Shop: West",
+   "f": [
+    [
+     "Pièces d'armes",
+     5,
+     "weaponparts_box_1"
+    ],
+    [
+     "Fusils d'assaut (pièce fermée)",
+     4,
+     "rc556_m1"
+    ],
+    [
+     "Mitraillettes épiques (pièce fermée)",
+     2,
+     "mc10_m2"
+    ],
+    [
+     "Mitraillettes (pièce fermée)",
+     2,
+     "mc10_m1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Fusils à pompe (pièce fermée)",
+     1,
+     "harris500_m1"
+    ],
+    [
+     "Fusils à pompe épiques (pièce fermée)",
+     1,
+     "ordr12_m1"
+    ],
+    [
+     "Pistolets (pièce fermée)",
+     1,
+     "dp9_m1"
+    ],
+    [
+     "Grenades",
+     1,
+     "frag_grenade_1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     4,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Caisses d'équipement",
+     2,
+     "📦"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "lieu11": {
+   "wiki": "Pharmacy (Sunny Beach)",
+   "f": [
+    [
+     "Médicaments",
+     12,
+     "vial_1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     4,
+     "🗄️"
+    ],
+    [
+     "Frigos",
+     3,
+     "🧊"
+    ],
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "coffre_safe_key_5": {
+   "wiki": "Pharmacy (Sunny Beach)",
+   "f": [
+    [
+     "Médicaments",
+     12,
+     "vial_1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     4,
+     "🗄️"
+    ],
+    [
+     "Frigos",
+     3,
+     "🧊"
+    ],
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "coffre_safe_key_13": {
+   "wiki": "Electronics Store (Sunny Beach)",
+   "f": [
+    [
+     "Téléphones en vitrine",
+     13,
+     "phone_2"
+    ],
+    [
+     "Électronique",
+     4,
+     "electronics_box_1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     2,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     1,
+     "🔐"
+    ]
+   ]
+  },
+  "coffre_safe_key_1": {
+   "wiki": "Seasons Hotel",
+   "f": [
+    [
+     "Cigares",
+     3,
+     "cigar_2"
+    ],
+    [
+     "Tableaux",
+     3,
+     "picture_tube_1"
+    ],
+    [
+     "Liasses",
+     2,
+     "cash_1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Alcool",
+     1,
+     "alcohol_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     4,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     1,
+     "🔐"
+    ]
+   ]
+  },
+  "lieu9": {
+   "wiki": "Reef Hotel",
+   "f": [
+    [
+     "Tableaux",
+     4,
+     "picture_tube_1"
+    ],
+    [
+     "Téléphones",
+     2,
+     "phone_1"
+    ],
+    [
+     "Cigares",
+     2,
+     "cigar_2"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Alcool",
+     1,
+     "alcohol_1"
+    ],
+    [
+     "Liasses",
+     1,
+     "cash_1"
+    ],
+    [
+     "Cigares (pièce fermée)",
+     1,
+     "cigar_2"
+    ],
+    [
+     "Alcool (pièce fermée)",
+     1,
+     "alcohol_10"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     7,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     3,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "coffre_safe_key_2": {
+   "wiki": "Reef Hotel",
+   "f": [
+    [
+     "Tableaux",
+     4,
+     "picture_tube_1"
+    ],
+    [
+     "Téléphones",
+     2,
+     "phone_1"
+    ],
+    [
+     "Cigares",
+     2,
+     "cigar_2"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Alcool",
+     1,
+     "alcohol_1"
+    ],
+    [
+     "Liasses",
+     1,
+     "cash_1"
+    ],
+    [
+     "Cigares (pièce fermée)",
+     1,
+     "cigar_2"
+    ],
+    [
+     "Alcool (pièce fermée)",
+     1,
+     "alcohol_10"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     7,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     3,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "lieu8": {
+   "wiki": "Strip Club",
+   "f": [
+    [
+     "Argent liquide",
+     7,
+     "cash_1"
+    ],
+    [
+     "Alcool",
+     6,
+     "alcohol_1"
+    ],
+    [
+     "Poudre",
+     5,
+     "drugs_1"
+    ],
+    [
+     "Argent",
+     4,
+     "cash_bag"
+    ],
+    [
+     "Alcool (pièce dorée)",
+     4,
+     "alcohol_13"
+    ],
+    [
+     "Téléphones",
+     2,
+     "phone_1"
+    ],
+    [
+     "Cigares (pièce dorée)",
+     2,
+     "cigar_2"
+    ],
+    [
+     "Tableaux",
+     1,
+     "picture_tube_1"
+    ],
+    [
+     "DP-9 Mk2",
+     1,
+     "dp9_m2"
+    ],
+    [
+     "Liasses",
+     1,
+     "cash_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ],
+    [
+     "Ordinateur (pièce dorée)",
+     1,
+     "laptop_5"
+    ],
+    [
+     "Téléphone (pièce dorée)",
+     1,
+     "phone_5"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     7,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Coffre encastré",
+     1,
+     "🔐"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "coffre_safe_key_3": {
+   "wiki": "Strip Club",
+   "f": [
+    [
+     "Argent liquide",
+     7,
+     "cash_1"
+    ],
+    [
+     "Alcool",
+     6,
+     "alcohol_1"
+    ],
+    [
+     "Poudre",
+     5,
+     "drugs_1"
+    ],
+    [
+     "Argent",
+     4,
+     "cash_bag"
+    ],
+    [
+     "Alcool (pièce dorée)",
+     4,
+     "alcohol_13"
+    ],
+    [
+     "Téléphones",
+     2,
+     "phone_1"
+    ],
+    [
+     "Cigares (pièce dorée)",
+     2,
+     "cigar_2"
+    ],
+    [
+     "Tableaux",
+     1,
+     "picture_tube_1"
+    ],
+    [
+     "DP-9 Mk2",
+     1,
+     "dp9_m2"
+    ],
+    [
+     "Liasses",
+     1,
+     "cash_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ],
+    [
+     "Ordinateur (pièce dorée)",
+     1,
+     "laptop_5"
+    ],
+    [
+     "Téléphone (pièce dorée)",
+     1,
+     "phone_5"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     7,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Coffre encastré",
+     1,
+     "🔐"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "coffre_safe_key_6": {
+   "wiki": "Ocean Breeze Café",
+   "f": [
+    [
+     "Alcool",
+     8,
+     "alcohol_1"
+    ],
+    [
+     "Téléphones",
+     3,
+     "phone_1"
+    ],
+    [
+     "Argent liquide",
+     2,
+     "cash_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ],
+    [
+     "Ordinateurs portables",
+     1,
+     "laptop_1"
+    ],
+    [
+     "Casques",
+     1,
+     "headphones_1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     2,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     1,
+     "🔐"
+    ]
+   ]
+  },
+  "lieu15": {
+   "wiki": "Police Station",
+   "f": [
+    [
+     "Briquettes",
+     7,
+     "drugs_bricket_1"
+    ],
+    [
+     "Armes (salle à côté)",
+     6,
+     "kl545_m1"
+    ],
+    [
+     "Armes épiques (armurerie)",
+     4,
+     "kl545_m2"
+    ],
+    [
+     "Grenades (armurerie)",
+     4,
+     "frag_grenade_1"
+    ],
+    [
+     "Pièces d'armes",
+     3,
+     "weaponparts_box_1"
+    ],
+    [
+     "Argent liquide",
+     2,
+     "cash_1"
+    ],
+    [
+     "Grenades à fragmentation",
+     2,
+     "frag_grenade_1"
+    ],
+    [
+     "Grenades à gaz",
+     2,
+     "gas_grenade_1"
+    ],
+    [
+     "Armes légendaires",
+     2,
+     "apscalar_m1"
+    ],
+    [
+     "Armes",
+     2,
+     "kl545_m1"
+    ],
+    [
+     "Poudre",
+     1,
+     "drugs_1"
+    ],
+    [
+     "Grenade flash",
+     1,
+     "flash_grenade_1"
+    ],
+    [
+     "Grenade fumigène",
+     1,
+     "smoke_grenade_1"
+    ],
+    [
+     "Gilets de police",
+     1,
+     "vest3_m1"
+    ],
+    [
+     "Pistolets (armurerie)",
+     1,
+     "dp9_m2"
+    ],
+    [
+     "Arme rare",
+     1,
+     "🔫"
+    ]
+   ],
+   "c": [
+    [
+     "Coffres-forts",
+     3,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     2,
+     "🚪"
+    ],
+    [
+     "Placards et caisses",
+     1,
+     "🗄️"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "lieu14": {
+   "wiki": "Art Gallery",
+   "f": [
+    [
+     "Antiquités bon marché",
+     23,
+     "antique_set_1"
+    ],
+    [
+     "Drogue",
+     20,
+     "drugs_4"
+    ],
+    [
+     "Tableaux",
+     19,
+     "picture_tube_1"
+    ],
+    [
+     "Antiquités",
+     7,
+     "antique_1"
+    ],
+    [
+     "Tableaux (pièce fermée)",
+     4,
+     "picture_tube_3"
+    ],
+    [
+     "Briquettes",
+     3,
+     "drugs_bricket_1"
+    ],
+    [
+     "Figurines fragiles",
+     3,
+     "figurine_1"
+    ],
+    [
+     "Gilets",
+     2,
+     "vest2_m1"
+    ],
+    [
+     "Antiquités (pièce dorée)",
+     2,
+     "antique_4"
+    ],
+    [
+     "BIG EGG n° 53",
+     1,
+     "egg_faberge_1"
+    ],
+    [
+     "Mitraillettes épiques (pièce fermée)",
+     1,
+     "mc10_m2"
+    ],
+    [
+     "Fusils à pompe épiques (pièce fermée)",
+     1,
+     "ordr12_m1"
+    ],
+    [
+     "Téléphone (pièce dorée)",
+     1,
+     "phone_5"
+    ]
+   ],
+   "c": [
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "egg": {
+   "wiki": "Art Gallery",
+   "f": [
+    [
+     "Antiquités bon marché",
+     23,
+     "antique_set_1"
+    ],
+    [
+     "Drogue",
+     20,
+     "drugs_4"
+    ],
+    [
+     "Tableaux",
+     19,
+     "picture_tube_1"
+    ],
+    [
+     "Antiquités",
+     7,
+     "antique_1"
+    ],
+    [
+     "Tableaux (pièce fermée)",
+     4,
+     "picture_tube_3"
+    ],
+    [
+     "Briquettes",
+     3,
+     "drugs_bricket_1"
+    ],
+    [
+     "Figurines fragiles",
+     3,
+     "figurine_1"
+    ],
+    [
+     "Gilets",
+     2,
+     "vest2_m1"
+    ],
+    [
+     "Antiquités (pièce dorée)",
+     2,
+     "antique_4"
+    ],
+    [
+     "BIG EGG n° 53",
+     1,
+     "egg_faberge_1"
+    ],
+    [
+     "Mitraillettes épiques (pièce fermée)",
+     1,
+     "mc10_m2"
+    ],
+    [
+     "Fusils à pompe épiques (pièce fermée)",
+     1,
+     "ordr12_m1"
+    ],
+    [
+     "Téléphone (pièce dorée)",
+     1,
+     "phone_5"
+    ]
+   ],
+   "c": [
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "lieu0": {
+   "wiki": "Looty Bay Bank",
+   "f": [
+    [
+     "Lingots d'or",
+     8,
+     "gold_bar_1"
+    ],
+    [
+     "Argent liquide",
+     6,
+     "cash_1"
+    ]
+   ],
+   "c": [
+    [
+     "Coffres de dépôt",
+     12,
+     "deposit_box_1_full"
+    ],
+    [
+     "Coffres de la banque",
+     3,
+     "🔐"
+    ],
+    [
+     "Porte de la chambre forte",
+     1,
+     "🚪"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ]
+   ]
+  },
+  "electro_dt": {
+   "wiki": "Electronics Store (Downtown)",
+   "f": [
+    [
+     "Électronique",
+     4,
+     "electronics_box_1"
+    ],
+    [
+     "Téléphones",
+     3,
+     "phone_1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ],
+    [
+     "Ordinateurs portables",
+     1,
+     "laptop_1"
+    ],
+    [
+     "Consoles",
+     1,
+     "console_1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     4,
+     "🗄️"
+    ]
+   ]
+  },
+  "lieu3": {
+   "wiki": "Convenience Store (Downtown, north)",
+   "f": [
+    [
+     "Alcool",
+     9,
+     "alcohol_1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     6,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "coffre_safe_key_4": {
+   "wiki": "Convenience Store (Downtown, north)",
+   "f": [
+    [
+     "Alcool",
+     9,
+     "alcohol_1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     6,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "lieu1": {
+   "wiki": "Gas Station",
+   "f": [
+    [
+     "Pièces auto",
+     10,
+     "car_parts_2"
+    ],
+    [
+     "Alcool",
+     6,
+     "alcohol_1"
+    ],
+    [
+     "Argent liquide",
+     2,
+     "cash_1"
+    ],
+    [
+     "Briquettes",
+     1,
+     "drugs_bricket_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ],
+    [
+     "Armes",
+     1,
+     "dp9_m1"
+    ],
+    [
+     "Gilets",
+     1,
+     "vest2_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     5,
+     "🗄️"
+    ],
+    [
+     "Bureaux",
+     4,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     4,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     2,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     2,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "lieu2": {
+   "wiki": "Gas Station",
+   "f": [
+    [
+     "Pièces auto",
+     10,
+     "car_parts_2"
+    ],
+    [
+     "Alcool",
+     6,
+     "alcohol_1"
+    ],
+    [
+     "Argent liquide",
+     2,
+     "cash_1"
+    ],
+    [
+     "Briquettes",
+     1,
+     "drugs_bricket_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ],
+    [
+     "Armes",
+     1,
+     "dp9_m1"
+    ],
+    [
+     "Gilets",
+     1,
+     "vest2_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     5,
+     "🗄️"
+    ],
+    [
+     "Bureaux",
+     4,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     4,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     2,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     2,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "coffre_safe_key_12": {
+   "wiki": "Gas Station",
+   "f": [
+    [
+     "Pièces auto",
+     10,
+     "car_parts_2"
+    ],
+    [
+     "Alcool",
+     6,
+     "alcohol_1"
+    ],
+    [
+     "Argent liquide",
+     2,
+     "cash_1"
+    ],
+    [
+     "Briquettes",
+     1,
+     "drugs_bricket_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ],
+    [
+     "Armes",
+     1,
+     "dp9_m1"
+    ],
+    [
+     "Gilets",
+     1,
+     "vest2_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     5,
+     "🗄️"
+    ],
+    [
+     "Bureaux",
+     4,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     4,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     2,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     2,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "lieu4": {
+   "wiki": "Pharmacy (Downtown)",
+   "f": [
+    [
+     "Médicaments",
+     12,
+     "vial_1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     4,
+     "🗄️"
+    ],
+    [
+     "Frigos",
+     3,
+     "🧊"
+    ],
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "coffre_safe_key_10": {
+   "wiki": "Pharmacy (Downtown)",
+   "f": [
+    [
+     "Médicaments",
+     12,
+     "vial_1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     4,
+     "🗄️"
+    ],
+    [
+     "Frigos",
+     3,
+     "🧊"
+    ],
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "coffre_safe_key_8": {
+   "wiki": "Convenience Store (Downtown, centre)",
+   "f": [
+    [
+     "Alcool",
+     7,
+     "alcohol_1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     4,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     1,
+     "🔐"
+    ]
+   ]
+  },
+  "coffre_safe_key_11": {
+   "wiki": "Rusty Burgers Café",
+   "f": [
+    [
+     "Alcool",
+     4,
+     "alcohol_1"
+    ],
+    [
+     "Téléphones",
+     3,
+     "phone_1"
+    ],
+    [
+     "Argent liquide",
+     2,
+     "cash_1"
+    ],
+    [
+     "Casques",
+     1,
+     "headphones_1"
+    ],
+    [
+     "Ordinateurs portables",
+     1,
+     "laptop_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     4,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     1,
+     "🔐"
+    ]
+   ]
+  },
+  "bijouterie_e": {
+   "wiki": "Jewelry Store: East",
+   "f": [
+    [
+     "Bijoux",
+     14,
+     "necklace_1"
+    ],
+    [
+     "Bijoux en vitrine",
+     8,
+     "earrings_3"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Liasses",
+     1,
+     "cash_1"
+    ],
+    [
+     "Armes en accès libre",
+     1,
+     "dp9_m1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     4,
+     "🗄️"
+    ]
+   ]
+  },
+  "lieu6": {
+   "wiki": "Gun Shop: East",
+   "f": [
+    [
+     "Pièces d'armes",
+     5,
+     "weaponparts_box_1"
+    ],
+    [
+     "Fusils d'assaut (pièce fermée)",
+     4,
+     "rc556_m1"
+    ],
+    [
+     "Mitraillettes épiques (pièce fermée)",
+     2,
+     "mc10_m2"
+    ],
+    [
+     "Mitraillettes (pièce fermée)",
+     2,
+     "mc10_m1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ],
+    [
+     "Fusils à pompe (pièce fermée)",
+     1,
+     "harris500_m1"
+    ],
+    [
+     "Fusils à pompe épiques (pièce fermée)",
+     1,
+     "ordr12_m1"
+    ],
+    [
+     "Pistolets (pièce fermée)",
+     1,
+     "dp9_m1"
+    ],
+    [
+     "Grenades",
+     1,
+     "frag_grenade_1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     4,
+     "🗄️"
+    ],
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Caisses d'équipement",
+     2,
+     "📦"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  },
+  "lieu5": {
+   "wiki": "Equipment Store: East",
+   "f": [
+    [
+     "Mousquetons",
+     7,
+     "equip_carbine_1"
+    ],
+    [
+     "Gilets",
+     2,
+     "vest2_m1"
+    ],
+    [
+     "Argent liquide",
+     1,
+     "cash_1"
+    ]
+   ],
+   "c": [
+    [
+     "Placards et caisses",
+     3,
+     "🗄️"
+    ],
+    [
+     "Caisses d'équipement",
+     2,
+     "📦"
+    ],
+    [
+     "Coffres-forts",
+     2,
+     "🔐"
+    ],
+    [
+     "Portes fermées",
+     1,
+     "🚪"
+    ],
+    [
+     "Ordinateur (piratage USB)",
+     1,
+     "usb_1_full"
+    ]
+   ]
+  }
+ }
+}

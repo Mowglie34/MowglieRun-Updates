@@ -6,7 +6,7 @@
 Tout est en français, hors ligne et léger (un seul fichier, pas d'installation).
 
 - **Braquer** : porte suspecte (troc), banque et gros coups, clés et lieux, base et raids (calculateur de fusibles et de décodeurs)
-- **Gagner** : contrebande et cargaisons (vendre ou ouvrir, fiche de cargaison), production (plantations, labo, blanchiment) avec comptes à rebours, collections
+- **Gagner** : **mon butin** (touche les images de ce que tu ramènes : total au receleur, ce qu'il faut garder pour les collections), contrebande et cargaisons (vendre ou ouvrir, fiche de cargaison), production (plantations, labo, blanchiment) avec comptes à rebours, collections
 - **Savoir** : magasins de Looty Bay (qui vend quoi, prix en civil et au marché noir), armes (stats, comparaison), voitures, arbre Livraisons de Larry avec planificateur de recherches, catalogue des objets avec prix, mécaniques du jeu, mises à jour du jeu
 - **Suivi** : casier & journal (colle une capture de jugement, tout est lu tout seul), **mon clan** (membres, objectifs, partage du butin), régions & zones
 - **Outils** : carte de Looty Bay, minuteurs (épinglables en grand, raccourcis en jeu Ctrl+Maj+1 à 9, rappels avant le wipe), notes, fenêtres épinglées toujours devant le jeu (Ctrl+Maj+R pour afficher / cacher)
