@@ -9,7 +9,7 @@
   "notes": "Armes, voitures et Livraisons : Page Armes : toutes les armes (Mk1 à Mk3), dégâts par seconde, portée, prix, ce qu'il faut pour les débloquer, comparaison. · Page Voitures : vitesse, coffre, cargaisons, prix et toutes les pièces. · Page Livraisons (Larry) : les 171 recherches ; coche ce que tu as, mets ⭐ sur ce que tu veux, l'appli calcule l'ordre, le prix, le niveau et la prison qu'il faut. · Accueil : gain par heure (session de jeu avec historique). · Thème clair (Réglages › Affichage). · Casier \u0026 journal : export pour Excel ou en fichier complet. · Sauvegarde copiée aussi dans un dossier à toi (disque externe, OneDrive…). · Bouton 🚩 pour me signaler une info fausse, et cette page Nouveautés."
  },
  "donnees": {
-  "version": "2026.11.23-2",
+  "version": "2026.11.23-3",
   "fichiers": {
    "armes.json": {
     "sha256": "1b9abcf150eda9f05bf28961e1a87e89f96365daf261eb0d15fd6aeb2344b087",
@@ -836,7 +836,7 @@
     "taille": 4818
    },
    "meta.json": {
-    "sha256": "50d47251a240a62aab15b97d289b359326e7e3b283795480e886764c697a11fa",
+    "sha256": "ce2df49bf1c4706499378c779a263ba1c3f2fdd722393d7d4d85c699e51445ae",
     "taille": 1128
    },
    "nouveautes.json": {
@@ -844,8 +844,8 @@
     "taille": 2861
    },
    "patchs.json": {
-    "sha256": "d181edbc2678483e9cb5e24d1d2c599183ff2a571e82b3a9d0a4bab7dabf9e3a",
-    "taille": 2440
+    "sha256": "64a5ed72e45b5637df1c7b9948b5778f11801ed2877a5910e6add269f2a06b25",
+    "taille": 3173
    },
    "production.json": {
     "sha256": "c00c5626837c7d3d69030c7fc3ed37e765b5167a9f85ac818ba101cf3c2af94e",

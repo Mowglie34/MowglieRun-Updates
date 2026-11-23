@@ -1,6 +1,18 @@
 {
  "patchs": [
   {
+   "date": "2026-11-23",
+   "titre": "Annonce : anti-triche et serveurs",
+   "points": [
+    "Nouvelle vague de bans : plus de 200 000 comptes bloqués depuis la sortie.",
+    "Certaines nouvelles mécaniques du jeu sont repoussées pour renforcer l'anti-triche.",
+    "Travail avec l'équipe d'Easy Anti-Cheat, outils de détection maison et équipe anti-triche agrandie.",
+    "Bans matériels (du PC entier) à l'étude, car les tricheurs bannis recréent des comptes.",
+    "Bientôt : des serveurs réservés, ouverts seulement avec un minimum de temps de prison ou un total d'achats en jeu (selon le serveur).",
+    "Ils s'ajoutent aux serveurs normaux, avec leur propre recherche de partie (Looty Bay compris)."
+   ]
+  },
+  {
    "date": "2026-11-20",
    "titre": "Patch du 20 novembre",
    "points": [
