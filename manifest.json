@@ -2,15 +2,19 @@
  "schema": 1,
  "auteur": "Mowglie34",
  "app": {
-  "version": "1.1.2",
+  "version": "1.1.3",
   "fichier": "MowglieRun.exe",
-  "sha256": "d6e035c9359cd1e1e4972bea57f88b0b5db75b91bc542c940591a2009ee9ac62",
-  "taille": 9761280,
-  "notes": "Nouveau : page Magasins (qui vend quoi en ville, prix en civil et au marché noir, 🛒 sur la carte) et partie Cargaisons dans Contrebande (prix selon ta notoriété, vendre ou ouvrir, compteur de fiche de cargaison). Infos ajoutées : soins, gilets, sacs, alarmes, verrou de raid, patch du 20 novembre."
+  "sha256": "6a3f1ae545b2de69870a10b5542aca69027eb7b0e7df33032d977027a3c96eef",
+  "taille": 9885184,
+  "notes": "Armes, voitures et Livraisons : Page Armes : toutes les armes (Mk1 à Mk3), dégâts par seconde, portée, prix, ce qu'il faut pour les débloquer, comparaison. · Page Voitures : vitesse, coffre, cargaisons, prix et toutes les pièces. · Page Livraisons (Larry) : les 171 recherches ; coche ce que tu as, mets ⭐ sur ce que tu veux, l'appli calcule l'ordre, le prix, le niveau et la prison qu'il faut. · Accueil : gain par heure (session de jeu avec historique). · Thème clair (Réglages › Affichage). · Casier \u0026 journal : export pour Excel ou en fichier complet. · Sauvegarde copiée aussi dans un dossier à toi (disque externe, OneDrive…). · Bouton 🚩 pour me signaler une info fausse, et cette page Nouveautés."
  },
  "donnees": {
-  "version": "2026.11.23",
+  "version": "2026.11.23-2",
   "fichiers": {
+   "armes.json": {
+    "sha256": "1b9abcf150eda9f05bf28961e1a87e89f96365daf261eb0d15fd6aeb2344b087",
+    "taille": 12745
+   },
    "banque.json": {
     "sha256": "9b6151d4109dbba3e2eec0864b6d3c67c9efdca7d1cec5e59db2fd9b538f07b8",
     "taille": 3060
@@ -819,6 +823,10 @@
     "sha256": "7560e32bfab2a4d398569ac06a54f453cad2c5671f16da86ddaf5c0962d7ffd7",
     "taille": 6532
    },
+   "livraisons.json": {
+    "sha256": "fbf11547ba9aaf302844cdd661a01e7ec122a530bd7d45a1638a5296269f236b",
+    "taille": 29886
+   },
    "magasins.json": {
     "sha256": "b4da0285b04adc9252cd70e47408c2f2c29150016a3014120a1d261767b794fb",
     "taille": 19251
@@ -828,8 +836,12 @@
     "taille": 4818
    },
    "meta.json": {
-    "sha256": "0879e849fd2b336aecfb3b0a45d907d5681bc3ef3710d5dc5a92fad839523cee",
-    "taille": 933
+    "sha256": "50d47251a240a62aab15b97d289b359326e7e3b283795480e886764c697a11fa",
+    "taille": 1128
+   },
+   "nouveautes.json": {
+    "sha256": "39cce4b47988054c837a600d06b09799ac0f8d4c6c674d784ae6e49172fda28b",
+    "taille": 2861
    },
    "patchs.json": {
     "sha256": "d181edbc2678483e9cb5e24d1d2c599183ff2a571e82b3a9d0a4bab7dabf9e3a",
@@ -846,6 +858,10 @@
    "troc.json": {
     "sha256": "1b48d12de207feb04165e5af96361946ee107b955ba060c74e533d3131862b18",
     "taille": 4326
+   },
+   "voitures.json": {
+    "sha256": "212441e4e67669eb49f4ea0cd295f7e929360042da37e3e61f3a7a6df3d784f1",
+    "taille": 2727
    }
   }
  }

@@ -1,0 +1,1775 @@
+{
+ "_aide": "Arbre Livraisons (touche H, chez Larry) : b = branche, t = niveau de marchand (0 = aucun, 1 = I, 2 = II, 3 = III), r = recherche (argent sale, une fois), p = prix au marché noir ensuite, a = à débloquer avant, ans = années de prison demandées, ic = icône du catalogue.",
+ "branches": {
+  "documents": "Documents",
+  "vehicules": "Véhicules",
+  "construction": "Construction",
+  "armes": "Armes",
+  "ameublement": "Ameublement",
+  "equipement": "Équipement",
+  "production": "Production",
+  "gadgets": "Gadgets"
+ },
+ "plans": [
+  {
+   "n": "Braqueur de départ",
+   "ids": [
+    "crochet",
+    "sac1",
+    "gilet1",
+    "plaque1",
+    "antidouleur1",
+    "kl545-1",
+    "etabli"
+   ],
+   "s": "Ce qui rend chaque braquage rentable."
+  },
+  {
+   "n": "Braquages de coffres",
+   "ids": [
+    "miniforet",
+    "passe",
+    "tablette",
+    "usb"
+   ],
+   "s": "Mini-forets, passe-partout et outils à remplir."
+  },
+  {
+   "n": "Salle de culture",
+   "ids": [
+    "culture",
+    "tableculture",
+    "ventilo"
+   ],
+   "s": "Pour produire de la weed."
+  },
+  {
+   "n": "Laboratoire",
+   "ids": [
+    "labo",
+    "reac1",
+    "congel1",
+    "tablelabo"
+   ],
+   "s": "Réacteur, congélateur et table."
+  },
+  {
+   "n": "Défense de la base",
+   "ids": [
+    "fus1",
+    "fus3",
+    "alarme2"
+   ],
+   "s": "Fusibles et alarme."
+  },
+  {
+   "n": "Cargaisons",
+   "ids": [
+    "etabli",
+    "serrurerie",
+    "van",
+    "sacs",
+    "titan",
+    "galerie"
+   ],
+   "s": "Ouvrir et transporter des cargaisons."
+  },
+  {
+   "n": "Blanchiment",
+   "ids": [
+    "compteuse1",
+    "compteuse2"
+   ],
+   "s": "Compteuses de billets."
+  },
+  {
+   "n": "Flic",
+   "ids": [
+    "sergent",
+    "lieutenant",
+    "capitaine"
+   ],
+   "s": "Les 3 insignes."
+  }
+ ],
+ "source": "Stats et arbre Livraisons relevés par des joueurs (patch du 17 nov. 2026). Corrige ce que tu vois en jeu.",
+ "noeuds": [
+  {
+   "id": "parcelle1",
+   "b": "documents",
+   "n": "Titre de parcelle (peu commun)",
+   "t": 0,
+   "r": 50000,
+   "p": 100000,
+   "s": "Louer une parcelle de district 1."
+  },
+  {
+   "id": "parcelle2",
+   "b": "documents",
+   "n": "Titre de parcelle (épique)",
+   "t": 1,
+   "r": 200000,
+   "p": 800000,
+   "a": "parcelle1",
+   "s": "District 2."
+  },
+  {
+   "id": "parcelle3",
+   "b": "documents",
+   "n": "Titre de parcelle (légendaire)",
+   "t": 2,
+   "r": 1000000,
+   "p": 2000000,
+   "a": "parcelle2",
+   "s": "District 3."
+  },
+  {
+   "id": "colonie1",
+   "b": "documents",
+   "n": "Titre de colonie (peu commun)",
+   "t": 0,
+   "r": 100000,
+   "p": 200000,
+   "s": "Posséder une colonie de niveau 1."
+  },
+  {
+   "id": "colonie2",
+   "b": "documents",
+   "n": "Titre de colonie (épique)",
+   "t": 1,
+   "r": 500000,
+   "p": 2000000,
+   "a": "colonie1"
+  },
+  {
+   "id": "colonie3",
+   "b": "documents",
+   "n": "Titre de colonie (légendaire)",
+   "t": 2,
+   "r": 2000000,
+   "p": 6000000,
+   "a": "colonie2"
+  },
+  {
+   "id": "sergent",
+   "b": "documents",
+   "n": "Insigne de sergent",
+   "t": 1,
+   "r": 30000,
+   "p": 8000,
+   "ic": "police_badge_1"
+  },
+  {
+   "id": "lieutenant",
+   "b": "documents",
+   "n": "Insigne de lieutenant",
+   "t": 2,
+   "r": 200000,
+   "p": 40000,
+   "a": "sergent",
+   "ic": "police_badge_2"
+  },
+  {
+   "id": "capitaine",
+   "b": "documents",
+   "n": "Insigne de capitaine",
+   "t": 3,
+   "r": 500000,
+   "p": 100000,
+   "a": "lieutenant",
+   "ic": "police_badge_3"
+  },
+  {
+   "id": "tensa",
+   "b": "vehicules",
+   "n": "Fukurou Tensa",
+   "t": 1,
+   "r": 50000,
+   "p": 200000,
+   "s": "Voiture."
+  },
+  {
+   "id": "crem",
+   "b": "vehicules",
+   "n": "Crémaillère de direction",
+   "t": 2,
+   "r": 100000,
+   "p": 68000,
+   "a": "tensa",
+   "s": "Maniabilité."
+  },
+  {
+   "id": "rotor",
+   "b": "vehicules",
+   "n": "Rotor de course",
+   "t": 2,
+   "r": 100000,
+   "p": 61500,
+   "a": "crem",
+   "ans": 75,
+   "s": "Maniabilité."
+  },
+  {
+   "id": "crem2",
+   "b": "vehicules",
+   "n": "Crémaillère renforcée",
+   "t": 3,
+   "r": 220000,
+   "p": 270000,
+   "a": "crem",
+   "s": "Maniabilité."
+  },
+  {
+   "id": "ecu",
+   "b": "vehicules",
+   "n": "ECU",
+   "t": 1,
+   "r": 30000,
+   "p": 14000,
+   "a": "tensa",
+   "s": "Vitesse maximale."
+  },
+  {
+   "id": "ecu2",
+   "b": "vehicules",
+   "n": "ECU amélioré",
+   "t": 2,
+   "r": 160000,
+   "p": 75000,
+   "a": "ecu",
+   "s": "Vitesse maximale."
+  },
+  {
+   "id": "ecu3",
+   "b": "vehicules",
+   "n": "ECU haute performance",
+   "t": 3,
+   "r": 260000,
+   "p": 330000,
+   "a": "ecu2",
+   "s": "Vitesse maximale."
+  },
+  {
+   "id": "royale",
+   "b": "vehicules",
+   "n": "Royal E",
+   "t": 2,
+   "r": 200000,
+   "p": 1000000,
+   "a": "tensa",
+   "s": "Voiture."
+  },
+  {
+   "id": "wild",
+   "b": "vehicules",
+   "n": "Longhorn Wild",
+   "t": 3,
+   "r": 500000,
+   "p": 4500000,
+   "a": "royale",
+   "s": "Voiture."
+  },
+  {
+   "id": "buletti",
+   "b": "vehicules",
+   "n": "Buletti Soltempra",
+   "t": 3,
+   "r": 2000000,
+   "p": 10000000,
+   "a": "wild",
+   "s": "Voiture (ne porte pas de cargaison)."
+  },
+  {
+   "id": "turbo",
+   "b": "vehicules",
+   "n": "Kit turbo",
+   "t": 2,
+   "r": 110000,
+   "p": 79500,
+   "a": "royale",
+   "s": "Accélération."
+  },
+  {
+   "id": "turbo2",
+   "b": "vehicules",
+   "n": "Kit turbo amélioré",
+   "t": 3,
+   "r": 210000,
+   "p": 238000,
+   "a": "turbo",
+   "s": "Accélération."
+  },
+  {
+   "id": "inter",
+   "b": "vehicules",
+   "n": "Intercooler",
+   "t": 2,
+   "r": 120000,
+   "p": 72000,
+   "a": "tensa",
+   "s": "Accélération."
+  },
+  {
+   "id": "inter2",
+   "b": "vehicules",
+   "n": "Intercooler amélioré",
+   "t": 3,
+   "r": 200000,
+   "p": 270000,
+   "a": "inter",
+   "s": "Accélération."
+  },
+  {
+   "id": "van",
+   "b": "vehicules",
+   "n": "Longhorn Van",
+   "t": 1,
+   "r": 50000,
+   "p": 180000,
+   "s": "Voiture."
+  },
+  {
+   "id": "titan",
+   "b": "vehicules",
+   "n": "Longhorn Titan",
+   "t": 2,
+   "r": 200000,
+   "p": 900000,
+   "a": "van",
+   "s": "Voiture."
+  },
+  {
+   "id": "royalj",
+   "b": "vehicules",
+   "n": "Royal J",
+   "t": 3,
+   "r": 500000,
+   "p": 4000000,
+   "a": "titan",
+   "s": "Voiture."
+  },
+  {
+   "id": "radio3",
+   "b": "vehicules",
+   "n": "Radio de police (légendaire)",
+   "t": 3,
+   "r": 200000,
+   "p": 300000,
+   "a": "titan",
+   "ans": 275
+  },
+  {
+   "id": "galerie",
+   "b": "vehicules",
+   "n": "Galerie de toit",
+   "t": 2,
+   "r": 150000,
+   "p": 86500,
+   "a": "titan",
+   "s": "+1 place de cargaison."
+  },
+  {
+   "id": "galerie2",
+   "b": "vehicules",
+   "n": "Galerie de toit renforcée",
+   "t": 3,
+   "r": 250000,
+   "p": 350000,
+   "a": "galerie",
+   "s": "+2 places de cargaison."
+  },
+  {
+   "id": "sacs",
+   "b": "vehicules",
+   "n": "Sacs de coffre",
+   "t": 1,
+   "r": 20000,
+   "p": 1200,
+   "a": "van",
+   "s": "+1 rangée de coffre."
+  },
+  {
+   "id": "sacs2",
+   "b": "vehicules",
+   "n": "Grands sacs de coffre",
+   "t": 2,
+   "r": 130000,
+   "p": 70500,
+   "a": "sacs",
+   "s": "+2 rangées de coffre."
+  },
+  {
+   "id": "sacs3",
+   "b": "vehicules",
+   "n": "Sacs de coffre spacieux",
+   "t": 3,
+   "r": 220000,
+   "p": 270000,
+   "a": "sacs2",
+   "s": "+3 rangées de coffre."
+  },
+  {
+   "id": "romanov",
+   "b": "vehicules",
+   "n": "Romanov R8",
+   "t": 3,
+   "r": 2000000,
+   "p": 10000000,
+   "s": "Véhicule (à identifier en jeu)."
+  },
+  {
+   "id": "caravane",
+   "b": "construction",
+   "n": "Caravane",
+   "t": 1,
+   "r": 0,
+   "p": 10000,
+   "ic": "home_1"
+  },
+  {
+   "id": "maison",
+   "b": "construction",
+   "n": "Petite maison",
+   "t": 2,
+   "r": 200000,
+   "p": 600000,
+   "a": "caravane",
+   "ic": "home_2"
+  },
+  {
+   "id": "cloture1",
+   "b": "construction",
+   "n": "Clôture grillagée",
+   "t": 1,
+   "r": 25000,
+   "p": 15000
+  },
+  {
+   "id": "cloture2",
+   "b": "construction",
+   "n": "Clôture métallique",
+   "t": 2,
+   "r": 100000,
+   "p": 50000,
+   "a": "cloture1"
+  },
+  {
+   "id": "cloture3",
+   "b": "construction",
+   "n": "Clôture en béton",
+   "t": 3,
+   "r": 200000,
+   "p": 500000,
+   "a": "cloture2"
+  },
+  {
+   "id": "fus1",
+   "b": "construction",
+   "n": "Fusible électronique +1",
+   "t": 1,
+   "r": 10000,
+   "p": 20000,
+   "ic": "defense_module_1"
+  },
+  {
+   "id": "fus3",
+   "b": "construction",
+   "n": "Fusible électronique +3",
+   "t": 2,
+   "r": 150000,
+   "p": 100000,
+   "a": "fus1",
+   "ic": "defense_module_2"
+  },
+  {
+   "id": "fus5",
+   "b": "construction",
+   "n": "Fusible électronique +5",
+   "t": 3,
+   "r": 500000,
+   "p": 250000,
+   "a": "fus3",
+   "ic": "defense_module_3"
+  },
+  {
+   "id": "alarme1",
+   "b": "construction",
+   "n": "Système d'alarme (peu commun)",
+   "t": 1,
+   "r": 15000,
+   "p": 30000,
+   "a": "fus1",
+   "ans": 105,
+   "s": "Prévient tout le lieu."
+  },
+  {
+   "id": "alarme2",
+   "b": "construction",
+   "n": "Système d'alarme (épique)",
+   "t": 2,
+   "r": 25000,
+   "p": 60000,
+   "a": "fus1",
+   "s": "Te prévient."
+  },
+  {
+   "id": "alarme3",
+   "b": "construction",
+   "n": "Système d'alarme (légendaire)",
+   "t": 2,
+   "r": 50000,
+   "p": 200000,
+   "a": "alarme2",
+   "s": "Te prévient, toi et ton clan."
+  },
+  {
+   "id": "pont",
+   "b": "construction",
+   "n": "Pont élévateur",
+   "t": 1,
+   "r": 5000,
+   "p": 10000
+  },
+  {
+   "id": "garage",
+   "b": "construction",
+   "n": "Garage",
+   "t": 1,
+   "r": 10000,
+   "p": 25000,
+   "a": "pont"
+  },
+  {
+   "id": "garage2",
+   "b": "construction",
+   "n": "Grand garage",
+   "t": 2,
+   "r": 40000,
+   "p": 70000,
+   "a": "garage"
+  },
+  {
+   "id": "heliport",
+   "b": "construction",
+   "n": "Héliport",
+   "t": 2,
+   "r": 200000,
+   "p": 500000,
+   "a": "garage2"
+  },
+  {
+   "id": "atelier",
+   "b": "construction",
+   "n": "Atelier",
+   "t": 1,
+   "r": 125000,
+   "p": 75000,
+   "a": "pont"
+  },
+  {
+   "id": "entrepot",
+   "b": "construction",
+   "n": "Entrepôt",
+   "t": 1,
+   "r": 130000,
+   "p": 100000,
+   "a": "atelier"
+  },
+  {
+   "id": "dp9-1",
+   "b": "armes",
+   "n": "DP-9 Mk1",
+   "t": 0,
+   "r": 0,
+   "p": 300,
+   "s": "Pistolet."
+  },
+  {
+   "id": "dp9-2",
+   "b": "armes",
+   "n": "DP-9 Mk2",
+   "t": 1,
+   "r": 25000,
+   "p": 300,
+   "a": "dp9-1",
+   "s": "Pistolet."
+  },
+  {
+   "id": "lbr44-1",
+   "b": "armes",
+   "n": "LBR-44 Mk1",
+   "t": 2,
+   "r": 100000,
+   "p": 20000,
+   "a": "dp9-1",
+   "s": "Revolver."
+  },
+  {
+   "id": "lbr44-2",
+   "b": "armes",
+   "n": "LBR-44 Mk2",
+   "t": 2,
+   "r": 200000,
+   "p": 20000,
+   "a": "lbr44-1",
+   "s": "Revolver."
+  },
+  {
+   "id": "vulture50-1",
+   "b": "armes",
+   "n": "Vulture 50 Mk1",
+   "t": 3,
+   "r": 300000,
+   "p": 50000,
+   "a": "lbr44-1",
+   "s": "Pistolet."
+  },
+  {
+   "id": "vulture50-2",
+   "b": "armes",
+   "n": "Vulture 50 Mk2",
+   "t": 3,
+   "r": 600000,
+   "p": 50000,
+   "a": "vulture50-1",
+   "s": "Pistolet."
+  },
+  {
+   "id": "mc10-1",
+   "b": "armes",
+   "n": "MC-10 Mk1",
+   "t": 0,
+   "r": 15000,
+   "p": 3500,
+   "s": "Mitraillette."
+  },
+  {
+   "id": "mc10-2",
+   "b": "armes",
+   "n": "MC-10 Mk2",
+   "t": 1,
+   "r": 30000,
+   "p": 3500,
+   "a": "mc10-1",
+   "s": "Mitraillette."
+  },
+  {
+   "id": "mc10-3",
+   "b": "armes",
+   "n": "MC-10 Mk3",
+   "t": 2,
+   "r": 60000,
+   "p": 3500,
+   "a": "mc10-2",
+   "s": "Mitraillette."
+  },
+  {
+   "id": "cb45-1",
+   "b": "armes",
+   "n": "CB45 Mk1",
+   "t": 1,
+   "r": 15000,
+   "p": 3780,
+   "a": "mc10-1",
+   "ans": 15,
+   "s": "Mitraillette."
+  },
+  {
+   "id": "cb45-2",
+   "b": "armes",
+   "n": "CB45 Mk2",
+   "t": 1,
+   "r": 30000,
+   "p": 3780,
+   "a": "cb45-1",
+   "ans": 25,
+   "s": "Mitraillette."
+  },
+  {
+   "id": "cb45-3",
+   "b": "armes",
+   "n": "CB45 Mk3",
+   "t": 2,
+   "r": 60000,
+   "p": 3780,
+   "a": "cb45-2",
+   "ans": 35,
+   "s": "Mitraillette."
+  },
+  {
+   "id": "jp7-1",
+   "b": "armes",
+   "n": "JP-7 Mk1",
+   "t": 2,
+   "r": 160000,
+   "p": 29000,
+   "a": "mc10-1",
+   "s": "Mitraillette."
+  },
+  {
+   "id": "jp7-2",
+   "b": "armes",
+   "n": "JP-7 Mk2",
+   "t": 2,
+   "r": 320000,
+   "p": 29000,
+   "a": "jp7-1",
+   "s": "Mitraillette."
+  },
+  {
+   "id": "jp7-3",
+   "b": "armes",
+   "n": "JP-7 Mk3",
+   "t": 3,
+   "r": 640000,
+   "p": 29000,
+   "a": "jp7-2",
+   "s": "Mitraillette."
+  },
+  {
+   "id": "apscalar-1",
+   "b": "armes",
+   "n": "AP Scalar Mk1",
+   "t": 3,
+   "r": 400000,
+   "p": 115000,
+   "a": "jp7-1",
+   "s": "Mitraillette."
+  },
+  {
+   "id": "apscalar-2",
+   "b": "armes",
+   "n": "AP Scalar Mk2",
+   "t": 3,
+   "r": 800000,
+   "p": 115000,
+   "a": "apscalar-1",
+   "s": "Mitraillette."
+  },
+  {
+   "id": "apscalar-3",
+   "b": "armes",
+   "n": "AP Scalar Mk3",
+   "t": 3,
+   "r": 1600000,
+   "p": 115000,
+   "a": "apscalar-2",
+   "s": "Mitraillette."
+  },
+  {
+   "id": "harris500-1",
+   "b": "armes",
+   "n": "Harris 500 Mk1",
+   "t": 0,
+   "r": 15000,
+   "p": 3500,
+   "s": "Fusil à pompe."
+  },
+  {
+   "id": "harris500-2",
+   "b": "armes",
+   "n": "Harris 500 Mk2",
+   "t": 1,
+   "r": 30000,
+   "p": 3500,
+   "a": "harris500-1",
+   "s": "Fusil à pompe."
+  },
+  {
+   "id": "harris500-3",
+   "b": "armes",
+   "n": "Harris 500 Mk3",
+   "t": 2,
+   "r": 60000,
+   "p": 3500,
+   "a": "harris500-2",
+   "s": "Fusil à pompe."
+  },
+  {
+   "id": "ordr12-1",
+   "b": "armes",
+   "n": "ORDR-12 Mk1",
+   "t": 2,
+   "r": 160000,
+   "p": 28000,
+   "a": "harris500-1",
+   "s": "Fusil à pompe."
+  },
+  {
+   "id": "ordr12-2",
+   "b": "armes",
+   "n": "ORDR-12 Mk2",
+   "t": 2,
+   "r": 320000,
+   "p": 28000,
+   "a": "ordr12-1",
+   "s": "Fusil à pompe."
+  },
+  {
+   "id": "ordr12-3",
+   "b": "armes",
+   "n": "ORDR-12 Mk3",
+   "t": 3,
+   "r": 640000,
+   "p": 28000,
+   "a": "ordr12-2",
+   "s": "Fusil à pompe."
+  },
+  {
+   "id": "tag12k-1",
+   "b": "armes",
+   "n": "TAG-12K Mk1",
+   "t": 3,
+   "r": 400000,
+   "p": 110000,
+   "a": "ordr12-1",
+   "s": "Fusil à pompe."
+  },
+  {
+   "id": "tag12k-2",
+   "b": "armes",
+   "n": "TAG-12K Mk2",
+   "t": 3,
+   "r": 800000,
+   "p": 110000,
+   "a": "tag12k-1",
+   "s": "Fusil à pompe."
+  },
+  {
+   "id": "tag12k-3",
+   "b": "armes",
+   "n": "TAG-12K Mk3",
+   "t": 3,
+   "r": 1600000,
+   "p": 110000,
+   "a": "tag12k-2",
+   "s": "Fusil à pompe."
+  },
+  {
+   "id": "kl545-1",
+   "b": "armes",
+   "n": "KL-545 Mk1",
+   "t": 1,
+   "r": 25000,
+   "p": 6000,
+   "s": "Fusil d'assaut."
+  },
+  {
+   "id": "kl545-2",
+   "b": "armes",
+   "n": "KL-545 Mk2",
+   "t": 1,
+   "r": 50000,
+   "p": 6000,
+   "a": "kl545-1",
+   "s": "Fusil d'assaut."
+  },
+  {
+   "id": "kl545-3",
+   "b": "armes",
+   "n": "KL-545 Mk3",
+   "t": 2,
+   "r": 100000,
+   "p": 6000,
+   "a": "kl545-2",
+   "s": "Fusil d'assaut."
+  },
+  {
+   "id": "star-1",
+   "b": "armes",
+   "n": "STAR-H Mk1",
+   "t": 2,
+   "r": 100000,
+   "p": 27500,
+   "a": "kl545-1",
+   "ans": 180,
+   "s": "Fusil d'assaut."
+  },
+  {
+   "id": "star-2",
+   "b": "armes",
+   "n": "STAR-H Mk2",
+   "t": 2,
+   "r": 200000,
+   "p": 27500,
+   "a": "star-1",
+   "ans": 190,
+   "s": "Fusil d'assaut."
+  },
+  {
+   "id": "star-3",
+   "b": "armes",
+   "n": "STAR-H Mk3",
+   "t": 3,
+   "r": 400000,
+   "p": 27500,
+   "a": "star-2",
+   "ans": 200,
+   "s": "Fusil d'assaut."
+  },
+  {
+   "id": "rc556-1",
+   "b": "armes",
+   "n": "RC 5.56 Mk1",
+   "t": 2,
+   "r": 200000,
+   "p": 32000,
+   "a": "kl545-1",
+   "s": "Fusil d'assaut."
+  },
+  {
+   "id": "rc556-2",
+   "b": "armes",
+   "n": "RC 5.56 Mk2",
+   "t": 2,
+   "r": 400000,
+   "p": 32000,
+   "a": "rc556-1",
+   "s": "Fusil d'assaut."
+  },
+  {
+   "id": "rc556-3",
+   "b": "armes",
+   "n": "RC 5.56 Mk3",
+   "t": 3,
+   "r": 800000,
+   "p": 32000,
+   "a": "rc556-2",
+   "s": "Fusil d'assaut."
+  },
+  {
+   "id": "srreaper-1",
+   "b": "armes",
+   "n": "SR Reaper Mk1",
+   "t": 3,
+   "r": 400000,
+   "p": 120000,
+   "a": "rc556-1",
+   "s": "Fusil d'assaut."
+  },
+  {
+   "id": "srreaper-2",
+   "b": "armes",
+   "n": "SR Reaper Mk2",
+   "t": 3,
+   "r": 800000,
+   "p": 120000,
+   "a": "srreaper-1",
+   "s": "Fusil d'assaut."
+  },
+  {
+   "id": "srreaper-3",
+   "b": "armes",
+   "n": "SR Reaper Mk3",
+   "t": 3,
+   "r": 1600000,
+   "p": 120000,
+   "a": "srreaper-2",
+   "s": "Fusil d'assaut."
+  },
+  {
+   "id": "drm14-1",
+   "b": "armes",
+   "n": "DRM-14 Mk1",
+   "t": 3,
+   "r": 200000,
+   "p": 103500,
+   "a": "rc556-1",
+   "ans": 950,
+   "s": "Fusil longue portée."
+  },
+  {
+   "id": "drm14-2",
+   "b": "armes",
+   "n": "DRM-14 Mk2",
+   "t": 3,
+   "r": 400000,
+   "p": 103500,
+   "a": "drm14-1",
+   "ans": 975,
+   "s": "Fusil longue portée."
+  },
+  {
+   "id": "drm14-3",
+   "b": "armes",
+   "n": "DRM-14 Mk3",
+   "t": 3,
+   "r": 800000,
+   "p": 103500,
+   "a": "drm14-2",
+   "ans": 1000,
+   "s": "Fusil longue portée."
+  },
+  {
+   "id": "flash",
+   "b": "equipement",
+   "n": "Grenade flash",
+   "t": 1,
+   "r": 25000,
+   "p": 4000,
+   "a": "pochette2"
+  },
+  {
+   "id": "frag",
+   "b": "equipement",
+   "n": "Grenade à fragmentation",
+   "t": 2,
+   "r": 75000,
+   "p": 14960,
+   "a": "flash"
+  },
+  {
+   "id": "compteuse1",
+   "b": "ameublement",
+   "n": "Compteuse de billets (peu commune)",
+   "t": 1,
+   "r": 10000,
+   "p": 30000,
+   "ic": "money_workbench_speedup_1"
+  },
+  {
+   "id": "compteuse2",
+   "b": "ameublement",
+   "n": "Compteuse de billets (épique)",
+   "t": 2,
+   "r": 50000,
+   "p": 65000,
+   "a": "compteuse1",
+   "ic": "money_workbench_speedup_2"
+  },
+  {
+   "id": "compteuse3",
+   "b": "ameublement",
+   "n": "Compteuse de billets (légendaire)",
+   "t": 3,
+   "r": 150000,
+   "p": 150000,
+   "a": "compteuse2",
+   "ic": "money_workbench_speedup_3"
+  },
+  {
+   "id": "etabli",
+   "b": "ameublement",
+   "n": "Établi de cargaison",
+   "t": 1,
+   "r": 5000,
+   "p": 15000,
+   "ic": "cargo_workbench_1"
+  },
+  {
+   "id": "serrurerie",
+   "b": "ameublement",
+   "n": "Outils de serrurerie",
+   "t": 1,
+   "r": 20000,
+   "p": 15000,
+   "a": "etabli",
+   "s": "Ouvre plus vite."
+  },
+  {
+   "id": "scie",
+   "b": "ameublement",
+   "n": "Scie à cargaison",
+   "t": 2,
+   "r": 45000,
+   "p": 41000,
+   "a": "serrurerie",
+   "s": "Ouvre plus vite."
+  },
+  {
+   "id": "etau",
+   "b": "ameublement",
+   "n": "Étau",
+   "t": 3,
+   "r": 100000,
+   "p": 250000,
+   "a": "scie",
+   "s": "Plus de places sur l'établi."
+  },
+  {
+   "id": "contre",
+   "b": "ameublement",
+   "n": "Établi de contrebande",
+   "t": 1,
+   "r": 20000,
+   "p": 20000,
+   "ic": "cargo_exchange_workbench_1"
+  },
+  {
+   "id": "cao2",
+   "b": "ameublement",
+   "n": "Caisse à outils (épique)",
+   "t": 2,
+   "r": 150000,
+   "p": 200000,
+   "a": "contre",
+   "ic": "cargo_exchange_workbench_additional_slot_upgrade",
+   "s": "+1 emplacement."
+  },
+  {
+   "id": "cao3",
+   "b": "ameublement",
+   "n": "Caisse à outils (légendaire)",
+   "t": 3,
+   "r": 300000,
+   "p": 400000,
+   "a": "cao2",
+   "s": "+2 emplacements."
+  },
+  {
+   "id": "impr1",
+   "b": "ameublement",
+   "n": "Imprimante d'étiquettes (peu commune)",
+   "t": 1,
+   "r": 15000,
+   "p": 30000,
+   "a": "contre",
+   "ic": "cargo_exchange_workbench_speedup_upgrade_1",
+   "s": "+15 % de vitesse."
+  },
+  {
+   "id": "impr2",
+   "b": "ameublement",
+   "n": "Imprimante d'étiquettes (légendaire)",
+   "t": 3,
+   "r": 75000,
+   "p": 150000,
+   "a": "impr1",
+   "ic": "cargo_exchange_workbench_speedup_upgrade_2",
+   "s": "+25 % de vitesse."
+  },
+  {
+   "id": "secours",
+   "b": "ameublement",
+   "n": "Armoire de premiers secours",
+   "t": 1,
+   "r": 5000,
+   "p": 15000
+  },
+  {
+   "id": "chevet1",
+   "b": "ameublement",
+   "n": "Petite table de chevet",
+   "t": 1,
+   "r": 15000,
+   "p": 4000
+  },
+  {
+   "id": "coffre1",
+   "b": "ameublement",
+   "n": "Petit coffre-fort",
+   "t": 1,
+   "r": 50000,
+   "p": 32000,
+   "a": "chevet1"
+  },
+  {
+   "id": "coffre2",
+   "b": "ameublement",
+   "n": "Coffre-fort moyen",
+   "t": 2,
+   "r": 100000,
+   "p": 68000,
+   "a": "coffre1"
+  },
+  {
+   "id": "coffre3",
+   "b": "ameublement",
+   "n": "Grand coffre-fort",
+   "t": 3,
+   "r": 150000,
+   "p": 127000,
+   "a": "coffre2"
+  },
+  {
+   "id": "chevet2",
+   "b": "ameublement",
+   "n": "Table de chevet moyenne",
+   "t": 2,
+   "r": 30000,
+   "p": 29200,
+   "a": "chevet1"
+  },
+  {
+   "id": "chevet3",
+   "b": "ameublement",
+   "n": "Grande table de chevet",
+   "t": 3,
+   "r": 50000,
+   "p": 45400,
+   "a": "chevet2"
+  },
+  {
+   "id": "etag1",
+   "b": "ameublement",
+   "n": "Petite étagère",
+   "t": 1,
+   "r": 12000,
+   "p": 3500
+  },
+  {
+   "id": "etag2",
+   "b": "ameublement",
+   "n": "Étagère moyenne",
+   "t": 2,
+   "r": 25000,
+   "p": 26500,
+   "a": "etag1"
+  },
+  {
+   "id": "etag3",
+   "b": "ameublement",
+   "n": "Grande étagère",
+   "t": 3,
+   "r": 45000,
+   "p": 46500,
+   "a": "etag2"
+  },
+  {
+   "id": "armoire1",
+   "b": "ameublement",
+   "n": "Petite armoire sécurisée",
+   "t": 1,
+   "r": 40000,
+   "p": 30300,
+   "a": "etag1",
+   "ans": 30
+  },
+  {
+   "id": "armoire2",
+   "b": "ameublement",
+   "n": "Armoire sécurisée moyenne",
+   "t": 2,
+   "r": 90000,
+   "p": 70000,
+   "a": "armoire1",
+   "ans": 140
+  },
+  {
+   "id": "armoire3",
+   "b": "ameublement",
+   "n": "Grande armoire sécurisée",
+   "t": 3,
+   "r": 130000,
+   "p": 132000,
+   "a": "armoire2",
+   "ans": 500
+  },
+  {
+   "id": "coll",
+   "b": "ameublement",
+   "n": "Table de collections",
+   "t": 1,
+   "r": 5000,
+   "p": 15000,
+   "ic": "collection_table"
+  },
+  {
+   "id": "coll1",
+   "b": "ameublement",
+   "n": "Collection supplémentaire",
+   "t": 1,
+   "r": 25000,
+   "p": 34000,
+   "a": "coll",
+   "ic": "collection_upgrade_1"
+  },
+  {
+   "id": "coll2",
+   "b": "ameublement",
+   "n": "Collection spéciale",
+   "t": 2,
+   "r": 50000,
+   "p": 100000,
+   "a": "coll1",
+   "ic": "collection_upgrade_2"
+  },
+  {
+   "id": "coll3",
+   "b": "ameublement",
+   "n": "Collection unique",
+   "t": 3,
+   "r": 100000,
+   "p": 250000,
+   "a": "coll2",
+   "ic": "collection_upgrade_3"
+  },
+  {
+   "id": "sac1",
+   "b": "equipement",
+   "n": "Sac de sport (peu commun)",
+   "t": 0,
+   "r": 5000,
+   "p": 5000,
+   "s": "+2 rangées."
+  },
+  {
+   "id": "sac2",
+   "b": "equipement",
+   "n": "Sac de sport (épique)",
+   "t": 2,
+   "r": 35000,
+   "p": 15000,
+   "a": "sac1",
+   "s": "+4 rangées."
+  },
+  {
+   "id": "sac3",
+   "b": "equipement",
+   "n": "Sac de sport (légendaire)",
+   "t": 3,
+   "r": 150000,
+   "p": 40000,
+   "a": "sac2",
+   "s": "+6 rangées."
+  },
+  {
+   "id": "gilet1",
+   "b": "equipement",
+   "n": "Gilet pare-balles léger",
+   "t": 0,
+   "r": 5000,
+   "p": 4000,
+   "s": "1 segment."
+  },
+  {
+   "id": "gilet2",
+   "b": "equipement",
+   "n": "Gilet pare-balles moyen",
+   "t": 1,
+   "r": 15000,
+   "p": 15000,
+   "a": "gilet1",
+   "s": "2 segments."
+  },
+  {
+   "id": "gilet3",
+   "b": "equipement",
+   "n": "Gilet pare-balles d'assaut",
+   "t": 2,
+   "r": 250000,
+   "p": 70000,
+   "a": "gilet2",
+   "s": "3 segments."
+  },
+  {
+   "id": "gilet4",
+   "b": "equipement",
+   "n": "Gilet pare-balles lourd",
+   "t": 3,
+   "r": 500000,
+   "p": 140000,
+   "a": "gilet3",
+   "s": "4 segments."
+  },
+  {
+   "id": "plaque1",
+   "b": "equipement",
+   "n": "Plaque d'acier (peu commune)",
+   "t": 0,
+   "r": 5000,
+   "p": 1000,
+   "a": "gilet1",
+   "s": "Répare 1 segment."
+  },
+  {
+   "id": "plaque2",
+   "b": "equipement",
+   "n": "Plaque d'acier (légendaire)",
+   "t": 3,
+   "r": 100000,
+   "p": 5000,
+   "a": "plaque1",
+   "ans": 225,
+   "s": "Répare 2 segments."
+  },
+  {
+   "id": "pochette1",
+   "b": "equipement",
+   "n": "Pochette polyvalente (commune)",
+   "t": 0,
+   "r": 5000,
+   "p": 250,
+   "s": "1 poche."
+  },
+  {
+   "id": "pochette2",
+   "b": "equipement",
+   "n": "Pochette polyvalente (peu commune)",
+   "t": 1,
+   "r": 10000,
+   "p": 1200,
+   "a": "pochette1",
+   "s": "2 poches."
+  },
+  {
+   "id": "pochette3",
+   "b": "equipement",
+   "n": "Pochette polyvalente (épique)",
+   "t": 2,
+   "r": 25000,
+   "p": 2700,
+   "a": "pochette2",
+   "s": "3 poches."
+  },
+  {
+   "id": "pochette4",
+   "b": "equipement",
+   "n": "Pochette polyvalente (légendaire)",
+   "t": 3,
+   "r": 50000,
+   "p": 12000,
+   "a": "pochette3",
+   "s": "4 poches."
+  },
+  {
+   "id": "antidouleur1",
+   "b": "equipement",
+   "n": "Antidouleurs (peu communs)",
+   "t": 0,
+   "r": 10000,
+   "p": 500,
+   "a": "pochette1",
+   "s": "+25 PV."
+  },
+  {
+   "id": "afak",
+   "b": "equipement",
+   "n": "Trousse AFAK",
+   "t": 1,
+   "r": 5000,
+   "p": 500,
+   "a": "antidouleur1",
+   "ans": 5,
+   "s": "+100 PV."
+  },
+  {
+   "id": "antidouleur2",
+   "b": "equipement",
+   "n": "Antidouleurs (épiques)",
+   "t": 2,
+   "r": 20000,
+   "p": 1600,
+   "a": "antidouleur1",
+   "s": "+40 PV."
+  },
+  {
+   "id": "injecteur1",
+   "b": "equipement",
+   "n": "Injecteur (épique)",
+   "t": 2,
+   "r": 25000,
+   "p": 2000,
+   "a": "antidouleur2",
+   "s": "+40 PV."
+  },
+  {
+   "id": "injecteur2",
+   "b": "equipement",
+   "n": "Injecteur (légendaire)",
+   "t": 3,
+   "r": 50000,
+   "p": 6000,
+   "a": "injecteur1",
+   "s": "+80 PV."
+  },
+  {
+   "id": "culture",
+   "b": "production",
+   "n": "Salle de culture",
+   "t": 1,
+   "r": 150000,
+   "p": 100000,
+   "ic": "narco_farm_1"
+  },
+  {
+   "id": "tableculture",
+   "b": "production",
+   "n": "Table de culture",
+   "t": 1,
+   "r": 30000,
+   "p": 40000,
+   "a": "culture",
+   "ic": "cargo_charge_workbench_garden_bed"
+  },
+  {
+   "id": "ventilo",
+   "b": "production",
+   "n": "Ventilateur",
+   "t": 1,
+   "r": 100000,
+   "p": 25000,
+   "a": "tableculture",
+   "ic": "fan_1"
+  },
+  {
+   "id": "pompe",
+   "b": "production",
+   "n": "Pompe à eau",
+   "t": 2,
+   "r": 200000,
+   "p": 70000,
+   "a": "ventilo",
+   "ic": "water_pump_2"
+  },
+  {
+   "id": "uv",
+   "b": "production",
+   "n": "Lampe UV",
+   "t": 3,
+   "r": 500000,
+   "p": 250000,
+   "a": "pompe",
+   "ic": "uv_lamp_3"
+  },
+  {
+   "id": "labo",
+   "b": "production",
+   "n": "Laboratoire de chimie",
+   "t": 1,
+   "r": 160000,
+   "p": 110000,
+   "ic": "meth_lab_1"
+  },
+  {
+   "id": "tablelabo",
+   "b": "production",
+   "n": "Table de laboratoire",
+   "t": 1,
+   "r": 10000,
+   "p": 15000,
+   "a": "labo",
+   "ic": "cargo_workbench_lab_table_1"
+  },
+  {
+   "id": "balances",
+   "b": "production",
+   "n": "Balances de laboratoire",
+   "t": 2,
+   "r": 15000,
+   "p": 15000,
+   "a": "tablelabo",
+   "ans": 335,
+   "ic": "cargo_open_workbench_upgrade_additional_slot_2"
+  },
+  {
+   "id": "reac1",
+   "b": "production",
+   "n": "Réacteur chimique I",
+   "t": 1,
+   "r": 20000,
+   "p": 40000,
+   "a": "labo",
+   "ic": "cargo_production_workbench_1"
+  },
+  {
+   "id": "reac2",
+   "b": "production",
+   "n": "Réacteur chimique II",
+   "t": 2,
+   "r": 150000,
+   "p": 300000,
+   "a": "reac1",
+   "ic": "cargo_production_workbench_2"
+  },
+  {
+   "id": "reac3",
+   "b": "production",
+   "n": "Réacteur chimique III",
+   "t": 3,
+   "r": 350000,
+   "p": 700000,
+   "a": "reac2",
+   "ic": "cargo_production_workbench_3"
+  },
+  {
+   "id": "moteur",
+   "b": "production",
+   "n": "Moteur industriel",
+   "t": 1,
+   "r": 10000,
+   "p": 20000,
+   "a": "reac1",
+   "ic": "cargo_production_workbench_upgrade_engine_1"
+  },
+  {
+   "id": "thermo",
+   "b": "production",
+   "n": "Thermomètre industriel",
+   "t": 2,
+   "r": 50000,
+   "p": 120000,
+   "a": "moteur",
+   "ic": "cargo_production_workbench_upgrade_thermometer_1"
+  },
+  {
+   "id": "convert",
+   "b": "production",
+   "n": "Convertisseur chimique",
+   "t": 3,
+   "r": 150000,
+   "p": 300000,
+   "a": "thermo",
+   "ic": "cargo_production_workbench_upgrade_converter_1"
+  },
+  {
+   "id": "congel1",
+   "b": "production",
+   "n": "Congélateur industriel I",
+   "t": 1,
+   "r": 15000,
+   "p": 20000,
+   "a": "reac1",
+   "ic": "cargo_charge_workbench_lab_freezer_1"
+  },
+  {
+   "id": "congel2",
+   "b": "production",
+   "n": "Congélateur industriel II",
+   "t": 2,
+   "r": 30000,
+   "p": 90000,
+   "a": "congel1",
+   "ic": "cargo_charge_workbench_lab_freezer_2"
+  },
+  {
+   "id": "congel3",
+   "b": "production",
+   "n": "Congélateur industriel III",
+   "t": 3,
+   "r": 100000,
+   "p": 250000,
+   "a": "congel2",
+   "ic": "cargo_charge_workbench_lab_freezer_3"
+  },
+  {
+   "id": "evap",
+   "b": "production",
+   "n": "Évaporateur amélioré",
+   "t": 2,
+   "r": 40000,
+   "p": 100000,
+   "a": "congel1",
+   "ic": "cargo_charge_workbench_upgrade_evaporator_1"
+  },
+  {
+   "id": "refrig",
+   "b": "production",
+   "n": "Réfrigérant de qualité",
+   "t": 3,
+   "r": 100000,
+   "p": 250000,
+   "a": "evap",
+   "ic": "cargo_charge_workbench_upgrade_refrigerant_1"
+  },
+  {
+   "id": "camera1",
+   "b": "gadgets",
+   "n": "Caméra d'action (peu commune)",
+   "t": 0,
+   "r": 5000,
+   "p": 15000,
+   "ic": "action_camera_1_full"
+  },
+  {
+   "id": "tablette",
+   "b": "gadgets",
+   "n": "Tablette de codes",
+   "t": 2,
+   "r": 25000,
+   "p": 20000,
+   "a": "camera1",
+   "ic": "tablet_1_cumulative"
+  },
+  {
+   "id": "usb",
+   "b": "gadgets",
+   "n": "Outil de piratage USB",
+   "t": 2,
+   "r": 50000,
+   "p": 50000,
+   "a": "tablette",
+   "ic": "usb_1_cumulative"
+  },
+  {
+   "id": "clesbanque",
+   "b": "gadgets",
+   "n": "Clés de coffres bancaires",
+   "t": 3,
+   "r": 100000,
+   "p": 100000,
+   "a": "usb",
+   "ic": "deposit_box_1_cumulative"
+  },
+  {
+   "id": "fiche",
+   "b": "gadgets",
+   "n": "Fiche de cargaison (épique)",
+   "t": 2,
+   "r": 50000,
+   "p": 30000,
+   "a": "camera1",
+   "ans": 410,
+   "ic": "cargo_manifest_1_full"
+  },
+  {
+   "id": "camera2",
+   "b": "gadgets",
+   "n": "Caméra d'action (épique)",
+   "t": 2,
+   "r": 35000,
+   "p": 30000,
+   "a": "camera1",
+   "ic": "action_camera_2_cumulative"
+  },
+  {
+   "id": "camera3",
+   "b": "gadgets",
+   "n": "Caméra d'action (légendaire)",
+   "t": 3,
+   "r": 80000,
+   "p": 50000,
+   "a": "camera2",
+   "ic": "action_camera_3_full"
+  },
+  {
+   "id": "crochet",
+   "b": "gadgets",
+   "n": "Crochet",
+   "t": 0,
+   "r": 5000,
+   "p": 99,
+   "ic": "lockpick_1"
+  },
+  {
+   "id": "passe",
+   "b": "gadgets",
+   "n": "Passe-partout",
+   "t": 2,
+   "r": 50000,
+   "p": 55000,
+   "a": "crochet",
+   "ic": "storage_lockpick_1"
+  },
+  {
+   "id": "miniforet",
+   "b": "gadgets",
+   "n": "Mini-foret",
+   "t": 2,
+   "r": 100000,
+   "p": 18000,
+   "a": "crochet",
+   "ic": "mini_drill_1"
+  },
+  {
+   "id": "radio2",
+   "b": "gadgets",
+   "n": "Radio de police (épique)",
+   "t": 2,
+   "r": 25000,
+   "p": 10000,
+   "ans": 60,
+   "ic": "police_radio_1"
+  }
+ ]
+}

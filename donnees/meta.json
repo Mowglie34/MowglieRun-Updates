@@ -1,6 +1,10 @@
 {
  "appli": "MowglieRun",
  "auteur": "Mowglie34",
+ "contact": {
+  "github": "https://github.com/Mowglie34/MowglieRun-Updates/issues/new",
+  "texte": "Envoie-le à Mowglie34 en message privé (Discord ou là où tu lui parles d'habitude)."
+ },
  "maj": "23 nov. 2026",
  "rarete": {
   "c": {
@@ -42,5 +46,5 @@
   "xpjournal (vitesse du blanchiment)",
   "vgtimes (labo)"
  ],
- "version": "2026.11.23"
+ "version": "2026.11.23-2"
 }

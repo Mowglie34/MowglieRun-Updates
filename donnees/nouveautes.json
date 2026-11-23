@@ -1,0 +1,61 @@
+{
+ "_aide": "Nouveautés de MowglieRun, écrites par Mowglie34. mot = message affiché en haut de la page. versions : la plus récente en premier ; version, date (AAAA-MM-JJ), titre, points (une ligne chacun). Se modifie depuis l'appli (page Nouveautés) sur le PC de Mowglie34, puis se publie avec la mise à jour.",
+ "mot": "",
+ "versions": [
+  {
+   "version": "1.1.3",
+   "date": "2026-11-23",
+   "titre": "Armes, voitures et Livraisons",
+   "points": [
+    "Page Armes : toutes les armes (Mk1 à Mk3), dégâts par seconde, portée, prix, ce qu'il faut pour les débloquer, comparaison.",
+    "Page Voitures : vitesse, coffre, cargaisons, prix et toutes les pièces.",
+    "Page Livraisons (Larry) : les 171 recherches ; coche ce que tu as, mets ⭐ sur ce que tu veux, l'appli calcule l'ordre, le prix, le niveau et la prison qu'il faut.",
+    "Accueil : gain par heure (session de jeu avec historique).",
+    "Thème clair (Réglages › Affichage).",
+    "Casier & journal : export pour Excel ou en fichier complet.",
+    "Sauvegarde copiée aussi dans un dossier à toi (disque externe, OneDrive…).",
+    "Bouton 🚩 pour me signaler une info fausse, et cette page Nouveautés."
+   ]
+  },
+  {
+   "version": "1.1.2",
+   "date": "2026-11-23",
+   "titre": "Magasins et cargaisons",
+   "points": [
+    "Page Magasins : les 8 vendeurs de Looty Bay, tout ce qu'ils vendent, prix en civil et au marché noir, 🛒 sur la carte.",
+    "Contrebande › Cargaisons : prix selon ta notoriété, vendre ou ouvrir, compteur de fiche de cargaison.",
+    "Infos ajoutées : soins, gilets, sacs, alarmes, verrou de raid, patch du 20 novembre."
+   ]
+  },
+  {
+   "version": "1.1.1",
+   "date": "2026-11-23",
+   "titre": "Raids et minuteurs",
+   "points": [
+    "Calculateur de raid : bonus de structure (« Bunker » +3), détail comme dans le jeu, score de ton sac.",
+    "Fenêtre épinglée d'un minuteur : plus discrète, peut afficher les autres minuteurs.",
+    "Visite guidée pour les nouveaux (Réglages › Revoir la visite)."
+   ]
+  },
+  {
+   "version": "1.1.0",
+   "date": "2026-11-20",
+   "titre": "Clan, casier et confort",
+   "points": [
+    "Mon clan, Casier & journal (jugements lus tout seuls), Régions & zones.",
+    "Minuteurs épinglables, tes préréglages, rappel avant la fin, raccourcis Ctrl+Maj+1 à 9 en jeu.",
+    "Rappels avant le wipe, état des serveurs, accueil « Aujourd'hui », menus plus gros, taille de l'interface.",
+    "Légèreté en jeu : mode jeu automatique et mémoire libérée quand MowglieRun est réduit."
+   ]
+  },
+  {
+   "version": "1.0.0",
+   "date": "2026-11-20",
+   "titre": "Première version pour les amis",
+   "points": [
+    "Porte suspecte, banque, clés, base et raids, contrebande, production, collections, catalogue, carte, minuteurs et notes.",
+    "Mises à jour automatiques et signées."
+   ]
+  }
+ ]
+}

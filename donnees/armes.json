@@ -1,0 +1,754 @@
+{
+ "_aide": "Armes : deg = dégâts par balle (fusils à pompe : 8 plombs de 9 = 72), rpm = tirs par minute, ch = chargeur, po = portée à pleins dégâts (m), rech = recherche dans Livraisons, apres = arme à débloquer avant, pal = niveau de marchand (0 = aucun), prison = années de prison demandées. prix = prix au marché noir (le même pour Mk1, Mk2 et Mk3) ; ville = prix chez le marchand d'armes (Mk1, en civil).",
+ "types": {
+  "pistolet": "Pistolet",
+  "revolver": "Revolver",
+  "mitraillette": "Mitraillette",
+  "pompe": "Fusil à pompe",
+  "assaut": "Fusil d'assaut",
+  "precision": "Fusil longue portée",
+  "mitrailleuse": "Mitrailleuse"
+ },
+ "munitions": {
+  "pistolet": "Munitions de pistolet",
+  "mitraillette": "Munitions de mitraillette",
+  "pompe": "Munitions de fusil à pompe",
+  "assaut": "Munitions de fusil d'assaut"
+ },
+ "grenades": [
+  {
+   "nom": "Grenade flash",
+   "r": "e",
+   "prix": 4000,
+   "ville": 12000,
+   "rech": 25000,
+   "texte": "Aveugle. Aussi chez le marchand d'armes."
+  },
+  {
+   "nom": "Grenade à fragmentation",
+   "r": "e",
+   "prix": 14960,
+   "rech": 75000,
+   "texte": "Explose. Seulement au marché noir, après la grenade flash."
+  },
+  {
+   "nom": "Grenade fumigène",
+   "r": "pc",
+   "prix": null,
+   "texte": "Plus en vente depuis le 11 nov. (encore trouvable, plus rare)."
+  }
+ ],
+ "source": "Stats et arbre Livraisons relevés par des joueurs (patch du 17 nov. 2026). Corrige ce que tu vois en jeu.",
+ "armes": [
+  {
+   "id": "dp9",
+   "nom": "DP-9",
+   "type": "pistolet",
+   "r": "pc",
+   "prix": 300,
+   "mun": "pistolet",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 18,
+     "rpm": 333,
+     "ch": 14,
+     "po": 20,
+     "rech": 0,
+     "apres": null,
+     "pal": 0,
+     "prison": 0
+    },
+    {
+     "mk": 2,
+     "deg": 18,
+     "rpm": 333,
+     "ch": 14,
+     "po": 20,
+     "rech": 25000,
+     "apres": "dp9-1",
+     "pal": 1,
+     "prison": 0
+    }
+   ],
+   "info": "Le pistolet de départ, presque gratuit.",
+   "ville": 900
+  },
+  {
+   "id": "lbr44",
+   "nom": "LBR-44",
+   "type": "revolver",
+   "r": "e",
+   "prix": 20000,
+   "mun": "pistolet",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 34,
+     "rpm": 200,
+     "ch": 6,
+     "po": 35,
+     "rech": 100000,
+     "apres": "dp9-1",
+     "pal": 2,
+     "prison": 0
+    },
+    {
+     "mk": 2,
+     "deg": 34,
+     "rpm": 200,
+     "ch": 6,
+     "po": 35,
+     "rech": 200000,
+     "apres": "lbr44-1",
+     "pal": 2,
+     "prison": 0
+    }
+   ],
+   "info": "Revolver à 6 coups, gros dégâts par balle.",
+   "ville": 60000
+  },
+  {
+   "id": "vulture50",
+   "nom": "Vulture 50",
+   "type": "pistolet",
+   "r": "l",
+   "prix": 50000,
+   "mun": "pistolet",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 36,
+     "rpm": 240,
+     "ch": 7,
+     "po": 40,
+     "rech": 300000,
+     "apres": "lbr44-1",
+     "pal": 3,
+     "prison": 0
+    },
+    {
+     "mk": 2,
+     "deg": 36,
+     "rpm": 240,
+     "ch": 7,
+     "po": 40,
+     "rech": 600000,
+     "apres": "vulture50-1",
+     "pal": 3,
+     "prison": 0
+    }
+   ],
+   "info": "Le pistolet le plus puissant.",
+   "ville": 150000
+  },
+  {
+   "id": "mc10",
+   "nom": "MC-10",
+   "type": "mitraillette",
+   "r": "pc",
+   "prix": 3500,
+   "mun": "mitraillette",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 12,
+     "rpm": 667,
+     "ch": 20,
+     "po": 25,
+     "rech": 15000,
+     "apres": null,
+     "pal": 0,
+     "prison": 0
+    },
+    {
+     "mk": 2,
+     "deg": 12,
+     "rpm": 667,
+     "ch": 20,
+     "po": 25,
+     "rech": 30000,
+     "apres": "mc10-1",
+     "pal": 1,
+     "prison": 0
+    },
+    {
+     "mk": 3,
+     "deg": 12,
+     "rpm": 667,
+     "ch": 40,
+     "po": 29,
+     "rech": 60000,
+     "apres": "mc10-2",
+     "pal": 2,
+     "prison": 0
+    }
+   ],
+   "info": "Petite mitraillette pas chère.",
+   "ville": 10500
+  },
+  {
+   "id": "cb45",
+   "nom": "CB45",
+   "type": "mitraillette",
+   "r": "pc",
+   "prix": 3780,
+   "mun": "mitraillette",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 14,
+     "rpm": 545,
+     "ch": 25,
+     "po": 34,
+     "rech": 15000,
+     "apres": "mc10-1",
+     "pal": 1,
+     "prison": 15
+    },
+    {
+     "mk": 2,
+     "deg": 14,
+     "rpm": 545,
+     "ch": 25,
+     "po": 34,
+     "rech": 30000,
+     "apres": "cb45-1",
+     "pal": 1,
+     "prison": 25
+    },
+    {
+     "mk": 3,
+     "deg": 14,
+     "rpm": 545,
+     "ch": 40,
+     "po": 40,
+     "rech": 60000,
+     "apres": "cb45-2",
+     "pal": 2,
+     "prison": 35
+    }
+   ],
+   "info": "Demande un peu de prison pour la débloquer.",
+   "ville": null
+  },
+  {
+   "id": "jp7",
+   "nom": "JP-7",
+   "type": "mitraillette",
+   "r": "e",
+   "prix": 29000,
+   "mun": "mitraillette",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 15,
+     "rpm": 750,
+     "ch": 25,
+     "po": 27,
+     "rech": 160000,
+     "apres": "mc10-1",
+     "pal": 2,
+     "prison": 0
+    },
+    {
+     "mk": 2,
+     "deg": 15,
+     "rpm": 750,
+     "ch": 25,
+     "po": 27,
+     "rech": 320000,
+     "apres": "jp7-1",
+     "pal": 2,
+     "prison": 0
+    },
+    {
+     "mk": 3,
+     "deg": 15,
+     "rpm": 750,
+     "ch": 40,
+     "po": 31,
+     "rech": 640000,
+     "apres": "jp7-2",
+     "pal": 3,
+     "prison": 0
+    }
+   ],
+   "info": "Bonne mitraillette avant l'AP Scalar.",
+   "ville": 87000
+  },
+  {
+   "id": "pdw90",
+   "nom": "PDW90",
+   "type": "mitraillette",
+   "r": "e",
+   "prix": null,
+   "mun": "mitraillette",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 13,
+     "rpm": 857,
+     "ch": 50,
+     "po": 31,
+     "rech": null,
+     "apres": null,
+     "pal": null,
+     "prison": 0
+    },
+    {
+     "mk": 2,
+     "deg": 13,
+     "rpm": 857,
+     "ch": 50,
+     "po": 31,
+     "rech": null,
+     "apres": null,
+     "pal": null,
+     "prison": 0
+    },
+    {
+     "mk": 3,
+     "deg": 13,
+     "rpm": 857,
+     "ch": 50,
+     "po": 35,
+     "rech": null,
+     "apres": null,
+     "pal": null,
+     "prison": 0
+    }
+   ],
+   "info": "Ni dans Livraisons ni en vente : à trouver.",
+   "ville": null
+  },
+  {
+   "id": "apscalar",
+   "nom": "AP Scalar",
+   "type": "mitraillette",
+   "r": "l",
+   "prix": 115000,
+   "mun": "mitraillette",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 14,
+     "rpm": 1000,
+     "ch": 25,
+     "po": 30,
+     "rech": 400000,
+     "apres": "jp7-1",
+     "pal": 3,
+     "prison": 0
+    },
+    {
+     "mk": 2,
+     "deg": 14,
+     "rpm": 1000,
+     "ch": 25,
+     "po": 30,
+     "rech": 800000,
+     "apres": "apscalar-1",
+     "pal": 3,
+     "prison": 0
+    },
+    {
+     "mk": 3,
+     "deg": 14,
+     "rpm": 1000,
+     "ch": 45,
+     "po": 34,
+     "rech": 1600000,
+     "apres": "apscalar-2",
+     "pal": 3,
+     "prison": 0
+    }
+   ],
+   "info": "Cadence énorme, idéale de près.",
+   "ville": 345000
+  },
+  {
+   "id": "harris500",
+   "nom": "Harris 500",
+   "type": "pompe",
+   "r": "pc",
+   "prix": 3500,
+   "mun": "pompe",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 72,
+     "rpm": 120,
+     "ch": 5,
+     "po": 7,
+     "rech": 15000,
+     "apres": null,
+     "pal": 0,
+     "prison": 0
+    },
+    {
+     "mk": 2,
+     "deg": 72,
+     "rpm": 120,
+     "ch": 5,
+     "po": 7,
+     "rech": 30000,
+     "apres": "harris500-1",
+     "pal": 1,
+     "prison": 0
+    },
+    {
+     "mk": 3,
+     "deg": 72,
+     "rpm": 120,
+     "ch": 7,
+     "po": 9,
+     "rech": 60000,
+     "apres": "harris500-2",
+     "pal": 2,
+     "prison": 0
+    }
+   ],
+   "info": "Fusil à pompe classique (8 plombs de 9).",
+   "ville": 10500
+  },
+  {
+   "id": "ordr12",
+   "nom": "ORDR-12",
+   "type": "pompe",
+   "r": "e",
+   "prix": 28000,
+   "mun": "pompe",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 72,
+     "rpm": 171,
+     "ch": 6,
+     "po": 7,
+     "rech": 160000,
+     "apres": "harris500-1",
+     "pal": 2,
+     "prison": 0
+    },
+    {
+     "mk": 2,
+     "deg": 72,
+     "rpm": 171,
+     "ch": 6,
+     "po": 7,
+     "rech": 320000,
+     "apres": "ordr12-1",
+     "pal": 2,
+     "prison": 0
+    },
+    {
+     "mk": 3,
+     "deg": 72,
+     "rpm": 171,
+     "ch": 8,
+     "po": 9,
+     "rech": 640000,
+     "apres": "ordr12-2",
+     "pal": 3,
+     "prison": 0
+    }
+   ],
+   "info": "Fusil à pompe à tir rapide.",
+   "ville": 84000
+  },
+  {
+   "id": "tag12k",
+   "nom": "TAG-12K",
+   "type": "pompe",
+   "r": "l",
+   "prix": 110000,
+   "mun": "pompe",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 72,
+     "rpm": 240,
+     "ch": 5,
+     "po": 8,
+     "rech": 400000,
+     "apres": "ordr12-1",
+     "pal": 3,
+     "prison": 0
+    },
+    {
+     "mk": 2,
+     "deg": 72,
+     "rpm": 240,
+     "ch": 5,
+     "po": 8,
+     "rech": 800000,
+     "apres": "tag12k-1",
+     "pal": 3,
+     "prison": 0
+    },
+    {
+     "mk": 3,
+     "deg": 72,
+     "rpm": 240,
+     "ch": 8,
+     "po": 10,
+     "rech": 1600000,
+     "apres": "tag12k-2",
+     "pal": 3,
+     "prison": 0
+    }
+   ],
+   "info": "Le meilleur pour tenir une porte.",
+   "ville": 330000
+  },
+  {
+   "id": "kl545",
+   "nom": "KL-545",
+   "type": "assaut",
+   "r": "pc",
+   "prix": 6000,
+   "mun": "assaut",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 15,
+     "rpm": 600,
+     "ch": 30,
+     "po": 45,
+     "rech": 25000,
+     "apres": null,
+     "pal": 1,
+     "prison": 0
+    },
+    {
+     "mk": 2,
+     "deg": 15,
+     "rpm": 600,
+     "ch": 30,
+     "po": 45,
+     "rech": 50000,
+     "apres": "kl545-1",
+     "pal": 1,
+     "prison": 0
+    },
+    {
+     "mk": 3,
+     "deg": 15,
+     "rpm": 600,
+     "ch": 45,
+     "po": 50,
+     "rech": 100000,
+     "apres": "kl545-2",
+     "pal": 2,
+     "prison": 0
+    }
+   ],
+   "info": "Le premier fusil à débloquer.",
+   "ville": 18000
+  },
+  {
+   "id": "star",
+   "nom": "STAR-H",
+   "type": "assaut",
+   "r": "e",
+   "prix": 27500,
+   "mun": "assaut",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 21,
+     "rpm": 500,
+     "ch": 20,
+     "po": 50,
+     "rech": 100000,
+     "apres": "kl545-1",
+     "pal": 2,
+     "prison": 180
+    },
+    {
+     "mk": 2,
+     "deg": 21,
+     "rpm": 500,
+     "ch": 20,
+     "po": 50,
+     "rech": 200000,
+     "apres": "star-1",
+     "pal": 2,
+     "prison": 190
+    },
+    {
+     "mk": 3,
+     "deg": 21,
+     "rpm": 500,
+     "ch": 40,
+     "po": 55,
+     "rech": 400000,
+     "apres": "star-2",
+     "pal": 3,
+     "prison": 200
+    }
+   ],
+   "info": "Coups plus forts, demande de la prison.",
+   "ville": null
+  },
+  {
+   "id": "rc556",
+   "nom": "RC 5.56",
+   "type": "assaut",
+   "r": "e",
+   "prix": 32000,
+   "mun": "assaut",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 16,
+     "rpm": 667,
+     "ch": 30,
+     "po": 55,
+     "rech": 200000,
+     "apres": "kl545-1",
+     "pal": 2,
+     "prison": 0
+    },
+    {
+     "mk": 2,
+     "deg": 16,
+     "rpm": 667,
+     "ch": 30,
+     "po": 55,
+     "rech": 400000,
+     "apres": "rc556-1",
+     "pal": 2,
+     "prison": 0
+    },
+    {
+     "mk": 3,
+     "deg": 16,
+     "rpm": 667,
+     "ch": 50,
+     "po": 60,
+     "rech": 800000,
+     "apres": "rc556-2",
+     "pal": 3,
+     "prison": 0
+    }
+   ],
+   "info": "Très bon fusil pour tout faire.",
+   "ville": 96000
+  },
+  {
+   "id": "srreaper",
+   "nom": "SR Reaper",
+   "type": "assaut",
+   "r": "l",
+   "prix": 120000,
+   "mun": "assaut",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 17,
+     "rpm": 750,
+     "ch": 20,
+     "po": 65,
+     "rech": 400000,
+     "apres": "rc556-1",
+     "pal": 3,
+     "prison": 0
+    },
+    {
+     "mk": 2,
+     "deg": 17,
+     "rpm": 750,
+     "ch": 20,
+     "po": 65,
+     "rech": 800000,
+     "apres": "srreaper-1",
+     "pal": 3,
+     "prison": 0
+    },
+    {
+     "mk": 3,
+     "deg": 17,
+     "rpm": 750,
+     "ch": 40,
+     "po": 70,
+     "rech": 1600000,
+     "apres": "srreaper-2",
+     "pal": 3,
+     "prison": 0
+    }
+   ],
+   "info": "Fusil haut de gamme.",
+   "ville": 360000
+  },
+  {
+   "id": "drm14",
+   "nom": "DRM-14",
+   "type": "precision",
+   "r": "l",
+   "prix": 103500,
+   "mun": "assaut",
+   "mk": [
+    {
+     "mk": 1,
+     "deg": 34,
+     "rpm": 240,
+     "ch": 10,
+     "po": 95,
+     "rech": 200000,
+     "apres": "rc556-1",
+     "pal": 3,
+     "prison": 950
+    },
+    {
+     "mk": 2,
+     "deg": 34,
+     "rpm": 240,
+     "ch": 10,
+     "po": 95,
+     "rech": 400000,
+     "apres": "drm14-1",
+     "pal": 3,
+     "prison": 975
+    },
+    {
+     "mk": 3,
+     "deg": 34,
+     "rpm": 240,
+     "ch": 20,
+     "po": 100,
+     "rech": 800000,
+     "apres": "drm14-2",
+     "pal": 3,
+     "prison": 1000
+    }
+   ],
+   "info": "Longue portée ; demande énormément de prison.",
+   "ville": null
+  },
+  {
+   "id": "lm249",
+   "nom": "LM 249",
+   "type": "mitrailleuse",
+   "r": "x",
+   "prix": null,
+   "mun": "assaut",
+   "mk": [
+    {
+     "mk": 2,
+     "deg": 18,
+     "rpm": 706,
+     "ch": 200,
+     "po": 75,
+     "rech": null,
+     "apres": null,
+     "pal": null,
+     "prison": 0
+    }
+   ],
+   "info": "Exotique, chargeur de 200 : seulement à trouver.",
+   "ville": null
+  }
+ ]
+}
