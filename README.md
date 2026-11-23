@@ -38,4 +38,6 @@ Tout est en français, hors ligne et léger (un seul fichier, pas d'installation
 
 Guide perso **non officiel** : Rob Run appartient à ses éditeurs. Ce dépôt ne contient que les versions publiées (pas de code source).
 
+Sources des infos d'une partie des objets : [ROB RUN Wiki](https://robrunwiki.com/) (données ouvertes, version du jeu 0.7.0) et [robrungame.com](https://robrungame.com/database/). Noms traduits en français.
+
 © 2026 Mowglie34 — Tous droits réservés

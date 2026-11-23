@@ -2,18 +2,18 @@
  "schema": 1,
  "auteur": "Mowglie34",
  "app": {
-  "version": "1.1.3",
+  "version": "1.1.4",
   "fichier": "MowglieRun.exe",
-  "sha256": "6a3f1ae545b2de69870a10b5542aca69027eb7b0e7df33032d977027a3c96eef",
-  "taille": 9885184,
-  "notes": "Armes, voitures et Livraisons : Page Armes : toutes les armes (Mk1 à Mk3), dégâts par seconde, portée, prix, ce qu'il faut pour les débloquer, comparaison. · Page Voitures : vitesse, coffre, cargaisons, prix et toutes les pièces. · Page Livraisons (Larry) : les 171 recherches ; coche ce que tu as, mets ⭐ sur ce que tu veux, l'appli calcule l'ordre, le prix, le niveau et la prison qu'il faut. · Accueil : gain par heure (session de jeu avec historique). · Thème clair (Réglages › Affichage). · Casier \u0026 journal : export pour Excel ou en fichier complet. · Sauvegarde copiée aussi dans un dossier à toi (disque externe, OneDrive…). · Bouton 🚩 pour me signaler une info fausse, et cette page Nouveautés."
+  "sha256": "98ebe3383f6d754a16c9790001cdbc6a6a0b43421ec43a63e87555fe7c81be3e",
+  "taille": 11601408,
+  "notes": "Les vraies images du jeu et 124 objets en plus : Armes : la vraie image de chaque arme (Mk1 à Mk3), des grenades et des munitions. · Voitures : l'image des 7 voitures et de toutes les pièces auto. · Magasins : les 118 objets en vente ont maintenant leur image. · Livraisons (Larry) : une image pour chacune des 171 recherches (meubles, constructions, titres de parcelle…). · Contrebande : l'image de chaque cargaison (caisses, valises, sacs de poudre, coffres, statue en or). · Catalogue : 124 objets en plus (bouteilles, gemmes, statues, cartes, jetons de roulette, billets de loterie, casse-tête, coupe-boulons, fiches de cargaison…), avec leur image, leur prix et où les trouver. Nouvelle catégorie Équipement. · Production, Minuteurs et Carte : l'image des machines, des préréglages de minuteur et de ce qu'on peut acheter dans chaque magasin. · Production : images des machines, des améliorations, des plants, cristaux et réactifs. · Le Romanov R8 est un hélicoptère (page Voitures). · Accueil : « Dernière news du jeu » montre le dernier patch ou la dernière annonce."
  },
  "donnees": {
-  "version": "2026.11.23-3",
+  "version": "2026.11.23-4",
   "fichiers": {
    "armes.json": {
-    "sha256": "1b9abcf150eda9f05bf28961e1a87e89f96365daf261eb0d15fd6aeb2344b087",
-    "taille": 12745
+    "sha256": "6d38a5804c82c71d898f5e5ff2f38b73296584569f5eca37580894ee95a9f5d4",
+    "taille": 14419
    },
    "banque.json": {
     "sha256": "9b6151d4109dbba3e2eec0864b6d3c67c9efdca7d1cec5e59db2fd9b538f07b8",
@@ -36,8 +36,8 @@
     "taille": 14357
    },
    "catalogue.json": {
-    "sha256": "2b89c248d7bdabe081784e024fede979b56bb05e04fe52361f1241645059b0d2",
-    "taille": 42620
+    "sha256": "5a8780ea152c4be8df0fb73b9a690667850cf8dfcade4845e281905802fde6bb",
+    "taille": 67513
    },
    "cles.json": {
     "sha256": "5428edfa58cbc840758a4f2e4e461423804db054355deb32dc0978615704c642",
@@ -48,8 +48,12 @@
     "taille": 7999
    },
    "contrebande.json": {
-    "sha256": "f887ab3d2f573e2615ab110ad5fa2c3d995a780a89fa57dbeb9cd109dda7ec1e",
-    "taille": 8292
+    "sha256": "b3fa0d9aba48becc93c3ff884b69c1e3a1fa1472c9eca6d29c3edec35bbc84aa",
+    "taille": 8741
+   },
+   "icons/action_camera_1_cumulative.webp": {
+    "sha256": "8dc314ae8ce24a78317a15cde80e8d9d9691e3234f98f53ffe69072f1d7f51a3",
+    "taille": 4628
    },
    "icons/action_camera_1_full.webp": {
     "sha256": "34a12fa7105db1ea74de85b61ae5b3c5db9546b06f0ab7e4af26e6607a4c31f8",
@@ -63,9 +67,17 @@
     "sha256": "91afd188c2cc9e2ee8d1c8994dbbd9068633e47bd9b09016555e6bc6b79b9b89",
     "taille": 4368
    },
+   "icons/action_camera_3_cumulative.webp": {
+    "sha256": "40193ef5aa548bfc0c726e20121b2b7de40ed1a5f3bf7fcc9f8aca5634486334",
+    "taille": 4750
+   },
    "icons/action_camera_3_full.webp": {
     "sha256": "2f5cee19375c222732e33e99c19cd83671c32e072f18ceb37ca8d2fdeb701e22",
     "taille": 4452
+   },
+   "icons/afak_1.webp": {
+    "sha256": "3370887a7b28ef85415a4691477538ff24411a5e2837c24dd09e401de73ad768",
+    "taille": 5574
    },
    "icons/alcohol_1.webp": {
     "sha256": "7e01fbeada74cbea9d0f00f70b5e254778716cf073c1d927aa8bb546029de021",
@@ -75,9 +87,29 @@
     "sha256": "f63b2acdc8db3a41c5c5758dd46afb2fd3469cfaf5c1d8bb860aa9c87617b228",
     "taille": 4040
    },
+   "icons/alcohol_11.webp": {
+    "sha256": "c145781e86fece43902170ce579b15b33b6090fa6c9c9bc9f2661d5f3cb6e118",
+    "taille": 3346
+   },
    "icons/alcohol_12.webp": {
     "sha256": "a9e34fe4ebbcb5fe6100a8d4ee9737b6a7840b946d475468bb5f488fc9bf569d",
     "taille": 3528
+   },
+   "icons/alcohol_13.webp": {
+    "sha256": "f3b0854f5e91cc487d99f08f58a452d6ba38e2abf222d93aed4665f06a292e78",
+    "taille": 4976
+   },
+   "icons/alcohol_14.webp": {
+    "sha256": "7580665e2bf43bcdcaf38cc515eed8dfb19351b2908306ea970b581c90e1b1d8",
+    "taille": 3686
+   },
+   "icons/alcohol_15.webp": {
+    "sha256": "fa49f1237b558941f6450e77b9980338e3df35dbe3f84247787c4dbaa318de48",
+    "taille": 4890
+   },
+   "icons/alcohol_2.webp": {
+    "sha256": "8910cd792a1596176cd7f1d15e5c9681d3e2e486df69e2dc93a8edc8e9cf1234",
+    "taille": 4894
    },
    "icons/alcohol_3.webp": {
     "sha256": "09fa373a8fa476ff6ec2cb26feb5099ad8ed16a54553fd6a9cdecd97d2586153",
@@ -86,6 +118,10 @@
    "icons/alcohol_4.webp": {
     "sha256": "782f868a806989c92b6d5a5f623dc7ef3dc13e0bee1d394194d74462e2e2c0ae",
     "taille": 3098
+   },
+   "icons/alcohol_5.webp": {
+    "sha256": "52c05a51267141d063d74681226d8a0814ddecaeaa20fa7cb1a25574e7e9c979",
+    "taille": 3622
    },
    "icons/alcohol_6.webp": {
     "sha256": "7d4f590dfb58756f22e0dceab5b36408da438571f8d33433ed6b2ab39c78e22a",
@@ -111,9 +147,65 @@
     "sha256": "640f4ca0455c74e33446ce42ce7f91b947c8b9d6e81435c5015959b7ec89ace1",
     "taille": 5042
    },
+   "icons/antique_2.webp": {
+    "sha256": "081cab18e12dde130fe07b372f9ced6bd43ebd5e68cb5635da2faed98411da15",
+    "taille": 5056
+   },
+   "icons/antique_3.webp": {
+    "sha256": "181a2dc41882234006c66da9e176e46105eba482aca3fcd77a9abc3dee43c3b9",
+    "taille": 4478
+   },
+   "icons/antique_4.webp": {
+    "sha256": "7f4a5e6c80c0dbe136332b75eb5ad16cb2b1fdadc7dd88041ce8f852413217f9",
+    "taille": 5078
+   },
+   "icons/antique_5.webp": {
+    "sha256": "a6b0128b491ecb81afe84b7422c67a6ded06f1bc067ee98803273b8897a1af04",
+    "taille": 5096
+   },
+   "icons/antique_6.webp": {
+    "sha256": "65ce4f8747c1cb607623cab5c46817c6637649eaa9d09aac9c351360533918c5",
+    "taille": 4888
+   },
+   "icons/antique_set_1.webp": {
+    "sha256": "be6c3531d6a8eb3efa0ed011f3f956a3204cfb244e91f45c2ec4bb3bdda6f45a",
+    "taille": 6410
+   },
+   "icons/apscalar_m1.webp": {
+    "sha256": "fd9429915a812990dfde301b0a8ee9b994723984c2e8033d739f9eac00e766f2",
+    "taille": 4134
+   },
+   "icons/apscalar_m2.webp": {
+    "sha256": "a6fc85ea7c4d9067245ab811ae6ce732c0d59c2a4d660f636d8cacffbd6af125",
+    "taille": 4612
+   },
+   "icons/apscalar_m3.webp": {
+    "sha256": "81cd42887a3f707b2dfa1429d40c8d5b91aa15496e852b9fcd4ac8f27c9bd142",
+    "taille": 3792
+   },
+   "icons/armor_plate_1.webp": {
+    "sha256": "04a2152822d1ccb43574ac9918e9413ea5b45c75b71ad9023deb06b5888d4860",
+    "taille": 4234
+   },
+   "icons/armor_plate_2.webp": {
+    "sha256": "04a2152822d1ccb43574ac9918e9413ea5b45c75b71ad9023deb06b5888d4860",
+    "taille": 4234
+   },
    "icons/auto_flipper_1.webp": {
     "sha256": "1327ac605a257f6faea8a1f18dc7100e3a5fae235e03e0b6e5f333ecb75adba7",
     "taille": 4550
+   },
+   "icons/backpack_2.webp": {
+    "sha256": "bab4a3e359d3b92ebf38e613c10e08d7ec85269a40bc130f1f15297a815e77ed",
+    "taille": 5676
+   },
+   "icons/backpack_3.webp": {
+    "sha256": "7641e24088bf475d26520114d0611e43271ddda60d16423de057784d89b81066",
+    "taille": 5224
+   },
+   "icons/backpack_4.webp": {
+    "sha256": "cc238feb63677024d46234825c1fce86168d48f002fe926a245bae60ec80e815",
+    "taille": 5232
    },
    "icons/bank_cash_bag.webp": {
     "sha256": "0a0245e7f9751a93fc232d44820d7c3048cd008ccc26f7a84b83e0a6a0241c3b",
@@ -123,9 +215,53 @@
     "sha256": "d86248e4dfa6d6847d0c307a5d864a6bdb8db7503547913b600c4e4a26fe31d8",
     "taille": 5546
    },
+   "icons/baseball_card_2.webp": {
+    "sha256": "c76a8cc59cb310fc99f4618774b2d0c2c487ef8f22088d92440bb6565d2e4b73",
+    "taille": 6464
+   },
+   "icons/baseball_card_3.webp": {
+    "sha256": "177122f074cfe6b7b60bda75fdaa43ccbbfdc3d06ef235dd4e16ae4f4971bc48",
+    "taille": 6286
+   },
+   "icons/baseball_card_4.webp": {
+    "sha256": "1648766795f0db039c9ba90d28380d18938099ea9d9b2ad5001588aecb7119dd",
+    "taille": 6254
+   },
+   "icons/baseball_card_5.webp": {
+    "sha256": "8ef323f84a1038c8d8d55792cf5934f771816c62fa761b7b6f4691057d7c3f79",
+    "taille": 6432
+   },
+   "icons/baseball_card_6.webp": {
+    "sha256": "cd31992adf5add6ec01ab2a4dce9d7f6bcfeebb4a7537c0dbeaba066bf0e2606",
+    "taille": 6524
+   },
+   "icons/belt_1.webp": {
+    "sha256": "ceee6d70360f2d6bd3a9e488355bdcbcdfb04112e252bc5c5e24f75d60fee168",
+    "taille": 4114
+   },
+   "icons/belt_2.webp": {
+    "sha256": "d6300ba41b7a4ffcc518dfe7b5ccbc832c5936b6be2ad945e4c685329ecc86d3",
+    "taille": 4382
+   },
+   "icons/belt_3.webp": {
+    "sha256": "65070c3399e7a630f21c747bc25b2dfaab5dded9d0b6071ab3f4fba347e8670b",
+    "taille": 5982
+   },
+   "icons/belt_4.webp": {
+    "sha256": "560c12cfee32ad586256c93407b91a955b49ebc82259929c77dcee1cec1fad31",
+    "taille": 6648
+   },
    "icons/blade_1.webp": {
     "sha256": "21c461b19825d32165b38ef4a727103f3cf3b1467174a64801748a32a8d93cb3",
     "taille": 4198
+   },
+   "icons/blade_2.webp": {
+    "sha256": "188db0aa3ac3780f8cdb60567cb11b319ce2ae3bb99cc2aaddeef3e1b351a22e",
+    "taille": 4696
+   },
+   "icons/blade_3.webp": {
+    "sha256": "c83569fdcd5a2904c95544fbb356e9b48666b6de1bd6caf8bb1a16751fc0e38e",
+    "taille": 4026
    },
    "icons/blade_4.webp": {
     "sha256": "37e74b90b95336c3ddfd2def5b02305beb3a8bde81180e636e60fe905a111e51",
@@ -135,13 +271,85 @@
     "sha256": "2a07e127098421df14470a3bdbb9190dc94c95549a0452605a652db8ecb49388",
     "taille": 3784
    },
+   "icons/blade_6.webp": {
+    "sha256": "f21a4ddc722cfb6bd25aae661da175de6aa67901a07776b9b38189c04a9961a3",
+    "taille": 5678
+   },
+   "icons/bolt_cutter.webp": {
+    "sha256": "dddf4c381e0f2f6f82f7db2e8f237beeab90593f1bcdbca51eedabab78f8161e",
+    "taille": 4054
+   },
+   "icons/buletti_soltempra.webp": {
+    "sha256": "987361755f45d1d9671319dcd6f4c925b9e1e5627ee8d3f19577b92f84cb70f8",
+    "taille": 7822
+   },
    "icons/burner_1.webp": {
     "sha256": "ed7e05887d06954254998b9f841faa26d3b04625d25b7e14dc2cefdc6734ed3b",
     "taille": 6224
    },
+   "icons/burner_2.webp": {
+    "sha256": "2d57f45ecc0d2e2ffc6b08f4d9f5acace31d0e3121c5af9917644a8b016d0148",
+    "taille": 5316
+   },
    "icons/burner_3.webp": {
     "sha256": "52c34d4196d7d3acb6995f85f0f92c31b21788a734e058e3bff09ce4df339b33",
     "taille": 4798
+   },
+   "icons/bush_drugs_1.webp": {
+    "sha256": "29b789ce58725525dfec799b0826641f7938e869064dd0e1924d7a6c98a20002",
+    "taille": 6676
+   },
+   "icons/bush_drugs_2.webp": {
+    "sha256": "29b789ce58725525dfec799b0826641f7938e869064dd0e1924d7a6c98a20002",
+    "taille": 6676
+   },
+   "icons/bush_drugs_3.webp": {
+    "sha256": "29b789ce58725525dfec799b0826641f7938e869064dd0e1924d7a6c98a20002",
+    "taille": 6676
+   },
+   "icons/bush_growing_1.webp": {
+    "sha256": "78944d5e6cfd358d0c7fe24a96a9b404b71b44da5cc697a50fce04dbde2b4d43",
+    "taille": 6270
+   },
+   "icons/bush_growing_2.webp": {
+    "sha256": "78944d5e6cfd358d0c7fe24a96a9b404b71b44da5cc697a50fce04dbde2b4d43",
+    "taille": 6270
+   },
+   "icons/bush_growing_3.webp": {
+    "sha256": "78944d5e6cfd358d0c7fe24a96a9b404b71b44da5cc697a50fce04dbde2b4d43",
+    "taille": 6270
+   },
+   "icons/bush_mature_1.webp": {
+    "sha256": "eebdfb80279ea0ccea463a3431853c3bfb11ae72f3958f0130b8d3bc6239f5aa",
+    "taille": 6600
+   },
+   "icons/bush_mature_2.webp": {
+    "sha256": "eebdfb80279ea0ccea463a3431853c3bfb11ae72f3958f0130b8d3bc6239f5aa",
+    "taille": 6600
+   },
+   "icons/bush_mature_3.webp": {
+    "sha256": "eebdfb80279ea0ccea463a3431853c3bfb11ae72f3958f0130b8d3bc6239f5aa",
+    "taille": 6600
+   },
+   "icons/camera_1.webp": {
+    "sha256": "2e1da96abe043af554678efcece76392600dd8f225ef8138579326cbd5782fb4",
+    "taille": 4418
+   },
+   "icons/camera_2.webp": {
+    "sha256": "6171d7d0372b4d8cafc805eaf643a250e6c53a81fb17000079f3e8f40d4c356e",
+    "taille": 3756
+   },
+   "icons/camera_3.webp": {
+    "sha256": "d830944a4db054b1358a6bb56cca852609d36c8061ac9aa886f1563acd448765",
+    "taille": 4456
+   },
+   "icons/car_cargo_1.webp": {
+    "sha256": "36ab6a6bbaec75d735f2227d7bd27fa41d9b94cc3da76fcf4a389c326ab7c5f1",
+    "taille": 7842
+   },
+   "icons/car_cargo_2.webp": {
+    "sha256": "36ab6a6bbaec75d735f2227d7bd27fa41d9b94cc3da76fcf4a389c326ab7c5f1",
+    "taille": 7842
    },
    "icons/car_device_1.webp": {
     "sha256": "d970a013da33622fb745060394460581b16dee0f04070fc5324f083713160ee6",
@@ -155,9 +363,61 @@
     "sha256": "a352383b126bb46d636e6f81c0975dd28fc4c1f8605c65125711cc6cf54a66d1",
     "taille": 5644
    },
+   "icons/car_device_4.webp": {
+    "sha256": "5319ccb1d813dd7ab188d9d5999253afe418180cd3deddcca68b37f37b59d61e",
+    "taille": 5336
+   },
    "icons/car_device_5.webp": {
     "sha256": "72f2bf5223751afa73f304edd5734ae2a6b20eaea75a9c343fc2825bf2e02b30",
     "taille": 5344
+   },
+   "icons/car_device_6.webp": {
+    "sha256": "d594db40770a606ae6759866da3c4b9b30124a781614b73a184737f203a66cac",
+    "taille": 4154
+   },
+   "icons/car_ecu_1.webp": {
+    "sha256": "83d1f6eef4910966b538813d3750f951eca4443d4d31f45b2d0c863c383d2a14",
+    "taille": 6078
+   },
+   "icons/car_ecu_2.webp": {
+    "sha256": "83d1f6eef4910966b538813d3750f951eca4443d4d31f45b2d0c863c383d2a14",
+    "taille": 6078
+   },
+   "icons/car_ecu_3.webp": {
+    "sha256": "83d1f6eef4910966b538813d3750f951eca4443d4d31f45b2d0c863c383d2a14",
+    "taille": 6078
+   },
+   "icons/car_engine_cooling_1.webp": {
+    "sha256": "d71b0714a431baca49390df5120cb69e954d8d25f20b2ac0907ef6f49aa0da3c",
+    "taille": 4860
+   },
+   "icons/car_engine_cooling_2.webp": {
+    "sha256": "d71b0714a431baca49390df5120cb69e954d8d25f20b2ac0907ef6f49aa0da3c",
+    "taille": 4860
+   },
+   "icons/car_garage_1.webp": {
+    "sha256": "a953ccd936c27aec7b226cbe69e00304005554c016d31742ea3934b43b2a0b18",
+    "taille": 6012
+   },
+   "icons/car_garage_2.webp": {
+    "sha256": "8adb0a59e9efc7a7111e059464e112e07bbd2fd2531d0be4b643b84859cc59b4",
+    "taille": 7092
+   },
+   "icons/car_inventory_1.webp": {
+    "sha256": "5f391d3d22ada9acc439840f7651faabe51254b76918e1db61b9d316a7672b05",
+    "taille": 5166
+   },
+   "icons/car_inventory_2.webp": {
+    "sha256": "5f391d3d22ada9acc439840f7651faabe51254b76918e1db61b9d316a7672b05",
+    "taille": 5166
+   },
+   "icons/car_inventory_3.webp": {
+    "sha256": "5f391d3d22ada9acc439840f7651faabe51254b76918e1db61b9d316a7672b05",
+    "taille": 5166
+   },
+   "icons/car_lift_1.webp": {
+    "sha256": "47370798910db4b324d28ea8c8355d761afe4484a7da3d0b63a2344f9c4cee0d",
+    "taille": 6280
    },
    "icons/car_parts_1.webp": {
     "sha256": "cd12ca32238bb7fa81ad27d494c70d8a41927e5f26cd3822de315ae8b9244a23",
@@ -166,6 +426,10 @@
    "icons/car_parts_2.webp": {
     "sha256": "08ab39fa623c82200d34fb71004f529e33ff92b53d9915a084733b0082829e7d",
     "taille": 6158
+   },
+   "icons/car_parts_3.webp": {
+    "sha256": "bebe05aa561665e8a6b93c06c08e79973b4ff79d3e465d0c930c51a13c41446b",
+    "taille": 5320
    },
    "icons/car_parts_4.webp": {
     "sha256": "bc803bca6d19c50620e803f04a0eedb0d139c7a565056da58dd3cebfcb6a1ab0",
@@ -179,17 +443,45 @@
     "sha256": "811405fa8aa0ef4bfe63a2b1483386b6f1686703a4085f9aa37f472f3c767f96",
     "taille": 5416
    },
+   "icons/car_parts_7.webp": {
+    "sha256": "17ec42995cde5955be673d749c1c3ae3645b348888ebaa1987ca773887137cc5",
+    "taille": 6022
+   },
    "icons/car_parts_8.webp": {
     "sha256": "4f97aa840850336323efba7f28607b2d020ac2303689235ff7688c9e20869be7",
     "taille": 5418
+   },
+   "icons/car_police_radio_1.webp": {
+    "sha256": "cd99950e51d0f48aad0e8d16c13317ade1e7d3bba1598458341733a1594baa2a",
+    "taille": 4496
    },
    "icons/car_spare_parts_1.webp": {
     "sha256": "4f3b80595da2491b5a3afc643d0216e98fc4dcc082dcc612ee42f59eb2e79da8",
     "taille": 6222
    },
+   "icons/car_steering_rack_1.webp": {
+    "sha256": "e638ced5ce44cfdd9e9316056dc7c865e8febc5d772e9eaa3275f51c71f17122",
+    "taille": 2644
+   },
+   "icons/car_steering_rack_2.webp": {
+    "sha256": "e638ced5ce44cfdd9e9316056dc7c865e8febc5d772e9eaa3275f51c71f17122",
+    "taille": 2644
+   },
+   "icons/car_suspension_1.webp": {
+    "sha256": "a7910b0f3c799ba5f3e7457a16ce7000f5501ff528fa9ccc2e7b4db244357408",
+    "taille": 8456
+   },
+   "icons/car_suspension_2.webp": {
+    "sha256": "a7910b0f3c799ba5f3e7457a16ce7000f5501ff528fa9ccc2e7b4db244357408",
+    "taille": 8456
+   },
    "icons/car_trinket_1.webp": {
     "sha256": "d069a6afd257764dcbe3582e63162e086da6eb51294c9150f79037bf2c68025b",
     "taille": 6230
+   },
+   "icons/car_trinket_2.webp": {
+    "sha256": "62a62f85ec3a1fa8f25e459e0359037c80e986e2083ecfe5a3907f666e9f47b9",
+    "taille": 7004
    },
    "icons/car_trinket_3.webp": {
     "sha256": "fb0cacf6df2e2db0a357e8f12d51bb36d7e90d579fd96f77afff959c2fba6875",
@@ -203,6 +495,18 @@
     "sha256": "cb9e882fbb0bc0719bd83b1f815c9f095c6b2c88f09f90f9cea2f354487773e2",
     "taille": 5892
    },
+   "icons/car_trinket_6.webp": {
+    "sha256": "2526eb28edf9cbf8b54c29a9b505cb48276842b67ecefe1df3c37bf6b617b170",
+    "taille": 6216
+   },
+   "icons/car_turbocharger_1.webp": {
+    "sha256": "ce001eb0439389593bf1e6f94eadf7c48f5685addc9472fd0e5a8293922dfc3b",
+    "taille": 5032
+   },
+   "icons/car_turbocharger_2.webp": {
+    "sha256": "ce001eb0439389593bf1e6f94eadf7c48f5685addc9472fd0e5a8293922dfc3b",
+    "taille": 5032
+   },
    "icons/cargo_alcohol_grade_1.webp": {
     "sha256": "e1665361369ff480b3acdd2b2f6c803aff37288fadb6e021e1cdc508b84b4dc3",
     "taille": 4776
@@ -215,9 +519,53 @@
     "sha256": "07b676c03958c14a1e5899e6762ec9391c99b638ad117f79f2f2a7532dcc0fde",
     "taille": 5124
    },
+   "icons/cargo_ammo.webp": {
+    "sha256": "0e5f092aab383a504c134acd5ba1c0e940fa32335c93a1f2be8bfdb0c92f5f1c",
+    "taille": 5846
+   },
+   "icons/cargo_carparts.webp": {
+    "sha256": "eee86a1d2b9085d7980acef21e365c81467f0a3e1a4f54b273824bc2e4a1bc5e",
+    "taille": 5676
+   },
+   "icons/cargo_charge_workbench_garden_bed.webp": {
+    "sha256": "e7c6ff76748cfd39d35c0505c0276c5c26e8e9a71a1063494397444c657bfcf4",
+    "taille": 7392
+   },
+   "icons/cargo_charge_workbench_lab_freezer_1.webp": {
+    "sha256": "2522049e2fea274b78a0bb88c78c709976188004f6e7a8dfcbb95cd79f14f41e",
+    "taille": 6634
+   },
+   "icons/cargo_charge_workbench_lab_freezer_2.webp": {
+    "sha256": "7c9c6ccf977fc04b891ac925cfd993b1022b171a126ece0daf55cea4d26ca0b6",
+    "taille": 7800
+   },
+   "icons/cargo_charge_workbench_lab_freezer_3.webp": {
+    "sha256": "7c9c6ccf977fc04b891ac925cfd993b1022b171a126ece0daf55cea4d26ca0b6",
+    "taille": 7800
+   },
+   "icons/cargo_charge_workbench_upgrade_evaporator_1.webp": {
+    "sha256": "0faa6bf896df57fd9eec682072c50bd3aa1258fd24a05d5d6b43fa6039aace93",
+    "taille": 5888
+   },
+   "icons/cargo_charge_workbench_upgrade_refrigerant_1.webp": {
+    "sha256": "1b4c99e2af0924690c60417474196e2d47fb06276dd4d4dde86773c7a62d87bd",
+    "taille": 4678
+   },
+   "icons/cargo_electronics.webp": {
+    "sha256": "d3fadda37fa3a42d017aab9880539c2ef2ab4e1a3fceddbd4597dec1490246da",
+    "taille": 5828
+   },
+   "icons/cargo_equip.webp": {
+    "sha256": "225ca34731d4c1f4ca95822a1670de775a6b47f04a6cfdc15ed255ae848541ab",
+    "taille": 5420
+   },
    "icons/cargo_exchange_workbench_1.webp": {
     "sha256": "d6358f035e3389e2e9e3b234f13e9bb2f8ae839e2c23d0a51b706e0b2ec97fd6",
     "taille": 6356
+   },
+   "icons/cargo_exchange_workbench_additional_double_slot_upgrade.webp": {
+    "sha256": "9dd98b9eea1e70a74f1318726110430cd7607534bf36243f0172c45a970aadf9",
+    "taille": 7298
    },
    "icons/cargo_exchange_workbench_additional_slot_upgrade.webp": {
     "sha256": "1e1ef86be25ec3e6835ec3bacfe7627ecded2e4b46d82891e83be58de489b60a",
@@ -231,9 +579,101 @@
     "sha256": "19cc6cae0c9055649c91f83da30ae863e87cc4b1783fa8c4b390be01d8943bbd",
     "taille": 5128
    },
+   "icons/cargo_jewelry.webp": {
+    "sha256": "27e24de69795027de35c6f9a57d8bb4d5f8bf68e415a975e69465bb4bb4f3850",
+    "taille": 5626
+   },
+   "icons/cargo_manifest_1_cumulative.webp": {
+    "sha256": "a84f8019d0ca9dd3e89a109483db745f874972bfb798a3cdb90d896ae413ba84",
+    "taille": 4822
+   },
    "icons/cargo_manifest_1_full.webp": {
     "sha256": "9215edddbf55b13dfe77590fd4280a102c8b38305fce8474373d51ae0fbcb0a5",
     "taille": 4730
+   },
+   "icons/cargo_manifest_2_cumulative.webp": {
+    "sha256": "310b452201153336ae566ce71561c3f41b866115f37f9734cc49dfea4c087989",
+    "taille": 4626
+   },
+   "icons/cargo_manifest_2_full.webp": {
+    "sha256": "4b15babcf2ff61e7a009a341216d8c0e917c7e83951c141b404a0a88ef62923e",
+    "taille": 5644
+   },
+   "icons/cargo_manifest_3_cumulative.webp": {
+    "sha256": "a84f8019d0ca9dd3e89a109483db745f874972bfb798a3cdb90d896ae413ba84",
+    "taille": 4822
+   },
+   "icons/cargo_manifest_3_full.webp": {
+    "sha256": "42f81390d9da11c729c4c6c0e9f1b61b0faf439c024d51781bbf3979be755404",
+    "taille": 5114
+   },
+   "icons/cargo_medicine.webp": {
+    "sha256": "b6e846141a17231f86610f2bf5ce9a1880897732085d1c6871de7c7118944d03",
+    "taille": 5678
+   },
+   "icons/cargo_minimarket.webp": {
+    "sha256": "9859ba3c80d4efe7ed44e395c2c7731517417412aade2573a9b86c2c9dc5a5dd",
+    "taille": 5836
+   },
+   "icons/cargo_open_workbench_upgrade_additional_slot_2.webp": {
+    "sha256": "c5a8c86f08e22b7578c46cee40651c76dedeb2fadc71e0f772d4ae4f216d6564",
+    "taille": 3934
+   },
+   "icons/cargo_production_workbench_1.webp": {
+    "sha256": "a34f58c6ce10f194e0ca4eebae282e7c729c0faa2cede1359cd35d00295756c6",
+    "taille": 7472
+   },
+   "icons/cargo_production_workbench_2.webp": {
+    "sha256": "4853916d9400e6919096d115d5ab0b97f0d0941c3d10f07162d52c3d618e2812",
+    "taille": 7914
+   },
+   "icons/cargo_production_workbench_3.webp": {
+    "sha256": "ad7a60bc9c06a6c7246299556f151e3920c1a43cb51da4f38301973ec61c960a",
+    "taille": 7386
+   },
+   "icons/cargo_production_workbench_upgrade_converter_1.webp": {
+    "sha256": "51a2e7a38b1f5ac3c819826b05e9e51a1b092ef81f033ec3d6d6592cc3b6c8d6",
+    "taille": 5486
+   },
+   "icons/cargo_production_workbench_upgrade_engine_1.webp": {
+    "sha256": "a9283812dd6ec00f1ee3477c92ae755bf1e1a30176ffd9288251bd1dfe47884c",
+    "taille": 5832
+   },
+   "icons/cargo_production_workbench_upgrade_thermometer_1.webp": {
+    "sha256": "0db430ae6504b2594bbcceda7981ff5d248cec396ee87e5ecd183e7acdd00335",
+    "taille": 7168
+   },
+   "icons/cargo_safe.webp": {
+    "sha256": "f43aa630781d73daac04c77161f077440d8b9bd42843ac502f293df378a2a1d3",
+    "taille": 4654
+   },
+   "icons/cargo_safe_legendary.webp": {
+    "sha256": "47863c900994b9a67746e7f6d79856be9bd49ba6be16553574b52a28f4a10b7e",
+    "taille": 6018
+   },
+   "icons/cargo_statue_1.webp": {
+    "sha256": "f2827ce54dfca271eb45c8df256933e4312e08b4f0dc2edecbc25a2691c7c924",
+    "taille": 7090
+   },
+   "icons/cargo_workbench_1.webp": {
+    "sha256": "8853de35474e29d89ba96ab64e6a2e9afb9a3bd1aae052411e0eab0ee574e3e0",
+    "taille": 7032
+   },
+   "icons/cargo_workbench_circular_saw_1.webp": {
+    "sha256": "3ace034d37df5c0c1698fe781e8702ea1a0096a7301bc9cb24529fe7b318a530",
+    "taille": 6874
+   },
+   "icons/cargo_workbench_lab_table_1.webp": {
+    "sha256": "47699a001ce585dc5f8a9336daf33d5e026e0b0f5f249179230acbc697e59cc1",
+    "taille": 7586
+   },
+   "icons/cargo_workbench_slot_1.webp": {
+    "sha256": "6e10c9319b3c26ceb7502f28908de51d8c77a1affe0090fffe48096703e9b975",
+    "taille": 6462
+   },
+   "icons/cargo_workbench_toolbox_1.webp": {
+    "sha256": "c25f1d0c5b84f4f33702027143d434fb62efb1b2c5c42b928997019f45d84c46",
+    "taille": 5932
    },
    "icons/cash_1.webp": {
     "sha256": "bb0f2df09498eb05cd1c0b9d59a1171577fb98fa7fc8dbd59a102dc46d65a5b4",
@@ -243,9 +683,33 @@
     "sha256": "3b9aa8ee2cf786c5addd3568fb33a600286eb7c9f3241fe7d41a5989242d4ab1",
     "taille": 5692
    },
+   "icons/cb45_m1.webp": {
+    "sha256": "c5820462f81c7854b046a85428a3e3ebc32aa2bf3e90e62137715225e5d2879f",
+    "taille": 3622
+   },
+   "icons/cb45_m2.webp": {
+    "sha256": "dd8877f28904574997e424998f5885d7fc3c40131301f43432c0a6bf26d117b7",
+    "taille": 4044
+   },
+   "icons/cb45_m3.webp": {
+    "sha256": "2928f8314b3de9a7c3188aef98c8c78bd715f1b1061b1a1f5a2d769aff6d61e9",
+    "taille": 3346
+   },
+   "icons/cigar_1.webp": {
+    "sha256": "c7dcae40b2072a52eca1606a9dcd7f7f62f1742ba8d13140d89fef86c8d7722e",
+    "taille": 5974
+   },
    "icons/cigar_2.webp": {
     "sha256": "c4688ca933610e1000c1cd9cfcb0cd00c66e25a5a44654f7065b18d1f6c81097",
     "taille": 6246
+   },
+   "icons/cigar_3.webp": {
+    "sha256": "100277dea1193957b364e7b9d78b942e1c399bc95fa3e9db8ead32a5a94d5d57",
+    "taille": 5406
+   },
+   "icons/clan_alarm_1.webp": {
+    "sha256": "3899d2f3077b8561b638a34fb8e65afad859500f7af25e43c0b9763638d85d55",
+    "taille": 4414
    },
    "icons/collection_reward_cargo_0.webp": {
     "sha256": "fd8dfe2647d13391e6d158984769f28ad5afacc62af49f30105558aea126866b",
@@ -279,9 +743,21 @@
     "sha256": "8493d623522905b1357ef749ef91044514436ff7602d38b0fc5ac8d7be225f44",
     "taille": 4732
    },
+   "icons/comics_1.webp": {
+    "sha256": "74831bc80087715c2104b29fd11226e1247d3585d2d12e78cb59633988a5e009",
+    "taille": 5700
+   },
+   "icons/comics_2.webp": {
+    "sha256": "f758fdc5f03ce1fa67443fbd638727dcedcefa86c25f9d11145ffdbc276d571d",
+    "taille": 5880
+   },
    "icons/comics_3.webp": {
     "sha256": "4453b34b5b0138abac5823e85012b97f46fdda5a4cdcaae59fd177aa5f09b766",
     "taille": 5162
+   },
+   "icons/comics_4.webp": {
+    "sha256": "a8492010377f5b63791b316e473fb244677328f176c6979761e4ef42085cbf33",
+    "taille": 5632
    },
    "icons/comics_5.webp": {
     "sha256": "315a5a97605b38716ff85ce902a1548699c0f158bf8401aa48105dd619ee0c80",
@@ -291,9 +767,17 @@
     "sha256": "c542b5330a873cf34a2aae36eaa176a57da059f99c510d86f22d305f08087b0e",
     "taille": 5944
    },
+   "icons/condoms_2.webp": {
+    "sha256": "be1eff151b38e26bd7bccabb8d6b3e6c488214c5cef03d7e083d75a4b40919f9",
+    "taille": 6452
+   },
    "icons/condoms_3.webp": {
     "sha256": "5831f46b5c96541a914cad89e571a0e1e4ada3e9d2b72b307698030da1c8713c",
     "taille": 4704
+   },
+   "icons/condoms_4.webp": {
+    "sha256": "134e9aeaf5d4b5bd50efc7c3f1d445915d0ecb94cb07e4f82034edb9fab269eb",
+    "taille": 5656
    },
    "icons/condoms_5.webp": {
     "sha256": "4cec4647fc75df1d5a780a6151eb45186cf26ac77f7b89193f58e2a03644a7c0",
@@ -303,9 +787,41 @@
     "sha256": "20368a73dbc3b7e539a862a4c80ed4584316ddf249ba27b9e5a09064fad83c41",
     "taille": 4472
    },
+   "icons/console_2.webp": {
+    "sha256": "95899e54b1e45e5f2c1057cee10af098d0cd88bb44254cc2cafbf7985592c9a5",
+    "taille": 4804
+   },
    "icons/console_3.webp": {
     "sha256": "63e6138ebd62faa6b684c88e40e583ba7f20e6af2e2dc0dd5433ed52b6c0b8dd",
     "taille": 4334
+   },
+   "icons/console_4.webp": {
+    "sha256": "7ba67aafa926f43de6d839583eef04c76a247497ae18852bf7b852699083f852",
+    "taille": 7696
+   },
+   "icons/console_5.webp": {
+    "sha256": "da3f8fd8f40aa7caad4c94e8721e1e319cd40a5da972d0f0b1f294070063066b",
+    "taille": 5214
+   },
+   "icons/cube_1.webp": {
+    "sha256": "5ff340c02d538659471fd3fe587e5c6b722fd733e6676a2657d2bdfe019760a3",
+    "taille": 5350
+   },
+   "icons/cube_2.webp": {
+    "sha256": "5c50692bf354671c78af08a1ab3e907357c56f5465307cd5c8c07c3bb0b2870f",
+    "taille": 5422
+   },
+   "icons/cube_3.webp": {
+    "sha256": "4a97ca148bf095f73d6df5a810de195d579fb8bda4f62ef22454f557d3ca3427",
+    "taille": 5436
+   },
+   "icons/cube_4.webp": {
+    "sha256": "8d06cdc9ce2cf2204a1d608efcff8861dec18d50f64c4e87616f91ea6deefac2",
+    "taille": 5310
+   },
+   "icons/cube_5.webp": {
+    "sha256": "3414c57cd6e878fba82e77a4d1abcf8a2bfb016fd738afa7941cc459e48366c2",
+    "taille": 5416
    },
    "icons/decoder_1.webp": {
     "sha256": "0aac6c30abfd3db083d78e3ea9df8efe7bc3bb702fd408938c3bacaf0a7f3a53",
@@ -339,9 +855,77 @@
     "sha256": "571c495ea5ab045dec32ddc1e934db653eec17fd0b3abc6a13e6008224685491",
     "taille": 6794
    },
+   "icons/dildo_1.webp": {
+    "sha256": "197157e06b803f31c1229ebaa7538e06eb5ae64b699892b992292494a789adba",
+    "taille": 3662
+   },
+   "icons/dp9_m1.webp": {
+    "sha256": "f2879582b108ba92fd9623095615d5bbcab838d7cd875bbc8ca14fe7e748aaac",
+    "taille": 4294
+   },
+   "icons/dp9_m2.webp": {
+    "sha256": "dc383ba19c1775399cf306c9b8ba156ed6858791aec0f9d5bbd07c7b6b97996e",
+    "taille": 3094
+   },
    "icons/drill_1.webp": {
     "sha256": "89cdaab9e94074d25e32ad19ee87dde8f72528333d8c64220bebb79b36de1060",
     "taille": 6378
+   },
+   "icons/drm14_m1.webp": {
+    "sha256": "dc6d3d7a41fa17332a7cb102b29ac1b5013bbb173f68abdfe388d26c8cf90b83",
+    "taille": 2254
+   },
+   "icons/drm14_m2.webp": {
+    "sha256": "443cac57dd6cb14e9429b96cd67a3f7829e086ec7db35b21644e78bf8f88cb67",
+    "taille": 2914
+   },
+   "icons/drm14_m3.webp": {
+    "sha256": "3a1c1c9ae1fdf840e13b6505714baa3333f68d13c754f948cd37a5685505d17a",
+    "taille": 2398
+   },
+   "icons/drugs_1.webp": {
+    "sha256": "46d55c3c9e4c2beaf1eff7da372c7ce15e31a8a1a99680a3ec4acb32db507265",
+    "taille": 4730
+   },
+   "icons/drugs_2.webp": {
+    "sha256": "983c3ff39959d9737f9a7153874ff4d59d93150d2cb1810e0475fa7bc7b0be6f",
+    "taille": 6626
+   },
+   "icons/drugs_3.webp": {
+    "sha256": "edda652904989c7cac5bfe73fbd78a0e51db02123c066ff60d412f4b8bd08a4a",
+    "taille": 5856
+   },
+   "icons/drugs_4.webp": {
+    "sha256": "d2f9129d41ee7d86d8e433ba468263bb3d490e3593b9c5351da12ee26d15d020",
+    "taille": 5606
+   },
+   "icons/drugs_5.webp": {
+    "sha256": "e4fbb1d0ee3782e208f1a002ae3177d3e08eeedb809471973627305f682b449b",
+    "taille": 6812
+   },
+   "icons/drugs_6.webp": {
+    "sha256": "27559567f20dab82fcad05e558e980f5412f7dd86ed94955282359d72c206d95",
+    "taille": 6086
+   },
+   "icons/drugs_bag_0.webp": {
+    "sha256": "2f62c623b3ef51d07ab407c3cbcd4e58b3df48c5b3300e4887485ab8459d1640",
+    "taille": 6350
+   },
+   "icons/drugs_bag_1.webp": {
+    "sha256": "05a50a5bd26baafa862c7fbeab9b9c4497c00cf77f9579fd1b3535c9e79b0ff5",
+    "taille": 6806
+   },
+   "icons/drugs_bag_2.webp": {
+    "sha256": "e3ff5fab7392ecdf8d406440f573c71cc0a19691c88b51e76a0d60aa63529348",
+    "taille": 6570
+   },
+   "icons/drugs_bricket_1.webp": {
+    "sha256": "5866919247485b50805762c7f82eef4afe9efc05034c1a8d9158cbd8f35038e3",
+    "taille": 6064
+   },
+   "icons/earrings_1.webp": {
+    "sha256": "b76148419b2d17a1bab4af86cc2ebe0b295ac8b31c993cd3f9fd06e5478eb20f",
+    "taille": 5872
    },
    "icons/earrings_2.webp": {
     "sha256": "ac3b519e141ba11e0092cd60101040d50796ffbeb7cd8b869a186f9bc93ebd16",
@@ -354,6 +938,14 @@
    "icons/earrings_4.webp": {
     "sha256": "fe8dda50d4df0dce1e9d9496230204d5900703804ba7cc277fcee66fc0cc8b32",
     "taille": 4336
+   },
+   "icons/earrings_5.webp": {
+    "sha256": "40ec03f49056ce6ab530f97726a15d1ebeb2cc4eed9e2789504b4db529db973f",
+    "taille": 4946
+   },
+   "icons/earrings_6.webp": {
+    "sha256": "d9bfa51728fea3322bb218af29cdf0eff1bc8ad2a7ca9eb88170e5bb1a93850f",
+    "taille": 3794
    },
    "icons/egg_faberge_1.webp": {
     "sha256": "8b2e171c3b06f3baf9b81e3eec3436d913c1e69ffe6edcfe60a0ff9f73f518fd",
@@ -391,21 +983,113 @@
     "sha256": "9db5e0ba53149debdf707f5ffd8a1632b894b285bdb579b810e416d9fb053883",
     "taille": 7234
    },
+   "icons/equipment_12.webp": {
+    "sha256": "2b4091c7ba3d68d91f59e94f3f1738ff4201d2ce2a8297aecea60bc1e9883934",
+    "taille": 5946
+   },
    "icons/equipment_2.webp": {
     "sha256": "e9bf87d17932c88e8cb594f84e1396684f5865dbef1a89739e679e6a10163a2a",
     "taille": 3794
+   },
+   "icons/equipment_3.webp": {
+    "sha256": "28cb043561d2ca3eb1cd84c30498f5522d4647eca22a1624da999fecc2f91523",
+    "taille": 5300
    },
    "icons/equipment_4.webp": {
     "sha256": "a93ee8d55676b69cd8704d2e8f438b47959b470f252510afd416c27b03693867",
     "taille": 4194
    },
+   "icons/equipment_5.webp": {
+    "sha256": "1376404fc2d5d39e57db54729ef6ce5825342d9d54b0f6d42ce93b249dcf50fc",
+    "taille": 5582
+   },
+   "icons/equipment_6.webp": {
+    "sha256": "e1440cb8c26108465096b5a6aaef5fff2d343ac3b9397b9f95912a0eb56c2e62",
+    "taille": 8252
+   },
    "icons/equipment_7.webp": {
     "sha256": "bb3ead6b2ffef0acaf32879900cbc2f615c6ea38cc58270c8afd2d2b762c8932",
     "taille": 5910
    },
+   "icons/equipment_8.webp": {
+    "sha256": "05c4c6860eb16381c6b031ed15c9e031e256db1b587f321575e916703ceb2ceb",
+    "taille": 4892
+   },
+   "icons/equipment_9.webp": {
+    "sha256": "7a11e2e04a829eea07245fb14f58cc5e6e693ae3950871725cb695091365bf8a",
+    "taille": 5862
+   },
    "icons/evict_plot_1.webp": {
     "sha256": "f7bc4e573b65aa71f39d920985aa5168905a58da085ac875eaac8555b610b80d",
     "taille": 6552
+   },
+   "icons/fan_1.webp": {
+    "sha256": "ba815165d1aabb30d3f0c1bdf2cd09a7a30a0f4240e365d4e0ba504b72e42411",
+    "taille": 5514
+   },
+   "icons/figurine_1.webp": {
+    "sha256": "8bad021776f6660de681e3485324cdeba0e5827e0545b79707495777fec29fe6",
+    "taille": 4538
+   },
+   "icons/first_aid_cabinet_1.webp": {
+    "sha256": "83a8ac0fc1ce88fbda1193b707f79a38096eb5ab92caf61b6ad4ae9e87d6428e",
+    "taille": 6748
+   },
+   "icons/flash_grenade_1.webp": {
+    "sha256": "4dae0602a313ff1b60d5576f768790cba5d90d86734495583bdcd1c35c88be4d",
+    "taille": 4828
+   },
+   "icons/fluffy_cuffs_1.webp": {
+    "sha256": "d2b1ccd7df7766cf256e8412487b5ae231a341548c9cf01212076e7172a9ac9a",
+    "taille": 5408
+   },
+   "icons/frag_grenade_1.webp": {
+    "sha256": "6a09953fb67ea46d68b286d362a1a97029c42d5a80be79bef4ce34303e53d4a5",
+    "taille": 4072
+   },
+   "icons/fukurou_tensa.webp": {
+    "sha256": "9dd6554332e0680e9fdcc9abe8e21da9ec621a80bb63f8d8601602ce3ac3c9fd",
+    "taille": 6788
+   },
+   "icons/garbage_1.webp": {
+    "sha256": "8b48f1f084201b0d2780b3eb515d846d18fbf6f10df51cbd86d3b73d3d23dcdc",
+    "taille": 5018
+   },
+   "icons/garbage_2.webp": {
+    "sha256": "a08f9e00f3b670230bceb98da2852dbb3e2b8052b980b0402c63ac6c379aa81f",
+    "taille": 3958
+   },
+   "icons/garbage_3.webp": {
+    "sha256": "2bc9b6a449c04d9517289dcfdc4a160af5296c7bcea14c676d69cea6114a68f3",
+    "taille": 3900
+   },
+   "icons/garbage_4.webp": {
+    "sha256": "64039c30d2eb0291bb0952dc3cf0344feb8bf23388a4872f90993539aed6397f",
+    "taille": 7160
+   },
+   "icons/gas_grenade_1.webp": {
+    "sha256": "3d29d2b447f1f3b016506b315514f4c1bafd32d774b3f00adc5419729bf9621b",
+    "taille": 4982
+   },
+   "icons/gemstone_1.webp": {
+    "sha256": "2db773e134126816fe1dfdec4e0fb582fd5fb7893023a7265b7d1d71df9af4c2",
+    "taille": 4966
+   },
+   "icons/gemstone_2.webp": {
+    "sha256": "f0a3f1d9bf74ddcb4907fd88514b16c623056ebb4cec8f5613582361f7dc7a04",
+    "taille": 4712
+   },
+   "icons/gemstone_3.webp": {
+    "sha256": "d1a5d1b0a870583260b9b57f12c26d2ec14b1fce93de5c2e202ce88720af3102",
+    "taille": 5022
+   },
+   "icons/gemstone_4.webp": {
+    "sha256": "135ae76594e278f7ee24f3af36880a1c5b1a26f2a40899531c4c0458115b4bdd",
+    "taille": 4684
+   },
+   "icons/gemstone_5.webp": {
+    "sha256": "782b01a255f6c0cde24a240c1520308f9d9d240daf7f7024f868e919113bee6a",
+    "taille": 4338
    },
    "icons/glass_cutter_1.webp": {
     "sha256": "5e4b4f0356e57fb340fc2a7d4c11323e70393cc36b1d2ee33b1bf0757e93a6d8",
@@ -414,6 +1098,18 @@
    "icons/gold_bar_1.webp": {
     "sha256": "e721a85dc035b361eba82a577f344371ab5ecc8d1b9a270038bc0d10cac46e9a",
     "taille": 4870
+   },
+   "icons/graphics_card_1.webp": {
+    "sha256": "8140d9e2ef8b561fde28b123a60268b41b7b8e8389616edbfb33658771118659",
+    "taille": 4818
+   },
+   "icons/graphics_card_2.webp": {
+    "sha256": "c2c42d3d17151ba26fab597a2a84f3b8cca27fd479d710cd7eb5ff6f18120a27",
+    "taille": 5024
+   },
+   "icons/grenade_launcher_shell_1.webp": {
+    "sha256": "0dfe8cfca4bdf9c206dfb4e2b1fc2722ae5d966344f6d23aa2123b9e669eab0b",
+    "taille": 2896
    },
    "icons/gun_grease_1.webp": {
     "sha256": "c75a0ff90e4d4e1610884562fb3c32f5c581db32b4e4b4e4ffb41d5128f192b6",
@@ -439,6 +1135,34 @@
     "sha256": "7691e7aac4d47e6562675fd048823cd2a402e0fd5a5a667e71561bdf54a115ee",
     "taille": 5164
    },
+   "icons/hairdryer_1.webp": {
+    "sha256": "0bcaf72d72696cc2bfb2b3a376b506ba32ddafb59a2c98279db44fb721d88199",
+    "taille": 5114
+   },
+   "icons/hard_crystal_1.webp": {
+    "sha256": "d4c4e3558cddd1e8341b001e017dbc417f16d42252444d65c8e196ba863e8066",
+    "taille": 4838
+   },
+   "icons/hard_crystal_2.webp": {
+    "sha256": "89a448d83801ccb24c42c83a27444ec4b0eee5a95ef17ad802b38a9506ee57e8",
+    "taille": 5022
+   },
+   "icons/hard_crystal_3.webp": {
+    "sha256": "0bbbdd48234a7abd003c24626457c2e33068feb243ba3ccd98a4b108ce2ffa85",
+    "taille": 4906
+   },
+   "icons/harris500_m1.webp": {
+    "sha256": "87ed40b35101531ba3a817f69919f0149653b034b493455eef69ab24c6554300",
+    "taille": 1840
+   },
+   "icons/harris500_m2.webp": {
+    "sha256": "6630804ea75d178de2a57ab14ae355b869f289d0bd33435f601eafee961faa26",
+    "taille": 2288
+   },
+   "icons/harris500_m3.webp": {
+    "sha256": "2f5c8399b6081b174e5bb43b2f0ec27f23a9549c66d89b2b8299e082c4aafe3f",
+    "taille": 1854
+   },
    "icons/headphones_1.webp": {
     "sha256": "fa71d97897be9f53f63d7b20f35cfea1ac5ba75eec2cc45dddff20e40c6d9497",
     "taille": 4396
@@ -451,9 +1175,17 @@
     "sha256": "b411a0eaa4ce5f6ee2feeaf4e80a1eb7f040a366aa5f4a577a6c9afc4f06140e",
     "taille": 5204
    },
+   "icons/headphones_4.webp": {
+    "sha256": "41239e3040bf6f84913e10937ad9a9938fa9e96191203de962cc36dee49b18d2",
+    "taille": 5500
+   },
    "icons/headphones_5.webp": {
     "sha256": "b8db936815634bbe6304df20815d94c71b0b8b4093cce048fd305e2881e04828",
     "taille": 4774
+   },
+   "icons/helicopter_garage_1.webp": {
+    "sha256": "20172c19ce6d0094d366adbd47abf9991fb098f1fb4e92eb6ca290430d30b412",
+    "taille": 6982
    },
    "icons/home_1.webp": {
     "sha256": "c4de4b0b553ede33ef916a9c3045d2a67c382ad58d6c1207e234bcb07fe9f009",
@@ -463,17 +1195,81 @@
     "sha256": "92f8c15ee4f73d8aff64f618b3c12b5e0644e616fdba0f56b22fe88cb3d8c0ec",
     "taille": 6608
    },
+   "icons/injector_1.webp": {
+    "sha256": "7841845f417faaaa8b959cf9b676f0b35aeac039149265684333bb209f9aefa6",
+    "taille": 3390
+   },
+   "icons/injector_2.webp": {
+    "sha256": "c74ae7bc4a43fcddb24fcb9a7eac5073c84487d96708cc1483316271b079fce8",
+    "taille": 3558
+   },
    "icons/jewelry_pouch_1.webp": {
     "sha256": "009bb64f6e2fb2c97184b10fc32e32a2792dce9b890c7c861cdfd3c80f0a92b9",
     "taille": 6468
+   },
+   "icons/journal_1.webp": {
+    "sha256": "c9cc751fd421b21cf91de037b6635c6c112ca351ed231113600ad053d9d2599f",
+    "taille": 4900
+   },
+   "icons/journal_2.webp": {
+    "sha256": "d4c2bf090a2dcc601700312c5ab7ec45447cf3a1017e98e294db00e5570bbca5",
+    "taille": 4900
+   },
+   "icons/journal_3.webp": {
+    "sha256": "7bf54c3bd27ea291153d5508ad01893b3e3d334680e934dbf5354abaa8e5edb8",
+    "taille": 4628
+   },
+   "icons/journal_4.webp": {
+    "sha256": "bbc95b12498a8c40ea90dd555b5bcedb369c3da0fcfd07a5002dab877f20f54e",
+    "taille": 5192
    },
    "icons/journal_5.webp": {
     "sha256": "c9a098545d04b4d298603aa150f0be997d8bbc5049e4e808dbd4130e5166a170",
     "taille": 4452
    },
+   "icons/jp7_m1.webp": {
+    "sha256": "cd53ec003f8dde8711402209783373f11b415848a76f6c17b0e017e43b233362",
+    "taille": 3226
+   },
+   "icons/jp7_m2.webp": {
+    "sha256": "57c76a5c80d0cb4319d61a748db781e59da9df72d819d46eca1f7bf31c94d8bc",
+    "taille": 3944
+   },
+   "icons/jp7_m3.webp": {
+    "sha256": "eb9ad7a2d89421a5c48b2b3c7d2edcb8c8af5f8a5c7bf59c304c863ef3f64cad",
+    "taille": 3458
+   },
+   "icons/kl545_m1.webp": {
+    "sha256": "a4574431428ae1387f9dc52ac1003e07eb8107df66f00bad7787c536fe0cb209",
+    "taille": 2676
+   },
+   "icons/kl545_m2.webp": {
+    "sha256": "9ecaa6b80775d73a54f8b5c1e00840228e54b30b4d35b1aa6cb2e5eef6df7027",
+    "taille": 3262
+   },
+   "icons/kl545_m3.webp": {
+    "sha256": "1e0ff81e84fa06b7c804b725b38d8d7c937e5f5aee65384c8bbcee23609e6907",
+    "taille": 2948
+   },
+   "icons/lab_crystal_1.webp": {
+    "sha256": "b69d0c803503218a0a6b3058b806303b2022a4ac8dc166c5e5453b397328b5fc",
+    "taille": 5960
+   },
+   "icons/lab_crystal_2.webp": {
+    "sha256": "1ed7a8cd881ce8538b3da0f9f1864e9c0934f1925af9ea9aebb5a8ea50b6c6ed",
+    "taille": 6032
+   },
+   "icons/lab_crystal_3.webp": {
+    "sha256": "1f65fbf4a1370847bfe984b0675d695c3f33cbc05765132b0bbac7a45caf6799",
+    "taille": 5906
+   },
    "icons/laptop_1.webp": {
     "sha256": "ef3f7f09230cd83842524f65b9605c728e653b51b6a6f49783daa798948a95d3",
     "taille": 3362
+   },
+   "icons/laptop_2.webp": {
+    "sha256": "a2be7a77a3dfed0774f5ad9c4000e3eb04e1168a6003dd97de243840ed692443",
+    "taille": 4936
    },
    "icons/laptop_3.webp": {
     "sha256": "0123dfe046cc034b778a5d5756426d0fa919c370559181a9ac87b33ac69ff594",
@@ -483,21 +1279,101 @@
     "sha256": "7748b7b2bdddd13d7e89b93334a7f15fab712f44b686faaaf12813e06ce8d5f9",
     "taille": 4026
    },
+   "icons/laptop_5.webp": {
+    "sha256": "76fb7c1ca1ff19f5d6f6789ec686f1f09820fe9d74253a71eb15fd4f7aa097a9",
+    "taille": 3562
+   },
+   "icons/laptop_6.webp": {
+    "sha256": "0c864b78b42f7c5edc045d46d75515cc90eee955eed19a00601e305ecd3852fd",
+    "taille": 5628
+   },
+   "icons/lbr44_m1.webp": {
+    "sha256": "bde810398f09589ac3943528e3b37aa835519f0690a52ca3d8e903b966d2a542",
+    "taille": 3620
+   },
+   "icons/lbr44_m2.webp": {
+    "sha256": "78079f9a49b6ef339dc42629898da9267ea04af6cc0f6e6f3b5d17c6f20e3e52",
+    "taille": 2612
+   },
    "icons/lighter_1.webp": {
     "sha256": "38db0766d60b760da1ba35c061ee83a8bad6ed74dc12df26a05739b7d7746865",
     "taille": 3648
+   },
+   "icons/lighter_2.webp": {
+    "sha256": "cee726a90e4cfb676482bcf239eae5279081cefc867244c18aced71267b31095",
+    "taille": 4662
    },
    "icons/lighter_3.webp": {
     "sha256": "99c38d7067b2e21c705eab7d90c41943c2dbc01e65eaebcf50fa4f76119f90f6",
     "taille": 3562
    },
+   "icons/lighter_4.webp": {
+    "sha256": "6eaa3de706a570918de5716dfbbe18cbfa08bb7134accdbeeef277c73ba29be2",
+    "taille": 4412
+   },
    "icons/lighter_5.webp": {
     "sha256": "5e39244b40e827a8b44017dd57016621aec19eed64f6ceb0abe2db41bb5c640c",
     "taille": 3236
    },
+   "icons/lmg_m2.webp": {
+    "sha256": "334dfa08aebc8762f62e43a86b6e31192bfa84d222289a07cd7ad2ed9fda4e4f",
+    "taille": 3732
+   },
+   "icons/location_alarm_1.webp": {
+    "sha256": "1238a9c577b0138dd971e00a5aae913e62495d7add72040bc747401e7dd92326",
+    "taille": 5092
+   },
    "icons/lockpick_1.webp": {
     "sha256": "427fe3782abe5f4fb8988577269fb27cd8c281ddd828ec6571a18537da0ce515",
     "taille": 4612
+   },
+   "icons/longhorn_titan.webp": {
+    "sha256": "b6699cceae3f6d7af136623916805bc0bfd64179f64fe366435110d7ea9be1b7",
+    "taille": 7332
+   },
+   "icons/longhorn_van.webp": {
+    "sha256": "3c73212260cd58ac4164d991ac782ca1f5339b0068be4b8a4993d3e761a401fd",
+    "taille": 7330
+   },
+   "icons/longhorn_wild.webp": {
+    "sha256": "330033d76226a9bda6006b4910f6e52921eed0c350b34df11da9acd1cb3abb52",
+    "taille": 7498
+   },
+   "icons/lottery_ticket_1.webp": {
+    "sha256": "40fc3a11fcec6b097b030564d65f334dfefd42d79cc67703312bf7ee8bbaf6f5",
+    "taille": 5702
+   },
+   "icons/lottery_ticket_high_1.webp": {
+    "sha256": "4f5d55ebba7ccca497e8f23ff8ce0fc5f94c59bd19607dd2745d7861a3c774e6",
+    "taille": 5744
+   },
+   "icons/lottery_ticket_jackpot_1.webp": {
+    "sha256": "4f5d55ebba7ccca497e8f23ff8ce0fc5f94c59bd19607dd2745d7861a3c774e6",
+    "taille": 5744
+   },
+   "icons/lottery_ticket_low_1.webp": {
+    "sha256": "4f5d55ebba7ccca497e8f23ff8ce0fc5f94c59bd19607dd2745d7861a3c774e6",
+    "taille": 5744
+   },
+   "icons/lottery_ticket_medium_1.webp": {
+    "sha256": "4f5d55ebba7ccca497e8f23ff8ce0fc5f94c59bd19607dd2745d7861a3c774e6",
+    "taille": 5744
+   },
+   "icons/mc10_m1.webp": {
+    "sha256": "804a1c7477f510b32550833306e5cc21829acba7d115ff457d7e2cb729f57e26",
+    "taille": 2566
+   },
+   "icons/mc10_m2.webp": {
+    "sha256": "13ed121b5ba6d001db6fbf6386fc8d9d15082a920765ea2af0a207a89b99821c",
+    "taille": 3056
+   },
+   "icons/mc10_m3.webp": {
+    "sha256": "f972c8d35928a394f8e42be68d8257afd3a40fd10fc6a34beacb875a48de8366",
+    "taille": 2718
+   },
+   "icons/meth_lab_1.webp": {
+    "sha256": "4a225c2da3a9ed29639f02a278f404ef8c3187127f9d49925f17bffdac506e7d",
+    "taille": 6072
    },
    "icons/mini_drill_1.webp": {
     "sha256": "667ec13dd607aed99ebf7538afac66ee0e0d6ed618172bd2e2c0fd269bb7666b",
@@ -507,9 +1383,33 @@
     "sha256": "28a805bc8b0ef14db331f63e52d892c71ff80dab865895c9ab5c58656004299d",
     "taille": 6296
    },
+   "icons/money_workbench_speedup_2.webp": {
+    "sha256": "d6be1479461dbaaf4d4e34372c115959d8a8f4f4c0116890041f893e40abe4b3",
+    "taille": 6842
+   },
+   "icons/money_workbench_speedup_3.webp": {
+    "sha256": "6f0d9391cec2f519b148d39b411a89327a4bef9c3a2e81d30fa214d3ba68a920",
+    "taille": 7252
+   },
+   "icons/mp_ammo_1.webp": {
+    "sha256": "6eca318f61a657dd5fca521549f3a0057429c560770172d6d07886352d0d9693",
+    "taille": 3448
+   },
+   "icons/narco_farm_1.webp": {
+    "sha256": "4213329396fbc4b5c2c663521dcf66502d36566f7d7bd85030c1ad7d54179c64",
+    "taille": 6010
+   },
    "icons/necklace_1.webp": {
     "sha256": "d1b6be82e7bbd5df6eea47039cde64c2d0e5b403aeb3dc2699946ca1a653ab2e",
     "taille": 7098
+   },
+   "icons/necklace_2.webp": {
+    "sha256": "09945db864d50fe7066d44f8910fc6106bf5af6f65042180893bdb2971074b76",
+    "taille": 9902
+   },
+   "icons/necklace_3.webp": {
+    "sha256": "3b508c98465706683faa7fd85da2f454d078e07b7a2f60cb8ea95c6d8b351d98",
+    "taille": 7948
    },
    "icons/necklace_4.webp": {
     "sha256": "6279e52c5999042716caf6c735c04740d1097ba0e3cca53885af38a581ff3d83",
@@ -523,6 +1423,54 @@
     "sha256": "60a3d4b29f8abb9b7db967ec15fda71a4d4a194f4732e64e66e1a9cdd40ea997",
     "taille": 7996
    },
+   "icons/ordr12_m1.webp": {
+    "sha256": "7c789b0825ebc137763be9eaf2fad74695a48d035bcd8b1bb2b1907b755916e0",
+    "taille": 2306
+   },
+   "icons/ordr12_m2.webp": {
+    "sha256": "7eca9a46ba9df8884b3b1f6147ad12d5dba96459be5b8fd0f4b6820e4a2b9986",
+    "taille": 2908
+   },
+   "icons/ordr12_m3.webp": {
+    "sha256": "be3d45e257f0757eec69bf5b44f518ddf8ede0c161987d5d04dbe870b417981d",
+    "taille": 2234
+   },
+   "icons/package_1.webp": {
+    "sha256": "435d3d4508b9351488430532f286178d5e1e3034281ac59b278dc09fe8e3a195",
+    "taille": 4140
+   },
+   "icons/painkiller_1.webp": {
+    "sha256": "fc2148946b51f87f01098f017b99a4bd645f1f0866667602ef130259f3a1d095",
+    "taille": 3792
+   },
+   "icons/painkiller_2.webp": {
+    "sha256": "1628ee79f3b9df2c792d917ce8053d5dacbf875cabc7f01276cc9eeeccc06811",
+    "taille": 3724
+   },
+   "icons/pdw90_m1.webp": {
+    "sha256": "d5c2ca2c48afa44cc94fdf9deb09bcdbfd836d47f49ed5b4f9e9f9e8e8dc2135",
+    "taille": 3860
+   },
+   "icons/pdw90_m2.webp": {
+    "sha256": "c44a935c9ee6746baa6cc79aee363a415c6dc39912c2fe0c3873e33a2b532938",
+    "taille": 3968
+   },
+   "icons/pdw90_m3.webp": {
+    "sha256": "d5be805d0dca4de7fecc047e990e346c9f5caed78139671b8afb9361280ead6e",
+    "taille": 3460
+   },
+   "icons/perfume_1.webp": {
+    "sha256": "a3ed079de0060c6e3270f35b7d8a5fd5a589b3ed143c18545abc48536221db47",
+    "taille": 4400
+   },
+   "icons/perfume_2.webp": {
+    "sha256": "0b177c76f61a39a2e90e585a520059ab26c04464c542262a3fa3c3b9d857bef7",
+    "taille": 5180
+   },
+   "icons/perfume_3.webp": {
+    "sha256": "77bd8cfe95f4d3395a35fbfd00ae705aebab01f138a4adabeeec0059de11545c",
+    "taille": 4818
+   },
    "icons/perfume_4.webp": {
     "sha256": "fdf1a7a2bd381f9d5eb8a4fc42d71dc321202cf6f52864ef0c9ec9a83f83d514",
     "taille": 3572
@@ -530,6 +1478,10 @@
    "icons/perfume_5.webp": {
     "sha256": "8a2b14eb5b6ce21e58e6e331513390b4a3be29d580095ee4c48d1280654000de",
     "taille": 4444
+   },
+   "icons/personal_alarm_1.webp": {
+    "sha256": "ed92ed6450c70a47454c30eb02ff6a2955fb610bfe9d4738fcaa83da22625c53",
+    "taille": 4278
    },
    "icons/pharma_pack_1.webp": {
     "sha256": "263ab14eecab72532366aac8cb5230ec6e03b20ed7155b34e08082c5de1de8cf",
@@ -539,9 +1491,17 @@
     "sha256": "13eb91a46053e781f47c759e32e2ff2a5f9f8ae2e802b509f22d0bdcfd841ebc",
     "taille": 3132
    },
+   "icons/pharma_tools_2.webp": {
+    "sha256": "2b27a01962e474fd131f7bab143a5d1851bd264655b2b5f71c99eef6c8812dc5",
+    "taille": 4578
+   },
    "icons/pharma_tools_3.webp": {
     "sha256": "98cdb6dd384df865f6156b88bb47053a91cef3dabd74938fb5817ebe5988f56d",
     "taille": 4084
+   },
+   "icons/pharma_tools_4.webp": {
+    "sha256": "e460be34ce98c1c620a3017770c4aeb2e85c78b2c244147dbadb7c16580e1fb7",
+    "taille": 4870
    },
    "icons/pharma_tools_5.webp": {
     "sha256": "fd75a639509bfd1bc6fe02d2aff705f688bb35983a2d83d25cc27347a44374f9",
@@ -559,13 +1519,65 @@
     "sha256": "941ad055d2e0e856eb47158aee8b153cd9f042c35c3c0451544154dace5ae291",
     "taille": 4966
    },
+   "icons/phone_3.webp": {
+    "sha256": "778608b7ff8af319a65469ebab3f6ed5d520704795d0a0caef3e5b6e96fc978f",
+    "taille": 4928
+   },
+   "icons/phone_4.webp": {
+    "sha256": "8bbb185594cb21e3b268f24cca6c5c5ff10fe22eabce2b69a321898afc11d915",
+    "taille": 5572
+   },
    "icons/phone_5.webp": {
     "sha256": "9b5a56a6874ca31172402b28b034e9269090a0312c86535276efefa32ce548ee",
     "taille": 5200
    },
+   "icons/picture_fake_1.webp": {
+    "sha256": "22448dd1ef26c1e5cea7a7c7aa4931e559daa2cc384bc59b6baf7680618068d4",
+    "taille": 4498
+   },
+   "icons/picture_tube_1.webp": {
+    "sha256": "22448dd1ef26c1e5cea7a7c7aa4931e559daa2cc384bc59b6baf7680618068d4",
+    "taille": 4498
+   },
+   "icons/picture_tube_2.webp": {
+    "sha256": "22448dd1ef26c1e5cea7a7c7aa4931e559daa2cc384bc59b6baf7680618068d4",
+    "taille": 4498
+   },
+   "icons/picture_tube_3.webp": {
+    "sha256": "22448dd1ef26c1e5cea7a7c7aa4931e559daa2cc384bc59b6baf7680618068d4",
+    "taille": 4498
+   },
+   "icons/pistol_ammo_1.webp": {
+    "sha256": "c2d96109f6e1be84b3961edebf823788d28a315a2fc60b125fbb2ed4afedafd0",
+    "taille": 1990
+   },
+   "icons/plot_sale_1.webp": {
+    "sha256": "0eb32d9cf8f628bc339d14a9352ced875baed0dfda658f48f8842f58040a512d",
+    "taille": 6798
+   },
+   "icons/plot_sale_2.webp": {
+    "sha256": "815fab6b3ae8efe5b8342619035c896f80134b1481e41b72504186ff17f10b4c",
+    "taille": 6830
+   },
+   "icons/plot_sale_3.webp": {
+    "sha256": "d4b0dd7a31b96540c21b25087966b779502bc3eb685142e5dc39a373e1d64f55",
+    "taille": 6864
+   },
+   "icons/poker_cards_1.webp": {
+    "sha256": "7eaaad8cefce0e2618772829e9f0d0d31ec27fc8af43e8adb455f13f43c67c6c",
+    "taille": 5360
+   },
    "icons/poker_cards_2.webp": {
     "sha256": "1300e917030181cb2d7191b949029b0fc53e91d38befdce03cffeecbb51fc848",
     "taille": 4956
+   },
+   "icons/poker_cards_3.webp": {
+    "sha256": "a9b1e62d9ff753d79e7db347118e8681612ba9cb3a169ef0f7f937fd31434335",
+    "taille": 5730
+   },
+   "icons/poker_cards_4.webp": {
+    "sha256": "17165c8e6a1d40abf525af411bf6866d115b8986b5b3f64ad678ce84358e4305",
+    "taille": 5078
    },
    "icons/poker_cards_5.webp": {
     "sha256": "b11cc136808f63791735623f77808c2cc1815fee265c0acfb8d38db6577864aa",
@@ -591,9 +1603,45 @@
     "sha256": "a739ada212a9a58e3a7fe0485e05054321648666132d533aa26a433be012bed9",
     "taille": 5210
    },
+   "icons/rc556_m1.webp": {
+    "sha256": "6868ce68c6e21199128bbded8f7cd590d2fc8136a04cbfb1e2dbab5cd95aca0b",
+    "taille": 2978
+   },
+   "icons/rc556_m2.webp": {
+    "sha256": "6b9cf4fcb7ba2e4792199631566cb087003f492acf511690c73d5f0df0113424",
+    "taille": 3602
+   },
+   "icons/rc556_m3.webp": {
+    "sha256": "6c926df76627d0786b9749339ae8f3561e56ec1ae31b43e5b0b4138691c6dc8d",
+    "taille": 3662
+   },
+   "icons/reagents_1.webp": {
+    "sha256": "00286f139b0b3b90af79150749c7defd73050c697b6803c81c1792bfd9bba4d5",
+    "taille": 5924
+   },
+   "icons/reagents_2.webp": {
+    "sha256": "3a6d79c3de68983c6c53400573da37b6a3657185f1a37b61c2761d7677c9fa24",
+    "taille": 5792
+   },
+   "icons/rifle_ammo_1.webp": {
+    "sha256": "bac5d484c88fb48a85011b726a94613fa040e7d78a7d715f3ff69230c4bec705",
+    "taille": 3496
+   },
    "icons/ring_1.webp": {
     "sha256": "94190a7aa43392428506bb4fd7da7541aaf5cc4daca7130ca9c36e63311b633d",
     "taille": 3282
+   },
+   "icons/ring_2.webp": {
+    "sha256": "f6fdde13859d929edf2fa2f3343ab2c5d6e88f922fccc88f2a9dbcca9c881692",
+    "taille": 3210
+   },
+   "icons/ring_3.webp": {
+    "sha256": "fe90cdbe64bbee9e1b56d1db066cf3f294bb7af450a797c5c3bacfdbb5be1c82",
+    "taille": 3330
+   },
+   "icons/ring_4.webp": {
+    "sha256": "f64f37889c5f3e6a88a08d59905568111a9d0f5aaf24f2437e6be07975a02289",
+    "taille": 3616
    },
    "icons/ring_5.webp": {
     "sha256": "9571fb2611dfb6de02c9130be4eac3d8dba2620aa0a48315d8a7f988ebc7c798",
@@ -602,6 +1650,14 @@
    "icons/ring_6.webp": {
     "sha256": "5e97c70d4ed6cd5a5bd0806d9d0df835fa200f0590737eeab5765c892de96eac",
     "taille": 3328
+   },
+   "icons/ring_7.webp": {
+    "sha256": "4e61869927bb2ae3f1bfeafdb7a4d1ca0374ba3a940e8d8eea88c1994c8d75b3",
+    "taille": 3340
+   },
+   "icons/romanov_r8.webp": {
+    "sha256": "75d573fa8c2e34c3837bf84648dc785a1a63688c03fedfc120d0de7e5f14f7ae",
+    "taille": 7628
    },
    "icons/room_key_1.webp": {
     "sha256": "9dc6fb5729f517a3370f096d00a2b8db7533d6a7408941167fe30c53bd88a43b",
@@ -654,6 +1710,34 @@
    "icons/room_key_9.webp": {
     "sha256": "6268dbda7245a81cfdb862414d729fda73f131ed23962e865ea634f2c3725185",
     "taille": 5110
+   },
+   "icons/roulette_chip_1.webp": {
+    "sha256": "ea358d243ae76c5f339b10dbde3f7685d828d63d0db638598e410c8a00949ec4",
+    "taille": 5042
+   },
+   "icons/roulette_chip_100.webp": {
+    "sha256": "18bf9368dc7eb3a37209ae1f56f26864f285d7007de20c0f6c801e97c2a688bc",
+    "taille": 5602
+   },
+   "icons/roulette_chip_25.webp": {
+    "sha256": "e667d6a75a9d2a28f728c8ed3131b5a65262603f3a71ef9b7781043331bc9780",
+    "taille": 5488
+   },
+   "icons/roulette_chip_5.webp": {
+    "sha256": "9747fc164ebabb829685b7467295ac7ff700e5187af8224e82d729a925a47f0b",
+    "taille": 5288
+   },
+   "icons/roulette_chip_50.webp": {
+    "sha256": "6330f2ebda79a6baad026991fc4cd5178cba6149b7ee674566837d0e2b711026",
+    "taille": 5440
+   },
+   "icons/royal_e.webp": {
+    "sha256": "2aee777442ad7158f04b20d306da529a0d6f680bbd92300c40a36e51ae7ef213",
+    "taille": 7278
+   },
+   "icons/royal_j.webp": {
+    "sha256": "1c088eb9b9bc4b07882f2cded6642160353c7ac8b3fc1bd20de9a3f49c280c77",
+    "taille": 7418
    },
    "icons/safe_key_1.webp": {
     "sha256": "fe75b0ad29826d45c0ab17e8915f7460ee4bdef7640d8a0e211e5683e49d7ed6",
@@ -711,9 +1795,133 @@
     "sha256": "0473e74aa41623b5d3557271df720022fa9185b48a3f75e74b1acc4f65cec25b",
     "taille": 3634
    },
+   "icons/settlement_sale_1.webp": {
+    "sha256": "d00ed2f7929581eb16123e5c086055dca1f3401a14496bcfd2ac7740bfd6748f",
+    "taille": 8106
+   },
+   "icons/settlement_sale_2.webp": {
+    "sha256": "bd3e11203b849b730cd10c434fc1a69d469ac9ff0ed33f03a8ac3374a69c559b",
+    "taille": 7566
+   },
+   "icons/settlement_sale_3.webp": {
+    "sha256": "31e829eb38dfa5612528b7a9aa707c6d459f353f596f83542ccac4ecc322b6c9",
+    "taille": 7804
+   },
+   "icons/shelving_1.webp": {
+    "sha256": "74625d4bea7c128c6476659a152de54071d1eb35eaf0892de1fa410853cb52f0",
+    "taille": 7364
+   },
+   "icons/shelving_2.webp": {
+    "sha256": "fe201ce66b1e9c5481d2e023d35bdadc2e35a6149194d74c394e6276dd89710c",
+    "taille": 7618
+   },
+   "icons/shelving_3.webp": {
+    "sha256": "46ef563ff9e234702a158425e408dc242e52f6258936577ab83e0a87f178ec16",
+    "taille": 7430
+   },
+   "icons/shelving_4.webp": {
+    "sha256": "55949b0260a591cbd0bfc45906bb29287f6f625a0ea94079417de6d3543d429d",
+    "taille": 7760
+   },
+   "icons/shelving_5.webp": {
+    "sha256": "6bd2fd87b647c461e84a14e2f6492184437f39a421f259e9c1520d107557d49a",
+    "taille": 7784
+   },
+   "icons/shelving_6.webp": {
+    "sha256": "cd983af44a4e2a96e7a973f0215d6380cbbf47dae6db3f0d1adc98978d28b156",
+    "taille": 7800
+   },
+   "icons/shotgun_ammo_1.webp": {
+    "sha256": "7d0e54e51f075b821d656cbcec759012ec987da62d2d5ff20cadd0a70ec41f7a",
+    "taille": 3268
+   },
+   "icons/smoke_grenade_1.webp": {
+    "sha256": "6345f57857b316354f786e34197b1d631fec94933c03c72d65c5ae3bffdc6be7",
+    "taille": 5048
+   },
+   "icons/soft_crystal_1.webp": {
+    "sha256": "56059e38ecaee12b5f08525b64b8b9c83efc5e9de1b82b5a2f39d6a26d128faa",
+    "taille": 4496
+   },
+   "icons/soft_crystal_2.webp": {
+    "sha256": "29ca2c14a61ab2f2adc71270c4fbd48a248aa91a5b5bbe7284e8b0ae31f1aef6",
+    "taille": 4518
+   },
+   "icons/soft_crystal_3.webp": {
+    "sha256": "b9a0c3ba6430daa89ee25fbeeb589a5e6c266e7d770f94209976522de3c47979",
+    "taille": 4544
+   },
+   "icons/srreaper_m1.webp": {
+    "sha256": "27a665c88b247f2f1f9d6c81d0b5e97e63993c296ebe9034a0f90bc4a5a94ff7",
+    "taille": 2574
+   },
+   "icons/srreaper_m2.webp": {
+    "sha256": "7653dd69d54096cdf19e28496bd284ef96929c1093ccada5e457ee51b65d0fd7",
+    "taille": 2918
+   },
+   "icons/srreaper_m3.webp": {
+    "sha256": "c75e466f83128e5d36e70e11917069e491c49fcc3eabec1d3832efd241416339",
+    "taille": 3030
+   },
+   "icons/starh_m1.webp": {
+    "sha256": "484815eb154a60a3ba730c4a1ad3faa6fd7086e41e2d39601e2ba245d0e9e706",
+    "taille": 3324
+   },
+   "icons/starh_m2.webp": {
+    "sha256": "4fcbf56673829f629b75ff4b72d26b49f72a22ba13a1e295da8b87da6534d530",
+    "taille": 3756
+   },
+   "icons/starh_m3.webp": {
+    "sha256": "f76d76aeed8de7677d47ea385272db75b4bffe8308833f1aa227132f2dd22ddb",
+    "taille": 3362
+   },
+   "icons/storage_1.webp": {
+    "sha256": "9058581ae51c7d9438d607d33922efab87962f06d7367b2fa6a61f5aaf482994",
+    "taille": 6626
+   },
+   "icons/storage_2.webp": {
+    "sha256": "554c4a501e8a8ddef48b97d007e9268adc818fd26aa515d559034119df39fd68",
+    "taille": 7580
+   },
+   "icons/storage_3.webp": {
+    "sha256": "78654b27a2f95b9170dcae1c9678775ea222ceaa413eea86ded0d54e9b02a9c8",
+    "taille": 7146
+   },
+   "icons/storage_4.webp": {
+    "sha256": "ba6ce3e0e3d67c79fccb4251c8a0d782f9b4be1b927347b3b43285c85debc0ff",
+    "taille": 6398
+   },
+   "icons/storage_5.webp": {
+    "sha256": "db19afed921488b35e9840bef4e1e28c96b7d3d8db4d130a2f770a3b3e8a83ee",
+    "taille": 7940
+   },
+   "icons/storage_6.webp": {
+    "sha256": "66e563c4a27edcce00baf61d4c1630e64c9cc6e4f4e1b749bcb86b6035d3bd76",
+    "taille": 7036
+   },
+   "icons/storage_building_1.webp": {
+    "sha256": "199530f318424c5cd1c04c160e0c2702d6bf3ead9e8f8da12c9233b651851c82",
+    "taille": 6934
+   },
    "icons/storage_lockpick_1.webp": {
     "sha256": "b89893a72e89de762e7555410ef31f84535a6e29da289557a10aed6deb3abef7",
     "taille": 4384
+   },
+   "icons/suitcase.webp": {
+    "sha256": "cf5c1ca2e1868a1cc65ffdc2a724bb99be2ff5ea8d04cf5b55189c3363d1d33a",
+    "taille": 5716
+   },
+   "icons/suitcase_2.webp": {
+    "sha256": "9b171fed3b8679b1944b3ffd85be05d10194b95447a1665297b2827935aa9950",
+    "taille": 4642
+   },
+   "icons/suitcase_3.webp": {
+    "sha256": "4bddd3b2e210f80460ed4cfe713e316e2de3bdfd3333c78961c5d1ff6d774fb2",
+    "taille": 4948
+   },
+   "icons/super_bolt_cutter.webp": {
+    "sha256": "dddf4c381e0f2f6f82f7db2e8f237beeab90593f1bcdbca51eedabab78f8161e",
+    "taille": 4054
    },
    "icons/tablet_1_cumulative.webp": {
     "sha256": "45c0ec55c8b062f8fba7a97b93423693e07e97ef5746404700f50678e270d7a4",
@@ -723,9 +1931,37 @@
     "sha256": "40c282313f02ba0f33b60100d06d0c57412cd7ef94f0a73f47e30d64e43f2af5",
     "taille": 4398
    },
+   "icons/tag12k_m1.webp": {
+    "sha256": "76da7cfc4ba12e3d098e4acd8cebbd873a524e2203bd4163ea74b29b75489df2",
+    "taille": 2748
+   },
+   "icons/tag12k_m2.webp": {
+    "sha256": "bfb6a56859d3362cb900da7ff81ee38fe373c256864e93beb3f011c6c25cf00a",
+    "taille": 3248
+   },
+   "icons/tag12k_m3.webp": {
+    "sha256": "758a6f83abf1aff7829880e1c46f23a182fcdf3f505eaf2de79d539176b52d46",
+    "taille": 2924
+   },
+   "icons/toaster_1.webp": {
+    "sha256": "badcdb401c36e27a28a3893781adec4c9534cf1f12a801e081611179d7ff820d",
+    "taille": 6480
+   },
+   "icons/toy_1.webp": {
+    "sha256": "dec29fc025a9186a5b37bdfee046e31b5d28647f42be3b23fc565536c9c6687e",
+    "taille": 5186
+   },
+   "icons/toy_2.webp": {
+    "sha256": "bff4c5ecc30d0e01411ad70c6eac2d61b47a44914538e43fb014bace2ea74065",
+    "taille": 4958
+   },
    "icons/toy_3.webp": {
     "sha256": "8c56fbc463657d770dde334d8dd1003718a01092d51f5b19d2d234d32f092a29",
     "taille": 5012
+   },
+   "icons/toy_4.webp": {
+    "sha256": "a3f12bf4173dffdddf2a6a7264fa04bc8c0173c521de201ee3d08efa2c328e9e",
+    "taille": 4642
    },
    "icons/toy_5.webp": {
     "sha256": "a9233338a7499045d8d8eda1967ee96568541aa555048eb94942878e0242c9f3",
@@ -739,6 +1975,30 @@
     "sha256": "aef49d8514dc7d8c81afd18e9bc649edc6de619262a653afa8f08d34253ded86",
     "taille": 7498
    },
+   "icons/uv_lamp_3.webp": {
+    "sha256": "f5e7b15250ac57ff1cd9683736526af4e853603f90cce1d348ceee72d6fa7c2a",
+    "taille": 6630
+   },
+   "icons/vest1_m1.webp": {
+    "sha256": "fd5c086524b2c5dda7e044509c9d8d9596a4cd34245107283007fd020079f0b2",
+    "taille": 6934
+   },
+   "icons/vest2_m1.webp": {
+    "sha256": "2259efae023b4e87ebef2e95c38f16615e400159c4c039774e294b430f52d0b6",
+    "taille": 5756
+   },
+   "icons/vest3_m1.webp": {
+    "sha256": "43a6d4a4719aee02e7cc91920e67d2b9680c700f5d0bbf6ad282e40a50ee0cc9",
+    "taille": 5462
+   },
+   "icons/vest4_m1.webp": {
+    "sha256": "de0546632ca216347d04d0f0d6c461abb0b98a9cf79ccda8c66a942a6d989ed6",
+    "taille": 6876
+   },
+   "icons/vest5_m1.webp": {
+    "sha256": "7b76e7ddf0bedea5971e40b7051a3ddeb01ed3091511e39dca6328819339864f",
+    "taille": 7512
+   },
    "icons/vial_1.webp": {
     "sha256": "0360ef17cae3bccc889915d364e6a0b4365387f165cf063a58102a0e191f3c62",
     "taille": 5702
@@ -751,13 +2011,29 @@
     "sha256": "1e0870a6220dd2b3bfb68708833e4b59bb8ced7be353f62518bfc15fdaadee17",
     "taille": 5340
    },
+   "icons/vial_4.webp": {
+    "sha256": "18ab1f862840445b47d23c50699288000d7036f381e90165766da6653a6493c4",
+    "taille": 6378
+   },
    "icons/vial_5.webp": {
     "sha256": "32874550125e70c4b368ae2ae34c1562644c2cbda1f61acede3de06113879b3c",
     "taille": 4910
    },
+   "icons/vial_6.webp": {
+    "sha256": "e7e6af7c4482e9f52261468a5ca838b095c70e43054412c8aa413f6435e49ed8",
+    "taille": 6040
+   },
    "icons/vial_7.webp": {
     "sha256": "16d9adca54db3e3797537c3584004e917f0859db42ecc761ffb1745522c8362d",
     "taille": 5258
+   },
+   "icons/vinyl_1.webp": {
+    "sha256": "2f7b5097edc9456429dd89bd3744ac78fa6ad321aac4ee05fed53fcfa51b6097",
+    "taille": 5574
+   },
+   "icons/vinyl_2.webp": {
+    "sha256": "92aa271379172bc6beda294b0e9e7b6d6e25f39925be6dad75e8952277127060",
+    "taille": 5582
    },
    "icons/vip_key_1.webp": {
     "sha256": "e5ac7d52cbed549140e9efb1d144afc85fc2a76cd99e37bc2ab37f5ac08a5c36",
@@ -783,9 +2059,49 @@
     "sha256": "cf39b82a3f2de6be52c665740a9444dfe8c6412cc13d0c69303b90b01389d4e4",
     "taille": 5346
    },
+   "icons/vulture50_m1.webp": {
+    "sha256": "ac23afd9db40506319dd433c5b9f6d11479f1f3bf19d2d645e6c0476b7f5a9aa",
+    "taille": 4236
+   },
+   "icons/vulture50_m2.webp": {
+    "sha256": "cdc539826b6ce1833a1bdd8ca419cb6484310ba71bbc44431ed05788039a2cc7",
+    "taille": 2924
+   },
+   "icons/wall_1.webp": {
+    "sha256": "3cb3722fb51e78480c0d91a7a78abd0196b54fff9ed3e666023e44f14e6ace63",
+    "taille": 5994
+   },
+   "icons/wall_2.webp": {
+    "sha256": "094be7a5c74671300430942474eec1f7405b91e58f6e0e0f1e0e015b6ab0f8b9",
+    "taille": 6224
+   },
+   "icons/wall_3.webp": {
+    "sha256": "230eb00d3c321cca5cb42bb000e09c6725d93f6a703b0098fd6dbd1e4e79ed7b",
+    "taille": 6556
+   },
+   "icons/wall_4.webp": {
+    "sha256": "dc2317a770555bf598475dd2e1172e1a665df02e5cfd30aaf756fe8658d0d424",
+    "taille": 7590
+   },
+   "icons/wallet_1.webp": {
+    "sha256": "c4fa4d2bb27d18c8b0ce88d702b73664581e77f238049d05ee11442391bff5e8",
+    "taille": 5472
+   },
    "icons/watch_1.webp": {
     "sha256": "3e03c3db07d192acdd94a0906799437911980d5841a52f6d278fc4f96ec1cb32",
     "taille": 5526
+   },
+   "icons/watch_2.webp": {
+    "sha256": "600b84d210145c86f550249d8bf2c1ae8e8e1a86f954aaf84e6eb349e5bba69a",
+    "taille": 6588
+   },
+   "icons/watch_3.webp": {
+    "sha256": "21d2ba7e2280c8491bd2c39e6c4e712bf44c8873d7f1806be90f01406fea3b04",
+    "taille": 6206
+   },
+   "icons/watch_4.webp": {
+    "sha256": "fcc142f716ec1c45a03ff829da8688b50d6b506b52efbe25008a87fa23df4fe7",
+    "taille": 6248
    },
    "icons/watch_5.webp": {
     "sha256": "7119896211a42b742914c41ad600262747993940170c253e4676950385109c21",
@@ -795,6 +2111,10 @@
     "sha256": "57ce98c7edb5bd67c425dec769cbb516108638a3195eebef6a83619e8e379d7d",
     "taille": 4886
    },
+   "icons/water_pump_2.webp": {
+    "sha256": "1d7d23c0e54834dd18b9bd9ac51436a3a6427514cccaf770dca388b5ab1f609b",
+    "taille": 8058
+   },
    "icons/weapon_cleaning_1.webp": {
     "sha256": "8d006db351ec89d901acead465e59275f72b02aab135c3f6bf7f6b6f6a05db0e",
     "taille": 4956
@@ -802,6 +2122,10 @@
    "icons/weapon_cleaning_2.webp": {
     "sha256": "f5c443dffc3cde17867c66240dbc10bbf916fcf97ac77af535a02c73a5e0d01b",
     "taille": 5584
+   },
+   "icons/weapon_cleaning_3.webp": {
+    "sha256": "b8a86c874dc7e2c605187a53a037b172b0da468091f2bd3c0ef99f282bf2bb6d",
+    "taille": 6594
    },
    "icons/weapon_trinket_1.webp": {
     "sha256": "53bab26f0018c405b7d82777ad3b28d73c131a2e153bb8189a80acaf975fdbb5",
@@ -819,29 +2143,45 @@
     "sha256": "fdadbf0e55ad84f998efad2a2535dbaebc008e98a309114c40943a63c5c65ee5",
     "taille": 4698
    },
+   "icons/weapon_trinket_5.webp": {
+    "sha256": "dd8a502134630bda42916d44a3e94fa7e27163ac572afec80829d79c3250db92",
+    "taille": 4784
+   },
+   "icons/weapon_trinket_6.webp": {
+    "sha256": "53465a42036fba2e0b93c41259c215cc426c5d3960ec33544febd8907752d722",
+    "taille": 4940
+   },
    "icons/weaponparts_box_1.webp": {
     "sha256": "7560e32bfab2a4d398569ac06a54f453cad2c5671f16da86ddaf5c0962d7ffd7",
     "taille": 6532
    },
+   "icons/workshop_building_1.webp": {
+    "sha256": "f01b7e0efe3764f111032cca0c52c702d536dffd382f34af4080c0867297914c",
+    "taille": 7502
+   },
+   "icons/yacht_key_1.webp": {
+    "sha256": "f2b9615b8acbb29459831bfdf6664b0fd90c2b06386bfa80cec282822abdd263",
+    "taille": 7598
+   },
    "livraisons.json": {
-    "sha256": "fbf11547ba9aaf302844cdd661a01e7ec122a530bd7d45a1638a5296269f236b",
-    "taille": 29886
+    "sha256": "0c768221abc3a215ff43cd1548aa63a59abf20581d11c3a826c6ece64f1ad7e9",
+    "taille": 34605
    },
    "magasins.json": {
-    "sha256": "b4da0285b04adc9252cd70e47408c2f2c29150016a3014120a1d261767b794fb",
-    "taille": 19251
+    "sha256": "bbcf47f5b647ecd786d2bbf1b0150f205a41cfcdf83d2437e7b64c4a92cbdac2",
+    "taille": 21139
    },
    "mecaniques.json": {
     "sha256": "f133a8bdd73e52ef91779ba340a5bb55649ff028031d1997408792f4435b9f30",
     "taille": 4818
    },
    "meta.json": {
-    "sha256": "ce2df49bf1c4706499378c779a263ba1c3f2fdd722393d7d4d85c699e51445ae",
+    "sha256": "16f941785bd6a2d83fae83b307a36667b1382064fa09f2e9bcc163aca4fd1181",
     "taille": 1128
    },
    "nouveautes.json": {
-    "sha256": "39cce4b47988054c837a600d06b09799ac0f8d4c6c674d784ae6e49172fda28b",
-    "taille": 2861
+    "sha256": "a21388fca6392e1a474e7558b7b7b496225eec66480dc13f300915847ffddc52",
+    "taille": 4097
    },
    "patchs.json": {
     "sha256": "64a5ed72e45b5637df1c7b9948b5778f11801ed2877a5910e6add269f2a06b25",
@@ -860,8 +2200,8 @@
     "taille": 4326
    },
    "voitures.json": {
-    "sha256": "212441e4e67669eb49f4ea0cd295f7e929360042da37e3e61f3a7a6df3d784f1",
-    "taille": 2727
+    "sha256": "7b9226a54d717ac8290885b31087c1e2f165fe7b050173fba3f11d2f9d4080db",
+    "taille": 2902
    }
   }
  }

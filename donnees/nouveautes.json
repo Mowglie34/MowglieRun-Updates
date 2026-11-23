@@ -3,6 +3,23 @@
  "mot": "",
  "versions": [
   {
+   "version": "1.1.4",
+   "date": "2026-11-23",
+   "titre": "Les vraies images du jeu et 124 objets en plus",
+   "points": [
+    "Armes : la vraie image de chaque arme (Mk1 à Mk3), des grenades et des munitions.",
+    "Voitures : l'image des 7 voitures et de toutes les pièces auto.",
+    "Magasins : les 118 objets en vente ont maintenant leur image.",
+    "Livraisons (Larry) : une image pour chacune des 171 recherches (meubles, constructions, titres de parcelle…).",
+    "Contrebande : l'image de chaque cargaison (caisses, valises, sacs de poudre, coffres, statue en or).",
+    "Catalogue : 124 objets en plus (bouteilles, gemmes, statues, cartes, jetons de roulette, billets de loterie, casse-tête, coupe-boulons, fiches de cargaison…), avec leur image, leur prix et où les trouver. Nouvelle catégorie Équipement.",
+    "Production, Minuteurs et Carte : l'image des machines, des préréglages de minuteur et de ce qu'on peut acheter dans chaque magasin.",
+    "Production : images des machines, des améliorations, des plants, cristaux et réactifs.",
+    "Le Romanov R8 est un hélicoptère (page Voitures).",
+    "Accueil : « Dernière news du jeu » montre le dernier patch ou la dernière annonce."
+   ]
+  },
+  {
    "version": "1.1.3",
    "date": "2026-11-23",
    "titre": "Armes, voitures et Livraisons",

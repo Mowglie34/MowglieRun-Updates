@@ -50,116 +50,133 @@
      "n": "Munitions de pistolet",
      "r": "c",
      "p": 6,
-     "t": "mun"
+     "t": "mun",
+     "ic": "pistol_ammo_1"
     },
     {
      "n": "Munitions de fusil à pompe",
      "r": "c",
      "p": 15,
-     "t": "mun"
+     "t": "mun",
+     "ic": "shotgun_ammo_1"
     },
     {
      "n": "Munitions de mitraillette",
      "r": "c",
      "p": 15,
-     "t": "mun"
+     "t": "mun",
+     "ic": "mp_ammo_1"
     },
     {
      "n": "Munitions de fusil d'assaut",
      "r": "c",
      "p": 18,
-     "t": "mun"
+     "t": "mun",
+     "ic": "rifle_ammo_1"
     },
     {
      "n": "DP-9 Mk1",
      "r": "pc",
      "p": 900,
      "t": "arme",
-     "s": "Pistolet."
+     "s": "Pistolet.",
+     "ic": "dp9_m1"
     },
     {
      "n": "Harris 500 Mk1",
      "r": "pc",
      "p": 10500,
      "t": "arme",
-     "s": "Fusil à pompe."
+     "s": "Fusil à pompe.",
+     "ic": "harris500_m1"
     },
     {
      "n": "MC-10 Mk1",
      "r": "pc",
      "p": 10500,
      "t": "arme",
-     "s": "Mitraillette."
+     "s": "Mitraillette.",
+     "ic": "mc10_m1"
     },
     {
      "n": "KL-545 Mk1",
      "r": "pc",
      "p": 18000,
      "t": "arme",
-     "s": "Fusil d'assaut."
+     "s": "Fusil d'assaut.",
+     "ic": "kl545_m1"
     },
     {
      "n": "LBR-44 Mk1",
      "r": "e",
      "p": 60000,
      "t": "arme",
-     "s": "Revolver à 6 coups."
+     "s": "Revolver à 6 coups.",
+     "ic": "lbr44_m1"
     },
     {
      "n": "ORDR-12 Mk1",
      "r": "e",
      "p": 84000,
      "t": "arme",
-     "s": "Fusil à pompe à tir rapide."
+     "s": "Fusil à pompe à tir rapide.",
+     "ic": "ordr12_m1"
     },
     {
      "n": "JP-7 Mk1",
      "r": "e",
      "p": 87000,
      "t": "arme",
-     "s": "Mitraillette."
+     "s": "Mitraillette.",
+     "ic": "jp7_m1"
     },
     {
      "n": "RC 5.56 Mk1",
      "r": "e",
      "p": 96000,
      "t": "arme",
-     "s": "Fusil d'assaut."
+     "s": "Fusil d'assaut.",
+     "ic": "rc556_m1"
     },
     {
      "n": "Vulture 50 Mk1",
      "r": "l",
      "p": 150000,
      "t": "arme",
-     "s": "Pistolet."
+     "s": "Pistolet.",
+     "ic": "vulture50_m1"
     },
     {
      "n": "TAG-12K Mk1",
      "r": "l",
      "p": 330000,
      "t": "arme",
-     "s": "Fusil à pompe."
+     "s": "Fusil à pompe.",
+     "ic": "tag12k_m1"
     },
     {
      "n": "AP Scalar Mk1",
      "r": "l",
      "p": 345000,
      "t": "arme",
-     "s": "Mitraillette."
+     "s": "Mitraillette.",
+     "ic": "apscalar_m1"
     },
     {
      "n": "SR Reaper Mk1",
      "r": "l",
      "p": 360000,
      "t": "arme",
-     "s": "Fusil d'assaut."
+     "s": "Fusil d'assaut.",
+     "ic": "srreaper_m1"
     },
     {
      "n": "Grenade flash",
      "r": "e",
      "p": 12000,
      "t": "arme",
-     "s": "Aveugle les gens autour."
+     "s": "Aveugle les gens autour.",
+     "ic": "flash_grenade_1"
     },
     {
      "n": "Kit de poudre noire basique",
@@ -207,91 +224,104 @@
      "r": "c",
      "p": 12000,
      "t": "prot",
-     "s": "1 segment de blindage."
+     "s": "1 segment de blindage.",
+     "ic": "vest1_m1"
     },
     {
      "n": "Gilet pare-balles moyen",
      "r": "pc",
      "p": 45000,
      "t": "prot",
-     "s": "2 segments de blindage."
+     "s": "2 segments de blindage.",
+     "ic": "vest2_m1"
     },
     {
      "n": "Gilet pare-balles d'assaut",
      "r": "e",
      "p": 210000,
      "t": "prot",
-     "s": "3 segments de blindage."
+     "s": "3 segments de blindage.",
+     "ic": "vest3_m1"
     },
     {
      "n": "Gilet pare-balles lourd",
      "r": "l",
      "p": 420000,
      "t": "prot",
-     "s": "4 segments de blindage."
+     "s": "4 segments de blindage.",
+     "ic": "vest4_m1"
     },
     {
      "n": "Plaque d'acier",
      "r": "pc",
      "p": 3000,
      "t": "prot",
-     "s": "Répare 1 segment du gilet (1,3 s, en marchant)."
+     "s": "Répare 1 segment du gilet (1,3 s, en marchant).",
+     "ic": "armor_plate_1"
     },
     {
      "n": "Plaque d'acier",
      "r": "l",
      "p": 15000,
      "t": "prot",
-     "s": "Répare 2 segments du gilet (1,6 s)."
+     "s": "Répare 2 segments du gilet (1,6 s).",
+     "ic": "armor_plate_2"
     },
     {
      "n": "Sac de sport",
      "r": "pc",
      "p": 15000,
      "t": "sac",
-     "s": "+2 rangées d'inventaire."
+     "s": "+2 rangées d'inventaire.",
+     "ic": "backpack_2"
     },
     {
      "n": "Sac de sport",
      "r": "e",
      "p": 45000,
      "t": "sac",
-     "s": "+4 rangées d'inventaire."
+     "s": "+4 rangées d'inventaire.",
+     "ic": "backpack_3"
     },
     {
      "n": "Sac de sport",
      "r": "l",
      "p": 120000,
      "t": "sac",
-     "s": "+6 rangées d'inventaire."
+     "s": "+6 rangées d'inventaire.",
+     "ic": "backpack_4"
     },
     {
      "n": "Pochette polyvalente",
      "r": "c",
      "p": 750,
      "t": "sac",
-     "s": "1 poche à accès rapide."
+     "s": "1 poche à accès rapide.",
+     "ic": "belt_1"
     },
     {
      "n": "Pochette polyvalente",
      "r": "pc",
      "p": 3600,
      "t": "sac",
-     "s": "2 poches à accès rapide."
+     "s": "2 poches à accès rapide.",
+     "ic": "belt_2"
     },
     {
      "n": "Pochette polyvalente",
      "r": "e",
      "p": 8100,
      "t": "sac",
-     "s": "3 poches à accès rapide."
+     "s": "3 poches à accès rapide.",
+     "ic": "belt_3"
     },
     {
      "n": "Pochette polyvalente",
      "r": "l",
      "p": 36000,
      "t": "sac",
-     "s": "4 poches à accès rapide."
+     "s": "4 poches à accès rapide.",
+     "ic": "belt_4"
     },
     {
      "n": "Crochet",
@@ -305,7 +335,8 @@
      "n": "Briquet Lerrou",
      "r": "pc",
      "p": 1500,
-     "t": "val"
+     "t": "val",
+     "ic": "lighter_2"
     },
     {
      "n": "Briquet Snap-Snap",
@@ -388,21 +419,24 @@
      "r": "pc",
      "p": 90000,
      "t": "base",
-     "s": "Prévient tous les joueurs du lieu quand on pirate ton bâtiment."
+     "s": "Prévient tous les joueurs du lieu quand on pirate ton bâtiment.",
+     "ic": "location_alarm_1"
     },
     {
      "n": "Système d'alarme",
      "r": "e",
      "p": 180000,
      "t": "base",
-     "s": "Te prévient, toi seul, quand on pirate ton bâtiment."
+     "s": "Te prévient, toi seul, quand on pirate ton bâtiment.",
+     "ic": "personal_alarm_1"
     },
     {
      "n": "Système d'alarme",
      "r": "l",
      "p": 600000,
      "t": "base",
-     "s": "Te prévient, toi et tout ton clan, quand on pirate ton bâtiment."
+     "s": "Te prévient, toi et tout ton clan, quand on pirate ton bâtiment.",
+     "ic": "clan_alarm_1"
     },
     {
      "n": "Tablette de codes",
@@ -425,7 +459,8 @@
      "r": "pc",
      "p": 45000,
      "t": "outil",
-     "s": "Vendue vide : se remplit en faisant des coups."
+     "s": "Vendue vide : se remplit en faisant des coups.",
+     "ic": "action_camera_1_cumulative"
     },
     {
      "n": "Caméra d'action",
@@ -439,7 +474,8 @@
      "n": "Appareil photo EOS 900",
      "r": "pc",
      "p": 1170,
-     "t": "val"
+     "t": "val",
+     "ic": "camera_1"
     },
     {
      "n": "Smartphone G-FLOW",
@@ -459,7 +495,8 @@
      "n": "Appareil photo ISE S770",
      "r": "pc",
      "p": 1575,
-     "t": "val"
+     "t": "val",
+     "ic": "camera_2"
     },
     {
      "n": "Casque AIRHEADS",
@@ -472,7 +509,8 @@
      "n": "Console X-STATION",
      "r": "pc",
      "p": 1950,
-     "t": "val"
+     "t": "val",
+     "ic": "console_2"
     },
     {
      "n": "Casque MS MIC",
@@ -492,7 +530,8 @@
      "n": "Ordinateur portable UTAB",
      "r": "pc",
      "p": 2850,
-     "t": "val"
+     "t": "val",
+     "ic": "laptop_2"
     },
     {
      "n": "Console Key-Ten-Do",
@@ -505,7 +544,8 @@
      "n": "Carte graphique HD X900",
      "r": "pc",
      "p": 4425,
-     "t": "val"
+     "t": "val",
+     "ic": "graphics_card_1"
     },
     {
      "n": "Ordinateur portable HUBRID",
@@ -532,35 +572,40 @@
      "r": "pc",
      "p": 1500,
      "t": "soin",
-     "s": "+25 PV en 1,8 s, en marchant."
+     "s": "+25 PV en 1,8 s, en marchant.",
+     "ic": "painkiller_1"
     },
     {
      "n": "Antidouleurs",
      "r": "e",
      "p": 4800,
      "t": "soin",
-     "s": "+40 PV en 1,8 s, en marchant."
+     "s": "+40 PV en 1,8 s, en marchant.",
+     "ic": "painkiller_2"
     },
     {
      "n": "Trousse de secours AFAK",
      "r": "pc",
      "p": 1500,
      "t": "soin",
-     "s": "+100 PV en 9 s, sans bouger."
+     "s": "+100 PV en 9 s, sans bouger.",
+     "ic": "afak_1"
     },
     {
      "n": "Injecteur",
      "r": "e",
      "p": 6000,
      "t": "soin",
-     "s": "+40 PV sur 5 temps (8 par temps), se fait en 0,9 s."
+     "s": "+40 PV sur 5 temps (8 par temps), se fait en 0,9 s.",
+     "ic": "injector_1"
     },
     {
      "n": "Injecteur",
      "r": "l",
      "p": 18000,
      "t": "soin",
-     "s": "+80 PV sur 5 temps (16 par temps), se fait en 0,9 s."
+     "s": "+80 PV sur 5 temps (16 par temps), se fait en 0,9 s.",
+     "ic": "injector_2"
     },
     {
      "n": "Flacon contenant un vaccin",
@@ -573,7 +618,8 @@
      "n": "Préservatifs Context",
      "r": "pc",
      "p": 1500,
-     "t": "val"
+     "t": "val",
+     "ic": "condoms_2"
     },
     {
      "n": "Préservatifs Burex",
@@ -600,7 +646,8 @@
      "n": "Tensiomètre",
      "r": "e",
      "p": 38820,
-     "t": "val"
+     "t": "val",
+     "ic": "pharma_tools_4"
     }
    ]
   },
@@ -634,84 +681,96 @@
      "r": "pc",
      "p": 3600,
      "t": "auto",
-     "s": "+1 rangée dans le coffre."
+     "s": "+1 rangée dans le coffre.",
+     "ic": "car_inventory_1"
     },
     {
      "n": "ECU",
      "r": "pc",
      "p": 42000,
      "t": "auto",
-     "s": "Vitesse maximale."
+     "s": "Vitesse maximale.",
+     "ic": "car_ecu_1"
     },
     {
      "n": "Crémaillère de direction",
      "r": "e",
      "p": 204000,
      "t": "auto",
-     "s": "Maniabilité."
+     "s": "Maniabilité.",
+     "ic": "car_steering_rack_1"
     },
     {
      "n": "Grands sacs de coffre",
      "r": "e",
      "p": 211500,
      "t": "auto",
-     "s": "+2 rangées dans le coffre."
+     "s": "+2 rangées dans le coffre.",
+     "ic": "car_inventory_2"
     },
     {
      "n": "Intercooler",
      "r": "e",
      "p": 216000,
      "t": "auto",
-     "s": "Accélération."
+     "s": "Accélération.",
+     "ic": "car_engine_cooling_1"
     },
     {
      "n": "ECU amélioré",
      "r": "e",
      "p": 225000,
      "t": "auto",
-     "s": "Vitesse maximale."
+     "s": "Vitesse maximale.",
+     "ic": "car_ecu_2"
     },
     {
      "n": "Kit turbo",
      "r": "e",
      "p": 238500,
      "t": "auto",
-     "s": "Accélération."
+     "s": "Accélération.",
+     "ic": "car_turbocharger_1"
     },
     {
      "n": "Galerie de toit",
      "r": "e",
      "p": 259500,
      "t": "auto",
-     "s": "+1 place de cargaison."
+     "s": "+1 place de cargaison.",
+     "ic": "car_cargo_1"
     },
     {
      "n": "Kit turbo amélioré",
      "r": "l",
      "p": 714000,
      "t": "auto",
-     "s": "Accélération."
+     "s": "Accélération.",
+     "ic": "car_turbocharger_2"
     },
     {
      "n": "Crémaillère de direction renforcée",
      "r": "l",
      "p": 810000,
      "t": "auto",
-     "s": "Maniabilité."
+     "s": "Maniabilité.",
+     "ic": "car_steering_rack_2"
     },
     {
      "n": "Intercooler amélioré",
      "r": "l",
      "p": 810000,
      "t": "auto",
-     "s": "Accélération."
+     "s": "Accélération.",
+     "ic": "car_engine_cooling_2"
     },
     {
      "n": "Galerie de toit renforcée",
      "r": "l",
      "p": 1050000,
      "t": "auto",
-     "s": "+2 places de cargaison."
+     "s": "+2 places de cargaison.",
+     "ic": "car_cargo_2"
     }
    ]
   },
@@ -737,13 +796,15 @@
      "n": "Boucles d'oreilles GUDDI",
      "r": "pc",
      "p": 2070,
-     "t": "val"
+     "t": "val",
+     "ic": "earrings_1"
     },
     {
      "n": "Montre CONSTERAN",
      "r": "pc",
      "p": 2070,
-     "t": "val"
+     "t": "val",
+     "ic": "watch_2"
     },
     {
      "n": "Collier CHIPARDI",
@@ -756,13 +817,15 @@
      "n": "Collier GUDDI",
      "r": "pc",
      "p": 2565,
-     "t": "val"
+     "t": "val",
+     "ic": "necklace_2"
     },
     {
      "n": "Bague AMINA",
      "r": "pc",
      "p": 2580,
-     "t": "val"
+     "t": "val",
+     "ic": "ring_2"
     },
     {
      "n": "Montre PEGIUET",
@@ -775,7 +838,8 @@
      "n": "Montre PARDIN",
      "r": "pc",
      "p": 2745,
-     "t": "val"
+     "t": "val",
+     "ic": "watch_3"
     },
     {
      "n": "Boucles d'oreilles SUGI",
@@ -795,7 +859,8 @@
      "n": "Bague SUGI",
      "r": "pc",
      "p": 2985,
-     "t": "val"
+     "t": "val",
+     "ic": "ring_4"
     },
     {
      "n": "Collier ALON GIA",
@@ -861,25 +926,29 @@
      "n": "Cigarettes Lucky Shot",
      "r": "pc",
      "p": 1425,
-     "t": "val"
+     "t": "val",
+     "ic": "cigar_1"
     },
     {
      "n": "Préservatifs Context",
      "r": "pc",
      "p": 1500,
-     "t": "val"
+     "t": "val",
+     "ic": "condoms_2"
     },
     {
      "n": "Carte Damon Strickland",
      "r": "pc",
      "p": 1575,
-     "t": "val"
+     "t": "val",
+     "ic": "baseball_card_2"
     },
     {
      "n": "Carte Maxwell Rivers",
      "r": "pc",
      "p": 1620,
-     "t": "val"
+     "t": "val",
+     "ic": "baseball_card_3"
     },
     {
      "n": "Préservatifs Burex",
@@ -920,25 +989,29 @@
      "n": "Bande dessinée HELGRIM",
      "r": "pc",
      "p": 2625,
-     "t": "val"
+     "t": "val",
+     "ic": "comics_1"
     },
     {
      "n": "Magazine AURORA MODE",
      "r": "pc",
      "p": 3075,
-     "t": "val"
+     "t": "val",
+     "ic": "journal_2"
     },
     {
      "n": "Magazine VERSIA",
      "r": "pc",
      "p": 3270,
-     "t": "val"
+     "t": "val",
+     "ic": "journal_1"
     },
     {
      "n": "Bande dessinée TADASHI",
      "r": "pc",
      "p": 3495,
-     "t": "val"
+     "t": "val",
+     "ic": "comics_2"
     }
    ]
   }

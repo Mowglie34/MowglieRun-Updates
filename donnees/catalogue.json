@@ -1,5 +1,5 @@
 {
- "_aide": "Un objet par identifiant. rarete : c, pc, e, l, x. revente = prix au receleur niveau 1, contrebandier = prix au contrebandier niveau 1. ou = où le trouver (séparer par ' · '). L'icône est data/icons/<identifiant>.webp ; sans icône, mettre \"emoji\": \"🌿\" (ou \"sansIcone\": true pour l'initiale).",
+ "_aide": "Un objet par identifiant. rarete : c, pc, e, l, x. revente = prix au receleur niveau 1, contrebandier = prix au contrebandier niveau 1. ou = où le trouver (séparer par ' · '). L'icône est data/icons/<identifiant>.webp ; sans icône, mettre \"emoji\": \"🌿\" (ou \"sansIcone\": true pour l'initiale). en = nom anglais ; src = d'où viennent les infos (rrw = ROB RUN Wiki robrunwiki.com, version du jeu 0.7.0 ; rrg = robrungame.com).",
  "objets": {
   "vip_key_4": {
    "nom": "Carte d'identité · armurerie du commissariat",
@@ -1292,373 +1292,1426 @@
    "nom": "Salle de culture",
    "rarete": "e",
    "categorie": "base",
-   "emoji": "🌿",
-   "sert": "Bâtiment de la plantation : 6 tables de culture. Recherche 150 000 $, achat 100 000 $ (niv. I).",
-   "sansIcone": true
+   "sert": "Bâtiment de la plantation : 6 tables de culture. Recherche 150 000 $, achat 100 000 $ (niv. I)."
   },
   "cargo_charge_workbench_garden_bed": {
    "nom": "Table de culture",
    "rarete": "pc",
    "categorie": "base",
-   "emoji": "🪴",
-   "sert": "6 plants par table. Recherche 30 000 $, achat 40 000 $ (niv. I).",
-   "sansIcone": true
+   "sert": "6 plants par table. Recherche 30 000 $, achat 40 000 $ (niv. I)."
   },
   "bush_growing_1": {
    "nom": "Plant en croissance",
    "rarete": "pc",
    "categorie": "contrebande",
-   "emoji": "🌱",
    "contrebandier": 20000,
    "ou": "Sur place, porté à la main comme une cargaison",
-   "sert": "À poser sur une table de culture.",
-   "sansIcone": true
+   "sert": "À poser sur une table de culture."
   },
   "bush_mature_1": {
    "nom": "Plant mûr",
    "rarete": "pc",
    "categorie": "contrebande",
-   "emoji": "🌿",
    "contrebandier": 30000,
-   "sert": "Récolte : 2 à 4 colis, puis le plant repousse.",
-   "sansIcone": true
+   "sert": "Récolte : 2 à 4 colis, puis le plant repousse."
   },
   "bush_drugs_1": {
    "nom": "Colis de récolte",
    "rarete": "pc",
    "categorie": "contrebande",
-   "emoji": "🛍️",
    "revente": 4000,
-   "sert": "Récolte de la table de culture. S'empile par 10.",
-   "sansIcone": true
+   "sert": "Récolte de la table de culture. S'empile par 10."
   },
   "bush_growing_2": {
    "nom": "Plant en croissance",
    "rarete": "e",
    "categorie": "contrebande",
-   "emoji": "🌱",
    "contrebandier": 30000,
    "ou": "Sur place, porté à la main comme une cargaison",
-   "sert": "À poser sur une table de culture.",
-   "sansIcone": true
+   "sert": "À poser sur une table de culture."
   },
   "bush_mature_2": {
    "nom": "Plant mûr",
    "rarete": "e",
    "categorie": "contrebande",
-   "emoji": "🌿",
    "contrebandier": 45000,
-   "sert": "Récolte : 2 à 4 colis, puis le plant repousse.",
-   "sansIcone": true
+   "sert": "Récolte : 2 à 4 colis, puis le plant repousse."
   },
   "bush_drugs_2": {
    "nom": "Colis de récolte",
    "rarete": "e",
    "categorie": "contrebande",
-   "emoji": "🛍️",
    "revente": 6000,
-   "sert": "Récolte de la table de culture. S'empile par 10.",
-   "sansIcone": true
+   "sert": "Récolte de la table de culture. S'empile par 10."
   },
   "bush_growing_3": {
    "nom": "Plant en croissance",
    "rarete": "l",
    "categorie": "contrebande",
-   "emoji": "🌱",
    "contrebandier": 40000,
    "ou": "Sur place, porté à la main comme une cargaison",
-   "sert": "À poser sur une table de culture.",
-   "sansIcone": true
+   "sert": "À poser sur une table de culture."
   },
   "bush_mature_3": {
    "nom": "Plant mûr",
    "rarete": "l",
    "categorie": "contrebande",
-   "emoji": "🌿",
    "contrebandier": 60000,
-   "sert": "Récolte : 2 à 4 colis, puis le plant repousse.",
-   "sansIcone": true
+   "sert": "Récolte : 2 à 4 colis, puis le plant repousse."
   },
   "bush_drugs_3": {
    "nom": "Colis de récolte",
    "rarete": "l",
    "categorie": "contrebande",
-   "emoji": "🛍️",
    "revente": 8000,
-   "sert": "Récolte de la table de culture. S'empile par 10.",
-   "sansIcone": true
+   "sert": "Récolte de la table de culture. S'empile par 10."
   },
   "fan_1": {
    "nom": "Ventilateur",
    "rarete": "pc",
    "categorie": "base",
-   "emoji": "🌀",
    "revente": 10000,
-   "sert": "Table de culture : +12 % de vitesse. Recherche 100 000 $, achat 25 000 $ (niv. I).",
-   "sansIcone": true
+   "sert": "Table de culture : +12 % de vitesse. Recherche 100 000 $, achat 25 000 $ (niv. I)."
   },
   "water_pump_2": {
    "nom": "Pompe à eau",
    "rarete": "e",
    "categorie": "base",
-   "emoji": "🚰",
    "revente": 28000,
-   "sert": "Table de culture : +14 % de vitesse. Recherche 200 000 $, achat 70 000 $ (niv. II).",
-   "sansIcone": true
+   "sert": "Table de culture : +14 % de vitesse. Recherche 200 000 $, achat 70 000 $ (niv. II)."
   },
   "uv_lamp_3": {
    "nom": "Lampe UV",
    "rarete": "l",
    "categorie": "base",
-   "emoji": "💡",
    "revente": 100000,
-   "sert": "Table de culture : +24 % de vitesse. Recherche 500 000 $, achat 250 000 $ (niv. III).",
-   "sansIcone": true
+   "sert": "Table de culture : +24 % de vitesse. Recherche 500 000 $, achat 250 000 $ (niv. III)."
   },
   "meth_lab_1": {
    "nom": "Laboratoire de chimie",
    "rarete": "e",
    "categorie": "base",
-   "emoji": "🏭",
    "revente": 44000,
-   "sert": "Bâtiment du labo (réacteur, congélateur, table). Recherche 160 000 $, achat 110 000 $ (niv. I).",
-   "sansIcone": true
+   "sert": "Bâtiment du labo (réacteur, congélateur, table). Recherche 160 000 $, achat 110 000 $ (niv. I)."
   },
   "cargo_production_workbench_1": {
    "nom": "Réacteur chimique I",
    "rarete": "pc",
    "categorie": "base",
-   "emoji": "⚗️",
    "revente": 16000,
-   "sert": "Réactifs → concentré cristallin. 4 cycles de 15 min 00 s. Recherche 20 000 $  achat 40 000 $ (niv. I).",
-   "sansIcone": true
+   "sert": "Réactifs → concentré cristallin. 4 cycles de 15 min 00 s. Recherche 20 000 $  achat 40 000 $ (niv. I)."
   },
   "cargo_production_workbench_2": {
    "nom": "Réacteur chimique II",
    "rarete": "e",
    "categorie": "base",
-   "emoji": "⚗️",
    "revente": 120000,
-   "sert": "Réactifs → concentré cristallin. 6 cycles de 8 min 50 s. Recherche 150 000 $  achat 300 000 $ (niv. II).",
-   "sansIcone": true
+   "sert": "Réactifs → concentré cristallin. 6 cycles de 8 min 50 s. Recherche 150 000 $  achat 300 000 $ (niv. II)."
   },
   "cargo_production_workbench_3": {
    "nom": "Réacteur chimique III",
    "rarete": "l",
    "categorie": "base",
-   "emoji": "⚗️",
    "revente": 280000,
-   "sert": "Réactifs → concentré cristallin. 8 cycles de 5 min 37 s. Recherche 350 000 $  achat 700 000 $ (niv. III).",
-   "sansIcone": true
+   "sert": "Réactifs → concentré cristallin. 8 cycles de 5 min 37 s. Recherche 350 000 $  achat 700 000 $ (niv. III)."
   },
   "cargo_charge_workbench_lab_freezer_1": {
    "nom": "Congélateur industriel I",
    "rarete": "pc",
    "categorie": "base",
-   "emoji": "❄️",
    "revente": 8000,
-   "sert": "Concentré → cristaux durs. 4 places. Recherche 15 000 $  achat 20 000 $ (niv. I).",
-   "sansIcone": true
+   "sert": "Concentré → cristaux durs. 4 places. Recherche 15 000 $  achat 20 000 $ (niv. I)."
   },
   "cargo_charge_workbench_lab_freezer_2": {
    "nom": "Congélateur industriel II",
    "rarete": "e",
    "categorie": "base",
-   "emoji": "❄️",
    "revente": 36000,
-   "sert": "Concentré → cristaux durs. 6 places. Recherche 30 000 $  achat 90 000 $ (niv. II).",
-   "sansIcone": true
+   "sert": "Concentré → cristaux durs. 6 places. Recherche 30 000 $  achat 90 000 $ (niv. II)."
   },
   "cargo_charge_workbench_lab_freezer_3": {
    "nom": "Congélateur industriel III",
    "rarete": "l",
    "categorie": "base",
-   "emoji": "❄️",
    "revente": 100000,
-   "sert": "Concentré → cristaux durs. 8 places. Recherche 100 000 $  achat 250 000 $ (niv. III).",
-   "sansIcone": true
+   "sert": "Concentré → cristaux durs. 8 places. Recherche 100 000 $  achat 250 000 $ (niv. III)."
   },
   "cargo_workbench_lab_table_1": {
    "nom": "Table de laboratoire",
    "rarete": "pc",
    "categorie": "base",
-   "emoji": "🔬",
    "revente": 6000,
-   "sert": "Cristaux durs → poudre cristalline. 2 places. Recherche 10 000 $, achat 15 000 $ (niv. I).",
-   "sansIcone": true
+   "sert": "Cristaux durs → poudre cristalline. 2 places. Recherche 10 000 $, achat 15 000 $ (niv. I)."
   },
   "cargo_open_workbench_upgrade_additional_slot_2": {
    "nom": "Balances de laboratoire",
    "rarete": "e",
    "categorie": "base",
-   "emoji": "⚖️",
-   "sert": "Table de laboratoire : +1 emplacement. Recherche 15 000 $, achat 15 000 $ (niv. II).",
-   "sansIcone": true
+   "sert": "Table de laboratoire : +1 emplacement. Recherche 15 000 $, achat 15 000 $ (niv. II)."
   },
   "cargo_production_workbench_upgrade_engine_1": {
    "nom": "Moteur industriel",
    "rarete": "pc",
    "categorie": "base",
-   "emoji": "⚙️",
-   "sert": "Réacteur : un peu plus de chance de meilleurs cristaux. Recherche 10 000 $, achat 20 000 $ (niv. I).",
-   "sansIcone": true
+   "sert": "Réacteur : un peu plus de chance de meilleurs cristaux. Recherche 10 000 $, achat 20 000 $ (niv. I)."
   },
   "cargo_production_workbench_upgrade_thermometer_1": {
    "nom": "Thermomètre industriel",
    "rarete": "e",
    "categorie": "base",
-   "emoji": "🌡️",
-   "sert": "Réacteur : nettement plus de chance de meilleurs cristaux. Recherche 50 000 $, achat 120 000 $ (niv. II).",
-   "sansIcone": true
+   "sert": "Réacteur : nettement plus de chance de meilleurs cristaux. Recherche 50 000 $, achat 120 000 $ (niv. II)."
   },
   "cargo_production_workbench_upgrade_converter_1": {
    "nom": "Convertisseur chimique",
    "rarete": "l",
    "categorie": "base",
-   "emoji": "🔄",
-   "sert": "Réacteur : beaucoup plus de chance de meilleurs cristaux. Recherche 150 000 $, achat 300 000 $ (niv. III).",
-   "sansIcone": true
+   "sert": "Réacteur : beaucoup plus de chance de meilleurs cristaux. Recherche 150 000 $, achat 300 000 $ (niv. III)."
   },
   "cargo_charge_workbench_upgrade_evaporator_1": {
    "nom": "Évaporateur amélioré",
    "rarete": "e",
    "categorie": "base",
-   "emoji": "🌬️",
-   "sert": "Congélateur : +11,7 % de vitesse. Recherche 40 000 $, achat 100 000 $ (niv. II).",
-   "sansIcone": true
+   "sert": "Congélateur : +11,7 % de vitesse. Recherche 40 000 $, achat 100 000 $ (niv. II)."
   },
   "cargo_charge_workbench_upgrade_refrigerant_1": {
    "nom": "Réfrigérant de qualité",
    "rarete": "l",
    "categorie": "base",
-   "emoji": "🧊",
-   "sert": "Congélateur : +13 % de vitesse. Recherche 100 000 $, achat 250 000 $ (niv. III).",
-   "sansIcone": true
+   "sert": "Congélateur : +13 % de vitesse. Recherche 100 000 $, achat 250 000 $ (niv. III)."
   },
   "reagents_1": {
    "nom": "Bidons de réactifs",
    "rarete": "pc",
    "categorie": "contrebande",
-   "emoji": "🛢️",
    "contrebandier": 20000,
    "ou": "Sur place, porté à la main comme une cargaison",
-   "sert": "À mettre dans le réacteur du labo.",
-   "sansIcone": true
+   "sert": "À mettre dans le réacteur du labo."
   },
   "reagents_2": {
    "nom": "Réactifs de qualité",
    "rarete": "e",
    "categorie": "contrebande",
-   "emoji": "🛢️",
    "contrebandier": 30000,
    "ou": "Sur place, porté à la main comme une cargaison",
-   "sert": "Donnent de meilleurs cristaux.",
-   "sansIcone": true
+   "sert": "Donnent de meilleurs cristaux."
   },
   "soft_crystal_1": {
    "nom": "Concentré cristallin",
    "rarete": "pc",
    "categorie": "contrebande",
-   "emoji": "💧",
    "contrebandier": 10000,
-   "sert": "Sort du réacteur. À congeler pour faire des cristaux durs.",
-   "sansIcone": true
+   "sert": "Sort du réacteur. À congeler pour faire des cristaux durs."
   },
   "hard_crystal_1": {
    "nom": "Cristaux durs",
    "rarete": "pc",
    "categorie": "contrebande",
-   "emoji": "💎",
    "contrebandier": 30000,
-   "sert": "Sort du congélateur. Se vend mieux entier qu'en poudre.",
-   "sansIcone": true
+   "sert": "Sort du congélateur. Se vend mieux entier qu'en poudre."
   },
   "lab_crystal_1": {
    "nom": "Poudre cristalline",
    "rarete": "pc",
    "categorie": "contrebande",
-   "emoji": "🧂",
    "revente": 1000,
-   "sert": "Sort de la table de labo. Prix par unité.",
-   "sansIcone": true
+   "sert": "Sort de la table de labo. Prix par unité."
   },
   "soft_crystal_2": {
    "nom": "Concentré cristallin",
    "rarete": "e",
    "categorie": "contrebande",
-   "emoji": "💧",
    "contrebandier": 15000,
-   "sert": "Sort du réacteur. À congeler pour faire des cristaux durs.",
-   "sansIcone": true
+   "sert": "Sort du réacteur. À congeler pour faire des cristaux durs."
   },
   "hard_crystal_2": {
    "nom": "Cristaux durs",
    "rarete": "e",
    "categorie": "contrebande",
-   "emoji": "💎",
    "contrebandier": 45000,
-   "sert": "Sort du congélateur. Se vend mieux entier qu'en poudre.",
-   "sansIcone": true
+   "sert": "Sort du congélateur. Se vend mieux entier qu'en poudre."
   },
   "lab_crystal_2": {
    "nom": "Poudre cristalline",
    "rarete": "e",
    "categorie": "contrebande",
-   "emoji": "🧂",
    "revente": 2000,
-   "sert": "Sort de la table de labo. Prix par unité.",
-   "sansIcone": true
+   "sert": "Sort de la table de labo. Prix par unité."
   },
   "soft_crystal_3": {
    "nom": "Concentré cristallin",
    "rarete": "l",
    "categorie": "contrebande",
-   "emoji": "💧",
    "contrebandier": 25000,
-   "sert": "Sort du réacteur. À congeler pour faire des cristaux durs.",
-   "sansIcone": true
+   "sert": "Sort du réacteur. À congeler pour faire des cristaux durs."
   },
   "hard_crystal_3": {
    "nom": "Cristaux durs",
    "rarete": "l",
    "categorie": "contrebande",
-   "emoji": "💎",
    "contrebandier": 75000,
-   "sert": "Sort du congélateur. Se vend mieux entier qu'en poudre.",
-   "sansIcone": true
+   "sert": "Sort du congélateur. Se vend mieux entier qu'en poudre."
   },
   "lab_crystal_3": {
    "nom": "Poudre cristalline",
    "rarete": "l",
    "categorie": "contrebande",
-   "emoji": "🧂",
    "revente": 4000,
-   "sert": "Sort de la table de labo. Prix par unité.",
-   "sansIcone": true
+   "sert": "Sort de la table de labo. Prix par unité."
   },
   "money_workbench_speedup_2": {
    "nom": "Compteuse de billets",
    "rarete": "e",
    "categorie": "base",
-   "emoji": "💵",
-   "sert": "Améliore le bureau de blanchiment. Recherche 50 000 $, achat 65 000 $ (niv. II).",
-   "sansIcone": true
+   "sert": "Améliore le bureau de blanchiment. Recherche 50 000 $, achat 65 000 $ (niv. II)."
   },
   "money_workbench_speedup_3": {
    "nom": "Compteuse de billets",
    "rarete": "l",
    "categorie": "base",
-   "emoji": "💵",
-   "sert": "Améliore le bureau de blanchiment. Recherche 150 000 $, achat 150 000 $ (niv. III).",
-   "sansIcone": true
+   "sert": "Améliore le bureau de blanchiment. Recherche 150 000 $, achat 150 000 $ (niv. III)."
   },
   "cargo_workbench_1": {
    "nom": "Établi de cargaison",
    "rarete": "pc",
    "categorie": "base",
-   "emoji": "🧰",
-   "sansIcone": true,
    "sert": "Ouvre les cargaisons. Outils de serrurerie, scie à cargaison et découpeur plasma vont plus vite ; l'étau ajoute des places."
+  },
+  "alcohol_11": {
+   "nom": "Bouteille Rosefield",
+   "en": "Rosefield Bottle",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 5360,
+   "ou": "Rayons d'alcool (supérettes, cafés, bars)",
+   "src": "rrw"
+  },
+  "alcohol_13": {
+   "nom": "Bouteille Amber Shift",
+   "en": "Amber Shift Bottle",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 27140,
+   "ou": "Rayons d'alcool (supérettes, cafés, bars)",
+   "src": "rrw"
+  },
+  "alcohol_14": {
+   "nom": "Bouteille Velvet Dynasty",
+   "en": "Velvet Dynasty Bottle",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 26160,
+   "ou": "Rayons d'alcool (supérettes, cafés, bars)",
+   "src": "rrw"
+  },
+  "alcohol_15": {
+   "nom": "Bouteille King's Reserve",
+   "en": "King's Reserve Bottle",
+   "rarete": "x",
+   "categorie": "valeur",
+   "revente": 200000,
+   "ou": "Rayons d'alcool (supérettes, cafés, bars)",
+   "src": "rrw"
+  },
+  "alcohol_2": {
+   "nom": "Bouteille Happy Forester",
+   "en": "Happy Forester Bottle",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 4590,
+   "ou": "Rayons d'alcool (supérettes, cafés, bars)",
+   "src": "rrw"
+  },
+  "alcohol_5": {
+   "nom": "Bouteille Golden Jaguar",
+   "en": "Golden Jaguar Bottle",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 27700,
+   "ou": "Rayons d'alcool (supérettes, cafés, bars)",
+   "src": "rrw"
+  },
+  "antique_2": {
+   "nom": "Statue de chat doré",
+   "en": "Golden Cat Statue",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 4666,
+   "ou": "Galerie d'art · Statuettes",
+   "src": "rrw"
+  },
+  "antique_3": {
+   "nom": "Figurine en bois",
+   "en": "Wooden Figure",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 286,
+   "ou": "Statuettes",
+   "src": "rrw"
+  },
+  "antique_4": {
+   "nom": "Statue de jeune fille en pierre",
+   "en": "Stone Maiden Statue",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 27420,
+   "ou": "Galerie d'art · Statuettes",
+   "src": "rrw"
+  },
+  "antique_5": {
+   "nom": "Totem en bois",
+   "en": "Wooden Totem",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 346,
+   "ou": "Statuettes",
+   "src": "rrw"
+  },
+  "antique_6": {
+   "nom": "Pichet en cuivre",
+   "en": "Copper Pitcher",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 320,
+   "ou": "Statuettes",
+   "src": "rrw"
+  },
+  "antique_set_1": {
+   "nom": "Antiquités bon marché",
+   "en": "Cheap Antiques",
+   "rarete": "c",
+   "categorie": "valeur",
+   "revente": 50,
+   "ou": "Galerie d'art · Statuettes",
+   "src": "rrw"
+  },
+  "baseball_card_4": {
+   "nom": "Carte avec Trent Carver",
+   "en": "Trent Carver Card",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 3120,
+   "ou": "Poubelles",
+   "src": "rrw"
+  },
+  "baseball_card_5": {
+   "nom": "Carte avec Bradley Sanderson",
+   "en": "Bradley Sanderson Card",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 3376,
+   "ou": "Poubelles · Maisons",
+   "src": "rrw"
+  },
+  "baseball_card_6": {
+   "nom": "Carte avec Harley Wanger",
+   "en": "Harley Wanger Card",
+   "rarete": "x",
+   "categorie": "valeur",
+   "revente": 217320,
+   "ou": "Poubelles",
+   "src": "rrw"
+  },
+  "blade_2": {
+   "nom": "Couteau de collection Aeron",
+   "en": "Aeron Collectible Knife",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 590,
+   "ou": "Bijoux",
+   "src": "rrw"
+  },
+  "blade_3": {
+   "nom": "Couteau de collection Streamline",
+   "en": "Streamline Collectible Knife",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 5008,
+   "ou": "Bijoux",
+   "src": "rrw"
+  },
+  "blade_6": {
+   "nom": "Couteau de collection Shade",
+   "en": "Shade Collectible Knife",
+   "rarete": "x",
+   "categorie": "valeur",
+   "revente": 199784,
+   "ou": "Bijoux",
+   "src": "rrw"
+  },
+  "burner_2": {
+   "nom": "Réchaud de campagne",
+   "en": "Field Stove",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 5220,
+   "ou": "Magasins d'équipement (est, ouest)",
+   "src": "rrw"
+  },
+  "camera_3": {
+   "nom": "Caméra CIRCUM 360",
+   "en": "CIRCUM 360 Camera",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 2496,
+   "ou": "Électronique",
+   "src": "rrw"
+  },
+  "car_device_4": {
+   "nom": "Autoradio bon marché",
+   "en": "Cheap Car Stereo",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 4080,
+   "ou": "Pièces auto (caisses, étagères)",
+   "src": "rrw"
+  },
+  "car_device_6": {
+   "nom": "Autoradio haut de gamme",
+   "en": "Premium Car Stereo",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 25680,
+   "ou": "Pièces auto (caisses, étagères)",
+   "src": "rrw"
+  },
+  "car_trinket_2": {
+   "nom": "Désodorisant de voiture",
+   "en": "Air Freshener",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 180,
+   "ou": "Pièces auto (caisses, étagères)",
+   "src": "rrw"
+  },
+  "car_trinket_6": {
+   "nom": "Peluche décorative pour voiture",
+   "en": "Plush Car Charm",
+   "rarete": "x",
+   "categorie": "valeur",
+   "revente": 192160,
+   "ou": "Pièces auto (caisses, étagères)",
+   "src": "rrw"
+  },
+  "car_parts_3": {
+   "nom": "Cric",
+   "en": "Jack",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 4750,
+   "ou": "Pièces auto (caisses, étagères)",
+   "src": "rrg"
+  },
+  "car_parts_7": {
+   "nom": "Compresseur automobile",
+   "en": "Car Compressor",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 4960,
+   "ou": "Pièces auto (caisses, étagères)",
+   "src": "rrg"
+  },
+  "cigar_3": {
+   "nom": "Cigarettes KeKe",
+   "en": "KeKe Cigarettes",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 230,
+   "ou": "Rayons d'alcool (supérettes, cafés, bars)",
+   "src": "rrw"
+  },
+  "comics_4": {
+   "nom": "Bande dessinée KAIRO",
+   "en": "KAIRO Comic Book",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 6690,
+   "ou": "Poubelles",
+   "src": "rrw"
+  },
+  "condoms_4": {
+   "nom": "Préservatifs LUX",
+   "en": "LUX Condoms",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 3566,
+   "ou": "Club de strip-tease",
+   "src": "rrw"
+  },
+  "console_4": {
+   "nom": "Console G-Cube",
+   "en": "G-Cube Console",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 9956,
+   "ou": "Électronique",
+   "src": "rrw"
+  },
+  "console_5": {
+   "nom": "Console X-STATION VR",
+   "en": "X-STATION VR Console",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 28350,
+   "ou": "Électronique",
+   "src": "rrw"
+  },
+  "dildo_1": {
+   "nom": "Outil exotique",
+   "en": "Exotic Tool",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 39976,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "drugs_1": {
+   "nom": "Poudre",
+   "en": "Powder",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 4052,
+   "ou": "Drogue (étagères, tas, caisses)",
+   "src": "rrw"
+  },
+  "drugs_2": {
+   "nom": "Feuilles en vrac",
+   "en": "Loose Leaves",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 226,
+   "ou": "Drogue (étagères, tas, caisses)",
+   "src": "rrw"
+  },
+  "drugs_3": {
+   "nom": "Vitamine E",
+   "en": "Vitamin E",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 310,
+   "ou": "Drogue (étagères, tas, caisses)",
+   "src": "rrw"
+  },
+  "drugs_4": {
+   "nom": "Sucre",
+   "en": "Sugar",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 284,
+   "ou": "Drogue (étagères, tas, caisses)",
+   "src": "rrw"
+  },
+  "drugs_5": {
+   "nom": "Chewing-gum",
+   "en": "Chewing Gum",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 3164,
+   "ou": "Drogue (étagères, tas, caisses)",
+   "src": "rrw"
+  },
+  "drugs_6": {
+   "nom": "Bonbons",
+   "en": "Candy",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 23246,
+   "ou": "Drogue (étagères, tas, caisses)",
+   "src": "rrw"
+  },
+  "drugs_bricket_1": {
+   "nom": "Briquette",
+   "en": "Brick",
+   "rarete": "c",
+   "categorie": "contrebande",
+   "revente": 120,
+   "ou": "Drogue (étagères, tas, caisses) · Galerie d'art · Station-service · Commissariat",
+   "src": "rrw"
+  },
+  "earrings_5": {
+   "nom": "Boucles d'oreilles CHIPARDI",
+   "en": "CHIPARDI Earrings",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 6200,
+   "ou": "Bijoux",
+   "src": "rrw"
+  },
+  "earrings_6": {
+   "nom": "Boucles d'oreilles MEKASSI",
+   "en": "MEKASSI Earrings",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 5790,
+   "ou": "Bijoux",
+   "src": "rrw"
+  },
+  "equipment_12": {
+   "nom": "Système de guerre électronique portable",
+   "en": "Portable EW System",
+   "rarete": "x",
+   "categorie": "valeur",
+   "revente": 204260,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "equipment_3": {
+   "nom": "Caméra thermique",
+   "en": "Thermal Imager",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 3360,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "equipment_5": {
+   "nom": "Lampe torche puissante",
+   "en": "Powerful Flashlight",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 4016,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "equipment_6": {
+   "nom": "Gilet pare-balles canin K9",
+   "en": "K9 Body Armor",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 52156,
+   "ou": "Au hasard en fouillant",
+   "sert": "Objet de valeur, à revendre.",
+   "src": "rrw"
+  },
+  "equipment_8": {
+   "nom": "Jumelles tactiques",
+   "en": "Tactical Binoculars",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 3540,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "equipment_9": {
+   "nom": "Pince multifonction tactique",
+   "en": "Tactical Multitool",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 640,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "fluffy_cuffs_1": {
+   "nom": "Menottes en fourrure",
+   "en": "Fluffy Handcuffs",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 5776,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "garbage_1": {
+   "nom": "Déchets",
+   "en": "Trash",
+   "rarete": "c",
+   "categorie": "valeur",
+   "revente": 10,
+   "ou": "Au hasard en fouillant",
+   "sert": "Presque rien : à jeter si tu manques de place.",
+   "src": "rrw"
+  },
+  "garbage_2": {
+   "nom": "Appareil photo cassé",
+   "en": "Broken Camera",
+   "rarete": "c",
+   "categorie": "valeur",
+   "revente": 48,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "garbage_3": {
+   "nom": "Ordinateur portable cassé",
+   "en": "Broken Laptop",
+   "rarete": "c",
+   "categorie": "valeur",
+   "revente": 84,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "garbage_4": {
+   "nom": "Grille-pain cassé",
+   "en": "Broken Toaster",
+   "rarete": "c",
+   "categorie": "valeur",
+   "revente": 120,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "gas_grenade_1": {
+   "nom": "Grenade à gaz",
+   "en": "Gas Grenade",
+   "rarete": "l",
+   "categorie": "equipement",
+   "revente": 15092,
+   "ou": "Commissariat",
+   "src": "rrw"
+  },
+  "gemstone_1": {
+   "nom": "Diamant dans l'étui",
+   "en": "Diamond in Case",
+   "rarete": "x",
+   "categorie": "valeur",
+   "revente": 200000,
+   "ou": "Bijoux",
+   "src": "rrw"
+  },
+  "gemstone_2": {
+   "nom": "Topaze dans l'étui",
+   "en": "Topaz in Case",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 20800,
+   "ou": "Bijoux",
+   "src": "rrw"
+  },
+  "gemstone_3": {
+   "nom": "Rubis dans l'étui",
+   "en": "Ruby in Case",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 20000,
+   "ou": "Bijoux · Banque",
+   "src": "rrw"
+  },
+  "gemstone_4": {
+   "nom": "Émeraude dans l'étui",
+   "en": "Emerald in Case",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 18000,
+   "ou": "Bijoux",
+   "src": "rrw"
+  },
+  "gemstone_5": {
+   "nom": "Améthyste dans l'étui",
+   "en": "Amethyst in Case",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 18800,
+   "ou": "Bijoux",
+   "src": "rrw"
+  },
+  "graphics_card_2": {
+   "nom": "Carte graphique RG 7700",
+   "en": "RG 7700 Graphics Card",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 7110,
+   "ou": "Électronique",
+   "src": "rrw"
+  },
+  "grenade_launcher_shell_1": {
+   "nom": "Obus de lance-grenades",
+   "en": "Grenade Launcher Shell",
+   "rarete": "l",
+   "categorie": "equipement",
+   "revente": 104000,
+   "ou": "Munitions (étagères, tables)",
+   "src": "rrw"
+  },
+  "hairdryer_1": {
+   "nom": "Sèche-cheveux SuperDryer",
+   "en": "SuperDryer Hairdryer",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 3700,
+   "ou": "Électronique",
+   "src": "rrw"
+  },
+  "headphones_4": {
+   "nom": "Casque OMEGA",
+   "en": "OMEGA Headphones",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 6264,
+   "ou": "Électronique",
+   "src": "rrw"
+  },
+  "journal_3": {
+   "nom": "Magazine MONOLITH",
+   "en": "MONOLITH Magazine",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 5956,
+   "ou": "Poubelles",
+   "src": "rrw"
+  },
+  "journal_4": {
+   "nom": "Magazine VELVET RIOT",
+   "en": "VELVET RIOT Magazine",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 4766,
+   "ou": "Poubelles",
+   "src": "rrw"
+  },
+  "laptop_5": {
+   "nom": "Ordinateur portable MSR PRO",
+   "en": "MSR PRO Laptop",
+   "rarete": "x",
+   "categorie": "valeur",
+   "revente": 204256,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "laptop_6": {
+   "nom": "Ordinateur portable SUS VILO",
+   "en": "SUS VILO Laptop",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 6896,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "lighter_4": {
+   "nom": "Briquet Clipper",
+   "en": "Clipper Lighter",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 3176,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "necklace_3": {
+   "nom": "Collier MAFFI",
+   "en": "MAFFI Necklace",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 4620,
+   "ou": "Bijoux",
+   "src": "rrw"
+  },
+  "perfume_1": {
+   "nom": "Parfum INFINITY",
+   "en": "INFINITY Perfume",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 2356,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "perfume_2": {
+   "nom": "Parfum FLERS",
+   "en": "FLERS Perfume",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 210,
+   "ou": "Maisons (cottages, manoir)",
+   "src": "rrw"
+  },
+  "perfume_3": {
+   "nom": "Parfum TRIO",
+   "en": "TRIO Perfume",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 200,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "pharma_tools_2": {
+   "nom": "Microscope",
+   "en": "Microscope",
+   "rarete": "x",
+   "categorie": "valeur",
+   "revente": 194620,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "phone_3": {
+   "nom": "Smartphone P-Verse",
+   "en": "P-Verse Smartphone",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 3486,
+   "ou": "Électronique",
+   "src": "rrw"
+  },
+  "phone_4": {
+   "nom": "Smartphone Flip Ring",
+   "en": "Flip Ring Smartphone",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 2696,
+   "ou": "Électronique",
+   "src": "rrw"
+  },
+  "picture_tube_1": {
+   "nom": "Tableau",
+   "en": "Painting",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 360,
+   "ou": "Statuettes",
+   "src": "rrw"
+  },
+  "picture_tube_2": {
+   "nom": "Tableau",
+   "en": "Painting",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 2640,
+   "ou": "Au hasard en fouillant",
+   "src": "rrg"
+  },
+  "picture_tube_3": {
+   "nom": "Tableau",
+   "en": "Painting",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 21936,
+   "ou": "Au hasard en fouillant",
+   "src": "rrg"
+  },
+  "picture_fake_1": {
+   "nom": "Faux tableau",
+   "en": "Painting (fake)",
+   "rarete": "c",
+   "categorie": "valeur",
+   "revente": 80,
+   "ou": "Au hasard en fouillant",
+   "src": "rrg"
+  },
+  "poker_cards_1": {
+   "nom": "Jeu de cartes Poker Powerplay",
+   "en": "Poker Powerplay Deck",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 170,
+   "ou": "Poubelles",
+   "src": "rrw"
+  },
+  "poker_cards_3": {
+   "nom": "Jeu de cartes Ace's Dominion",
+   "en": "Ace's Dominion Deck",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 236,
+   "ou": "Poubelles · Hôtels",
+   "src": "rrw"
+  },
+  "poker_cards_4": {
+   "nom": "Jeu de cartes Bad Habit",
+   "en": "Bad Habit Deck",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 3156,
+   "ou": "Poubelles",
+   "src": "rrw"
+  },
+  "ring_3": {
+   "nom": "Bague GUDDI",
+   "en": "GUDDI Ring",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 4828,
+   "ou": "Bijoux",
+   "src": "rrw"
+  },
+  "ring_7": {
+   "nom": "Bague WISH",
+   "en": "WISH Ring",
+   "rarete": "x",
+   "categorie": "valeur",
+   "revente": 320616,
+   "ou": "Bijoux",
+   "src": "rrw"
+  },
+  "toaster_1": {
+   "nom": "Grille-pain Goodhouse",
+   "en": "Goodhouse Toaster",
+   "rarete": "c",
+   "categorie": "valeur",
+   "revente": 198,
+   "ou": "Électronique",
+   "src": "rrw"
+  },
+  "toy_1": {
+   "nom": "Figurine CollectiToy n° 1",
+   "en": "CollectiToy #1 Figure",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 370,
+   "ou": "Poubelles",
+   "src": "rrw"
+  },
+  "toy_2": {
+   "nom": "Figurine CollectiToy n° 2",
+   "en": "CollectiToy #2 Figure",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 370,
+   "ou": "Poubelles · Hôtels",
+   "src": "rrw"
+  },
+  "toy_4": {
+   "nom": "Figurine CollectiToy n° 4",
+   "en": "CollectiToy #4 Figure",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 4196,
+   "ou": "Poubelles",
+   "src": "rrw"
+  },
+  "vest5_m1": {
+   "nom": "Gilet pare-balles Bastion",
+   "en": "Bastion Body Armor",
+   "rarete": "x",
+   "categorie": "equipement",
+   "revente": 140000,
+   "ou": "Équipement",
+   "sert": "Gilet exotique : il n'est pas dans l'arbre de Larry, il se trouve en fouillant.",
+   "src": "rrw"
+  },
+  "vial_4": {
+   "nom": "Flacon de médicament rare",
+   "en": "Vial With Rare Medicine",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 240,
+   "ou": "Pharmacies",
+   "src": "rrw"
+  },
+  "vial_6": {
+   "nom": "Ampoule de médicament",
+   "en": "Medicinal Ampule",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 3136,
+   "ou": "Pharmacies",
+   "src": "rrw"
+  },
+  "vinyl_1": {
+   "nom": "Disque de platine",
+   "en": "Platinum Disc",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 36936,
+   "ou": "Hôtels Reef et Seasons",
+   "src": "rrw"
+  },
+  "vinyl_2": {
+   "nom": "Disque d'or",
+   "en": "Golden Disc",
+   "rarete": "x",
+   "categorie": "valeur",
+   "revente": 318180,
+   "ou": "Au hasard en fouillant",
+   "src": "rrw"
+  },
+  "watch_4": {
+   "nom": "Montre NURDAN",
+   "en": "NURDAN Watch",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 5688,
+   "ou": "Bijouteries (est, ouest)",
+   "src": "rrw"
+  },
+  "weapon_cleaning_3": {
+   "nom": "Kit de nettoyage d'arme tactique",
+   "en": "Tactical Gun Cleaning Kit",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 34824,
+   "ou": "Équipement",
+   "src": "rrw"
+  },
+  "weapon_trinket_5": {
+   "nom": "Boussole moderne",
+   "en": "Modern Compass",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 490,
+   "ou": "Équipement",
+   "src": "rrw"
+  },
+  "weapon_trinket_6": {
+   "nom": "Capteur tactique",
+   "en": "Tactical Sensor",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 5290,
+   "ou": "Équipement",
+   "src": "rrw"
+  },
+  "yacht_key_1": {
+   "nom": "Clé du yacht",
+   "en": "Yacht Key",
+   "rarete": "x",
+   "categorie": "valeur",
+   "revente": 2000000,
+   "ou": "Au hasard en fouillant",
+   "sert": "N'ouvre rien : c'est un objet de valeur, à revendre au receleur.",
+   "src": "rrw"
+  },
+  "wall_1": {
+   "nom": "Clôture agricole",
+   "en": "Farm Fence",
+   "rarete": "c",
+   "categorie": "base",
+   "revente": 240,
+   "sert": "La clôture la moins chère.",
+   "src": "rrw"
+  },
+  "bolt_cutter": {
+   "nom": "Coupe-boulon",
+   "en": "Bolt Cutter",
+   "rarete": "pc",
+   "categorie": "cles",
+   "revente": 1200,
+   "ou": "Marché noir (niveau II)",
+   "sert": "Coupe le câble électrique d'une colonie.",
+   "src": "rrg"
+  },
+  "super_bolt_cutter": {
+   "nom": "Coupe-boulon légendaire",
+   "en": "Bolt Cutter (Legendary)",
+   "rarete": "l",
+   "categorie": "cles",
+   "revente": 8000,
+   "ou": "Marché noir (niveau III)",
+   "sert": "Coupe le câble électrique d'une colonie.",
+   "src": "rrg"
+  },
+  "action_camera_3_cumulative": {
+   "nom": "Caméra d'action (vide)",
+   "en": "Action Camera",
+   "rarete": "l",
+   "categorie": "cles",
+   "revente": 5000,
+   "sert": "Se remplit en commettant des actions criminelles. Pleine, elle vaut 200 000 $ au receleur.",
+   "src": "rrg"
+  },
+  "cargo_manifest_1_cumulative": {
+   "nom": "Fiche de cargaison (vide)",
+   "en": "Cargo Sheet",
+   "rarete": "pc",
+   "categorie": "cles",
+   "revente": 1500,
+   "sert": "Garde-la dans ton inventaire : chaque livraison au contrebandier ajoute 1 point (5 pour la remplir). Pleine : 60 000 $.",
+   "src": "rrw"
+  },
+  "cargo_manifest_2_cumulative": {
+   "nom": "Fiche de cargaison (vide)",
+   "en": "Cargo Sheet",
+   "rarete": "e",
+   "categorie": "cles",
+   "revente": 3000,
+   "ou": "Marché noir (colonie niv. II)",
+   "sert": "12 points à remplir. Pleine : 80 000 $.",
+   "src": "rrg"
+  },
+  "cargo_manifest_2_full": {
+   "nom": "Fiche de cargaison",
+   "en": "Cargo Sheet",
+   "rarete": "e",
+   "categorie": "cles",
+   "revente": 80000,
+   "sert": "Pleine : à revendre.",
+   "src": "rrg"
+  },
+  "cargo_manifest_3_cumulative": {
+   "nom": "Fiche de cargaison (vide)",
+   "en": "Cargo Sheet",
+   "rarete": "l",
+   "categorie": "cles",
+   "revente": 6000,
+   "sert": "36 points à remplir. Pleine : 300 000 $.",
+   "src": "rrg"
+  },
+  "cargo_manifest_3_full": {
+   "nom": "Fiche de cargaison",
+   "en": "Cargo Sheet",
+   "rarete": "l",
+   "categorie": "cles",
+   "revente": 300000,
+   "sert": "Pleine : à revendre.",
+   "src": "rrg"
+  },
+  "roulette_chip_1": {
+   "nom": "Jetons 1 000",
+   "en": "Chips 1,000",
+   "rarete": "c",
+   "categorie": "valeur",
+   "revente": 10,
+   "ou": "Au hasard en fouillant",
+   "sert": "Jetons de la roulette du bar : leur valeur se récupère à la table (onglet Argent). Le receleur n'en donne que 10 $.",
+   "src": "rrg"
+  },
+  "roulette_chip_5": {
+   "nom": "Jetons 5 000",
+   "en": "Chips 5,000",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 10,
+   "ou": "Au hasard en fouillant",
+   "sert": "Jetons de la roulette du bar : leur valeur se récupère à la table (onglet Argent). Le receleur n'en donne que 10 $.",
+   "src": "rrg"
+  },
+  "roulette_chip_25": {
+   "nom": "Jetons 25 000",
+   "en": "Chips 25,000",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 10,
+   "ou": "Au hasard en fouillant",
+   "sert": "Jetons de la roulette du bar : leur valeur se récupère à la table (onglet Argent). Le receleur n'en donne que 10 $.",
+   "src": "rrg"
+  },
+  "roulette_chip_50": {
+   "nom": "Jetons 50 000",
+   "en": "Chips 50,000",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 10,
+   "ou": "Au hasard en fouillant",
+   "sert": "Jetons de la roulette du bar : leur valeur se récupère à la table (onglet Argent). Le receleur n'en donne que 10 $.",
+   "src": "rrg"
+  },
+  "roulette_chip_100": {
+   "nom": "Jetons 100 000",
+   "en": "Chips 100,000",
+   "rarete": "x",
+   "categorie": "valeur",
+   "revente": 10,
+   "ou": "Au hasard en fouillant",
+   "sert": "Jetons de la roulette du bar : leur valeur se récupère à la table (onglet Argent). Le receleur n'en donne que 10 $.",
+   "src": "rrg"
+  },
+  "lottery_ticket_1": {
+   "nom": "Billet de loterie",
+   "en": "Lottery Ticket",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 40,
+   "ou": "Au hasard en fouillant",
+   "sert": "À utiliser : il devient un billet perdant ou gagnant (jusqu'à 1 000 000 $).",
+   "src": "rrg"
+  },
+  "lottery_ticket_low_1": {
+   "nom": "Billet de loterie perdant",
+   "en": "Lottery Ticket (low)",
+   "rarete": "c",
+   "categorie": "valeur",
+   "revente": 1,
+   "sert": "Résultat de la loterie : 1 $.",
+   "src": "rrg"
+  },
+  "lottery_ticket_medium_1": {
+   "nom": "Billet de loterie gagnant",
+   "en": "Lottery Ticket (medium)",
+   "rarete": "e",
+   "categorie": "valeur",
+   "revente": 10000,
+   "sert": "Résultat de la loterie : 10 000 $.",
+   "src": "rrg"
+  },
+  "lottery_ticket_high_1": {
+   "nom": "Billet de loterie gagnant",
+   "en": "Lottery Ticket (high)",
+   "rarete": "l",
+   "categorie": "valeur",
+   "revente": 250000,
+   "sert": "Résultat de la loterie : 250 000 $.",
+   "src": "rrg"
+  },
+  "lottery_ticket_jackpot_1": {
+   "nom": "Billet de loterie jackpot",
+   "en": "Lottery Ticket (jackpot)",
+   "rarete": "x",
+   "categorie": "valeur",
+   "revente": 1000000,
+   "sert": "Résultat de la loterie : le gros lot, 1 000 000 $.",
+   "src": "rrg"
+  },
+  "package_1": {
+   "nom": "Colis",
+   "en": "Parcel",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 240,
+   "ou": "Au hasard en fouillant",
+   "sert": "À ouvrir : il y a quelque chose dedans.",
+   "src": "rrg"
+  },
+  "wallet_1": {
+   "nom": "Portefeuille perdu",
+   "en": "Lost Wallet",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 40,
+   "ou": "Au hasard en fouillant",
+   "sert": "À ouvrir : il y a peut-être quelque chose de valeur dedans.",
+   "src": "rrg"
+  },
+  "figurine_1": {
+   "nom": "Figurine fragile",
+   "en": "Fragile Figurine",
+   "rarete": "pc",
+   "categorie": "valeur",
+   "revente": 80,
+   "ou": "Galerie d'art (tables)",
+   "sert": "Casse-la avant de la vendre : il y a quelque chose dedans.",
+   "src": "rrg"
+  },
+  "cube_1": {
+   "nom": "Casse-tête",
+   "en": "Puzzle",
+   "rarete": "c",
+   "categorie": "valeur",
+   "revente": 8,
+   "ou": "Au hasard en fouillant",
+   "sert": "Tu peux essayer de le résoudre.",
+   "src": "rrg"
+  },
+  "cube_2": {
+   "nom": "Casse-tête",
+   "en": "Puzzle",
+   "rarete": "c",
+   "categorie": "valeur",
+   "revente": 8,
+   "ou": "Au hasard en fouillant",
+   "sert": "Tu peux essayer de le résoudre.",
+   "src": "rrg"
+  },
+  "cube_3": {
+   "nom": "Casse-tête",
+   "en": "Puzzle",
+   "rarete": "c",
+   "categorie": "valeur",
+   "revente": 8,
+   "ou": "Au hasard en fouillant",
+   "sert": "Tu peux essayer de le résoudre.",
+   "src": "rrg"
+  },
+  "cube_4": {
+   "nom": "Casse-tête",
+   "en": "Puzzle",
+   "rarete": "c",
+   "categorie": "valeur",
+   "revente": 8,
+   "ou": "Au hasard en fouillant",
+   "sert": "Tu peux essayer de le résoudre.",
+   "src": "rrg"
+  },
+  "cube_5": {
+   "nom": "Casse-tête",
+   "en": "Puzzle",
+   "rarete": "c",
+   "categorie": "valeur",
+   "revente": 8,
+   "ou": "Au hasard en fouillant",
+   "sert": "Tu peux essayer de le résoudre.",
+   "src": "rrg"
   }
  }
 }

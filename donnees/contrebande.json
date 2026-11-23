@@ -79,7 +79,8 @@
      40000
     ],
     "o": "etabli",
-    "g": "caisse"
+    "g": "caisse",
+    "ic": "cargo_minimarket"
    },
    {
     "n": "Caisse d'électronique",
@@ -88,7 +89,8 @@
      40000
     ],
     "o": "etabli",
-    "g": "caisse"
+    "g": "caisse",
+    "ic": "cargo_electronics"
    },
    {
     "n": "Caisse d'équipement",
@@ -97,7 +99,8 @@
      40000
     ],
     "o": "etabli",
-    "g": "caisse"
+    "g": "caisse",
+    "ic": "cargo_equip"
    },
    {
     "n": "Coffret à bijoux",
@@ -106,7 +109,8 @@
      40000
     ],
     "o": "etabli",
-    "g": "caisse"
+    "g": "caisse",
+    "ic": "cargo_jewelry"
    },
    {
     "n": "Caisse de médicaments",
@@ -115,7 +119,8 @@
      40000
     ],
     "o": "etabli",
-    "g": "caisse"
+    "g": "caisse",
+    "ic": "cargo_medicine"
    },
    {
     "n": "Caisse de pièces détachées",
@@ -124,7 +129,8 @@
      40000
     ],
     "o": "etabli",
-    "g": "caisse"
+    "g": "caisse",
+    "ic": "cargo_carparts"
    },
    {
     "n": "Caisse de pièces d'arme",
@@ -133,7 +139,8 @@
      120000
     ],
     "o": "etabli",
-    "g": "caisse"
+    "g": "caisse",
+    "ic": "cargo_ammo"
    },
    {
     "n": "Sac d'argent fermé",
@@ -150,7 +157,8 @@
      25000
     ],
     "o": "etabli",
-    "g": "sac"
+    "g": "sac",
+    "ic": "suitcase_2"
    },
    {
     "n": "Valise rouge",
@@ -158,7 +166,8 @@
      25000
     ],
     "o": "etabli",
-    "g": "sac"
+    "g": "sac",
+    "ic": "suitcase_3"
    },
    {
     "n": "Valise blanche",
@@ -166,7 +175,8 @@
      25000
     ],
     "o": "etabli",
-    "g": "sac"
+    "g": "sac",
+    "ic": "suitcase"
    },
    {
     "n": "Sac de poudre",
@@ -174,7 +184,8 @@
      25000
     ],
     "o": "etabli",
-    "g": "sac"
+    "g": "sac",
+    "ic": "drugs_bag_0"
    },
    {
     "n": "Sac de poudre pure",
@@ -182,7 +193,8 @@
      40000
     ],
     "o": "etabli",
-    "g": "sac"
+    "g": "sac",
+    "ic": "drugs_bag_1"
    },
    {
     "n": "Sac de poudre parfaite",
@@ -190,7 +202,8 @@
      60000
     ],
     "o": "etabli",
-    "g": "sac"
+    "g": "sac",
+    "ic": "drugs_bag_2"
    },
    {
     "n": "Sac de banque",
@@ -207,7 +220,8 @@
      100000
     ],
     "o": "etabli",
-    "g": "coffre"
+    "g": "coffre",
+    "ic": "cargo_safe"
    },
    {
     "n": "Cargaison de valeur",
@@ -215,7 +229,8 @@
      150000
     ],
     "o": "etabli",
-    "g": "coffre"
+    "g": "coffre",
+    "ic": "cargo_ammo"
    },
    {
     "n": "Coffre de luxe",
@@ -223,7 +238,8 @@
      200000
     ],
     "o": "etabli",
-    "g": "coffre"
+    "g": "coffre",
+    "ic": "cargo_safe_legendary"
    },
    {
     "n": "Statue en or",
@@ -231,7 +247,8 @@
      250000
     ],
     "o": "vendre",
-    "g": "coffre"
+    "g": "coffre",
+    "ic": "cargo_statue_1"
    },
    {
     "n": "Cargaison de contrebande",
