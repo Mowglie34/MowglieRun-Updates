@@ -10,7 +10,7 @@ Tout est en français, hors ligne et léger (un seul fichier, pas d'installation
 - **Savoir** : magasins de Looty Bay (qui vend quoi, prix en civil et au marché noir), armes (stats, comparaison), voitures, arbre Livraisons de Larry avec planificateur de recherches, catalogue des objets avec prix, mécaniques du jeu, mises à jour du jeu
 - **Suivi** : casier & journal (colle une capture de jugement, tout est lu tout seul), **mon clan** (membres, objectifs, partage du butin), régions & zones
 - **Outils** : carte de Looty Bay, minuteurs (épinglables en grand, raccourcis en jeu Ctrl+Maj+1 à 9, rappels avant le wipe), notes, fenêtres épinglées toujours devant le jeu (Ctrl+Maj+R pour afficher / cacher)
-- **Pratique** : page Nouveautés (ce qui change à chaque version), gain par heure, thème clair, export du journal, sauvegarde copiée dans un dossier au choix, bouton 🚩 pour signaler une info fausse à Mowglie34
+- **Pratique** : ✋ menus et blocs rangés dans l'ordre que tu veux, page Nouveautés (ce qui change à chaque version), gain par heure, thème clair, export du journal, sauvegarde copiée dans un dossier au choix, bouton 🚩 pour signaler une info fausse à Mowglie34
 - **Léger en jeu** : mode jeu automatique quand Rob Run est devant, mémoire libérée quand MowglieRun est réduit
 
 ## 📥 Télécharger

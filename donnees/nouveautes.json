@@ -3,12 +3,22 @@
  "mot": "",
  "versions": [
   {
+   "version": "1.1.9",
+   "date": "2026-11-24",
+   "titre": "Ranger à ta façon, clés avec durée",
+   "points": [
+    "✋ Mode rangement (bouton en haut, ou Réglages › Affichage) : glisse les pages du menu (même d'un groupe à l'autre) et les blocs de chaque page où tu veux. Chaque page garde son ordre ; « Remettre cette page » pour revenir à l'origine.",
+    "Une clé d'accès peut avoir une durée (1 jour à 1 an) ou rester valable jusqu'à ce que Mowglie34 la retire. Réglages › À propos montre jusqu'à quand la tienne est valable, et l'appli te prévient 3 jours avant la fin.",
+    "La clé que tu colles est cachée à l'écran (bouton 👁 pour la voir) : pas de souci si tu partages ton écran. Entrée pour valider."
+   ]
+  },
+  {
    "version": "1.1.8",
    "date": "2026-11-24",
    "titre": "Mises à jour automatiques",
    "points": [
     "Les mises à jour s'installent toutes seules au démarrage : plus besoin de cliquer (Réglages › Mises à jour pour couper).",
-    "Ton accès est vérifié avec une toute petite liste signée par Mowglie34, au démarrage puis toutes les 5 minutes."
+    "Ton accès est vérifié à chaque démarrage, avec une toute petite liste signée par Mowglie34."
    ]
   },
   {

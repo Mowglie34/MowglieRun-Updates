@@ -2,18 +2,18 @@
  "schema": 1,
  "auteur": "Mowglie34",
  "app": {
-  "version": "1.1.8",
+  "version": "1.1.9",
   "fichier": "MowglieRun.exe",
-  "sha256": "fff791bca2db53a927febca5b16714f71bf3a6ae5ac61fd88bd88ba7fa157820",
-  "taille": 11739136,
-  "notes": "Mises à jour automatiques : Les mises à jour s'installent toutes seules au démarrage : plus besoin de cliquer (Réglages › Mises à jour pour couper). · Ton accès est vérifié avec une toute petite liste signée par Mowglie34, au démarrage puis toutes les 5 minutes."
+  "sha256": "a4bca60e8f19a751ab2ffaac93890bf03aa5bb0d96a3229db89a5ce57f2574e3",
+  "taille": 11765760,
+  "notes": "Ranger à ta façon, clés avec durée : ✋ Mode rangement (bouton en haut, ou Réglages › Affichage) : glisse les pages du menu (même d'un groupe à l'autre) et les blocs de chaque page où tu veux. Chaque page garde son ordre ; « Remettre cette page » pour revenir à l'origine. · Une clé d'accès peut avoir une durée (1 jour à 1 an) ou rester valable jusqu'à ce que Mowglie34 la retire. Réglages › À propos montre jusqu'à quand la tienne est valable, et l'appli te prévient 3 jours avant la fin. · La clé que tu colles est cachée à l'écran (bouton 👁 pour la voir) : pas de souci si tu partages ton écran. Entrée pour valider."
  },
  "donnees": {
-  "version": "2026.11.24-3",
+  "version": "2026.11.24-4",
   "fichiers": {
    "acces.json": {
-    "sha256": "d36ab5046b30a34d6a8769e9adc014390ef20e242d3b1f5455cbcd345b5d20e6",
-    "taille": 350
+    "sha256": "9e44fe1c08c2d142b4db65b787686552d301ae9d0b9f3c8d4c04012e8b5a8bdb",
+    "taille": 456
    },
    "armes.json": {
     "sha256": "6d38a5804c82c71d898f5e5ff2f38b73296584569f5eca37580894ee95a9f5d4",
@@ -2184,12 +2184,12 @@
     "taille": 4818
    },
    "meta.json": {
-    "sha256": "1d8dac4f3fbd2f4fcfc243d57ce2c2de9e4b37b28508f8687d7a51b8de3e0150",
+    "sha256": "464d6637f64eb6ad0245c90312bdd333e4872a526c44391af211f164a122ec44",
     "taille": 1128
    },
    "nouveautes.json": {
-    "sha256": "ef581aa5193fad745e014dbaac19f3a15ee93abcaff36156f7e48adf051eac8f",
-    "taille": 5874
+    "sha256": "b40381c80b3c84f322e83451707f2da4a867e95e2de5df53649b69bc58ed55fa",
+    "taille": 6616
    },
    "patchs.json": {
     "sha256": "64a5ed72e45b5637df1c7b9948b5778f11801ed2877a5910e6add269f2a06b25",
