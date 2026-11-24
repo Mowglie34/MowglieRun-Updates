@@ -3,6 +3,16 @@
  "mot": "",
  "versions": [
   {
+   "version": "1.1.10",
+   "date": "2026-11-24",
+   "titre": "Blocs où tu veux, blocs réduits",
+   "points": [
+    "✋ En mode rangement, chaque bloc va dans la colonne et à la place que tu veux, sans trous entre les blocs (glisse-le sur un autre bloc, ou en bas d'une colonne).",
+    "Le petit « – » en haut à droite d'un bloc (au survol) le réduit à son titre ; « + » pour le rouvrir. Chaque page s'en souvient.",
+    "Clic sur un groupe du menu (Braquer, Gagner, Savoir, Outils) pour le replier ou le déplier."
+   ]
+  },
+  {
    "version": "1.1.9",
    "date": "2026-11-24",
    "titre": "Ranger à ta façon, clés avec durée",

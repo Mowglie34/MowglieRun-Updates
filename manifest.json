@@ -2,14 +2,14 @@
  "schema": 1,
  "auteur": "Mowglie34",
  "app": {
-  "version": "1.1.9",
+  "version": "1.1.10",
   "fichier": "MowglieRun.exe",
-  "sha256": "a4bca60e8f19a751ab2ffaac93890bf03aa5bb0d96a3229db89a5ce57f2574e3",
-  "taille": 11765760,
-  "notes": "Ranger à ta façon, clés avec durée : ✋ Mode rangement (bouton en haut, ou Réglages › Affichage) : glisse les pages du menu (même d'un groupe à l'autre) et les blocs de chaque page où tu veux. Chaque page garde son ordre ; « Remettre cette page » pour revenir à l'origine. · Une clé d'accès peut avoir une durée (1 jour à 1 an) ou rester valable jusqu'à ce que Mowglie34 la retire. Réglages › À propos montre jusqu'à quand la tienne est valable, et l'appli te prévient 3 jours avant la fin. · La clé que tu colles est cachée à l'écran (bouton 👁 pour la voir) : pas de souci si tu partages ton écran. Entrée pour valider."
+  "sha256": "b671f960233e54413ce9e085ed31ceb4b90056c2e4312744906e4acbf3639bf5",
+  "taille": 11773440,
+  "notes": "Blocs où tu veux, blocs réduits : ✋ En mode rangement, chaque bloc va dans la colonne et à la place que tu veux, sans trous entre les blocs (glisse-le sur un autre bloc, ou en bas d'une colonne). · Le petit « – » en haut à droite d'un bloc (au survol) le réduit à son titre ; « + » pour le rouvrir. Chaque page s'en souvient. · Clic sur un groupe du menu (Braquer, Gagner, Savoir, Outils) pour le replier ou le déplier."
  },
  "donnees": {
-  "version": "2026.11.24-4",
+  "version": "2026.11.24-5",
   "fichiers": {
    "acces.json": {
     "sha256": "9e44fe1c08c2d142b4db65b787686552d301ae9d0b9f3c8d4c04012e8b5a8bdb",
@@ -2184,12 +2184,12 @@
     "taille": 4818
    },
    "meta.json": {
-    "sha256": "464d6637f64eb6ad0245c90312bdd333e4872a526c44391af211f164a122ec44",
+    "sha256": "35cad3a95f9d7307e0676aec6ccfb0aaafe0aadb404404d2c3c7bccc9ddfa8b2",
     "taille": 1128
    },
    "nouveautes.json": {
-    "sha256": "b40381c80b3c84f322e83451707f2da4a867e95e2de5df53649b69bc58ed55fa",
-    "taille": 6616
+    "sha256": "c347a9467c9bfbbc1f64d30ec38e3d5516b61a8ebb25eb750bda584966ee6a7d",
+    "taille": 7158
    },
    "patchs.json": {
     "sha256": "64a5ed72e45b5637df1c7b9948b5778f11801ed2877a5910e6add269f2a06b25",
