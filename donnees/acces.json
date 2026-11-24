@@ -1,5 +1,10 @@
 {
  "_aide": "Clés d'accès retirées (pseudo + code PC). Envoyé et signé avec les mises à jour : l'appli se bloque chez la personne au prochain lancement connecté. connexion_jours = délai max sans vérification en ligne (0 = pas de limite).",
  "connexion_jours": 14,
- "retires": []
+ "retires": [
+  {
+   "m": "PC-1246-C8D3-48BD",
+   "d": "2026-11-24"
+  }
+ ]
 }

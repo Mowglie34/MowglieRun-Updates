@@ -2,18 +2,18 @@
  "schema": 1,
  "auteur": "Mowglie34",
  "app": {
-  "version": "1.1.6",
+  "version": "1.1.7",
   "fichier": "MowglieRun.exe",
-  "sha256": "6eac0265cfd87797ef32a79ba5e3861bfa8004cada70dd869dde80f4240ea500",
-  "taille": 11710976,
-  "notes": "Accès par clé : MowglieRun est maintenant réservé aux amis de Mowglie34 : au lancement, envoie-lui le code de ton PC (PC-…) et colle la clé qu'il te renvoie. Une seule fois, la clé reste enregistrée. · La clé ne marche que sur ton PC. L'appli vérifie ton accès en ligne au lancement (au moins une fois tous les 14 jours). · Réglages › À propos : ton pseudo et le code de ton PC."
+  "sha256": "18dd5278f0435ad96af1f054d44c22cb33f79e32c6311d835ff73570ba8bb9ea",
+  "taille": 11715584,
+  "notes": "Accès vérifié en continu : L'accès est maintenant revérifié en ligne toutes les 10 minutes pendant que MowglieRun est ouvert, plus seulement au lancement."
  },
  "donnees": {
-  "version": "2026.11.24",
+  "version": "2026.11.24-2",
   "fichiers": {
    "acces.json": {
-    "sha256": "23cd7518f9c7cf35adbe02a1c64f1b2d670049d6c8a5a827d03eae71b1ec88e6",
-    "taille": 290
+    "sha256": "d36ab5046b30a34d6a8769e9adc014390ef20e242d3b1f5455cbcd345b5d20e6",
+    "taille": 350
    },
    "armes.json": {
     "sha256": "6d38a5804c82c71d898f5e5ff2f38b73296584569f5eca37580894ee95a9f5d4",
@@ -2184,12 +2184,12 @@
     "taille": 4818
    },
    "meta.json": {
-    "sha256": "e36c760dbc8a6bbb5afb9eb7c4c6878d985d101d942681cd2eb55074493ef74e",
-    "taille": 1126
+    "sha256": "de72013019235a066ee7202a0f1cedd10c770bbfd37bae68080665975d388740",
+    "taille": 1128
    },
    "nouveautes.json": {
-    "sha256": "645a31aa19e71a71254cf153c3e06174e9b17731ec96c21e5544fb646942d569",
-    "taille": 5241
+    "sha256": "aa0c2bfc21234c54a723e4a4b58dc6974a98bedfd293d483932d68d9051c998e",
+    "taille": 5498
    },
    "patchs.json": {
     "sha256": "64a5ed72e45b5637df1c7b9948b5778f11801ed2877a5910e6add269f2a06b25",

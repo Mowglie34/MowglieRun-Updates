@@ -3,6 +3,14 @@
  "mot": "",
  "versions": [
   {
+   "version": "1.1.7",
+   "date": "2026-11-24",
+   "titre": "Accès vérifié en continu",
+   "points": [
+    "L'accès est maintenant revérifié en ligne toutes les 10 minutes pendant que MowglieRun est ouvert, plus seulement au lancement."
+   ]
+  },
+  {
    "version": "1.1.6",
    "date": "2026-11-24",
    "titre": "Accès par clé",
