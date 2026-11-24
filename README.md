@@ -27,14 +27,13 @@ MowglieRun est réservé aux amis de Mowglie34. Au premier lancement, un **code 
 
 ## 🔄 Mises à jour automatiques
 
-- MowglieRun vérifie au lancement s'il y a du nouveau sur ce dépôt et te propose de l'installer.
+- Au démarrage, MowglieRun installe tout seul ce qu'il y a de nouveau sur ce dépôt (il redémarre si c'est une nouvelle version de l'appli). Tu peux couper ça dans Réglages › Mises à jour.
 - Chaque mise à jour est **signée** : MowglieRun refuse tout fichier modifié par quelqu'un d'autre.
-- Nouvelle version de l'appli : bouton **Installer et redémarrer**.
 
 ## 🔒 Confidentialité
 
 - Aucune donnée personnelle n'est collectée. Ta progression reste sur ton PC (`%APPDATA%\MowglieRun`).
-- Le code PC est une empreinte de l'identifiant de ton Windows : il ne contient rien de personnel. MowglieRun vérifie ton accès en lisant ce dépôt (au moins une fois tous les 14 jours).
+- Le code PC est une empreinte de l'identifiant de ton Windows : il ne contient rien de personnel. MowglieRun vérifie ton accès en lisant ce dépôt (au démarrage puis toutes les 5 minutes ; sans Internet, il tient 14 jours).
 - MowglieRun se connecte seulement à ce dépôt GitHub (mises à jour) et à Steam (nombre de joueurs en ligne, annonces du jeu ; statut de tes amis seulement si tu ajoutes ta propre clé Steam).
 - Les fiches de clan, zones et repères se partagent par un code que tu colles toi-même : rien ne passe par un serveur.
 - Le bouton 🚩 (signaler une info fausse) prépare un message que tu copies et envoies toi-même ; rien n'est envoyé tout seul.

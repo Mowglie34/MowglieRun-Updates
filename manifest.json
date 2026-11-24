@@ -2,14 +2,14 @@
  "schema": 1,
  "auteur": "Mowglie34",
  "app": {
-  "version": "1.1.7",
+  "version": "1.1.8",
   "fichier": "MowglieRun.exe",
-  "sha256": "18dd5278f0435ad96af1f054d44c22cb33f79e32c6311d835ff73570ba8bb9ea",
-  "taille": 11715584,
-  "notes": "Accès vérifié en continu : L'accès est maintenant revérifié en ligne toutes les 10 minutes pendant que MowglieRun est ouvert, plus seulement au lancement."
+  "sha256": "fff791bca2db53a927febca5b16714f71bf3a6ae5ac61fd88bd88ba7fa157820",
+  "taille": 11739136,
+  "notes": "Mises à jour automatiques : Les mises à jour s'installent toutes seules au démarrage : plus besoin de cliquer (Réglages › Mises à jour pour couper). · Ton accès est vérifié avec une toute petite liste signée par Mowglie34, au démarrage puis toutes les 5 minutes."
  },
  "donnees": {
-  "version": "2026.11.24-2",
+  "version": "2026.11.24-3",
   "fichiers": {
    "acces.json": {
     "sha256": "d36ab5046b30a34d6a8769e9adc014390ef20e242d3b1f5455cbcd345b5d20e6",
@@ -2184,12 +2184,12 @@
     "taille": 4818
    },
    "meta.json": {
-    "sha256": "de72013019235a066ee7202a0f1cedd10c770bbfd37bae68080665975d388740",
+    "sha256": "1d8dac4f3fbd2f4fcfc243d57ce2c2de9e4b37b28508f8687d7a51b8de3e0150",
     "taille": 1128
    },
    "nouveautes.json": {
-    "sha256": "aa0c2bfc21234c54a723e4a4b58dc6974a98bedfd293d483932d68d9051c998e",
-    "taille": 5498
+    "sha256": "ef581aa5193fad745e014dbaac19f3a15ee93abcaff36156f7e48adf051eac8f",
+    "taille": 5874
    },
    "patchs.json": {
     "sha256": "64a5ed72e45b5637df1c7b9948b5778f11801ed2877a5910e6add269f2a06b25",

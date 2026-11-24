@@ -3,6 +3,15 @@
  "mot": "",
  "versions": [
   {
+   "version": "1.1.8",
+   "date": "2026-11-24",
+   "titre": "Mises à jour automatiques",
+   "points": [
+    "Les mises à jour s'installent toutes seules au démarrage : plus besoin de cliquer (Réglages › Mises à jour pour couper).",
+    "Ton accès est vérifié avec une toute petite liste signée par Mowglie34, au démarrage puis toutes les 5 minutes."
+   ]
+  },
+  {
    "version": "1.1.7",
    "date": "2026-11-24",
    "titre": "Accès vérifié en continu",
