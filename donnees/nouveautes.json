@@ -3,6 +3,16 @@
  "mot": "",
  "versions": [
   {
+   "version": "1.1.6",
+   "date": "2026-11-24",
+   "titre": "Accès par clé",
+   "points": [
+    "MowglieRun est maintenant réservé aux amis de Mowglie34 : au lancement, envoie-lui le code de ton PC (PC-…) et colle la clé qu'il te renvoie. Une seule fois, la clé reste enregistrée.",
+    "La clé ne marche que sur ton PC. L'appli vérifie ton accès en ligne au lancement (au moins une fois tous les 14 jours).",
+    "Réglages › À propos : ton pseudo et le code de ton PC."
+   ]
+  },
+  {
    "version": "1.1.5",
    "date": "2026-11-23",
    "titre": "Mon butin",

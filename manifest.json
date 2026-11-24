@@ -2,15 +2,19 @@
  "schema": 1,
  "auteur": "Mowglie34",
  "app": {
-  "version": "1.1.5",
+  "version": "1.1.6",
   "fichier": "MowglieRun.exe",
-  "sha256": "1c7c83f61f81cbde0680abbdac4f95872b8c938433c6a9dc52d7981dd4e815c7",
-  "taille": 11642880,
-  "notes": "Mon butin : Nouvelle page Mon butin : touche les images des objets que tu ramènes, l'appli fait le total au receleur et au contrebandier avec ta notoriété. ⭐ sur ce qu'il te manque pour tes collections (à garder). · Casier \u0026 journal : un gros coup, un raid ou une mort peut avoir son butin (en touchant les images, ou « Prendre mon sac »). Le montant suit le total. · Carte : « À fouiller ici » montre ce qu'on trouve dans chaque bâtiment (bijoux, alcool, tableaux, armes…) avec le nombre de points, d'après ROB RUN Wiki."
+  "sha256": "6eac0265cfd87797ef32a79ba5e3861bfa8004cada70dd869dde80f4240ea500",
+  "taille": 11710976,
+  "notes": "Accès par clé : MowglieRun est maintenant réservé aux amis de Mowglie34 : au lancement, envoie-lui le code de ton PC (PC-…) et colle la clé qu'il te renvoie. Une seule fois, la clé reste enregistrée. · La clé ne marche que sur ton PC. L'appli vérifie ton accès en ligne au lancement (au moins une fois tous les 14 jours). · Réglages › À propos : ton pseudo et le code de ton PC."
  },
  "donnees": {
-  "version": "2026.11.23-5",
+  "version": "2026.11.24",
   "fichiers": {
+   "acces.json": {
+    "sha256": "23cd7518f9c7cf35adbe02a1c64f1b2d670049d6c8a5a827d03eae71b1ec88e6",
+    "taille": 290
+   },
    "armes.json": {
     "sha256": "6d38a5804c82c71d898f5e5ff2f38b73296584569f5eca37580894ee95a9f5d4",
     "taille": 14419
@@ -2180,12 +2184,12 @@
     "taille": 4818
    },
    "meta.json": {
-    "sha256": "9efb17c0abfaf2e6c6699154d83401bc7eb060d2f61ed1d8daab620b79abee3c",
-    "taille": 1128
+    "sha256": "e36c760dbc8a6bbb5afb9eb7c4c6878d985d101d942681cd2eb55074493ef74e",
+    "taille": 1126
    },
    "nouveautes.json": {
-    "sha256": "da4259baa29259e20288bce22b684a3103c5a15a64f81a185b750a444855cc2f",
-    "taille": 4740
+    "sha256": "645a31aa19e71a71254cf153c3e06174e9b17731ec96c21e5544fb646942d569",
+    "taille": 5241
    },
    "patchs.json": {
     "sha256": "64a5ed72e45b5637df1c7b9948b5778f11801ed2877a5910e6add269f2a06b25",

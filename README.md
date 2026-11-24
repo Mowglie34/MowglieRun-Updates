@@ -21,6 +21,10 @@ Tout est en français, hors ligne et léger (un seul fichier, pas d'installation
 2. Au premier lancement, Windows peut afficher « Windows a protégé votre ordinateur » (l'exe n'est pas signé par un éditeur) : clique sur **Informations complémentaires** puis **Exécuter quand même**.
 3. Il faut **Microsoft Edge WebView2** (déjà présent sur Windows 10 et 11 à jour).
 
+## 🔑 Accès
+
+MowglieRun est réservé aux amis de Mowglie34. Au premier lancement, un **code PC** s'affiche (ex. `PC-7F3A-91C2-4B8E`) : envoie-le à Mowglie34, il te renvoie une **clé** à coller dans l'appli. La clé ne marche que sur ton PC.
+
 ## 🔄 Mises à jour automatiques
 
 - MowglieRun vérifie au lancement s'il y a du nouveau sur ce dépôt et te propose de l'installer.
@@ -30,6 +34,7 @@ Tout est en français, hors ligne et léger (un seul fichier, pas d'installation
 ## 🔒 Confidentialité
 
 - Aucune donnée personnelle n'est collectée. Ta progression reste sur ton PC (`%APPDATA%\MowglieRun`).
+- Le code PC est une empreinte de l'identifiant de ton Windows : il ne contient rien de personnel. MowglieRun vérifie ton accès en lisant ce dépôt (au moins une fois tous les 14 jours).
 - MowglieRun se connecte seulement à ce dépôt GitHub (mises à jour) et à Steam (nombre de joueurs en ligne, annonces du jeu ; statut de tes amis seulement si tu ajoutes ta propre clé Steam).
 - Les fiches de clan, zones et repères se partagent par un code que tu colles toi-même : rien ne passe par un serveur.
 - Le bouton 🚩 (signaler une info fausse) prépare un message que tu copies et envoies toi-même ; rien n'est envoyé tout seul.
