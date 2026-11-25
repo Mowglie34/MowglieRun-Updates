@@ -9,7 +9,7 @@
   "notes": "Blocs où tu veux, blocs réduits : ✋ En mode rangement, chaque bloc va dans la colonne et à la place que tu veux, sans trous entre les blocs (glisse-le sur un autre bloc, ou en bas d'une colonne). · Le petit « – » en haut à droite d'un bloc (au survol) le réduit à son titre ; « + » pour le rouvrir. Chaque page s'en souvient. · Clic sur un groupe du menu (Braquer, Gagner, Savoir, Outils) pour le replier ou le déplier."
  },
  "donnees": {
-  "version": "2026.11.24-5",
+  "version": "2026.11.25",
   "fichiers": {
    "acces.json": {
     "sha256": "9e44fe1c08c2d142b4db65b787686552d301ae9d0b9f3c8d4c04012e8b5a8bdb",
@@ -44,8 +44,8 @@
     "taille": 14357
    },
    "catalogue.json": {
-    "sha256": "5a8780ea152c4be8df0fb73b9a690667850cf8dfcade4845e281905802fde6bb",
-    "taille": 67513
+    "sha256": "f7e45632d61f763b995e730f28873dd428548ffd6edebdd70b738c18dabff2ba",
+    "taille": 67999
    },
    "cles.json": {
     "sha256": "5428edfa58cbc840758a4f2e4e461423804db054355deb32dc0978615704c642",
@@ -2184,8 +2184,8 @@
     "taille": 4818
    },
    "meta.json": {
-    "sha256": "35cad3a95f9d7307e0676aec6ccfb0aaafe0aadb404404d2c3c7bccc9ddfa8b2",
-    "taille": 1128
+    "sha256": "673b3bc2a40569f15822150cefae1df5af7004c95a3e92d975c73025301a16d5",
+    "taille": 1126
    },
    "nouveautes.json": {
     "sha256": "c347a9467c9bfbbc1f64d30ec38e3d5516b61a8ebb25eb750bda584966ee6a7d",

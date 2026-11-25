@@ -207,36 +207,42 @@
    "nom": "Clé de pièce · armurerie",
    "rarete": "e",
    "categorie": "cles",
+   "revente": 2250,
    "sert": "Ouvre : Armurerie (ouest) (Sunny Beach)."
   },
   "room_key_2": {
    "nom": "Clé de pièce · équipement",
    "rarete": "e",
    "categorie": "cles",
+   "revente": 2100,
    "sert": "Ouvre : Magasin d'équipement (ouest) (Sunny Beach)."
   },
   "room_key_3": {
    "nom": "Clé de pièce · armurerie",
    "rarete": "e",
    "categorie": "cles",
+   "revente": 2650,
    "sert": "Ouvre : Armurerie (est) (Centre-ville)."
   },
   "room_key_4": {
    "nom": "Clé de pièce · équipement",
    "rarete": "e",
    "categorie": "cles",
+   "revente": 2250,
    "sert": "Ouvre : Magasin d'équipement (est) (Centre-ville)."
   },
   "room_key_5": {
    "nom": "Clé de pièce · gauche",
    "rarete": "e",
    "categorie": "cles",
+   "revente": 2700,
    "sert": "Ouvre : Station-service, pièce de gauche (Centre-ville)."
   },
   "room_key_6": {
    "nom": "Clé de pièce · droite",
    "rarete": "l",
    "categorie": "cles",
+   "revente": 5820,
    "sert": "Ouvre : Station-service, pièce de droite (Centre-ville)."
   },
   "room_key_7": {
@@ -279,114 +285,133 @@
    "nom": "Clé de pièce · VIP",
    "rarete": "l",
    "categorie": "cles",
+   "revente": 2570,
    "sert": "Ouvre : Club de strip-tease, salle VIP (Sunny Beach)."
   },
   "safe_key_1": {
    "nom": "Clé de coffre · Hôtel Seasons",
    "rarete": "pc",
    "categorie": "cles",
+   "revente": 500,
    "sert": "Ouvre le coffre : Hôtel Seasons (Sunny Beach)."
   },
   "safe_key_2": {
    "nom": "Clé de coffre · Hôtel Reef",
    "rarete": "pc",
    "categorie": "cles",
+   "revente": 500,
    "sert": "Ouvre le coffre : Hôtel Reef (Sunny Beach)."
   },
   "safe_key_3": {
    "nom": "Clé de coffre · Club de strip-tease",
    "rarete": "pc",
    "categorie": "cles",
+   "revente": 500,
    "sert": "Ouvre le coffre : Club de strip-tease (Sunny Beach)."
   },
   "safe_key_4": {
    "nom": "Clé de coffre · Supérette (nord)",
    "rarete": "pc",
    "categorie": "cles",
+   "revente": 500,
    "sert": "Ouvre le coffre : Supérette (nord) (Centre-ville)."
   },
   "safe_key_5": {
    "nom": "Clé de coffre · Pharmacie",
    "rarete": "pc",
    "categorie": "cles",
+   "revente": 500,
    "sert": "Ouvre le coffre : Pharmacie (Sunny Beach)."
   },
   "safe_key_6": {
    "nom": "Clé de coffre · Café de la jetée",
    "rarete": "pc",
    "categorie": "cles",
+   "revente": 500,
    "sert": "Ouvre le coffre : Café de la jetée (Sunny Beach)."
   },
   "safe_key_7": {
    "nom": "Clé de coffre · Manoir",
    "rarete": "pc",
    "categorie": "cles",
+   "revente": 500,
    "sert": "Ouvre le coffre : Manoir (Loraine Hills)."
   },
   "safe_key_8": {
    "nom": "Clé de coffre · Supérette (centre)",
    "rarete": "pc",
    "categorie": "cles",
+   "revente": 500,
    "sert": "Ouvre le coffre : Supérette (centre) (Centre-ville)."
   },
   "safe_key_9": {
    "nom": "Clé de coffre · Supérette",
    "rarete": "pc",
    "categorie": "cles",
+   "revente": 500,
    "sert": "Ouvre le coffre : Supérette (Sunny Beach)."
   },
   "safe_key_10": {
    "nom": "Clé de coffre · Pharmacie",
    "rarete": "pc",
    "categorie": "cles",
+   "revente": 500,
    "sert": "Ouvre le coffre : Pharmacie (Centre-ville)."
   },
   "safe_key_11": {
    "nom": "Clé de coffre · Café",
    "rarete": "pc",
    "categorie": "cles",
+   "revente": 500,
    "sert": "Ouvre le coffre : Café (Centre-ville)."
   },
   "safe_key_12": {
    "nom": "Clé de coffre · Station-service",
    "rarete": "pc",
    "categorie": "cles",
+   "revente": 500,
    "sert": "Ouvre le coffre : Station-service (Centre-ville)."
   },
   "safe_key_13": {
    "nom": "Clé de coffre · Magasin d'électronique",
    "rarete": "pc",
    "categorie": "cles",
+   "revente": 500,
    "sert": "Ouvre le coffre : Magasin d'électronique (Sunny Beach)."
   },
   "safe_key_14": {
    "nom": "Clé de coffre · Un des cottages",
    "rarete": "pc",
    "categorie": "cles",
+   "revente": 500,
    "sert": "Ouvre le coffre : Un des cottages (Loraine Hills)."
   },
   "vip_key_1": {
    "nom": "Carte d'accès · Grand Hôtel",
    "rarete": "l",
    "categorie": "cles",
+   "revente": 5620,
    "sert": "Ouvre : Grand Hôtel, entrepôt secret (Sunny Beach)."
   },
   "vip_key_2": {
    "nom": "Carte d'accès · commissariat",
    "rarete": "l",
    "categorie": "cles",
+   "revente": 4620,
    "sert": "Ouvre : Commissariat (Palmside)."
   },
   "vip_key_3": {
    "nom": "Carte d'accès · cottage n° 3",
    "rarete": "l",
    "categorie": "cles",
+   "revente": 5100,
    "sert": "Ouvre : Cottage n° 3 (Loraine Hills)."
   },
   "vip_key_6": {
    "nom": "Carte d'accès · galerie d'art",
    "rarete": "l",
    "categorie": "cles",
+   "revente": 4320,
    "sert": "Ouvre : Galerie d'art, chambre forte (Palmside)."
   },
   "storage_lockpick_1": {
