@@ -3,6 +3,17 @@
  "mot": "",
  "versions": [
   {
+   "version": "1.1.11",
+   "date": "2026-11-27",
+   "titre": "Total du jugement fiable, records du casier",
+   "points": [
+    "Casier & journal : le Total d'un jugement est lu à part (c'est le seul texte rouge de la fiche) et comparé aux lignes. Fini l'addition de toutes les lignes qui comptait le total deux fois.",
+    "Si l'appli n'est pas sûre du Total, elle te le dit : compare-le avec la capture avant d'enregistrer.",
+    "Casier & journal : tes records en un coup d'œil (meilleure session, le plus de meurtres, la plus longue peine, moyenne par session, dernière session comparée à la précédente, plus gros coup). Clique sur un record pour ouvrir l'entrée.",
+    "Les grands nombres sont bien espacés partout (« 104 451 894 $ » au lieu de chiffres collés), et le graphique « Par semaine » est plus lisible : montants des jugements, lignes de repère, détail de la semaine au survol."
+   ]
+  },
+  {
    "version": "1.1.10",
    "date": "2026-11-24",
    "titre": "Blocs où tu veux, blocs réduits",

@@ -1,6 +1,24 @@
 {
  "patchs": [
   {
+   "date": "2026-11-25",
+   "titre": "Annonce : anti-triche",
+   "points": [
+    "Nouvelles méthodes de détection : Kefir examine l'activité des joueurs sur une longue période.",
+    "Bans après coup : avoir triché avant peut encore valoir un ban, même si on a arrêté.",
+    "Aucun changement de jeu dans cette annonce."
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "titre": "Petite mise à jour du 23 novembre",
+   "points": [
+    "Plusieurs failles des serveurs utilisées par les tricheurs corrigées (sans détails).",
+    "Tu peux maintenant utiliser l'ordinateur portable pendant un raid.",
+    "Le même jour, certains joueurs n'arrivaient pas à entrer dans Looty Bay : correctif annoncé."
+   ]
+  },
+  {
    "date": "2026-11-23",
    "titre": "Annonce : anti-triche et serveurs",
    "points": [
@@ -22,6 +40,17 @@
     "Le pseudo du propriétaire d'une colonie est caché quand il quitte le serveur.",
     "Avertissement si tu achètes de la contrebande sans avoir de maison.",
     "Plus de moyens de détecter les tricheurs, et réseau optimisé."
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "titre": "Questions des joueurs (20 nov.)",
+   "points": [
+    "Pas de nouvelles régions de serveurs pendant au moins un mois (d'autres sont à l'étude), pas de serveurs russes prévus.",
+    "Les retours en arrière de progression venaient de plantages de serveurs dus à des attaques DDoS ; les blocages au chargement sont en cours de correction.",
+    "Un matchmaking à part pour les joueurs solo en ville est à l'étude (pas confirmé).",
+    "Signalements : formulaire plus complet et bouton plus visible.",
+    "Pièces (coins) achetées et pas reçues le 20 nov. : réglé le jour même, sinon contacter le support."
    ]
   },
   {

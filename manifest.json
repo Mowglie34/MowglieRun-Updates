@@ -2,14 +2,14 @@
  "schema": 1,
  "auteur": "Mowglie34",
  "app": {
-  "version": "1.1.10",
+  "version": "1.1.11",
   "fichier": "MowglieRun.exe",
-  "sha256": "b671f960233e54413ce9e085ed31ceb4b90056c2e4312744906e4acbf3639bf5",
-  "taille": 11773440,
-  "notes": "Blocs où tu veux, blocs réduits : ✋ En mode rangement, chaque bloc va dans la colonne et à la place que tu veux, sans trous entre les blocs (glisse-le sur un autre bloc, ou en bas d'une colonne). · Le petit « – » en haut à droite d'un bloc (au survol) le réduit à son titre ; « + » pour le rouvrir. Chaque page s'en souvient. · Clic sur un groupe du menu (Braquer, Gagner, Savoir, Outils) pour le replier ou le déplier."
+  "sha256": "f0a3dc72fef935ebcab09abc168df21779113d8473b98e76b055da7c5187bfed",
+  "taille": 11799040,
+  "notes": "Total du jugement fiable, records du casier : Casier \u0026 journal : le Total d'un jugement est lu à part (c'est le seul texte rouge de la fiche) et comparé aux lignes. Fini l'addition de toutes les lignes qui comptait le total deux fois. · Si l'appli n'est pas sûre du Total, elle te le dit : compare-le avec la capture avant d'enregistrer. · Casier \u0026 journal : tes records en un coup d'œil (meilleure session, le plus de meurtres, la plus longue peine, moyenne par session, dernière session comparée à la précédente, plus gros coup). Clique sur un record pour ouvrir l'entrée. · Les grands nombres sont bien espacés partout (« 104 451 894 $ » au lieu de chiffres collés), et le graphique « Par semaine » est plus lisible : montants des jugements, lignes de repère, détail de la semaine au survol."
  },
  "donnees": {
-  "version": "2026.11.25",
+  "version": "2026.11.27",
   "fichiers": {
    "acces.json": {
     "sha256": "9e44fe1c08c2d142b4db65b787686552d301ae9d0b9f3c8d4c04012e8b5a8bdb",
@@ -2184,16 +2184,16 @@
     "taille": 4818
    },
    "meta.json": {
-    "sha256": "673b3bc2a40569f15822150cefae1df5af7004c95a3e92d975c73025301a16d5",
+    "sha256": "b4325a44e69158c9f012837cf645a7a65b65c1cf4a850dd6c96ecad593601d94",
     "taille": 1126
    },
    "nouveautes.json": {
-    "sha256": "c347a9467c9bfbbc1f64d30ec38e3d5516b61a8ebb25eb750bda584966ee6a7d",
-    "taille": 7158
+    "sha256": "e7c933452cfb6e2fb7b12741553d625c7dac34874c100805722fc62fc012a01b",
+    "taille": 8083
    },
    "patchs.json": {
-    "sha256": "64a5ed72e45b5637df1c7b9948b5778f11801ed2877a5910e6add269f2a06b25",
-    "taille": 3173
+    "sha256": "85befa2d97e1b30134d7cfb1f9a56fd313bbb92da641667d784f4878e1f2e15f",
+    "taille": 4563
    },
    "production.json": {
     "sha256": "c00c5626837c7d3d69030c7fc3ed37e765b5167a9f85ac818ba101cf3c2af94e",
